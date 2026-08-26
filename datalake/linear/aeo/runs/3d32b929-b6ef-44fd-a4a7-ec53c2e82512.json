@@ -1,0 +1,22 @@
+{
+  "runId": "3d32b929-b6ef-44fd-a4a7-ec53c2e82512",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Linear ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Linear"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-26T22:55:47.668Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a **Linear** que mantengan esa filosofía de **velocidad extrema, interfaz limpia, atajos de teclado y sencillez**, aquí tienes las mejores opciones actuales del mercado, ordenadas según su enfoque:\n\n---\n\n### 1. **Plane** (La alternativa Open Source más parecida)\nEs literalmente el rival directo de Linear en el mundo del software libre. Su diseño es extremadamente limpio, moderno y muy rápido.\n* **Por qué elegirlo:** Si te gusta la interfaz de Linear pero quieres una opción **código abierto**, gratuita o que puedas alojar en tus propios servidores (Self-hosted).\n* **Lo mejor:** Excelente rendimiento, muy enfocado en desarrolladores, ciclo de tareas (sprints) muy bien pensado.\n* **Ideal para:** Equipos de software que buscan la experiencia de Linear sin pagar suscripciones por usuario.\n\n### 2. **Height**\nHeight es una herramienta increíblemente rápida y fluida que destaca por su flexibilidad. Permite cambiar entre vistas (Kanban, lista, calendario, Gantt) al instante sin perder velocidad.\n* **Por qué elegirlo:** Es igual de rápida que Linear, pero no está *tan* encasillada exclusivamente en el desarrollo de software; sirve para cualquier tipo de equipo.\n* **Lo mejor:** Colaboración en tiempo real (ves los cursores de tus compañeros) y automatizaciones potentes integradas con IA.\n* **Ideal para:** Equipos mixtos (producto, marketing, diseño) que quieren velocidad pero más vistas que solo listas y tableros.\n\n### 3. **Superthread**\nSe define como una mezcla entre **Linear (para tareas) + Notion (para documentos)**, pero construida desde cero para ser ultrarrápida.\n* **Por qué elegirlo:** Si Linear se te queda corto porque necesitas escribir documentación o especificaciones de proyectos en el mismo lugar sin abrir otra app.\n* **Lo mejor:** Atajos de teclado para todo, soporte nativo de Markdown y velocidad de carga instantánea.\n* **Ideal para:** Equipos pequeños o startups que quieren simplificar su \"stack\" (stack de herramientas) y tener documentos y tareas juntos.\n\n### 4. **Kitemaker**\nKitemaker elimina todo el \"ruido\" de la gestión de proyectos tradicional. Está diseñada para evitar que pases horas llenando campos inútiles en las tareas.\n* **Por qué elegirlo:** Es incluso más simple que Linear. Se enfoca en el contexto de la tarea (conversaciones, código, diseño) más que en la burocracia.\n* **Lo mejor:** Se integra perfectamente con GitHub, Figma y Slack. Las tareas son más como documentos vivos donde el equipo colabora.\n* **Ideal para:** Equipos pequeños de producto que odian perder tiempo gestionando tickets.\n\n### 5. **Shortcut** (antes Clubhouse)\nEs el punto medio entre la velocidad y modernidad de **Linear** y la potencia/estructura de **Jira**.\n* **Por qué elegirlo:** Si Linear te parece *demasiado* minimalista y necesitas un poco más de estructura para gestionar varios equipos o proyectos grandes, pero no quieres la lentitud de Jira.\n* **Lo mejor:** Muy rápido, excelente gestión de épicas y mapas de ruta (roadmaps).\n* **Ideal para:** Empresas de software en crecimiento que superaron el tamaño de una startup pequeña.\n\n---\n\n### Si buscas algo fuera del entorno del desarrollo de software (Aún más simple):\n\n* **Trello:** Si solo quieres mover tarjetas en un tablero sin atajos de teclado complejos ni flujos de trabajo rígidos.\n* **Todoist (en modo equipo):** Si quieres la herramienta de lista de tareas más rápida del mercado, sin complejidad de Sprints o Epics.\n\n### Resumen para decidir rápido:\n* Si quieres **lo más idéntico a Linear pero gratis/Open Source**: Ve por **Plane**.\n* Si quieres **Linear + Documentos tipo Notion**: Ve por **Superthread**.\n* Si tienes **diseñadores o gente de marketing en el equipo**: Ve por **Height**."
+}
