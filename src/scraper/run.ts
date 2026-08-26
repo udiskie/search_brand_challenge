@@ -32,6 +32,21 @@ export interface ScrapeSummary {
  * pricing/docs/blog pages (the types most likely to move AEO/GEO signals),
  * then fill any remaining budget with the highest sitemap-`priority` pages.
  */
+/**
+ * True for a leading non-English locale segment like /es-es/ or /zh-cn/.
+ * No prefix, or an English variant (/en/, /en-gb/, /en-us/...), counts as
+ * "not localized" -- some sites (e.g. notion.com) only list English content
+ * under an /en-xx/ prefix in their sitemap, never bare paths.
+ */
+function isLocalizedPath(url: string): boolean {
+  try {
+    const match = new URL(url).pathname.match(/^\/([a-z]{2}(-[a-z]{2,4})?)(\/|$)/i);
+    return !!match && !match[1].toLowerCase().startsWith("en");
+  } catch {
+    return false;
+  }
+}
+
 export function selectQuickUrls(
   entries: SitemapEntry[],
   cap: number
@@ -41,8 +56,19 @@ export function selectQuickUrls(
     type: classifyPageType(entry.loc),
   }));
 
+  // Prefer non-localized URLs within each type so a quick audit reflects
+  // the default/English site rather than whichever locale happens to sort
+  // first in the sitemap.
   const take = (type: string, limit: number) =>
-    byType.filter((e) => e.type === type).slice(0, limit).map((e) => e.entry);
+    byType
+      .filter((e) => e.type === type)
+      .sort(
+        (a, b) =>
+          Number(isLocalizedPath(a.entry.loc)) -
+          Number(isLocalizedPath(b.entry.loc))
+      )
+      .slice(0, limit)
+      .map((e) => e.entry);
 
   const prioritized = [
     ...take("home", 1),
@@ -54,7 +80,12 @@ export function selectQuickUrls(
 
   const remaining = byType
     .filter((e) => !prioritizedSet.has(e.entry))
-    .sort((a, b) => (b.entry.priority ?? 0.5) - (a.entry.priority ?? 0.5))
+    .sort((a, b) => {
+      const localeDiff =
+        Number(isLocalizedPath(a.entry.loc)) - Number(isLocalizedPath(b.entry.loc));
+      if (localeDiff !== 0) return localeDiff;
+      return (b.entry.priority ?? 0.5) - (a.entry.priority ?? 0.5);
+    })
     .map((e) => e.entry);
 
   const seen = new Set<string>();

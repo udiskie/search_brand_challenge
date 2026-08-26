@@ -27,6 +27,24 @@ describe("selectQuickUrls", () => {
     }));
     expect(selectQuickUrls(entries, 5)).toHaveLength(5);
   });
+
+  it("prefers a non-localized pricing page over a locale-prefixed one", () => {
+    const entries: SitemapEntry[] = [
+      { loc: "https://example.com/es-es/pricing" },
+      { loc: "https://example.com/pricing" },
+    ];
+    const selected = selectQuickUrls(entries, 1);
+    expect(selected.map((e) => e.loc)).toEqual(["https://example.com/pricing"]);
+  });
+
+  it("treats an English locale prefix as not localized when no bare path exists", () => {
+    const entries: SitemapEntry[] = [
+      { loc: "https://example.com/es-es/pricing" },
+      { loc: "https://example.com/en-gb/pricing" },
+    ];
+    const selected = selectQuickUrls(entries, 1);
+    expect(selected.map((e) => e.loc)).toEqual(["https://example.com/en-gb/pricing"]);
+  });
 });
 
 describe("runScrape", () => {
