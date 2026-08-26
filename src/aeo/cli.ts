@@ -2,6 +2,13 @@
 import { runAeoAudit } from "./run";
 import type { AeoAuditConfig } from "./types";
 
+try {
+  process.loadEnvFile(".env.local");
+} catch {
+  // No .env.local -- fine if GEMINI_API_KEY is already set some other way
+  // (shell export, CI secret, etc.); checked explicitly below.
+}
+
 const USAGE =
   "Usage: npm run aeo -- --product <name> --brand <Brand> --competitors <A,B,C> " +
   "--category <category> [--url <site>] [--mode quick|full] [--model gemini-2.0-flash] " +

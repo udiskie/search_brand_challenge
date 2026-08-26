@@ -51,8 +51,12 @@ npm run scrape -- --product <product> --url <site> --mode quick|full
 
 ### Step 2 — AEO probe + report generation
 
+Make sure `.env.local` exists with `GEMINI_API_KEY` set (copy `.env.example`
+if not — the CLI loads it automatically, never ask the user to paste the key
+into chat).
+
 ```bash
-GEMINI_API_KEY=<key> npm run aeo -- \
+npm run aeo -- \
   --product <product> --brand <Brand> --competitors <A,B,C> \
   --category "<category>" [--url <site>] --mode quick|full
 ```
@@ -131,8 +135,8 @@ see the rule list in `reportGenerator.ts`'s `seoFindings`/`geoFindings`/
 
 ## Hard rules
 
-- Never hardcode or log the Gemini API key; it's read from `GEMINI_API_KEY`
-  only (see `src/aeo/cli.ts`).
+- Never hardcode, log, or ask the user to paste the Gemini API key in chat;
+  it's read from `GEMINI_API_KEY` via `.env.local` only (see `src/aeo/cli.ts`).
 - Always save every raw Gemini response (`datalake/{product}/aeo/runs/*.json`)
   before any parsing — this is the auditable dataset. Never regenerate a
   report by re-querying Gemini for data that's already in `aeo/runs/`.

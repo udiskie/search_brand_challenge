@@ -40,11 +40,16 @@ above to refresh it.
 
 ## AEO/GEO/SEO brand visibility audit
 
+Copy `.env.example` to `.env.local` and set your own key (get one at
+https://aistudio.google.com/apikey) — `.env.local` is gitignored and loaded
+automatically by the CLI below, so the key never needs to be typed inline or
+committed.
+
 Once a product has scraper output in `datalake/{product}/` (see above),
 generate the consolidated report with:
 
 ```bash
-GEMINI_API_KEY=<key> npm run aeo -- \
+npm run aeo -- \
   --product <name> --brand <Brand> --competitors <A,B,C> --category "<category>" \
   [--url <https://site>] [--mode quick|full]
 ```
