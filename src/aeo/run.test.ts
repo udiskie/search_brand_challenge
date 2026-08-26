@@ -138,4 +138,45 @@ describe("runAeoAudit", () => {
     );
     expect(reportMd).toContain("# Brand Visibility Audit: Linear");
   });
+
+  it("excludes failed Gemini calls from the metrics denominator, not just SoV numerator", async () => {
+    await seedScraperOutput("linear");
+
+    let callCount = 0;
+    const flakyFetch = (async (url: string | URL) => {
+      if (!url.toString().includes("generativelanguage.googleapis.com")) {
+        return new Response("not found", { status: 404 });
+      }
+      callCount++;
+      // Every other call "times out" (simulated as a 500 after retries).
+      if (callCount % 2 === 0) return new Response("", { status: 500 });
+      return new Response(
+        JSON.stringify({
+          candidates: [
+            { content: { parts: [{ text: "Linear is great." }] }, finishReason: "STOP" },
+          ],
+        }),
+        { status: 200 }
+      );
+    }) as typeof fetch;
+
+    await runAeoAudit(
+      {
+        product: "linear",
+        auditConfig: { ...baseAuditConfig, promptCount: 2, runsPerPrompt: 2 },
+        geminiConfig: { ...baseGeminiConfig, maxRetries: 0 },
+      },
+      flakyFetch
+    );
+
+    const readJson = (...parts: string[]) =>
+      JSON.parse(readFileSync(path.join(tmpDir, "datalake", ...parts), "utf-8"));
+
+    // 4 calls attempted (2 prompts x 2 runs), 2 succeed -> denominator is 2, not 4.
+    const aggregated = readJson("linear", "aeo", "aggregated_metrics.json");
+    expect(aggregated.totalRuns).toBe(2);
+
+    const runFiles = readJson("linear", "aeo", "prompts_config.json");
+    expect(runFiles.prompts).toHaveLength(2);
+  });
 });

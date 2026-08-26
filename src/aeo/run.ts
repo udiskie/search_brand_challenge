@@ -116,7 +116,15 @@ export async function runAeoAudit(
   );
 
   const allBrands = [auditConfig.brand, ...auditConfig.competitors];
-  const parsedRuns = runs.map((run) => parseRun(run, allBrands));
+  // A failed call (timeout, network error, safety block -- rawText null)
+  // is a data-collection gap, not a "the model didn't mention the brand"
+  // signal. Every raw run is still persisted above for the audit trail,
+  // but only successful ones count toward the metrics denominator --
+  // otherwise a spike in failures would silently deflate every brand's
+  // Share of Voice.
+  const parsedRuns = runs
+    .filter((run) => run.rawText !== null)
+    .map((run) => parseRun(run, allBrands));
 
   const aeoMetrics = computeAeoMetrics(parsedRuns, auditConfig.brand, auditConfig.competitors);
   await writeJson(path.join(aeoDir(product), "aggregated_metrics.json"), aeoMetrics);

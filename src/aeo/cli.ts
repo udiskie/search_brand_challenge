@@ -11,7 +11,7 @@ try {
 
 const USAGE =
   "Usage: npm run aeo -- --product <name> --brand <Brand> --competitors <A,B,C> " +
-  "--category <category> [--url <site>] [--mode quick|full] [--model gemini-2.0-flash] " +
+  "--category <category> [--url <site>] [--mode quick|full] [--model gemini-3.6-flash] " +
   "[--prompts 20] [--runs 5] [--temperature 0.9]";
 
 function parseArgs(argv: string[]): Record<string, string> {
@@ -51,7 +51,7 @@ async function main() {
   const promptCount = args.prompts ? Number(args.prompts) : mode === "full" ? 24 : 10;
   const runsPerPrompt = args.runs ? Number(args.runs) : mode === "full" ? 6 : 3;
   const temperature = args.temperature ? Number(args.temperature) : 0.9;
-  const model = args.model ?? "gemini-2.0-flash";
+  const model = args.model ?? "gemini-3.6-flash";
 
   const auditConfig: AeoAuditConfig = {
     brand: args.brand,
@@ -73,7 +73,7 @@ async function main() {
       apiKey,
       model,
       temperature,
-      timeoutMs: args.timeout ? Number(args.timeout) : 15_000,
+      timeoutMs: args.timeout ? Number(args.timeout) : 30_000,
       maxRetries: args.retries ? Number(args.retries) : 2,
       concurrency: args.concurrency ? Number(args.concurrency) : 3,
       requestDelayMs: args.delay ? Number(args.delay) : 500,
