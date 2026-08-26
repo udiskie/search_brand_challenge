@@ -117,3 +117,43 @@ export interface CrossValidationGap {
   siteScore: number;
   mentionedByModel: boolean;
 }
+
+export type ReportDimension = "seo" | "geo" | "aeo";
+export type ImpactLevel = "high" | "medium" | "low";
+export type EffortLevel = "high" | "medium" | "low";
+export type ScoreLabel = "good" | "needs_work" | "critical";
+
+export interface PriorityItem {
+  dimension: ReportDimension;
+  finding: string;
+  impact: ImpactLevel;
+  effort: EffortLevel;
+  suggestedAction: string;
+}
+
+export interface DimensionScore {
+  dimension: ReportDimension;
+  score: number;
+  label: ScoreLabel;
+}
+
+export interface Report {
+  product: string;
+  brand: string;
+  competitors: string[];
+  generatedAt: string;
+  scores: DimensionScore[];
+  seo: {
+    pageCount: number;
+    brokenUrlCount: number;
+    topKeywords: string[];
+  };
+  geo: {
+    pageCount: number;
+    avgFactualDensityScore: number;
+    avgExtractableStructureScore: number;
+  };
+  aeo: AeoMetrics;
+  crossValidationGaps: CrossValidationGap[];
+  priorities: PriorityItem[];
+}
