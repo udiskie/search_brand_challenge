@@ -1,0 +1,2402 @@
+[
+  {
+    "url": "https://www.atlassian.com/software/bamboo/pricing",
+    "title": "Bamboo - Pricing | Atlassian",
+    "titleLength": 28,
+    "metaDescription": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.",
+    "metaDescriptionLength": 95,
+    "headings": [
+      {
+        "tag": "h6",
+        "text": "FREE FOR 30 DAYS"
+      },
+      {
+        "tag": "h1",
+        "text": "For teams of any size"
+      },
+      {
+        "tag": "h2",
+        "text": "Data Center"
+      },
+      {
+        "tag": "h1",
+        "text": "For teams of all sizes, hosted on your servers"
+      },
+      {
+        "tag": "h4",
+        "text": "FREE FOR 30 DAYS"
+      },
+      {
+        "tag": "h2",
+        "text": "Small teams"
+      },
+      {
+        "tag": "h2",
+        "text": "Growing teams"
+      },
+      {
+        "tag": "h2",
+        "text": "Pricing FAQ"
+      },
+      {
+        "tag": "h4",
+        "text": "What do I need to get started with Bamboo?"
+      },
+      {
+        "tag": "h4",
+        "text": "What happens when I've completed my free server trial?"
+      },
+      {
+        "tag": "h4",
+        "text": "Do plan branches count as jobs?"
+      },
+      {
+        "tag": "h4",
+        "text": "What is the cost to upgrade my Bamboo Server license to a higher tier?"
+      },
+      {
+        "tag": "h4",
+        "text": "How do I request a quote?"
+      },
+      {
+        "tag": "h4",
+        "text": "Still have more questions?"
+      },
+      {
+        "tag": "h2",
+        "text": "Pricing FAQ"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 2,
+    "headingOrderIssues": [
+      "multiple h1 tags (2)",
+      "heading level skipped: h1 -> h4 (\"FREE FOR 30 DAYS\")",
+      "heading level skipped: h2 -> h4 (\"What do I need to get started with Bambo\")",
+      "heading level skipped: h2 -> h5 (\"products\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 53,
+    "externalLinkCount": 20,
+    "imagesTotal": 2,
+    "imagesMissingAlt": 1,
+    "wordCount": 712,
+    "topKeywordDensity": [
+      {
+        "term": "bamboo",
+        "count": 18,
+        "density": 0.04245283018867924
+      },
+      {
+        "term": "free",
+        "count": 9,
+        "density": 0.02122641509433962
+      },
+      {
+        "term": "jobs",
+        "count": 8,
+        "density": 0.018867924528301886
+      },
+      {
+        "term": "agents",
+        "count": 7,
+        "density": 0.01650943396226415
+      },
+      {
+        "term": "pricing",
+        "count": 6,
+        "density": 0.014150943396226415
+      },
+      {
+        "term": "show",
+        "count": 6,
+        "density": 0.014150943396226415
+      },
+      {
+        "term": "copy",
+        "count": 6,
+        "density": 0.014150943396226415
+      },
+      {
+        "term": "faq",
+        "count": 5,
+        "density": 0.01179245283018868
+      },
+      {
+        "term": "plan",
+        "count": 5,
+        "density": 0.01179245283018868
+      },
+      {
+        "term": "link",
+        "count": 5,
+        "density": 0.01179245283018868
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+    "title": "Roll Out Compass to Your Teams | Atlassian",
+    "titleLength": 42,
+    "metaDescription": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.",
+    "metaDescriptionLength": 132,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "4.2 Rollout"
+      },
+      {
+        "tag": "h4",
+        "text": "4.2.1 Adding Component Owners and Teams to Compass"
+      },
+      {
+        "tag": "h4",
+        "text": "4.2.2 Tracking Adoption and Data Hygiene"
+      },
+      {
+        "tag": "h4",
+        "text": "4.2.3 Feedback loops and Tracking benefits"
+      },
+      {
+        "tag": "h4",
+        "text": "Improve developer experience with Compass"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h4 (\"4.2.1 Adding Component Owners and Teams \")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 54,
+    "externalLinkCount": 17,
+    "imagesTotal": 8,
+    "imagesMissingAlt": 1,
+    "wordCount": 437,
+    "topKeywordDensity": [
+      {
+        "term": "compass",
+        "count": 12,
+        "density": 0.046153846153846156
+      },
+      {
+        "term": "component",
+        "count": 11,
+        "density": 0.04230769230769231
+      },
+      {
+        "term": "adoption",
+        "count": 8,
+        "density": 0.03076923076923077
+      },
+      {
+        "term": "owners",
+        "count": 7,
+        "density": 0.026923076923076925
+      },
+      {
+        "term": "data",
+        "count": 6,
+        "density": 0.023076923076923078
+      },
+      {
+        "term": "hygiene",
+        "count": 6,
+        "density": 0.023076923076923078
+      },
+      {
+        "term": "tracking",
+        "count": 5,
+        "density": 0.019230769230769232
+      },
+      {
+        "term": "goals",
+        "count": 4,
+        "density": 0.015384615384615385
+      },
+      {
+        "term": "objectives",
+        "count": 4,
+        "density": 0.015384615384615385
+      },
+      {
+        "term": "scorecard",
+        "count": 4,
+        "density": 0.015384615384615385
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/",
+    "title": "Collaboration software for software, IT and business teams | Atlassian",
+    "titleLength": 70,
+    "metaDescription": "Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work.",
+    "metaDescriptionLength": 128,
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Featured apps"
+      },
+      {
+        "tag": "h2",
+        "text": "Atlassian Collections"
+      },
+      {
+        "tag": "h2",
+        "text": "By Use Case"
+      },
+      {
+        "tag": "h2",
+        "text": "By Team"
+      },
+      {
+        "tag": "h2",
+        "text": "By Size"
+      },
+      {
+        "tag": "h2",
+        "text": "By Industry"
+      },
+      {
+        "tag": "h2",
+        "text": "Support"
+      },
+      {
+        "tag": "h2",
+        "text": "Resources"
+      },
+      {
+        "tag": "h2",
+        "text": "Featured apps"
+      },
+      {
+        "tag": "h5",
+        "text": "Jira"
+      },
+      {
+        "tag": "h5",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h5",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Atlassian Collections"
+      },
+      {
+        "tag": "h2",
+        "text": "By Use Case"
+      },
+      {
+        "tag": "h2",
+        "text": "By Team"
+      },
+      {
+        "tag": "h2",
+        "text": "By Size"
+      },
+      {
+        "tag": "h2",
+        "text": "By Industry"
+      },
+      {
+        "tag": "h2",
+        "text": "Featured apps"
+      },
+      {
+        "tag": "h5",
+        "text": "Jira"
+      },
+      {
+        "tag": "h5",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h5",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Atlassian Collections"
+      },
+      {
+        "tag": "h2",
+        "text": "By Use Case"
+      },
+      {
+        "tag": "h2",
+        "text": "By Team"
+      },
+      {
+        "tag": "h2",
+        "text": "By Size"
+      },
+      {
+        "tag": "h2",
+        "text": "By Industry"
+      },
+      {
+        "tag": "h1",
+        "text": "Unleash your teams and their agents"
+      },
+      {
+        "tag": "h2",
+        "text": "Transform how your teams work"
+      },
+      {
+        "tag": "h3",
+        "text": "The teamwork platform for the AI era"
+      },
+      {
+        "tag": "h3",
+        "text": "AI-native strategic portfolio management"
+      },
+      {
+        "tag": "h3",
+        "text": "Shatter the service quo"
+      },
+      {
+        "tag": "h3",
+        "text": "Deliver high quality software. Fast."
+      },
+      {
+        "tag": "h3",
+        "text": "Better product decisions in the age of AI"
+      },
+      {
+        "tag": "h2",
+        "text": "Fueled by Atlassian’s latest AI innovations"
+      },
+      {
+        "tag": "h2",
+        "text": "Discover the power of the Teamwork Graph"
+      },
+      {
+        "tag": "h3",
+        "text": "It all starts with context..."
+      },
+      {
+        "tag": "h3",
+        "text": "Uniting knowledge across teams"
+      },
+      {
+        "tag": "h3",
+        "text": "For insights that matter"
+      },
+      {
+        "tag": "h3",
+        "text": "Keeping everyone in sync"
+      },
+      {
+        "tag": "h3",
+        "text": "To accelerate teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "So you can makesmarter moves, faster"
+      },
+      {
+        "tag": "h3",
+        "text": "Uniting knowledge across teams"
+      },
+      {
+        "tag": "h3",
+        "text": "For insights that matter"
+      },
+      {
+        "tag": "h3",
+        "text": "Keeping everyone in sync"
+      },
+      {
+        "tag": "h3",
+        "text": "To accelerate teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for how real teams work"
+      },
+      {
+        "tag": "h3",
+        "text": "Secure by design"
+      },
+      {
+        "tag": "h3",
+        "text": "Compliant across the globe"
+      },
+      {
+        "tag": "h3",
+        "text": "Reliable at scale"
+      },
+      {
+        "tag": "h2",
+        "text": "350K+ unstoppable teams harness the power of AI"
+      },
+      {
+        "tag": "h2",
+        "text": "Power up your teams today"
+      },
+      {
+        "tag": "h2",
+        "text": "Products"
+      },
+      {
+        "tag": "h2",
+        "text": "Resources"
+      },
+      {
+        "tag": "h2",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h2 -> h5 (\"Jira\")",
+      "heading level skipped: h2 -> h5 (\"Jira\")"
+    ],
+    "schemaTypes": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "SoftwareApplication"
+    ],
+    "internalLinkCount": 278,
+    "externalLinkCount": 42,
+    "imagesTotal": 57,
+    "imagesMissingAlt": 38,
+    "wordCount": 610,
+    "topKeywordDensity": [
+      {
+        "term": "teams",
+        "count": 18,
+        "density": 0.03982300884955752
+      },
+      {
+        "term": "work",
+        "count": 10,
+        "density": 0.022123893805309734
+      },
+      {
+        "term": "context",
+        "count": 9,
+        "density": 0.01991150442477876
+      },
+      {
+        "term": "teamwork",
+        "count": 7,
+        "density": 0.015486725663716814
+      },
+      {
+        "term": "strategy",
+        "count": 6,
+        "density": 0.01327433628318584
+      },
+      {
+        "term": "rovo",
+        "count": 6,
+        "density": 0.01327433628318584
+      },
+      {
+        "term": "software",
+        "count": 5,
+        "density": 0.011061946902654867
+      },
+      {
+        "term": "atlassian",
+        "count": 5,
+        "density": 0.011061946902654867
+      },
+      {
+        "term": "tools",
+        "count": 5,
+        "density": 0.011061946902654867
+      },
+      {
+        "term": "service",
+        "count": 5,
+        "density": 0.011061946902654867
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/software/bitbucket/pricing",
+    "title": "Bitbucket Pricing: Find the Right Plan for You | Atlassian",
+    "titleLength": 58,
+    "metaDescription": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.",
+    "metaDescriptionLength": 142,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Plans & pricing"
+      },
+      {
+        "tag": "h2",
+        "text": "Free"
+      },
+      {
+        "tag": "h2",
+        "text": "Standard"
+      },
+      {
+        "tag": "h2",
+        "text": "Premium"
+      },
+      {
+        "tag": "h2",
+        "text": "Compare features"
+      },
+      {
+        "tag": "h3",
+        "text": "Data Center Products"
+      },
+      {
+        "tag": "h2",
+        "text": "Get more details"
+      },
+      {
+        "tag": "h3",
+        "text": "Definitions of user, workspace, build minute, and file storage"
+      },
+      {
+        "tag": "h3",
+        "text": "Payment info"
+      },
+      {
+        "tag": "h3",
+        "text": "Free, Standard, and Premium plan details"
+      },
+      {
+        "tag": "h3",
+        "text": "Get a free community or academic subscription"
+      },
+      {
+        "tag": "h3",
+        "text": "About cloud and self-managed options"
+      },
+      {
+        "tag": "h3",
+        "text": "Buying additional build minutes and Git LFS"
+      },
+      {
+        "tag": "h3",
+        "text": "Migrating from Bitbucket Data Center?"
+      },
+      {
+        "tag": "h2",
+        "text": "Products"
+      },
+      {
+        "tag": "h2",
+        "text": "Resources"
+      },
+      {
+        "tag": "h2",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "FAQPage",
+      "Product",
+      "SoftwareApplication",
+      "BreadcrumbList"
+    ],
+    "internalLinkCount": 76,
+    "externalLinkCount": 15,
+    "imagesTotal": 3,
+    "imagesMissingAlt": 3,
+    "wordCount": 792,
+    "topKeywordDensity": [
+      {
+        "term": "plan",
+        "count": 13,
+        "density": 0.02663934426229508
+      },
+      {
+        "term": "bitbucket",
+        "count": 11,
+        "density": 0.022540983606557378
+      },
+      {
+        "term": "build",
+        "count": 11,
+        "density": 0.022540983606557378
+      },
+      {
+        "term": "storage",
+        "count": 11,
+        "density": 0.022540983606557378
+      },
+      {
+        "term": "cloud",
+        "count": 11,
+        "density": 0.022540983606557378
+      },
+      {
+        "term": "minutes",
+        "count": 10,
+        "density": 0.020491803278688523
+      },
+      {
+        "term": "users",
+        "count": 9,
+        "density": 0.018442622950819672
+      },
+      {
+        "term": "center",
+        "count": 9,
+        "density": 0.018442622950819672
+      },
+      {
+        "term": "data",
+        "count": 8,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "user",
+        "count": 7,
+        "density": 0.014344262295081968
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+    "title": "Plan Your Compass Rollout Strategy | Atlassian",
+    "titleLength": 46,
+    "metaDescription": "Learn how to roll out Compass effectively for a smooth adoption process.",
+    "metaDescriptionLength": 72,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "4. Compass Rollout"
+      },
+      {
+        "tag": "h3",
+        "text": "4.1 Rollout Strategy"
+      },
+      {
+        "tag": "h4",
+        "text": "4.1.1 Create an adoption schedule"
+      },
+      {
+        "tag": "h4",
+        "text": "4.1.2 Support strategy"
+      },
+      {
+        "tag": "h4",
+        "text": "4.1.3 Communication strategy"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"4.1 Rollout Strategy\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 54,
+    "externalLinkCount": 13,
+    "imagesTotal": 9,
+    "imagesMissingAlt": 1,
+    "wordCount": 1159,
+    "topKeywordDensity": [
+      {
+        "term": "senior",
+        "count": 17,
+        "density": 0.024390243902439025
+      },
+      {
+        "term": "leaders",
+        "count": 16,
+        "density": 0.02295552367288379
+      },
+      {
+        "term": "compass",
+        "count": 15,
+        "density": 0.021520803443328552
+      },
+      {
+        "term": "rollout",
+        "count": 15,
+        "density": 0.021520803443328552
+      },
+      {
+        "term": "support",
+        "count": 15,
+        "density": 0.021520803443328552
+      },
+      {
+        "term": "teams",
+        "count": 12,
+        "density": 0.01721664275466284
+      },
+      {
+        "term": "need",
+        "count": 12,
+        "density": 0.01721664275466284
+      },
+      {
+        "term": "platform",
+        "count": 11,
+        "density": 0.015781922525107604
+      },
+      {
+        "term": "strategy",
+        "count": 9,
+        "density": 0.01291248206599713
+      },
+      {
+        "term": "catalog",
+        "count": 9,
+        "density": 0.01291248206599713
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/blog/about",
+    "title": "About - Inside Atlassian",
+    "titleLength": 24,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Leadership"
+      },
+      {
+        "tag": "h2",
+        "text": "Teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "Innovation"
+      },
+      {
+        "tag": "h2",
+        "text": "Development"
+      },
+      {
+        "tag": "h2",
+        "text": "How we build"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all"
+      },
+      {
+        "tag": "h2",
+        "text": "Rovo"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira"
+      },
+      {
+        "tag": "h2",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h2",
+        "text": "Loom"
+      },
+      {
+        "tag": "h2",
+        "text": "Trello"
+      },
+      {
+        "tag": "h2",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all apps"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h3",
+        "text": "Thank you for subscribing."
+      },
+      {
+        "tag": "h2",
+        "text": "Leadership"
+      },
+      {
+        "tag": "h2",
+        "text": "Teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "Innovation"
+      },
+      {
+        "tag": "h2",
+        "text": "Development"
+      },
+      {
+        "tag": "h2",
+        "text": "How we build"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all"
+      },
+      {
+        "tag": "h2",
+        "text": "Rovo"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira"
+      },
+      {
+        "tag": "h2",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h2",
+        "text": "Loom"
+      },
+      {
+        "tag": "h2",
+        "text": "Trello"
+      },
+      {
+        "tag": "h2",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all apps"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h3",
+        "text": "Thank you for subscribing."
+      },
+      {
+        "tag": "h2",
+        "text": "About"
+      },
+      {
+        "tag": "h3",
+        "text": "Contributors"
+      },
+      {
+        "tag": "h3",
+        "text": "Shaina Rozen"
+      },
+      {
+        "tag": "h3",
+        "text": "Genevieve Michaels"
+      },
+      {
+        "tag": "h3",
+        "text": "Dr. Molly Sands"
+      },
+      {
+        "tag": "h3",
+        "text": "Kelli María Korducki"
+      },
+      {
+        "tag": "h3",
+        "text": "Kat Boogaard"
+      },
+      {
+        "tag": "h3",
+        "text": "Sarah Goff Dupont"
+      },
+      {
+        "tag": "h2",
+        "text": "Inside Atlassian"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      }
+    ],
+    "h1Count": 0,
+    "headingOrderIssues": [
+      "missing h1"
+    ],
+    "schemaTypes": [
+      "WebPage",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebSite"
+    ],
+    "internalLinkCount": 61,
+    "externalLinkCount": 10,
+    "imagesTotal": 38,
+    "imagesMissingAlt": 38,
+    "wordCount": 502,
+    "topKeywordDensity": [
+      {
+        "term": "atlassian",
+        "count": 10,
+        "density": 0.03164556962025317
+      },
+      {
+        "term": "inside",
+        "count": 6,
+        "density": 0.0189873417721519
+      },
+      {
+        "term": "expert",
+        "count": 6,
+        "density": 0.0189873417721519
+      },
+      {
+        "term": "insights",
+        "count": 5,
+        "density": 0.015822784810126583
+      },
+      {
+        "term": "teamwork",
+        "count": 5,
+        "density": 0.015822784810126583
+      },
+      {
+        "term": "research",
+        "count": 4,
+        "density": 0.012658227848101266
+      },
+      {
+        "term": "work",
+        "count": 4,
+        "density": 0.012658227848101266
+      },
+      {
+        "term": "content",
+        "count": 3,
+        "density": 0.00949367088607595
+      },
+      {
+        "term": "evidence",
+        "count": 3,
+        "density": 0.00949367088607595
+      },
+      {
+        "term": "based",
+        "count": 3,
+        "density": 0.00949367088607595
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+    "title": "Celebrating 10 years of the Atlassian Marketplace - Inside Atlassian",
+    "titleLength": 68,
+    "metaDescription": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.",
+    "metaDescriptionLength": 135,
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "10 years of teamwork lessons from the Atlassian Marketplace"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h2",
+        "text": "Leadership"
+      },
+      {
+        "tag": "h2",
+        "text": "Teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "Innovation"
+      },
+      {
+        "tag": "h2",
+        "text": "Development"
+      },
+      {
+        "tag": "h2",
+        "text": "How we build"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all"
+      },
+      {
+        "tag": "h2",
+        "text": "Rovo"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira"
+      },
+      {
+        "tag": "h2",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h2",
+        "text": "Loom"
+      },
+      {
+        "tag": "h2",
+        "text": "Trello"
+      },
+      {
+        "tag": "h2",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all apps"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h3",
+        "text": "Thank you for subscribing."
+      },
+      {
+        "tag": "h2",
+        "text": "Leadership"
+      },
+      {
+        "tag": "h2",
+        "text": "Teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "Innovation"
+      },
+      {
+        "tag": "h2",
+        "text": "Development"
+      },
+      {
+        "tag": "h2",
+        "text": "How we build"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all"
+      },
+      {
+        "tag": "h2",
+        "text": "Rovo"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira"
+      },
+      {
+        "tag": "h2",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h2",
+        "text": "Loom"
+      },
+      {
+        "tag": "h2",
+        "text": "Trello"
+      },
+      {
+        "tag": "h2",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h2",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse all apps"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h3",
+        "text": "Thank you for subscribing."
+      },
+      {
+        "tag": "h1",
+        "text": "10 years of teamwork lessons from the Atlassian Marketplace"
+      },
+      {
+        "tag": "h6",
+        "text": "celebrate with us"
+      },
+      {
+        "tag": "h2",
+        "text": "What has been the biggest change to how your team works since your company was founded?"
+      },
+      {
+        "tag": "h2",
+        "text": "The Atlassian Marketplace picks up momentum by enabling teamwork"
+      },
+      {
+        "tag": "h2",
+        "text": "What’s the most useful app you’ve installed in Jira or Confluence to help your team work better together?"
+      },
+      {
+        "tag": "h2",
+        "text": "We’re making it easier to migrate your Marketplace apps"
+      },
+      {
+        "tag": "h2",
+        "text": "What’s the most important team ritual you’ve established over the last 10 years?"
+      },
+      {
+        "tag": "h2",
+        "text": "What was the biggest mistake you made over the past 10 years when it comes to your team’s structure or workflows? How did you correct it?"
+      },
+      {
+        "tag": "h2",
+        "text": "How have you kept your team motivated and connected over the past 10 years, even during tough times?"
+      },
+      {
+        "tag": "h2",
+        "text": "What new teamwork strategies do you hope to explore over the next 10 years?"
+      },
+      {
+        "tag": "h5",
+        "text": "About This Article"
+      },
+      {
+        "tag": "h2",
+        "text": "Inside Atlassian"
+      },
+      {
+        "tag": "h3",
+        "text": "Get insights like this in your inbox"
+      },
+      {
+        "tag": "h3",
+        "text": "Subscribe to our newsletter"
+      },
+      {
+        "tag": "h2",
+        "text": "Related content"
+      },
+      {
+        "tag": "h3",
+        "text": "The Atlassian Marketplace picks up momentum by enabling teamwork"
+      },
+      {
+        "tag": "h3",
+        "text": "Stride into the future of teamwork with the Atlassian Marketplace"
+      },
+      {
+        "tag": "h3",
+        "text": "Supercharging Rovo: how Unito’s Connectors in the Atlassian Marketplace transform AI intelligence"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h6 (\"celebrate with us\")",
+      "heading level skipped: h2 -> h5 (\"About This Article\")"
+    ],
+    "schemaTypes": [
+      "Article",
+      "WebPage",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebSite",
+      "Person"
+    ],
+    "internalLinkCount": 84,
+    "externalLinkCount": 42,
+    "imagesTotal": 39,
+    "imagesMissingAlt": 36,
+    "wordCount": 2585,
+    "topKeywordDensity": [
+      {
+        "term": "team",
+        "count": 31,
+        "density": 0.020931802835921675
+      },
+      {
+        "term": "marketplace",
+        "count": 24,
+        "density": 0.016205266711681297
+      },
+      {
+        "term": "partners",
+        "count": 22,
+        "density": 0.014854827819041188
+      },
+      {
+        "term": "atlassian",
+        "count": 21,
+        "density": 0.014179608372721135
+      },
+      {
+        "term": "years",
+        "count": 16,
+        "density": 0.010803511141120865
+      },
+      {
+        "term": "teams",
+        "count": 16,
+        "density": 0.010803511141120865
+      },
+      {
+        "term": "apps",
+        "count": 15,
+        "density": 0.01012829169480081
+      },
+      {
+        "term": "over",
+        "count": 15,
+        "density": 0.01012829169480081
+      },
+      {
+        "term": "teamwork",
+        "count": 12,
+        "density": 0.008102633355840648
+      },
+      {
+        "term": "work",
+        "count": 12,
+        "density": 0.008102633355840648
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/platform",
+    "title": "Atlassian's platform | Atlassian",
+    "titleLength": 32,
+    "metaDescription": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.",
+    "metaDescriptionLength": 85,
+    "headings": [
+      {
+        "tag": "h5",
+        "text": "Featured"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Developers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h3",
+        "text": "Rovo Dev"
+      },
+      {
+        "tag": "h3",
+        "text": "Pipelines"
+      },
+      {
+        "tag": "h3",
+        "text": "DX"
+      },
+      {
+        "tag": "h5",
+        "text": "Product Managers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Product Discovery"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h5",
+        "text": "IT professionals"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Guard"
+      },
+      {
+        "tag": "h5",
+        "text": "Business Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Trello"
+      },
+      {
+        "tag": "h3",
+        "text": "Loom"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Leadership Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Focus"
+      },
+      {
+        "tag": "h3",
+        "text": "Talent"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Align"
+      },
+      {
+        "tag": "h5",
+        "text": "Solutions"
+      },
+      {
+        "tag": "h5",
+        "text": "Why Atlassian"
+      },
+      {
+        "tag": "h3",
+        "text": "System of Work"
+      },
+      {
+        "tag": "h3",
+        "text": "Ecosystem New"
+      },
+      {
+        "tag": "h3",
+        "text": "Marketplace"
+      },
+      {
+        "tag": "h3",
+        "text": "Customers"
+      },
+      {
+        "tag": "h3",
+        "text": "FedRAMP"
+      },
+      {
+        "tag": "h3",
+        "text": "Resilience"
+      },
+      {
+        "tag": "h3",
+        "text": "Platform"
+      },
+      {
+        "tag": "h3",
+        "text": "Trust center"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Support"
+      },
+      {
+        "tag": "h3",
+        "text": "Templates New"
+      },
+      {
+        "tag": "h3",
+        "text": "Find Partners"
+      },
+      {
+        "tag": "h3",
+        "text": "Atlassian Ascend"
+      },
+      {
+        "tag": "h3",
+        "text": "Community"
+      },
+      {
+        "tag": "h5",
+        "text": "support"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h1",
+        "text": "The intelligent teamwork platform uniting your system of work"
+      },
+      {
+        "tag": "h3",
+        "text": "The Atlassian Platform is the foundation of intelligent connection that empowers Atlassian’s 300K+ customers to do their most impactful work."
+      },
+      {
+        "tag": "h2",
+        "text": "From chaos to context"
+      },
+      {
+        "tag": "h3",
+        "text": "Unleash the power of all data"
+      },
+      {
+        "tag": "h3",
+        "text": "Quality AI starts with quality data"
+      },
+      {
+        "tag": "h2",
+        "text": "The power of AI, everywhere"
+      },
+      {
+        "tag": "h2",
+        "text": "Simplify how work unfolds"
+      },
+      {
+        "tag": "h3",
+        "text": "Where ambition meets outcomes"
+      },
+      {
+        "tag": "h3",
+        "text": "Where it all comes together"
+      },
+      {
+        "tag": "h3",
+        "text": "Teamwork without the guesswork"
+      },
+      {
+        "tag": "h3",
+        "text": "Insights into actions, for all teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Your one-stop-shop for administration"
+      },
+      {
+        "tag": "h3",
+        "text": "Automation that powers productivity"
+      },
+      {
+        "tag": "h3",
+        "text": "Intelligent experiences to streamline work"
+      },
+      {
+        "tag": "h2",
+        "text": "Foundations built for success"
+      },
+      {
+        "tag": "h3",
+        "text": "Hamdam Bishop, Technology Operations Lead"
+      },
+      {
+        "tag": "h3",
+        "text": "Wais Mojaddidi, Director of Agile Delivery for Global Ecommerce"
+      },
+      {
+        "tag": "h3",
+        "text": "Jeff Lai, Internal Infrastructure"
+      },
+      {
+        "tag": "h2",
+        "text": "Learn more about the Atlassian Cloud Platform"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h3 -> h5 (\"Developers\")",
+      "heading level skipped: h3 -> h5 (\"Product Managers\")",
+      "heading level skipped: h3 -> h5 (\"IT professionals\")",
+      "heading level skipped: h3 -> h5 (\"Business Teams\")",
+      "heading level skipped: h3 -> h5 (\"Leadership Teams\")",
+      "heading level skipped: h3 -> h5 (\"Solutions\")",
+      "heading level skipped: h3 -> h5 (\"Resources\")",
+      "heading level skipped: h3 -> h5 (\"support\")",
+      "heading level skipped: h1 -> h3 (\"The Atlassian Platform is the foundation\")",
+      "heading level skipped: h2 -> h5 (\"products\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 134,
+    "externalLinkCount": 27,
+    "imagesTotal": 59,
+    "imagesMissingAlt": 43,
+    "wordCount": 562,
+    "topKeywordDensity": [
+      {
+        "term": "atlassian",
+        "count": 14,
+        "density": 0.03910614525139665
+      },
+      {
+        "term": "work",
+        "count": 13,
+        "density": 0.036312849162011177
+      },
+      {
+        "term": "platform",
+        "count": 11,
+        "density": 0.030726256983240222
+      },
+      {
+        "term": "teams",
+        "count": 11,
+        "density": 0.030726256983240222
+      },
+      {
+        "term": "data",
+        "count": 10,
+        "density": 0.027932960893854747
+      },
+      {
+        "term": "across",
+        "count": 10,
+        "density": 0.027932960893854747
+      },
+      {
+        "term": "learn",
+        "count": 9,
+        "density": 0.025139664804469275
+      },
+      {
+        "term": "goals",
+        "count": 7,
+        "density": 0.019553072625698324
+      },
+      {
+        "term": "apps",
+        "count": 7,
+        "density": 0.019553072625698324
+      },
+      {
+        "term": "teamwork",
+        "count": 5,
+        "density": 0.013966480446927373
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/platform/ai-trust",
+    "title": "Rovo AI Security | Trusted AI built responsibly and securely | Atlassian",
+    "titleLength": 72,
+    "metaDescription": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.",
+    "metaDescriptionLength": 151,
+    "headings": [
+      {
+        "tag": "h5",
+        "text": "Featured"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Developers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h3",
+        "text": "Rovo Dev"
+      },
+      {
+        "tag": "h3",
+        "text": "Pipelines"
+      },
+      {
+        "tag": "h3",
+        "text": "DX"
+      },
+      {
+        "tag": "h5",
+        "text": "Product Managers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Product Discovery"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h5",
+        "text": "IT professionals"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Guard"
+      },
+      {
+        "tag": "h5",
+        "text": "Business Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Trello"
+      },
+      {
+        "tag": "h3",
+        "text": "Loom"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Leadership Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Focus"
+      },
+      {
+        "tag": "h3",
+        "text": "Talent"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Align"
+      },
+      {
+        "tag": "h5",
+        "text": "Solutions"
+      },
+      {
+        "tag": "h5",
+        "text": "Why Atlassian"
+      },
+      {
+        "tag": "h3",
+        "text": "System of Work"
+      },
+      {
+        "tag": "h3",
+        "text": "Ecosystem New"
+      },
+      {
+        "tag": "h3",
+        "text": "Marketplace"
+      },
+      {
+        "tag": "h3",
+        "text": "Customers"
+      },
+      {
+        "tag": "h3",
+        "text": "FedRAMP"
+      },
+      {
+        "tag": "h3",
+        "text": "Resilience"
+      },
+      {
+        "tag": "h3",
+        "text": "Platform"
+      },
+      {
+        "tag": "h3",
+        "text": "Trust center"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Support"
+      },
+      {
+        "tag": "h3",
+        "text": "Templates New"
+      },
+      {
+        "tag": "h3",
+        "text": "Find Partners"
+      },
+      {
+        "tag": "h3",
+        "text": "Atlassian Ascend"
+      },
+      {
+        "tag": "h3",
+        "text": "Community"
+      },
+      {
+        "tag": "h5",
+        "text": "support"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h1",
+        "text": "Transform teamwork with trusted AI"
+      },
+      {
+        "tag": "h2",
+        "text": "Security that keeps your data protected"
+      },
+      {
+        "tag": "h2",
+        "text": "Compliance to stay ahead of your needs"
+      },
+      {
+        "tag": "h2",
+        "text": "Controls you can count on"
+      },
+      {
+        "tag": "h3",
+        "text": "Over 2 million users harness the power of AI across Atlassian apps every single month"
+      },
+      {
+        "tag": "h3",
+        "text": "Committed to industry-leading AI compliance"
+      },
+      {
+        "tag": "h2",
+        "text": "Resources"
+      },
+      {
+        "tag": "h4",
+        "text": "Secure your path to AI adoption"
+      },
+      {
+        "tag": "h4",
+        "text": "Explore our responsible AI"
+      },
+      {
+        "tag": "h4",
+        "text": "Understand our privacy principles"
+      },
+      {
+        "tag": "h4",
+        "text": "Establish a trusted AI foundation"
+      },
+      {
+        "tag": "h3",
+        "text": "AI-powered teamwork, built on trust"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h3 -> h5 (\"Developers\")",
+      "heading level skipped: h3 -> h5 (\"Product Managers\")",
+      "heading level skipped: h3 -> h5 (\"IT professionals\")",
+      "heading level skipped: h3 -> h5 (\"Business Teams\")",
+      "heading level skipped: h3 -> h5 (\"Leadership Teams\")",
+      "heading level skipped: h3 -> h5 (\"Solutions\")",
+      "heading level skipped: h3 -> h5 (\"Resources\")",
+      "heading level skipped: h3 -> h5 (\"support\")",
+      "heading level skipped: h2 -> h4 (\"Secure your path to AI adoption\")",
+      "heading level skipped: h3 -> h5 (\"products\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 129,
+    "externalLinkCount": 24,
+    "imagesTotal": 56,
+    "imagesMissingAlt": 43,
+    "wordCount": 331,
+    "topKeywordDensity": [
+      {
+        "term": "atlassian",
+        "count": 8,
+        "density": 0.03755868544600939
+      },
+      {
+        "term": "compliance",
+        "count": 7,
+        "density": 0.03286384976525822
+      },
+      {
+        "term": "rovo",
+        "count": 6,
+        "density": 0.028169014084507043
+      },
+      {
+        "term": "security",
+        "count": 5,
+        "density": 0.023474178403755867
+      },
+      {
+        "term": "trusted",
+        "count": 5,
+        "density": 0.023474178403755867
+      },
+      {
+        "term": "built",
+        "count": 5,
+        "density": 0.023474178403755867
+      },
+      {
+        "term": "trust",
+        "count": 4,
+        "density": 0.018779342723004695
+      },
+      {
+        "term": "controls",
+        "count": 4,
+        "density": 0.018779342723004695
+      },
+      {
+        "term": "access",
+        "count": 4,
+        "density": 0.018779342723004695
+      },
+      {
+        "term": "privacy",
+        "count": 4,
+        "density": 0.018779342723004695
+      }
+    ]
+  },
+  {
+    "url": "https://www.atlassian.com/platform/analytics",
+    "title": "Analytics - Built into the Atlassian platform | Atlassian",
+    "titleLength": 57,
+    "metaDescription": "Gain full visibility into how your teams work with Atlassian Analytics",
+    "metaDescriptionLength": 70,
+    "headings": [
+      {
+        "tag": "h5",
+        "text": "Featured"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Developers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Bitbucket"
+      },
+      {
+        "tag": "h3",
+        "text": "Rovo Dev"
+      },
+      {
+        "tag": "h3",
+        "text": "Pipelines"
+      },
+      {
+        "tag": "h3",
+        "text": "DX"
+      },
+      {
+        "tag": "h5",
+        "text": "Product Managers"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Product Discovery"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h5",
+        "text": "IT professionals"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Guard"
+      },
+      {
+        "tag": "h5",
+        "text": "Business Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h3",
+        "text": "Trello"
+      },
+      {
+        "tag": "h3",
+        "text": "Loom"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Service Management"
+      },
+      {
+        "tag": "h5",
+        "text": "Leadership Teams"
+      },
+      {
+        "tag": "h3",
+        "text": "Focus"
+      },
+      {
+        "tag": "h3",
+        "text": "Talent"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Align"
+      },
+      {
+        "tag": "h5",
+        "text": "Solutions"
+      },
+      {
+        "tag": "h5",
+        "text": "Why Atlassian"
+      },
+      {
+        "tag": "h3",
+        "text": "System of Work"
+      },
+      {
+        "tag": "h3",
+        "text": "Ecosystem New"
+      },
+      {
+        "tag": "h3",
+        "text": "Marketplace"
+      },
+      {
+        "tag": "h3",
+        "text": "Customers"
+      },
+      {
+        "tag": "h3",
+        "text": "FedRAMP"
+      },
+      {
+        "tag": "h3",
+        "text": "Resilience"
+      },
+      {
+        "tag": "h3",
+        "text": "Platform"
+      },
+      {
+        "tag": "h3",
+        "text": "Trust center"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Customer Support"
+      },
+      {
+        "tag": "h3",
+        "text": "Templates New"
+      },
+      {
+        "tag": "h3",
+        "text": "Find Partners"
+      },
+      {
+        "tag": "h3",
+        "text": "Atlassian Ascend"
+      },
+      {
+        "tag": "h3",
+        "text": "Community"
+      },
+      {
+        "tag": "h5",
+        "text": "support"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira Service Management"
+      },
+      {
+        "tag": "h3",
+        "text": "Confluence"
+      },
+      {
+        "tag": "h1",
+        "text": "Turn data into decisions"
+      },
+      {
+        "tag": "h2",
+        "text": "From disconnected data, and no clear direction"
+      },
+      {
+        "tag": "h2",
+        "text": "To a single, shared view of your business"
+      },
+      {
+        "tag": "h2",
+        "text": "Visualize the flow of work, across your entire organization"
+      },
+      {
+        "tag": "h3",
+        "text": "Skip the prep, start the impact"
+      },
+      {
+        "tag": "h3",
+        "text": "Your business, in full focus"
+      },
+      {
+        "tag": "h3",
+        "text": "Keep everyone informed"
+      },
+      {
+        "tag": "h2",
+        "text": "Business intelligence for the whole business"
+      },
+      {
+        "tag": "h3",
+        "text": "Drive organizational alignment"
+      },
+      {
+        "tag": "h3",
+        "text": "Track DevOps effectiveness"
+      },
+      {
+        "tag": "h3",
+        "text": "Optimize service operations"
+      },
+      {
+        "tag": "h2",
+        "text": "Intelligent analytics powering your work"
+      },
+      {
+        "tag": "h3",
+        "text": "Accelerate time-to-insight"
+      },
+      {
+        "tag": "h3",
+        "text": "Uncover hidden stories in your data"
+      },
+      {
+        "tag": "h3",
+        "text": "Analytics in the flow of work"
+      },
+      {
+        "tag": "h3",
+        "text": "Trusted data, that’s ready to query"
+      },
+      {
+        "tag": "h2",
+        "text": "Unlock insights, drive success."
+      },
+      {
+        "tag": "h3",
+        "text": "Australian Super"
+      },
+      {
+        "tag": "h3",
+        "text": "Dropbox"
+      },
+      {
+        "tag": "h3",
+        "text": "Rivian"
+      },
+      {
+        "tag": "h3",
+        "text": "Delivery Hero"
+      },
+      {
+        "tag": "h4",
+        "text": "Join the +300,000+ customers that power team collaboration with Atlassian"
+      },
+      {
+        "tag": "h2",
+        "text": "Start using Analytics today"
+      },
+      {
+        "tag": "h5",
+        "text": "products"
+      },
+      {
+        "tag": "h5",
+        "text": "Resources"
+      },
+      {
+        "tag": "h5",
+        "text": "Learn"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h3 -> h5 (\"Developers\")",
+      "heading level skipped: h3 -> h5 (\"Product Managers\")",
+      "heading level skipped: h3 -> h5 (\"IT professionals\")",
+      "heading level skipped: h3 -> h5 (\"Business Teams\")",
+      "heading level skipped: h3 -> h5 (\"Leadership Teams\")",
+      "heading level skipped: h3 -> h5 (\"Solutions\")",
+      "heading level skipped: h3 -> h5 (\"Resources\")",
+      "heading level skipped: h3 -> h5 (\"support\")",
+      "heading level skipped: h2 -> h5 (\"products\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 131,
+    "externalLinkCount": 25,
+    "imagesTotal": 65,
+    "imagesMissingAlt": 55,
+    "wordCount": 607,
+    "topKeywordDensity": [
+      {
+        "term": "data",
+        "count": 19,
+        "density": 0.04449648711943794
+      },
+      {
+        "term": "analytics",
+        "count": 16,
+        "density": 0.03747072599531616
+      },
+      {
+        "term": "teams",
+        "count": 9,
+        "density": 0.02107728337236534
+      },
+      {
+        "term": "atlassian",
+        "count": 8,
+        "density": 0.01873536299765808
+      },
+      {
+        "term": "business",
+        "count": 7,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "time",
+        "count": 6,
+        "density": 0.01405152224824356
+      },
+      {
+        "term": "work",
+        "count": 5,
+        "density": 0.0117096018735363
+      },
+      {
+        "term": "across",
+        "count": 5,
+        "density": 0.0117096018735363
+      },
+      {
+        "term": "explore",
+        "count": 5,
+        "density": 0.0117096018735363
+      },
+      {
+        "term": "decisions",
+        "count": 4,
+        "density": 0.00936768149882904
+      }
+    ]
+  }
+]

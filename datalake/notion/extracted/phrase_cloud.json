@@ -1,0 +1,740 @@
+[
+  {
+    "term": "notion",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Notion AgentAutomate your meeting notes and follow-ups – no bot neededAI Meeting NotesSearch across connected apps like Slack, Github and moreEnt…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      }
+    ]
+  },
+  {
+    "term": "worker",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "The number of credits per run can vary depending on how much work the Worker does, like how long it runs or how much processing it needs."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "They’re cheaper compared to Custom Agents because pricing is based on how much work they do when they run and they don’t require AI decision-making.The tables below break down cost benchmarks for each type of Worker action."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Your actual usage depends on how often your syncs run and how much a Worker does for each run.Syncing more data or handling several updates will cost more."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+      }
+    ]
+  },
+  {
+    "term": "per",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion is that single place.Nick ErdenbergerGTM, OpenAIWatch video→* Plans may not be available for every workspace.Plans and featuresFreeUS$0 per seat/monthSign upPlus*US$10 per seat/monthGet startedBusinessUS$20 per seat/monthGet startedE…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan to customise your title and description metadata.Search engine indexing (SEO)BasicAdvancedAdvancedAdvancedSet a homepage, customise your site’s favicon and share preview, build a custom header bar and set light or dar…"
+      }
+    ]
+  },
+  {
+    "term": "workspace",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion is that single place.Nick ErdenbergerGTM, OpenAIWatch video→* Plans may not be available for every workspace.Plans and featuresFreeUS$0 per seat/monthSign upPlus*US$10 per seat/monthGet startedBusinessUS$20 per seat/monthGet startedE…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "No infra required.WorkersBetaRequires Notion creditsRequires Notion creditsAPI automations & integrationsBuild bespoke integrations to connect your Notion workspace to internal tools and workflows.Public APISend real-time updates to your in…"
+      }
+    ]
+  },
+  {
+    "term": "agent",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Custom Agent actions will consume credits according to your workspace’s plan and credit settings.Notion credits for WorkersWorkers use Notion credits, which are counted in runs."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      }
+    ]
+  },
+  {
+    "term": "run",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Understand pricing for Workers in Notion | Notion Help – Notion Help CentreSearch help centreWorkers run code in the background to automate tasks in Notion."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Each run represents one unit of work completed on your behalf."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "The number of credits per run can vary depending on how much work the Worker does, like how long it runs or how much processing it needs."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      }
+    ]
+  },
+  {
+    "term": "runs",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Custom Agent actions will consume credits according to your workspace’s plan and credit settings.Notion credits for WorkersWorkers use Notion credits, which are counted in runs."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "The number of credits per run can vary depending on how much work the Worker does, like how long it runs or how much processing it needs."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Each tool call counts as its own Worker run (so one agent run can generate multiple Worker runs).Volume of tool callsExample:Worker runs Custom Agent runsCost per monthScheduled (Low)A daily Bug Tracker agent reviews open Jira issues."
+      }
+    ]
+  },
+  {
+    "term": "information",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Appears in search results and AI citations.Verify any pageUse Notion offline on the desktop and mobile app.OfflineChoose pages to download for offline use.Recents and Favourites auto-download for offline use.Recents and Favourites auto-down…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Teamspaces (private)Create groups of people according to role or department to streamline page & teamspace permissions.Permission groupsOverride teamspace permissi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Custom AgentRequires Notion creditsRequires Notion creditsDatabase featuresAdd subtasks and link dependencies.Subtasks and dependenciesAdd unlimi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "No infra required.WorkersBetaRequires Notion creditsRequires Notion creditsAPI automations & integrationsBuild bespoke integrations to connect your Notion workspace to internal tools and workflows.Public APISend real-time updates to your in…"
+      }
+    ]
+  },
+  {
+    "term": "credits",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Starts using credits on 15 October."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Starting on 11 August 2026, they’ll require Notion credits."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.The free beta period applies only to Workers."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Custom Agent actions will consume credits according to your workspace’s plan and credit settings.Notion credits for WorkersWorkers use Notion credits, which are counted in runs."
+      }
+    ]
+  },
+  {
+    "term": "custom",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Custom AgentRequires Notion creditsRequires Notion creditsDatabase featuresAdd subtasks and link dependencies.Subtasks and dependenciesAdd unlimi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+      }
+    ]
+  },
+  {
+    "term": "memory",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/blog",
+        "snippet": "Ivan ZhaoCo-founder & CEOTechBuilding Shared Memory for AI Agents in NotionLore turns conversations, decisions, tasks, and durable facts into Notion pages that future agents (and the people they work with) can easily useHesham SalmanEnginee…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "Building Shared Memory for AI Agents in NotionAll posts←←All postsPublished 18 August 2026 in TechBuilding Shared Memory for AI Agents in NotionBy Hesham SalmanEngineering, NotionShare this postAs software engineering changes, tribal knowle…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "We decided it was time to fix that with Notion.Give Your Agents a MemoryLore is the tool we built for that gap: shared, persistent memory for agents, backed by Notion."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "Any MCP-compatible agent harness can reference the vault, and as a result agent sessions are empowered by agents past.Native memory systems are hyper-localized."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "We wanted a shared platform for the things that should be carried forward.How it worksA Lore vault is a Notion page with five databases:DatabaseWhat it storesProjectsThe project, person, team, or agent scopeTopicsThe subject areas inside th…"
+      }
+    ]
+  },
+  {
+    "term": "workers",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Understand pricing for Workers in Notion | Notion Help – Notion Help CentreSearch help centreWorkers run code in the background to automate tasks in Notion."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.The free beta period applies only to Workers."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      }
+    ]
+  },
+  {
+    "term": "agents",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "They’re cheaper compared to Custom Agents because pricing is based on how much work they do when they run and they don’t require AI decision-making.The tables below break down cost benchmarks for each type of Worker action."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+      }
+    ]
+  },
+  {
+    "term": "lore",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "The inverse is also true: agents would often discover information that is tangential to their current workstream but helpful, and those tasks, refactors, and todos would later get lost (especially if it’s an unattended session!).We came to …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "It is open source under the MIT license at github.com/makenotion/lore.We wanted to make agent experiences durable concepts, stored in Notion, and accessible by both humans and agents."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "We wanted a shared platform for the things that should be carried forward.How it worksA Lore vault is a Notion page with five databases:DatabaseWhat it storesProjectsThe project, person, team, or agent scopeTopicsThe subject areas inside th…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "This is an opinionated structuring of data, but structured data allowed for agents to have a predictable search structure.Agents access Lore through the MCP, with various lore-* MCP tools."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "snippet": "Humans, however, get access to that same information either through Notion directly (after all, these are all Notion pages!), or via a Lore CLI."
+      }
+    ]
+  },
+  {
+    "term": "paid",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan to customise your title and description metadata.Search engine indexing (SEO)BasicAdvancedAdvancedAdvancedSet a homepage, customise your site’s favicon and share preview, build a custom header bar and set light or dar…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Thousands of school email domains are eligible, not just .edu!For more info & FAQs, visit the Notion for Education page.What do the different analytics tiers mean?Basic page analytics (Free and Plus Plans): Includes a list of page viewers a…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "In other words, guests won’t be able to see all the team pages under the Teamspaces section in the left sidebar.How do I get charged when I add members to my workspace?When you add a new member to your workspace, they will use an existing p…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "If you do not have any existing available paid seats, your count of paid seats will increase by 1."
+      }
+    ]
+  },
+  {
+    "term": "data",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Custom AgentRequires Notion creditsRequires Notion creditsDatabase featuresAdd subtasks and link dependencies.Subtasks and dependenciesAdd unlimi…"
+      }
+    ]
+  },
+  {
+    "term": "plan",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan to customise your title and description metadata.Search engine indexing (SEO)BasicAdvancedAdvancedAdvancedSet a homepage, customise your site’s favicon and share preview, build a custom header bar and set light or dar…"
+      }
+    ]
+  },
+  {
+    "term": "work",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Learn more→There’s power in a single platform where you can do all your work from."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Appears in search results and AI citations.Verify any pageUse Notion offline on the desktop and mobile app.OfflineChoose pages to download for offline use.Recents and Favourites auto-download for offline use.Recents and Favourites auto-down…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      }
+    ]
+  },
+  {
+    "term": "each",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "This means you have the option to exchange members in your workspace without paying any additional costs, as long as your total billable seat count remains the same.You’ll receive an invoice for any charges accrued by changes in membership …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Your number of paid seats will be recalculated at each renewal to match the number of members present in the workspace.What happens when I change plans?Upgrading your plan: Your account will be upgraded and charged immediately."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Like if my credit card expires?Your account email will be notified after each failed payment."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Each run represents one unit of work completed on your behalf."
+      }
+    ]
+  },
+  {
+    "term": "access",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Notion AgentAutomate your meeting notes and follow-ups – no bot neededAI Meeting NotesSearch across connected apps like Slack, Github and moreEnt…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsAdd a verified badge to pages that are up to date."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Teamspaces (private)Create groups of people according to role or department to streamline page & teamspace permissions.Permission groupsOverride teamspace permissi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+      }
+    ]
+  },
+  {
+    "term": "use",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Appears in search results and AI citations.Verify any pageUse Notion offline on the desktop and mobile app.OfflineChoose pages to download for offline use.Recents and Favourites auto-download for offline use.Recents and Favourites auto-down…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Perfect for legal or compliance backups.Export entire workspace as PDFManage employee access at scale with secure single sign-on.SAML single sign-on (SSO)Automatically provision members in and out of your workspace with identity providers l…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Just click the (?) button at the bottom left on desktop or tap “Help & support” if you’re on mobile.Priority supportTailored, proactive around-the-clock support offerings for teams with more specialised needs.Premium supportCustomOur team o…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion AI will not use your data to train our models unless you opt in to a request to share your data.Any information used to power Notion AI will be shared with AI subprocessors for the sole purpose of providing you with the Notion AI fea…"
+      }
+    ]
+  },
+  {
+    "term": "members",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Perfect for legal or compliance backups.Export entire workspace as PDFManage employee access at scale with secure single sign-on.SAML single sign-on (SSO)Automatically provision members in and out of your workspace with identity providers l…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Learn more about blocks here →What happens when I go over the block storage limit on a Free Plan?If you’re using a Free Plan workspace by yourself, you’ll be able to add as many pages and blocks as you like.If you’re using a Free Plan works…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "In other words, guests won’t be able to see all the team pages under the Teamspaces section in the left sidebar.How do I get charged when I add members to my workspace?When you add a new member to your workspace, they will use an existing p…"
+      }
+    ]
+  },
+  {
+    "term": "billing",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added.For every member you delete from your workspace, you will open up 1 available pa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "This means you have the option to exchange members in your workspace without paying any additional costs, as long as your total billable seat count remains the same.You’ll receive an invoice for any charges accrued by changes in membership …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "If you added members, your account will be charged a prorated amount based on the percentage of the billing cycle left when a user was added."
+      }
+    ]
+  },
+  {
+    "term": "usage",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Your actual usage may vary, and is the best way to size credits.Examples: scheduled sync credit usageThe table below shows examples of usage."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Your actual usage depends on how often your syncs run and how much a Worker does for each run.Syncing more data or handling several updates will cost more."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "For example, a Custom Agent might call a Worker to fetch data from another system, run a calculation or update records.Tool-call usage depends on how often an agent calls a Worker."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Your actual usage depends on how many events your tools send and how many webhook triggers you’ve set up."
+      }
+    ]
+  },
+  {
+    "term": "free",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try now."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Learn more about blocks here →What happens when I go over the block storage limit on a Free Plan?If you’re using a Free Plan workspace by yourself, you’ll be able to add as many pages and blocks as you like.If you’re using a Free Plan works…"
+      }
+    ]
+  },
+  {
+    "term": "content",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "doughnut, bar and line charts).Unlimited chartsBlocks are pieces of content you add to a page (e.g."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Notion is that single place.Nick ErdenbergerGTM, OpenAIWatch video→* Plans may not be available for every workspace.Plans and featuresFreeUS$0 per seat/monthSign upPlus*US$10 per seat/monthGet startedBusinessUS$20 per seat/monthGet startedE…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Teamspaces (private)Create groups of people according to role or department to streamline page & teamspace permissions.Permission groupsOverride teamspace permissi…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "No infra required.WorkersBetaRequires Notion creditsRequires Notion creditsAPI automations & integrationsBuild bespoke integrations to connect your Notion workspace to internal tools and workflows.Public APISend real-time updates to your in…"
+      }
+    ]
+  },
+  {
+    "term": "template",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/product/docs",
+        "snippet": "Docs | NotionMeeting NotesConnect people & projects with updates & action items.Duplicate Template→Duplicate Template→Design SystemAll your company’s design assets in one place.Duplicate Template→Duplicate Template→Project requirementsA cus…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/product/docs",
+        "snippet": "Easy to share, easy to see.See all integrationsFigmaAlways share the most up-to-date designs with your team.Try now→AmplitudeTrack release metrics, experiment results and more.Try now→GithubBring pull requests, issues and even repos directl…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/teams",
+        "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+      }
+    ]
+  },
+  {
+    "term": "pages",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsAdd a verified badge to pages that are up to date."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Appears in search results and AI citations.Verify any pageUse Notion offline on the desktop and mobile app.OfflineChoose pages to download for offline use.Recents and Favourites auto-download for offline use.Recents and Favourites auto-down…"
+      }
+    ]
+  },
+  {
+    "term": "domain",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "No infra required.WorkersBetaRequires Notion creditsRequires Notion creditsAPI automations & integrationsBuild bespoke integrations to connect your Notion workspace to internal tools and workflows.Public APISend real-time updates to your in…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Upgrade to a paid plan to customise your title and description metadata.Search engine indexing (SEO)BasicAdvancedAdvancedAdvancedSet a homepage, customise your site’s favicon and share preview, build a custom header bar and set light or dar…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+      }
+    ]
+  },
+  {
+    "term": "sync",
+    "occurrences": [
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/pricing",
+        "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "In general, the more work involved, the more credits used.Workers can run in a few different ways (we’ll keep expanding this list):Syncs (scheduled): Each time a sync runs counts as one run.Tool calls (agent-triggered): Each time a Custom A…"
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "Your actual usage may vary, and is the best way to size credits.Examples: scheduled sync credit usageThe table below shows examples of usage."
+      },
+      {
+        "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+      }
+    ]
+  }
+]

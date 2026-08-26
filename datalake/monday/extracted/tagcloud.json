@@ -1,0 +1,640 @@
+{
+  "site": [
+    {
+      "term": "app",
+      "score": 213.83331752411425,
+      "documentFrequency": 2
+    },
+    {
+      "term": "marketplace",
+      "score": 183.94263873042084,
+      "documentFrequency": 2
+    },
+    {
+      "term": "management",
+      "score": 130.09700008919555,
+      "documentFrequency": 5
+    },
+    {
+      "term": "agents",
+      "score": 118.6844537890303,
+      "documentFrequency": 3
+    },
+    {
+      "term": "apps",
+      "score": 108.62644923063792,
+      "documentFrequency": 3
+    },
+    {
+      "term": "min",
+      "score": 103.46773428586174,
+      "documentFrequency": 2
+    },
+    {
+      "term": "work",
+      "score": 101.18655562492988,
+      "documentFrequency": 5
+    },
+    {
+      "term": "platform",
+      "score": 99.58041982135956,
+      "documentFrequency": 5
+    },
+    {
+      "term": "founded",
+      "score": 94.66618322834489,
+      "documentFrequency": 1
+    },
+    {
+      "term": "date",
+      "score": 94.66618322834489,
+      "documentFrequency": 1
+    },
+    {
+      "term": "number",
+      "score": 94.27060234934069,
+      "documentFrequency": 2
+    },
+    {
+      "term": "sales",
+      "score": 92.99978273894205,
+      "documentFrequency": 4
+    },
+    {
+      "term": "team",
+      "score": 91.2113253785778,
+      "documentFrequency": 4
+    },
+    {
+      "term": "crm",
+      "score": 91.21132537857778,
+      "documentFrequency": 4
+    },
+    {
+      "term": "service",
+      "score": 86.49883920217464,
+      "documentFrequency": 3
+    },
+    {
+      "term": "data",
+      "score": 85.12519758922673,
+      "documentFrequency": 5
+    },
+    {
+      "term": "read",
+      "score": 85.12519758922672,
+      "documentFrequency": 5
+    },
+    {
+      "term": "saas",
+      "score": 83.84719085939119,
+      "documentFrequency": 1
+    },
+    {
+      "term": "customer",
+      "score": 80.48058121639215,
+      "documentFrequency": 4
+    },
+    {
+      "term": "businesses",
+      "score": 78.43769467491433,
+      "documentFrequency": 1
+    },
+    {
+      "term": "monday",
+      "score": 75,
+      "documentFrequency": 10
+    },
+    {
+      "term": "project",
+      "score": 74.42923373210375,
+      "documentFrequency": 3
+    },
+    {
+      "term": "marketing",
+      "score": 73.32675177493508,
+      "documentFrequency": 4
+    },
+    {
+      "term": "started",
+      "score": 72.2761111606642,
+      "documentFrequency": 5
+    },
+    {
+      "term": "developers",
+      "score": 70.32345039819906,
+      "documentFrequency": 1
+    },
+    {
+      "term": "target",
+      "score": 64.3799235556473,
+      "documentFrequency": 2
+    },
+    {
+      "term": "development",
+      "score": 64.3799235556473,
+      "documentFrequency": 2
+    },
+    {
+      "term": "like",
+      "score": 62.35962826203287,
+      "documentFrequency": 3
+    },
+    {
+      "term": "custom",
+      "score": 60.3480273503544,
+      "documentFrequency": 3
+    },
+    {
+      "term": "plan",
+      "score": 59.019092892020915,
+      "documentFrequency": 4
+    },
+    {
+      "term": "customers",
+      "score": 57.230635531656645,
+      "documentFrequency": 4
+    },
+    {
+      "term": "marketplaces",
+      "score": 56.79970993700693,
+      "documentFrequency": 1
+    },
+    {
+      "term": "email",
+      "score": 55.44217817129237,
+      "documentFrequency": 4
+    },
+    {
+      "term": "audience",
+      "score": 55.182791619126256,
+      "documentFrequency": 2
+    },
+    {
+      "term": "business",
+      "score": 54.608617321390724,
+      "documentFrequency": 5
+    },
+    {
+      "term": "tools",
+      "score": 54.608617321390724,
+      "documentFrequency": 5
+    },
+    {
+      "term": "categories",
+      "score": 54.094961844768505,
+      "documentFrequency": 1
+    },
+    {
+      "term": "every",
+      "score": 50.07680609019957,
+      "documentFrequency": 4
+    },
+    {
+      "term": "using",
+      "score": 50.07680609019956,
+      "documentFrequency": 4
+    },
+    {
+      "term": "teams",
+      "score": 48.28834872983529,
+      "documentFrequency": 4
+    },
+    {
+      "term": "product",
+      "score": 48.27842188028352,
+      "documentFrequency": 3
+    },
+    {
+      "term": "leads",
+      "score": 48.27842188028352,
+      "documentFrequency": 3
+    },
+    {
+      "term": "emails",
+      "score": 44.71143400910675,
+      "documentFrequency": 4
+    },
+    {
+      "term": "per",
+      "score": 44.25522005692656,
+      "documentFrequency": 3
+    },
+    {
+      "term": "own",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "campaigns",
+      "score": 43.36566669639852,
+      "documentFrequency": 5
+    },
+    {
+      "term": "quotes",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "analytics",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "meeting",
+      "score": 42.243619145248076,
+      "documentFrequency": 3
+    },
+    {
+      "term": "com",
+      "score": 41.7595308928282,
+      "documentFrequency": 5
+    }
+  ],
+  "byPage": {
+    "https://monday.com/": [
+      {
+        "term": "started",
+        "score": 61.03316053567199
+      },
+      {
+        "term": "agents",
+        "score": 42.243619145248076
+      },
+      {
+        "term": "agent",
+        "score": 36.78852774608417
+      },
+      {
+        "term": "inside",
+        "score": 35.16172519909953
+      },
+      {
+        "term": "div",
+        "score": 32.4569771068611
+      },
+      {
+        "term": "block",
+        "score": 32.4569771068611
+      },
+      {
+        "term": "own",
+        "score": 29.89067879369339
+      },
+      {
+        "term": "some",
+        "score": 27.591395809563128
+      },
+      {
+        "term": "text",
+        "score": 27.591395809563128
+      },
+      {
+        "term": "work",
+        "score": 24.092037053554733
+      }
+    ],
+    "https://monday.com/crm/campaigns/pricing": [
+      {
+        "term": "campaigns",
+        "score": 33.72885187497663
+      },
+      {
+        "term": "contact",
+        "score": 26.826860405464053
+      },
+      {
+        "term": "email",
+        "score": 25.038403045099784
+      },
+      {
+        "term": "per",
+        "score": 24.13921094014176
+      },
+      {
+        "term": "emails",
+        "score": 23.24994568473551
+      },
+      {
+        "term": "plan",
+        "score": 21.461488324371242
+      },
+      {
+        "term": "account",
+        "score": 20.693546857172347
+      },
+      {
+        "term": "month",
+        "score": 18.394263873042085
+      },
+      {
+        "term": "monday",
+        "score": 15
+      },
+      {
+        "term": "change",
+        "score": 13.795697904781564
+      }
+    ],
+    "https://monday.com/crm/pricing": [
+      {
+        "term": "team",
+        "score": 51.86526345056384
+      },
+      {
+        "term": "custom",
+        "score": 48.27842188028352
+      },
+      {
+        "term": "data",
+        "score": 48.18407410710947
+      },
+      {
+        "term": "quotes",
+        "score": 43.275969475814804
+      },
+      {
+        "term": "work",
+        "score": 41.7595308928282
+      },
+      {
+        "term": "using",
+        "score": 41.134519288378215
+      },
+      {
+        "term": "leads",
+        "score": 40.2320182335696
+      },
+      {
+        "term": "invoices",
+        "score": 32.18996177782365
+      },
+      {
+        "term": "plan",
+        "score": 30.403775126192592
+      },
+      {
+        "term": "app",
+        "score": 29.89067879369339
+      }
+    ],
+    "https://monday.com/help": [
+      {
+        "term": "supportlearn",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "moretalk",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "saleslearn",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "morevisit",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "centerlearn",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "shibuya",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "tel",
+        "score": 4.598565968260521
+      },
+      {
+        "term": "aviv",
+        "score": 4.598565968260521
+      },
+      {
+        "term": "paulo",
+        "score": 4.598565968260521
+      },
+      {
+        "term": "help",
+        "score": 4.02320182335696
+      }
+    ],
+    "https://monday.com/blog": [
+      {
+        "term": "min",
+        "score": 94.27060234934069
+      },
+      {
+        "term": "management",
+        "score": 75.48838276780482
+      },
+      {
+        "term": "read",
+        "score": 72.2761111606642
+      },
+      {
+        "term": "agents",
+        "score": 56.32482552699744
+      },
+      {
+        "term": "development",
+        "score": 55.182791619126256
+      },
+      {
+        "term": "service",
+        "score": 54.31322461531896
+      },
+      {
+        "term": "sales",
+        "score": 46.49989136947102
+      },
+      {
+        "term": "project",
+        "score": 46.26682096860504
+      },
+      {
+        "term": "product",
+        "score": 38.22041732189112
+      },
+      {
+        "term": "life",
+        "score": 37.866473291337954
+      }
+    ],
+    "https://monday.com/lang/de/help": [
+      {
+        "term": "mehr",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "erfahrenkontakt",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "york",
+        "score": 6.897848952390782
+      },
+      {
+        "term": "kontakt",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "kundendienst",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "vertriebsteam",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "erfahrenfaq",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "anleitungenmehr",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "street",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "tel",
+        "score": 4.598565968260521
+      }
+    ],
+    "https://monday.com/academy": [
+      {
+        "term": "academy",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "courses",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "webinars",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "certifications",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "skills",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "training",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "monday",
+        "score": 1
+      }
+    ],
+    "https://monday.com/academy/view/certification/work-management-core-certification": [
+      {
+        "term": "academy",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "courses",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "webinars",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "certifications",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "skills",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "training",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "monday",
+        "score": 1
+      }
+    ],
+    "https://monday.com/academy/view/lesson/admin-essentials": [
+      {
+        "term": "academy",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "courses",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "webinars",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "certifications",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "skills",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "training",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "monday",
+        "score": 1
+      }
+    ],
+    "https://monday.com/appdeveloper/blog/saas-marketplaces-for-developers/": [
+      {
+        "term": "app",
+        "score": 183.94263873042087
+      },
+      {
+        "term": "marketplace",
+        "score": 181.64335574629058
+      },
+      {
+        "term": "apps",
+        "score": 102.59164649560248
+      },
+      {
+        "term": "founded",
+        "score": 94.66618322834489
+      },
+      {
+        "term": "date",
+        "score": 94.66618322834489
+      },
+      {
+        "term": "number",
+        "score": 91.97131936521043
+      },
+      {
+        "term": "saas",
+        "score": 83.84719085939119
+      },
+      {
+        "term": "platform",
+        "score": 83.5190617856564
+      },
+      {
+        "term": "businesses",
+        "score": 78.43769467491433
+      },
+      {
+        "term": "developers",
+        "score": 70.32345039819906
+      }
+    ]
+  }
+}

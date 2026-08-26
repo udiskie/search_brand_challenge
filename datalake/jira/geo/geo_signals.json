@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://www.atlassian.com/software/bamboo/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days."
+    },
+    "factualDensity": {
+      "numberCount": 10,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 7
+    },
+    "extractableStructure": {
+      "listCount": 4,
+      "tableCount": 5,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits."
+    },
+    "factualDensity": {
+      "numberCount": 28,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9655172413793104
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 4
+    },
+    "extractableStructure": {
+      "listCount": 6,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.6
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work."
+    },
+    "factualDensity": {
+      "numberCount": 12,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 2,
+      "score": 0.8571428571428571
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 3
+    },
+    "extractableStructure": {
+      "listCount": 58,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/software/bitbucket/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs."
+    },
+    "factualDensity": {
+      "numberCount": 13,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 2,
+      "score": 0.8666666666666667
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 3
+    },
+    "extractableStructure": {
+      "listCount": 9,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Learn how to roll out Compass effectively for a smooth adoption process."
+    },
+    "factualDensity": {
+      "numberCount": 41,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9761904761904762
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 20,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/blog/about",
+    "entityClarity": {
+      "hasSelfContainedDefinition": false,
+      "definitionSnippet": null
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 6,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.6
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons."
+    },
+    "factualDensity": {
+      "numberCount": 35,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 5,
+      "score": 0.875
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 33
+    },
+    "extractableStructure": {
+      "listCount": 8,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.8
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/platform",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork."
+    },
+    "factualDensity": {
+      "numberCount": 6,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.8571428571428571
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 4
+    },
+    "extractableStructure": {
+      "listCount": 6,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.6
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/platform/ai-trust",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely."
+    },
+    "factualDensity": {
+      "numberCount": 1,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 2,
+      "score": 0.3333333333333333
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 1
+    },
+    "extractableStructure": {
+      "listCount": 4,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.4
+    }
+  },
+  {
+    "url": "https://www.atlassian.com/platform/analytics",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Gain full visibility into how your teams work with Atlassian Analytics"
+    },
+    "factualDensity": {
+      "numberCount": 9,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 2
+    },
+    "extractableStructure": {
+      "listCount": 5,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.5
+    }
+  }
+]

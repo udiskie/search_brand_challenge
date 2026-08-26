@@ -1,0 +1,676 @@
+{
+  "site": [
+    {
+      "term": "teams",
+      "score": 79,
+      "documentFrequency": 10
+    },
+    {
+      "term": "atlassian",
+      "score": 77,
+      "documentFrequency": 10
+    },
+    {
+      "term": "data",
+      "score": 67.23755894588048,
+      "documentFrequency": 8
+    },
+    {
+      "term": "compass",
+      "score": 62.08064057151704,
+      "documentFrequency": 2
+    },
+    {
+      "term": "work",
+      "score": 60.64887163145259,
+      "documentFrequency": 7
+    },
+    {
+      "term": "partners",
+      "score": 59.504458029245356,
+      "documentFrequency": 1
+    },
+    {
+      "term": "marketplace",
+      "score": 57.482074603256514,
+      "documentFrequency": 2
+    },
+    {
+      "term": "team",
+      "score": 54.76550899021625,
+      "documentFrequency": 9
+    },
+    {
+      "term": "support",
+      "score": 50.07680609019957,
+      "documentFrequency": 4
+    },
+    {
+      "term": "teamwork",
+      "score": 49.79020991067978,
+      "documentFrequency": 5
+    },
+    {
+      "term": "bamboo",
+      "score": 48.685465660291655,
+      "documentFrequency": 1
+    },
+    {
+      "term": "analytics",
+      "score": 45.98565968260522,
+      "documentFrequency": 2
+    },
+    {
+      "term": "senior",
+      "score": 44.25522005692656,
+      "documentFrequency": 3
+    },
+    {
+      "term": "rollout",
+      "score": 43.68637669847496,
+      "documentFrequency": 2
+    },
+    {
+      "term": "component",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "years",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "apps",
+      "score": 39.55361193355604,
+      "documentFrequency": 7
+    },
+    {
+      "term": "plan",
+      "score": 39.34606192801394,
+      "documentFrequency": 4
+    },
+    {
+      "term": "leaders",
+      "score": 39.34606192801394,
+      "documentFrequency": 4
+    },
+    {
+      "term": "need",
+      "score": 37.75161321731949,
+      "documentFrequency": 6
+    },
+    {
+      "term": "platform",
+      "score": 36.020120863864534,
+      "documentFrequency": 8
+    },
+    {
+      "term": "time",
+      "score": 34.84764296983337,
+      "documentFrequency": 6
+    },
+    {
+      "term": "across",
+      "score": 34.279797009081896,
+      "documentFrequency": 7
+    },
+    {
+      "term": "adoption",
+      "score": 34.197215498534156,
+      "documentFrequency": 3
+    },
+    {
+      "term": "over",
+      "score": 32.19223248655686,
+      "documentFrequency": 4
+    },
+    {
+      "term": "free",
+      "score": 32.189961777823655,
+      "documentFrequency": 2
+    },
+    {
+      "term": "strategy",
+      "score": 32.122716071406316,
+      "documentFrequency": 5
+    },
+    {
+      "term": "cloud",
+      "score": 31.94367272234726,
+      "documentFrequency": 6
+    },
+    {
+      "term": "use",
+      "score": 30.516580267835995,
+      "documentFrequency": 5
+    },
+    {
+      "term": "center",
+      "score": 30.174013675177196,
+      "documentFrequency": 3
+    },
+    {
+      "term": "bitbucket",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "storage",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "past",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "build",
+      "score": 29.039702474861144,
+      "documentFrequency": 6
+    },
+    {
+      "term": "goals",
+      "score": 29.039702474861144,
+      "documentFrequency": 6
+    },
+    {
+      "term": "share",
+      "score": 28.16241276349872,
+      "documentFrequency": 3
+    },
+    {
+      "term": "context",
+      "score": 28.162412763498715,
+      "documentFrequency": 3
+    },
+    {
+      "term": "catalog",
+      "score": 27.591395809563128,
+      "documentFrequency": 2
+    },
+    {
+      "term": "hygiene",
+      "score": 27.591395809563128,
+      "documentFrequency": 2
+    },
+    {
+      "term": "insights",
+      "score": 27.587717351118087,
+      "documentFrequency": 6
+    },
+    {
+      "term": "minutes",
+      "score": 27.047480922384253,
+      "documentFrequency": 1
+    },
+    {
+      "term": "rovo",
+      "score": 26.826860405464053,
+      "documentFrequency": 4
+    },
+    {
+      "term": "explore",
+      "score": 26.82686040546405,
+      "documentFrequency": 4
+    },
+    {
+      "term": "learn",
+      "score": 26.36907462237069,
+      "documentFrequency": 7
+    },
+    {
+      "term": "developer",
+      "score": 26.15081185182024,
+      "documentFrequency": 3
+    },
+    {
+      "term": "every",
+      "score": 26.15081185182024,
+      "documentFrequency": 3
+    },
+    {
+      "term": "should",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "manager",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "feedback",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "section",
+      "score": 25.292112825432866,
+      "documentFrequency": 2
+    }
+  ],
+  "byPage": {
+    "https://www.atlassian.com/software/bamboo/pricing": [
+      {
+        "term": "bamboo",
+        "score": 48.685465660291655
+      },
+      {
+        "term": "jobs",
+        "score": 21.637984737907402
+      },
+      {
+        "term": "free",
+        "score": 20.693546857172347
+      },
+      {
+        "term": "show",
+        "score": 16.22848855343055
+      },
+      {
+        "term": "copy",
+        "score": 16.22848855343055
+      },
+      {
+        "term": "pricing",
+        "score": 13.795697904781564
+      },
+      {
+        "term": "faq",
+        "score": 13.523740461192126
+      },
+      {
+        "term": "link",
+        "score": 13.523740461192126
+      },
+      {
+        "term": "heading",
+        "score": 13.523740461192126
+      },
+      {
+        "term": "copied",
+        "score": 13.523740461192126
+      }
+    ],
+    "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout": [
+      {
+        "term": "compass",
+        "score": 27.591395809563128
+      },
+      {
+        "term": "component",
+        "score": 25.292112825432866
+      },
+      {
+        "term": "owners",
+        "score": 18.933236645668977
+      },
+      {
+        "term": "adoption",
+        "score": 16.09280729342784
+      },
+      {
+        "term": "hygiene",
+        "score": 13.795697904781564
+      },
+      {
+        "term": "scorecard",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "rollout",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "tracking",
+        "score": 8.94228680182135
+      },
+      {
+        "term": "objectives",
+        "score": 8.04640364671392
+      },
+      {
+        "term": "data",
+        "score": 7.2040241727729075
+      }
+    ],
+    "https://www.atlassian.com/": [
+      {
+        "term": "context",
+        "score": 18.104408205106317
+      },
+      {
+        "term": "teams",
+        "score": 18
+      },
+      {
+        "term": "work",
+        "score": 13.184537311185345
+      },
+      {
+        "term": "teamwork",
+        "score": 11.242950624992208
+      },
+      {
+        "term": "pulling",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "add",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "rovo",
+        "score": 10.730744162185621
+      },
+      {
+        "term": "software",
+        "score": 10.0580045583924
+      },
+      {
+        "term": "strategy",
+        "score": 9.636814821421893
+      },
+      {
+        "term": "update",
+        "score": 9.197131936521043
+      }
+    ],
+    "https://www.atlassian.com/software/bitbucket/pricing": [
+      {
+        "term": "bitbucket",
+        "score": 29.752229014622678
+      },
+      {
+        "term": "storage",
+        "score": 29.752229014622678
+      },
+      {
+        "term": "minutes",
+        "score": 27.047480922384253
+      },
+      {
+        "term": "plan",
+        "score": 23.24994568473551
+      },
+      {
+        "term": "center",
+        "score": 18.104408205106317
+      },
+      {
+        "term": "premium",
+        "score": 16.22848855343055
+      },
+      {
+        "term": "workspace",
+        "score": 16.094980888911824
+      },
+      {
+        "term": "build",
+        "score": 15.97183636117363
+      },
+      {
+        "term": "cloud",
+        "score": 15.97183636117363
+      },
+      {
+        "term": "user",
+        "score": 14.08120638174936
+      }
+    ],
+    "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy": [
+      {
+        "term": "compass",
+        "score": 34.48924476195391
+      },
+      {
+        "term": "rollout",
+        "score": 34.48924476195391
+      },
+      {
+        "term": "senior",
+        "score": 34.197215498534156
+      },
+      {
+        "term": "leaders",
+        "score": 28.615317765828323
+      },
+      {
+        "term": "support",
+        "score": 26.826860405464053
+      },
+      {
+        "term": "catalog",
+        "score": 20.693546857172347
+      },
+      {
+        "term": "section",
+        "score": 20.693546857172347
+      },
+      {
+        "term": "component",
+        "score": 18.394263873042085
+      },
+      {
+        "term": "should",
+        "score": 18.104408205106317
+      },
+      {
+        "term": "need",
+        "score": 17.423821484916687
+      }
+    ],
+    "https://www.atlassian.com/blog/about": [
+      {
+        "term": "expert",
+        "score": 16.22848855343055
+      },
+      {
+        "term": "inside",
+        "score": 13.795697904781564
+      },
+      {
+        "term": "atlassian",
+        "score": 10
+      },
+      {
+        "term": "evidence",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "writer",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "molly",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "research",
+        "score": 8.04640364671392
+      },
+      {
+        "term": "teamwork",
+        "score": 8.030679017851577
+      },
+      {
+        "term": "insights",
+        "score": 7.259925618715286
+      },
+      {
+        "term": "content",
+        "score": 6.897848952390782
+      }
+    ],
+    "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace": [
+      {
+        "term": "partners",
+        "score": 59.504458029245356
+      },
+      {
+        "term": "marketplace",
+        "score": 55.182791619126256
+      },
+      {
+        "term": "years",
+        "score": 43.275969475814804
+      },
+      {
+        "term": "team",
+        "score": 33.95461557393408
+      },
+      {
+        "term": "past",
+        "score": 29.752229014622678
+      },
+      {
+        "term": "over",
+        "score": 26.826860405464053
+      },
+      {
+        "term": "appfire",
+        "score": 21.637984737907402
+      },
+      {
+        "term": "atlassian",
+        "score": 21
+      },
+      {
+        "term": "apps",
+        "score": 19.776805966778017
+      },
+      {
+        "term": "teamwork",
+        "score": 19.273629642843787
+      }
+    ],
+    "https://www.atlassian.com/platform": [
+      {
+        "term": "work",
+        "score": 17.139898504540948
+      },
+      {
+        "term": "atlassian",
+        "score": 14
+      },
+      {
+        "term": "platform",
+        "score": 13.207377650083664
+      },
+      {
+        "term": "across",
+        "score": 13.184537311185345
+      },
+      {
+        "term": "data",
+        "score": 12.006706954621514
+      },
+      {
+        "term": "learn",
+        "score": 11.86608358006681
+      },
+      {
+        "term": "experiences",
+        "score": 11.496414920651304
+      },
+      {
+        "term": "teams",
+        "score": 11
+      },
+      {
+        "term": "home",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "goals",
+        "score": 10.1638958662014
+      }
+    ],
+    "https://www.atlassian.com/platform/ai-trust": [
+      {
+        "term": "compliance",
+        "score": 12.519201522549892
+      },
+      {
+        "term": "trusted",
+        "score": 11.496414920651304
+      },
+      {
+        "term": "privacy",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "rovo",
+        "score": 10.730744162185621
+      },
+      {
+        "term": "security",
+        "score": 10.0580045583924
+      },
+      {
+        "term": "trust",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "controls",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "industry",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "built",
+        "score": 8.030679017851577
+      },
+      {
+        "term": "atlassian",
+        "score": 8
+      }
+    ],
+    "https://www.atlassian.com/platform/analytics": [
+      {
+        "term": "analytics",
+        "score": 36.78852774608417
+      },
+      {
+        "term": "data",
+        "score": 22.812743213780877
+      },
+      {
+        "term": "business",
+        "score": 11.242950624992208
+      },
+      {
+        "term": "teams",
+        "score": 9
+      },
+      {
+        "term": "explore",
+        "score": 8.94228680182135
+      },
+      {
+        "term": "time",
+        "score": 8.711910742458343
+      },
+      {
+        "term": "metrics",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "flow",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "full",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "decisions",
+        "score": 8.04640364671392
+      }
+    ]
+  }
+}
