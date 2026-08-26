@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://linear.app/",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Purpose-built for planning and building products with AI agents."
+    },
+    "factualDensity": {
+      "numberCount": 15,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 2,
+      "score": 0.8823529411764706
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 10,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://linear.app/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Use Linear for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features."
+    },
+    "factualDensity": {
+      "numberCount": 7,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 14,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+    "entityClarity": {
+      "hasSelfContainedDefinition": false,
+      "definitionSnippet": null
+    },
+    "factualDensity": {
+      "numberCount": 4,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 1
+    },
+    "extractableStructure": {
+      "listCount": 4,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.4
+    }
+  },
+  {
+    "url": "https://linear.app/docs",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "This guide is intended to give you an overview of Linear's features, discover their flexibility, and provide tips for how to use Linear to improve the speed, value, and joy of your work."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 2,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.2
+    }
+  },
+  {
+    "url": "https://linear.app/docs/start-guide",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Linear helps teams plan, track, and deliver work without a lot of overhead. This guide gets you from new workspace to working in Linear quickly."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 4
+    },
+    "extractableStructure": {
+      "listCount": 9,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  },
+  {
+    "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "As Linear passes $100 million in ARR, we’re giving our team another opportunity to participate in the upside."
+    },
+    "factualDensity": {
+      "numberCount": 13,
+      "comparativeStatements": 4,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9444444444444444
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 10,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://linear.app/blog",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Linear product updates, thoughts on crafting beautiful products, and reflections on building a startup."
+    },
+    "factualDensity": {
+      "numberCount": 95,
+      "comparativeStatements": 3,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.98989898989899
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 8
+    },
+    "extractableStructure": {
+      "listCount": 9,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  },
+  {
+    "url": "https://linear.app/about",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "We’re bringing magic back to software."
+    },
+    "factualDensity": {
+      "numberCount": 10,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 10
+    },
+    "extractableStructure": {
+      "listCount": 11,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://linear.app/careers",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "We are crafting the tool for teams who care about quality. Join us on our mission!"
+    },
+    "factualDensity": {
+      "numberCount": 19,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 4,
+      "score": 0.8260869565217391
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 8
+    },
+    "extractableStructure": {
+      "listCount": 11,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://linear.app/agents",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Build and deploy AI agents that work alongside you as teammates."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 9,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  }
+]

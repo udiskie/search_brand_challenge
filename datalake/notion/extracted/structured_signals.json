@@ -1,0 +1,1336 @@
+[
+  {
+    "url": "https://www.notion.com/en-gb/pricing",
+    "title": "Notion Pricing Plans: Free, Plus, Business and Enterprise.",
+    "titleLength": 58,
+    "metaDescription": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.",
+    "metaDescriptionLength": 120,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "One tool to run your company."
+      },
+      {
+        "tag": "h2",
+        "text": "Essentials for staying organised."
+      },
+      {
+        "tag": "h3",
+        "text": "Free"
+      },
+      {
+        "tag": "h3",
+        "text": "Plus*"
+      },
+      {
+        "tag": "h2",
+        "text": "The AI workspace for work that matters."
+      },
+      {
+        "tag": "h3",
+        "text": "BusinessRecommended"
+      },
+      {
+        "tag": "h3",
+        "text": "Enterprise*"
+      },
+      {
+        "tag": "h3",
+        "text": "Custom Agents"
+      },
+      {
+        "tag": "h3",
+        "text": "WorkersBeta"
+      },
+      {
+        "tag": "h2",
+        "text": "Plans and features"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions & answers"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 90,
+    "externalLinkCount": 11,
+    "imagesTotal": 12,
+    "imagesMissingAlt": 8,
+    "wordCount": 3046,
+    "topKeywordDensity": [
+      {
+        "term": "notion",
+        "count": 54,
+        "density": 0.02708124373119358
+      },
+      {
+        "term": "workspace",
+        "count": 49,
+        "density": 0.02457372116349047
+      },
+      {
+        "term": "plan",
+        "count": 21,
+        "density": 0.01053159478435306
+      },
+      {
+        "term": "paid",
+        "count": 21,
+        "density": 0.01053159478435306
+      },
+      {
+        "term": "content",
+        "count": 18,
+        "density": 0.009027081243731194
+      },
+      {
+        "term": "members",
+        "count": 18,
+        "density": 0.009027081243731194
+      },
+      {
+        "term": "billing",
+        "count": 18,
+        "density": 0.009027081243731194
+      },
+      {
+        "term": "data",
+        "count": 17,
+        "density": 0.008525576730190571
+      },
+      {
+        "term": "access",
+        "count": 17,
+        "density": 0.008525576730190571
+      },
+      {
+        "term": "pages",
+        "count": 16,
+        "density": 0.00802407221664995
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/product/docs",
+    "title": "Docs | Notion",
+    "titleLength": 13,
+    "metaDescription": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+    "metaDescriptionLength": 58,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "The next gen of notes & docs"
+      },
+      {
+        "tag": "h2",
+        "text": "Go way beyond text & bullet points"
+      },
+      {
+        "tag": "h3",
+        "text": "Code snippets"
+      },
+      {
+        "tag": "h3",
+        "text": "Toggles"
+      },
+      {
+        "tag": "h3",
+        "text": "Images & videos"
+      },
+      {
+        "tag": "h3",
+        "text": "Table of contents"
+      },
+      {
+        "tag": "h3",
+        "text": "Charts"
+      },
+      {
+        "tag": "h3",
+        "text": "And 50+ more content types"
+      },
+      {
+        "tag": "h2",
+        "text": "Store docs where people can easily find them"
+      },
+      {
+        "tag": "h3",
+        "text": "Every team’s files, at a glance"
+      },
+      {
+        "tag": "h2",
+        "text": "Get your team on the same page, literally"
+      },
+      {
+        "tag": "h3",
+        "text": "Collaborate or co-edit together"
+      },
+      {
+        "tag": "h3",
+        "text": "Comments keep the ball rolling async"
+      },
+      {
+        "tag": "h2",
+        "text": "For PMs, designers, engineers and everyone in between"
+      },
+      {
+        "tag": "h2",
+        "text": "Wikis and Projects included, for the same price"
+      },
+      {
+        "tag": "h3",
+        "text": "Wikis"
+      },
+      {
+        "tag": "h3",
+        "text": "Projects"
+      },
+      {
+        "tag": "h2",
+        "text": "Info from Figma, GitHub & more. Easy to share, easy to see."
+      },
+      {
+        "tag": "h3",
+        "text": "Figma"
+      },
+      {
+        "tag": "h3",
+        "text": "Amplitude"
+      },
+      {
+        "tag": "h3",
+        "text": "Github"
+      },
+      {
+        "tag": "h3",
+        "text": "Slack"
+      },
+      {
+        "tag": "h3",
+        "text": "Jira"
+      },
+      {
+        "tag": "h3",
+        "text": "Browse all integrations"
+      },
+      {
+        "tag": "h2",
+        "text": "Choose a template to get started"
+      },
+      {
+        "tag": "h3",
+        "text": "Mixpanel’s daily standup & tasks"
+      },
+      {
+        "tag": "h3",
+        "text": "Notion’s product requirement doc"
+      },
+      {
+        "tag": "h3",
+        "text": "Netflix’s branding framework"
+      },
+      {
+        "tag": "h1",
+        "text": "Write your next doc in Notion"
+      }
+    ],
+    "h1Count": 2,
+    "headingOrderIssues": [
+      "multiple h1 tags (2)"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 100,
+    "externalLinkCount": 7,
+    "imagesTotal": 37,
+    "imagesMissingAlt": 0,
+    "wordCount": 407,
+    "topKeywordDensity": [
+      {
+        "term": "template",
+        "count": 12,
+        "density": 0.03934426229508197
+      },
+      {
+        "term": "duplicate",
+        "count": 8,
+        "density": 0.02622950819672131
+      },
+      {
+        "term": "notion",
+        "count": 7,
+        "density": 0.022950819672131147
+      },
+      {
+        "term": "see",
+        "count": 6,
+        "density": 0.019672131147540985
+      },
+      {
+        "term": "meeting",
+        "count": 5,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "try",
+        "count": 5,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "now",
+        "count": 5,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "project",
+        "count": 4,
+        "density": 0.013114754098360656
+      },
+      {
+        "term": "easy",
+        "count": 4,
+        "density": 0.013114754098360656
+      },
+      {
+        "term": "team",
+        "count": 4,
+        "density": 0.013114754098360656
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+    "title": "Understand pricing for Workers in Notion | Notion Help – Notion Help Centre",
+    "titleLength": 75,
+    "metaDescription": "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs, and where to view usage.",
+    "metaDescriptionLength": 115,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Understand pricing for Workers (beta)"
+      },
+      {
+        "tag": "h2",
+        "text": "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs and where to view usage 💸"
+      },
+      {
+        "tag": "h2",
+        "text": "Notion credits for Workers"
+      },
+      {
+        "tag": "h2",
+        "text": "How much is one Worker run?"
+      },
+      {
+        "tag": "h2",
+        "text": "Examples: scheduled sync credit usage"
+      },
+      {
+        "tag": "h2",
+        "text": "Examples: Tool calls (agent-triggered)"
+      },
+      {
+        "tag": "h2",
+        "text": "Examples: Webhooks (alpha)"
+      },
+      {
+        "tag": "h2",
+        "text": "Track usage in the Notion CLI"
+      },
+      {
+        "tag": "h2",
+        "text": "Admin controls for Workers"
+      },
+      {
+        "tag": "h2",
+        "text": "Sizing credit needs for Workers"
+      },
+      {
+        "tag": "h2",
+        "text": "How to optimise Worker credit usage"
+      },
+      {
+        "tag": "h2",
+        "text": "FAQs"
+      },
+      {
+        "tag": "h2",
+        "text": "Contents"
+      },
+      {
+        "tag": "h3",
+        "text": "Was this resource helpful?"
+      },
+      {
+        "tag": "h3",
+        "text": "Custom Agents"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [
+      "BreadcrumbList",
+      "Article"
+    ],
+    "internalLinkCount": 133,
+    "externalLinkCount": 9,
+    "imagesTotal": 5,
+    "imagesMissingAlt": 5,
+    "wordCount": 1316,
+    "topKeywordDensity": [
+      {
+        "term": "worker",
+        "count": 33,
+        "density": 0.03499469777306469
+      },
+      {
+        "term": "run",
+        "count": 30,
+        "density": 0.031813361611876985
+      },
+      {
+        "term": "credits",
+        "count": 26,
+        "density": 0.027571580063626724
+      },
+      {
+        "term": "notion",
+        "count": 25,
+        "density": 0.026511134676564158
+      },
+      {
+        "term": "per",
+        "count": 25,
+        "density": 0.026511134676564158
+      },
+      {
+        "term": "runs",
+        "count": 23,
+        "density": 0.024390243902439025
+      },
+      {
+        "term": "workers",
+        "count": 22,
+        "density": 0.02332979851537646
+      },
+      {
+        "term": "usage",
+        "count": 18,
+        "density": 0.019088016967126194
+      },
+      {
+        "term": "custom",
+        "count": 17,
+        "density": 0.018027571580063628
+      },
+      {
+        "term": "agent",
+        "count": 17,
+        "density": 0.018027571580063628
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/help",
+    "title": "Help, support and documentation for Notion",
+    "titleLength": 42,
+    "metaDescription": "Learn how to scale workflows, connect your tools and become a Notion expert – all in one place.",
+    "metaDescriptionLength": 95,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "Hi, how can we help you?"
+      },
+      {
+        "tag": "h2",
+        "text": "Popular topics"
+      },
+      {
+        "tag": "h2",
+        "text": "Browse by team"
+      },
+      {
+        "tag": "h2",
+        "text": "Notion Academy"
+      },
+      {
+        "tag": "h2",
+        "text": "What’s new"
+      },
+      {
+        "tag": "h2",
+        "text": "Still have questions?"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [
+      "BreadcrumbList"
+    ],
+    "internalLinkCount": 122,
+    "externalLinkCount": 11,
+    "imagesTotal": 12,
+    "imagesMissingAlt": 1,
+    "wordCount": 161,
+    "topKeywordDensity": [
+      {
+        "term": "notion",
+        "count": 12,
+        "density": 0.11009174311926606
+      },
+      {
+        "term": "help",
+        "count": 4,
+        "density": 0.03669724770642202
+      },
+      {
+        "term": "use",
+        "count": 3,
+        "density": 0.027522935779816515
+      },
+      {
+        "term": "agents",
+        "count": 3,
+        "density": 0.027522935779816515
+      },
+      {
+        "term": "start",
+        "count": 2,
+        "density": 0.01834862385321101
+      },
+      {
+        "term": "features",
+        "count": 2,
+        "density": 0.01834862385321101
+      },
+      {
+        "term": "custom",
+        "count": 2,
+        "density": 0.01834862385321101
+      },
+      {
+        "term": "work",
+        "count": 2,
+        "density": 0.01834862385321101
+      },
+      {
+        "term": "workspace",
+        "count": 2,
+        "density": 0.01834862385321101
+      },
+      {
+        "term": "learn",
+        "count": 2,
+        "density": 0.01834862385321101
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/blog",
+    "title": "Tools & craft – Notion blog",
+    "titleLength": 27,
+    "metaDescription": "Visit the Notion blog to learn more about our thoughts on the future of work.",
+    "metaDescriptionLength": 77,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Introducing Notion’s Developer Platform"
+      },
+      {
+        "tag": "h3",
+        "text": "How Notion uses Custom Agents"
+      },
+      {
+        "tag": "h3",
+        "text": "Introducing Custom Agents"
+      },
+      {
+        "tag": "h3",
+        "text": "How European businesses are solving the knowledge paradox"
+      },
+      {
+        "tag": "h3",
+        "text": "Steam, Steel, and Infinite Minds"
+      },
+      {
+        "tag": "h3",
+        "text": "Introducing Notion 3.0"
+      },
+      {
+        "tag": "h3",
+        "text": "Notion’s hosted MCP server: an inside look"
+      },
+      {
+        "tag": "h3",
+        "text": "Introducing Notion Calendar: an integrated calendar for work and life"
+      },
+      {
+        "tag": "h3",
+        "text": "10 teamwork skills everyone should have"
+      },
+      {
+        "tag": "h3",
+        "text": "Taking building blocks beyond the workspace - Welcome, Automate.io!"
+      },
+      {
+        "tag": "h3",
+        "text": "Building Shared Memory for AI Agents in Notion"
+      },
+      {
+        "tag": "h3",
+        "text": "Rebuilding Notion’s lexical search reindexer"
+      },
+      {
+        "tag": "h3",
+        "text": "Security update (July ’26)"
+      },
+      {
+        "tag": "h3",
+        "text": "ZeroEntropy is joining Notion"
+      },
+      {
+        "tag": "h3",
+        "text": "Meet Notion’s Board of Directors"
+      },
+      {
+        "tag": "h3",
+        "text": "What we learned during the Custom Agents beta"
+      },
+      {
+        "tag": "h3",
+        "text": "Enabling Multi-Region Data Systems at Notion"
+      },
+      {
+        "tag": "h3",
+        "text": "The cure for “execution tax”"
+      },
+      {
+        "tag": "h3",
+        "text": "How Notion catches breaking schema changes before they reach production"
+      },
+      {
+        "tag": "h3",
+        "text": "Updating the design of Notion pages"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"Introducing Notion’s Developer Platform\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 149,
+    "externalLinkCount": 7,
+    "imagesTotal": 42,
+    "imagesMissingAlt": 18,
+    "wordCount": 701,
+    "topKeywordDensity": [
+      {
+        "term": "notion",
+        "count": 23,
+        "density": 0.047619047619047616
+      },
+      {
+        "term": "work",
+        "count": 12,
+        "density": 0.024844720496894408
+      },
+      {
+        "term": "agents",
+        "count": 9,
+        "density": 0.018633540372670808
+      },
+      {
+        "term": "custom",
+        "count": 6,
+        "density": 0.012422360248447204
+      },
+      {
+        "term": "founder",
+        "count": 5,
+        "density": 0.010351966873706004
+      },
+      {
+        "term": "teams",
+        "count": 4,
+        "density": 0.008281573498964804
+      },
+      {
+        "term": "hqintroducing",
+        "count": 4,
+        "density": 0.008281573498964804
+      },
+      {
+        "term": "building",
+        "count": 4,
+        "density": 0.008281573498964804
+      },
+      {
+        "term": "automate",
+        "count": 4,
+        "density": 0.008281573498964804
+      },
+      {
+        "term": "calendar",
+        "count": 4,
+        "density": 0.008281573498964804
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+    "title": "Building Shared Memory for AI Agents in Notion",
+    "titleLength": 46,
+    "metaDescription": "Lore turns conversations, decisions, tasks, and durable facts into Notion pages that future agents (and the people they work with) can easily use",
+    "metaDescriptionLength": 145,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Building Shared Memory for AI Agents in Notion"
+      },
+      {
+        "tag": "h2",
+        "text": "Give Your Agents a Memory"
+      },
+      {
+        "tag": "h2",
+        "text": "How it works"
+      },
+      {
+        "tag": "h2",
+        "text": "Memory has to stay clean"
+      },
+      {
+        "tag": "h2",
+        "text": "What we measured"
+      },
+      {
+        "tag": "h4",
+        "text": "Retrieval"
+      },
+      {
+        "tag": "h4",
+        "text": "Model evaluation"
+      },
+      {
+        "tag": "h2",
+        "text": "Try it"
+      },
+      {
+        "tag": "h2",
+        "text": "Get pricing help, demos, use-cases and more."
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h2 -> h4 (\"Retrieval\")"
+    ],
+    "schemaTypes": [
+      "BreadcrumbList",
+      "Article"
+    ],
+    "internalLinkCount": 92,
+    "externalLinkCount": 17,
+    "imagesTotal": 1,
+    "imagesMissingAlt": 1,
+    "wordCount": 1468,
+    "topKeywordDensity": [
+      {
+        "term": "memory",
+        "count": 23,
+        "density": 0.0249728555917481
+      },
+      {
+        "term": "information",
+        "count": 21,
+        "density": 0.02280130293159609
+      },
+      {
+        "term": "agent",
+        "count": 19,
+        "density": 0.02062975027144408
+      },
+      {
+        "term": "lore",
+        "count": 19,
+        "density": 0.02062975027144408
+      },
+      {
+        "term": "agents",
+        "count": 15,
+        "density": 0.016286644951140065
+      },
+      {
+        "term": "notion",
+        "count": 13,
+        "density": 0.014115092290988056
+      },
+      {
+        "term": "vault",
+        "count": 9,
+        "density": 0.009771986970684038
+      },
+      {
+        "term": "model",
+        "count": 8,
+        "density": 0.008686210640608035
+      },
+      {
+        "term": "right",
+        "count": 8,
+        "density": 0.008686210640608035
+      },
+      {
+        "term": "single",
+        "count": 6,
+        "density": 0.006514657980456026
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb",
+    "title": "The AI workspace that works for you. | Notion",
+    "titleLength": 45,
+    "metaDescription": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+    "metaDescriptionLength": 123,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "Where teams and agents Think together."
+      },
+      {
+        "tag": "h2",
+        "text": "AI where your team works."
+      },
+      {
+        "tag": "h2",
+        "text": "Bring everything into one system of record."
+      },
+      {
+        "tag": "h2",
+        "text": "Get answers, instantly – with citations."
+      },
+      {
+        "tag": "h2",
+        "text": "Keep work moving 24/7 with agents."
+      },
+      {
+        "tag": "h3",
+        "text": "See what Notion can do"
+      },
+      {
+        "tag": "h3",
+        "text": "Triage product feedback→"
+      },
+      {
+        "tag": "h3",
+        "text": "Resolve support tickets in Slack→"
+      },
+      {
+        "tag": "h3",
+        "text": "Respond to security alerts faster→"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate weekly reporting→"
+      },
+      {
+        "tag": "h3",
+        "text": "Create your own developer tools→"
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by teams that ship."
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 96,
+    "externalLinkCount": 7,
+    "imagesTotal": 50,
+    "imagesMissingAlt": 41,
+    "wordCount": 121,
+    "topKeywordDensity": [
+      {
+        "term": "tools",
+        "count": 3,
+        "density": 0.039473684210526314
+      },
+      {
+        "term": "works",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "team",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "notion",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "product",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "faster",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "doing",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "work",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "workspace",
+        "count": 1,
+        "density": 0.013157894736842105
+      },
+      {
+        "term": "notionplaytrusted",
+        "count": 1,
+        "density": 0.013157894736842105
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/product",
+    "title": "The AI workspace that works for you. | Notion",
+    "titleLength": 45,
+    "metaDescription": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+    "metaDescriptionLength": 123,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "Where teams and agents Think together."
+      },
+      {
+        "tag": "h2",
+        "text": "AI where your team works."
+      },
+      {
+        "tag": "h2",
+        "text": "Bring everything into one system of record."
+      },
+      {
+        "tag": "h2",
+        "text": "Get answers, instantly – with citations."
+      },
+      {
+        "tag": "h2",
+        "text": "Keep work moving 24/7 with agents."
+      },
+      {
+        "tag": "h3",
+        "text": "See what Notion can do"
+      },
+      {
+        "tag": "h3",
+        "text": "Triage product feedback→"
+      },
+      {
+        "tag": "h3",
+        "text": "Resolve support tickets in Slack→"
+      },
+      {
+        "tag": "h3",
+        "text": "Respond to security alerts faster→"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate weekly reporting→"
+      },
+      {
+        "tag": "h3",
+        "text": "Create your own developer tools→"
+      },
+      {
+        "tag": "h2",
+        "text": "Trusted by teams that ship."
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 96,
+    "externalLinkCount": 7,
+    "imagesTotal": 50,
+    "imagesMissingAlt": 41,
+    "wordCount": 121,
+    "topKeywordDensity": [
+      {
+        "term": "tools",
+        "count": 3,
+        "density": 0.039473684210526314
+      },
+      {
+        "term": "works",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "team",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "notion",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "product",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "faster",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "doing",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "work",
+        "count": 2,
+        "density": 0.02631578947368421
+      },
+      {
+        "term": "workspace",
+        "count": 1,
+        "density": 0.013157894736842105
+      },
+      {
+        "term": "notionplaytrusted",
+        "count": 1,
+        "density": 0.013157894736842105
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/teams",
+    "title": "Notion for teams and businesses",
+    "titleLength": 31,
+    "metaDescription": "Notion is built to make it easy for teams to collaborate, organise and ship projects faster than they ever have before.",
+    "metaDescriptionLength": 119,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Where teams work better, together."
+      },
+      {
+        "tag": "h2",
+        "text": "Ship projects faster."
+      },
+      {
+        "tag": "h2",
+        "text": "Your digital office."
+      },
+      {
+        "tag": "h2",
+        "text": "Docs that keep everyone aligned."
+      },
+      {
+        "tag": "h2",
+        "text": "Start with the Free Plan."
+      },
+      {
+        "tag": "h3",
+        "text": "Free"
+      },
+      {
+        "tag": "h3",
+        "text": "Plus"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for every team."
+      },
+      {
+        "tag": "h2",
+        "text": "Start with a template."
+      },
+      {
+        "tag": "h3",
+        "text": "Headspace’s design system"
+      },
+      {
+        "tag": "h3",
+        "text": "Match Group’s roadmap"
+      },
+      {
+        "tag": "h2",
+        "text": "Find out why customers love us."
+      },
+      {
+        "tag": "h3",
+        "text": "Notion is rated the best on G2"
+      },
+      {
+        "tag": "h3",
+        "text": "86%"
+      },
+      {
+        "tag": "h3",
+        "text": "90%"
+      },
+      {
+        "tag": "h3",
+        "text": "91%"
+      },
+      {
+        "tag": "h1",
+        "text": "Try Notion today."
+      }
+    ],
+    "h1Count": 2,
+    "headingOrderIssues": [
+      "multiple h1 tags (2)"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 54,
+    "externalLinkCount": 7,
+    "imagesTotal": 22,
+    "imagesMissingAlt": 7,
+    "wordCount": 521,
+    "topKeywordDensity": [
+      {
+        "term": "notion",
+        "count": 16,
+        "density": 0.04481792717086835
+      },
+      {
+        "term": "projects",
+        "count": 6,
+        "density": 0.01680672268907563
+      },
+      {
+        "term": "team",
+        "count": 6,
+        "density": 0.01680672268907563
+      },
+      {
+        "term": "keep",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "custom",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "design",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "work",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "like",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "template",
+        "count": 4,
+        "density": 0.011204481792717087
+      },
+      {
+        "term": "everyone",
+        "count": 3,
+        "density": 0.008403361344537815
+      }
+    ]
+  },
+  {
+    "url": "https://www.notion.com/en-gb/about",
+    "title": "Why we built Notion – About",
+    "titleLength": 27,
+    "metaDescription": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
+    "metaDescriptionLength": 105,
+    "headings": [
+      {
+        "tag": "h3",
+        "text": "Capture"
+      },
+      {
+        "tag": "h3",
+        "text": "Find"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate"
+      },
+      {
+        "tag": "h1",
+        "text": "About Notion"
+      },
+      {
+        "tag": "h2",
+        "text": "A story of tools and the future of work"
+      },
+      {
+        "tag": "h2",
+        "text": "Join us"
+      },
+      {
+        "tag": "h2",
+        "text": "In the news"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 75,
+    "externalLinkCount": 14,
+    "imagesTotal": 19,
+    "imagesMissingAlt": 1,
+    "wordCount": 499,
+    "topKeywordDensity": [
+      {
+        "term": "notion",
+        "count": 5,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "tools",
+        "count": 5,
+        "density": 0.01639344262295082
+      },
+      {
+        "term": "like",
+        "count": 4,
+        "density": 0.013114754098360656
+      },
+      {
+        "term": "way",
+        "count": 4,
+        "density": 0.013114754098360656
+      },
+      {
+        "term": "future",
+        "count": 3,
+        "density": 0.009836065573770493
+      },
+      {
+        "term": "many",
+        "count": 3,
+        "density": 0.009836065573770493
+      },
+      {
+        "term": "today",
+        "count": 3,
+        "density": 0.009836065573770493
+      },
+      {
+        "term": "beyond",
+        "count": 3,
+        "density": 0.009836065573770493
+      },
+      {
+        "term": "computing",
+        "count": 3,
+        "density": 0.009836065573770493
+      },
+      {
+        "term": "there",
+        "count": 2,
+        "density": 0.006557377049180328
+      }
+    ]
+  }
+]

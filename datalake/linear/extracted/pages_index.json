@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://linear.app/",
+    "urlHash": "c2efa1061639e8ab",
+    "title": "Linear – The system for product development",
+    "pageType": "home"
+  },
+  {
+    "url": "https://linear.app/pricing",
+    "urlHash": "38ce9f3f059b4190",
+    "title": "Pricing – Linear",
+    "pageType": "pricing"
+  },
+  {
+    "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+    "urlHash": "7541496164227786",
+    "title": "Changes to Linear’s pricing plans – Linear Docs",
+    "pageType": "pricing"
+  },
+  {
+    "url": "https://linear.app/docs",
+    "urlHash": "fb9ebfff296a9ba3",
+    "title": "Linear Docs",
+    "pageType": "docs"
+  },
+  {
+    "url": "https://linear.app/docs/start-guide",
+    "urlHash": "f09d06f6de3b6ada",
+    "title": "Start Guide – Linear Docs",
+    "pageType": "docs"
+  },
+  {
+    "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+    "urlHash": "2d8de55ec0fbb720",
+    "title": "Sharing Linear’s growth with the people building it",
+    "pageType": "blog"
+  },
+  {
+    "url": "https://linear.app/blog",
+    "urlHash": "2f6a0bad3bcd69a7",
+    "title": "Now – Updates from the Linear team",
+    "pageType": "blog"
+  },
+  {
+    "url": "https://linear.app/about",
+    "urlHash": "4fc1ee75a5f59f59",
+    "title": "About – Linear",
+    "pageType": "other"
+  },
+  {
+    "url": "https://linear.app/careers",
+    "urlHash": "4e6d1ffe7e5437d7",
+    "title": "We're hiring – Linear",
+    "pageType": "other"
+  },
+  {
+    "url": "https://linear.app/agents",
+    "urlHash": "cdf84412b79a7c8f",
+    "title": "Linear for Agents",
+    "pageType": "other"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://www.notion.com/en-gb/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses."
+    },
+    "factualDensity": {
+      "numberCount": 18,
+      "comparativeStatements": 2,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9523809523809523
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 4
+    },
+    "extractableStructure": {
+      "listCount": 17,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/product/docs",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "The next gen of notes & docs. Simple. Powerful. Beautiful."
+    },
+    "factualDensity": {
+      "numberCount": 1,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 12,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs, and where to view usage."
+    },
+    "factualDensity": {
+      "numberCount": 67,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 3,
+      "score": 0.9577464788732394
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 2
+    },
+    "extractableStructure": {
+      "listCount": 57,
+      "tableCount": 3,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/help",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Learn how to scale workflows, connect your tools and become a Notion expert – all in one place."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 4
+    },
+    "extractableStructure": {
+      "listCount": 43,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/blog",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Visit the Notion blog to learn more about our thoughts on the future of work."
+    },
+    "factualDensity": {
+      "numberCount": 5,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 14,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Lore turns conversations, decisions, tasks, and durable facts into Notion pages that future agents (and the people they work with) can easily use"
+    },
+    "factualDensity": {
+      "numberCount": 30,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 10
+    },
+    "extractableStructure": {
+      "listCount": 22,
+      "tableCount": 3,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
+    },
+    "factualDensity": {
+      "numberCount": 1,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 12,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/product",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
+    },
+    "factualDensity": {
+      "numberCount": 1,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 12,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/teams",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Notion is built to make it easy for teams to collaborate, organise and ship projects faster than they ever have before."
+    },
+    "factualDensity": {
+      "numberCount": 2,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 3,
+      "score": 0.4
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 3
+    },
+    "extractableStructure": {
+      "listCount": 7,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.7
+    }
+  },
+  {
+    "url": "https://www.notion.com/en-gb/about",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace."
+    },
+    "factualDensity": {
+      "numberCount": 1,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.5
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 7
+    },
+    "extractableStructure": {
+      "listCount": 12,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  }
+]

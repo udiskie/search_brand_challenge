@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://monday.com/",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results."
+    },
+    "factualDensity": {
+      "numberCount": 12,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9230769230769231
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 10,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://monday.com/crm/campaigns/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."
+    },
+    "factualDensity": {
+      "numberCount": 15,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 1,
+      "score": 0.9375
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 19
+    },
+    "extractableStructure": {
+      "listCount": 3,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.3
+    }
+  },
+  {
+    "url": "https://monday.com/crm/pricing",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."
+    },
+    "factualDensity": {
+      "numberCount": 32,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 7,
+      "score": 0.825
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 24
+    },
+    "extractableStructure": {
+      "listCount": 9,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.9
+    }
+  },
+  {
+    "url": "https://monday.com/help",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Got questions? We're here to help with anything you need."
+    },
+    "factualDensity": {
+      "numberCount": 14,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 0,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0
+    }
+  },
+  {
+    "url": "https://monday.com/blog",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Work tips for project management, CRM & sales, marketing, software development, and more! Discover trends and company news from the leading Work OS monday.com."
+    },
+    "factualDensity": {
+      "numberCount": 87,
+      "comparativeStatements": 3,
+      "promotionalAdjectiveCount": 13,
+      "score": 0.8737864077669902
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 2
+    },
+    "extractableStructure": {
+      "listCount": 6,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.6
+    }
+  },
+  {
+    "url": "https://monday.com/lang/de/help",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst."
+    },
+    "factualDensity": {
+      "numberCount": 16,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 1
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 7
+    },
+    "extractableStructure": {
+      "listCount": 0,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0
+    }
+  },
+  {
+    "url": "https://monday.com/academy",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Unlock your full potential with the monday academy. Explore expert-led courses, hands-on training, webinars, and certifications designed to help you master monday.com and boost your career."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 0,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0
+    }
+  },
+  {
+    "url": "https://monday.com/academy/view/certification/work-management-core-certification",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Unlock your full potential with the monday academy. Explore expert-led courses, hands-on training, webinars, and certifications designed to help you master monday.com and boost your career."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 0,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0
+    }
+  },
+  {
+    "url": "https://monday.com/academy/view/lesson/admin-essentials",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Unlock your full potential with the monday academy. Explore expert-led courses, hands-on training, webinars, and certifications designed to help you master monday.com and boost your career."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 0,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0
+    }
+  },
+  {
+    "url": "https://monday.com/appdeveloper/blog/saas-marketplaces-for-developers/",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025."
+    },
+    "factualDensity": {
+      "numberCount": 114,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 11,
+      "score": 0.912
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 32
+    },
+    "extractableStructure": {
+      "listCount": 27,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  }
+]

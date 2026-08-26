@@ -20,6 +20,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Data lake scraper
+
+Requires Node >=20.19 (`nvm use` if you have an older default — vite/vitest's
+native bindings don't resolve on older 20.x). Run:
+
+```bash
+npm run scrape -- --product <name> --url <https://site> [--mode quick|full] [--quick-cap 15] [--concurrency 3] [--delay 300]
+```
+
+This crawls the site's sitemap and writes SEO + GEO signals, a tf-idf
+tagcloud/phrase cloud, and the raw crawled pages into `datalake/{product}/`
+(see `WORK_PLAN.md` for the full folder layout). Quick mode (default) caps
+the crawl to a prioritized subset of pages (home, pricing, docs, blog);
+full mode crawls the entire sitemap. `datalake/` already has quick-mode
+output committed for Linear and its AEO competitors (Jira via
+atlassian.com, Asana, Monday, Notion) as evidence — re-run the command
+above to refresh it.
+
+Run the scraper's test suite with:
+
+```bash
+npm test
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

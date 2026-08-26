@@ -1,0 +1,29 @@
+{
+  "url": "https://monday.com/crm/campaigns/pricing",
+  "urlHash": "b77266f3858db80a",
+  "status": 200,
+  "headers": {
+    "access-control-allow-origin": "https://support.monday.com",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a31612022d98e9a1-SCL",
+    "cloudfront-viewer-country": "CL",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 26 Aug 2026 21:53:38 GMT",
+    "server": "cloudflare",
+    "set-cookie": "__cf_bm=uUHA92KEXdu20seSbD0bn4XYrhSJj_HXPkdL.636UtI-1787781217.6221569-1.0.1.1-ptDLueD4M66_zgY6u7cdX9rVRPEJwHdxz7CYM3uOU9xxpZlOUhy.cRuTPWcLly2ZtM_Tu5JQZCcpN21fEddyLiwZLobogbvRkCwgkFOUKUIi90SDtqrjMTVKTr1mTVEaAXFMHhYGWnh4c39AWGvw3g; HttpOnly; SameSite=None; Secure; Path=/; Domain=monday.com; Expires=Wed, 26 Aug 2026 22:23:38 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding",
+    "via": "1.1 af18beed1a1dadac49c7e202a7b89d5c.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "HL6FKuj8nwYrTB1v4OVk_rjEcQ7aic-a0oJFeD1alH1enPWocrVN1g==",
+    "x-amz-cf-pop": "SCL51-P6",
+    "x-cache": "Miss from cloudfront",
+    "x-envoy-upstream-service-time": "90",
+    "x-powered-by": "Next.js",
+    "x-xss-protection": "1; mode=block"
+  },
+  "fetchedAt": "2026-08-26T21:53:38.956Z"
+}

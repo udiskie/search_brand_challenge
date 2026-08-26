@@ -1,0 +1,676 @@
+{
+  "site": [
+    {
+      "term": "notion",
+      "score": 159,
+      "documentFrequency": 10
+    },
+    {
+      "term": "worker",
+      "score": 89.25668704386803,
+      "documentFrequency": 1
+    },
+    {
+      "term": "per",
+      "score": 80.4640364671392,
+      "documentFrequency": 3
+    },
+    {
+      "term": "workspace",
+      "score": 70.09985150747681,
+      "documentFrequency": 9
+    },
+    {
+      "term": "agent",
+      "score": 69.74983705420652,
+      "documentFrequency": 4
+    },
+    {
+      "term": "run",
+      "score": 64.37122917371136,
+      "documentFrequency": 3
+    },
+    {
+      "term": "runs",
+      "score": 62.20920612148378,
+      "documentFrequency": 1
+    },
+    {
+      "term": "information",
+      "score": 60.34802735035439,
+      "documentFrequency": 3
+    },
+    {
+      "term": "credits",
+      "score": 58.33642643867591,
+      "documentFrequency": 3
+    },
+    {
+      "term": "custom",
+      "score": 58.01196416921552,
+      "documentFrequency": 7
+    },
+    {
+      "term": "memory",
+      "score": 55.182791619126256,
+      "documentFrequency": 2
+    },
+    {
+      "term": "workers",
+      "score": 52.88350863499599,
+      "documentFrequency": 2
+    },
+    {
+      "term": "agents",
+      "score": 51.419695513622855,
+      "documentFrequency": 7
+    },
+    {
+      "term": "lore",
+      "score": 51.39021375253008,
+      "documentFrequency": 1
+    },
+    {
+      "term": "paid",
+      "score": 50.58422565086573,
+      "documentFrequency": 2
+    },
+    {
+      "term": "data",
+      "score": 49.790209910679785,
+      "documentFrequency": 5
+    },
+    {
+      "term": "plan",
+      "score": 46.26682096860503,
+      "documentFrequency": 3
+    },
+    {
+      "term": "work",
+      "score": 46.003027551781656,
+      "documentFrequency": 9
+    },
+    {
+      "term": "each",
+      "score": 45.98565968260522,
+      "documentFrequency": 2
+    },
+    {
+      "term": "access",
+      "score": 45.98565968260521,
+      "documentFrequency": 2
+    },
+    {
+      "term": "use",
+      "score": 44.827426858030165,
+      "documentFrequency": 7
+    },
+    {
+      "term": "members",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "billing",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "usage",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "free",
+      "score": 40.23201823356959,
+      "documentFrequency": 3
+    },
+    {
+      "term": "content",
+      "score": 37.55760456764967,
+      "documentFrequency": 4
+    },
+    {
+      "term": "template",
+      "score": 36.78852774608417,
+      "documentFrequency": 2
+    },
+    {
+      "term": "pages",
+      "score": 35.7691472072854,
+      "documentFrequency": 4
+    },
+    {
+      "term": "domain",
+      "score": 35.16172519909953,
+      "documentFrequency": 1
+    },
+    {
+      "term": "sync",
+      "score": 34.48924476195391,
+      "documentFrequency": 2
+    },
+    {
+      "term": "month",
+      "score": 34.48924476195391,
+      "documentFrequency": 2
+    },
+    {
+      "term": "credit",
+      "score": 34.197215498534156,
+      "documentFrequency": 3
+    },
+    {
+      "term": "add",
+      "score": 33.98068984692113,
+      "documentFrequency": 4
+    },
+    {
+      "term": "page",
+      "score": 33.395657846090316,
+      "documentFrequency": 6
+    },
+    {
+      "term": "like",
+      "score": 32.961343277963365,
+      "documentFrequency": 7
+    },
+    {
+      "term": "time",
+      "score": 32.961343277963365,
+      "documentFrequency": 7
+    },
+    {
+      "term": "monthly",
+      "score": 32.189961777823655,
+      "documentFrequency": 2
+    },
+    {
+      "term": "tools",
+      "score": 31.763995214325426,
+      "documentFrequency": 9
+    },
+    {
+      "term": "team",
+      "score": 31.642889546844827,
+      "documentFrequency": 7
+    },
+    {
+      "term": "single",
+      "score": 29.89067879369339,
+      "documentFrequency": 2
+    },
+    {
+      "term": "seat",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "security",
+      "score": 28.61531776582832,
+      "documentFrequency": 4
+    },
+    {
+      "term": "help",
+      "score": 27.587717351118087,
+      "documentFrequency": 6
+    },
+    {
+      "term": "unlimited",
+      "score": 25.292112825432866,
+      "documentFrequency": 2
+    },
+    {
+      "term": "refund",
+      "score": 24.342732830145827,
+      "documentFrequency": 1
+    },
+    {
+      "term": "cost",
+      "score": 24.342732830145827,
+      "documentFrequency": 1
+    },
+    {
+      "term": "vault",
+      "score": 24.342732830145827,
+      "documentFrequency": 1
+    },
+    {
+      "term": "file",
+      "score": 24.13921094014176,
+      "documentFrequency": 3
+    },
+    {
+      "term": "meeting",
+      "score": 24.13921094014176,
+      "documentFrequency": 3
+    },
+    {
+      "term": "people",
+      "score": 24.092037053554733,
+      "documentFrequency": 5
+    }
+  ],
+  "byPage": {
+    "https://www.notion.com/en-gb/pricing": [
+      {
+        "term": "notion",
+        "score": 54
+      },
+      {
+        "term": "workspace",
+        "score": 53.670198810411925
+      },
+      {
+        "term": "paid",
+        "score": 48.284942666735475
+      },
+      {
+        "term": "plan",
+        "score": 42.243619145248076
+      },
+      {
+        "term": "members",
+        "score": 41.387093714344694
+      },
+      {
+        "term": "billing",
+        "score": 41.387093714344694
+      },
+      {
+        "term": "access",
+        "score": 39.08781073021443
+      },
+      {
+        "term": "domain",
+        "score": 35.16172519909953
+      },
+      {
+        "term": "content",
+        "score": 32.19223248655686
+      },
+      {
+        "term": "seat",
+        "score": 29.752229014622678
+      }
+    ],
+    "https://www.notion.com/en-gb/product/docs": [
+      {
+        "term": "template",
+        "score": 27.591395809563128
+      },
+      {
+        "term": "duplicate",
+        "score": 21.637984737907402
+      },
+      {
+        "term": "meeting",
+        "score": 10.0580045583924
+      },
+      {
+        "term": "easy",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "notesai",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "project",
+        "score": 8.04640364671392
+      },
+      {
+        "term": "try",
+        "score": 8.030679017851577
+      },
+      {
+        "term": "now",
+        "score": 8.030679017851577
+      },
+      {
+        "term": "see",
+        "score": 7.910722386711207
+      },
+      {
+        "term": "notion",
+        "score": 7
+      }
+    ],
+    "https://www.notion.com/en-gb/help/understand-pricing-for-workers": [
+      {
+        "term": "worker",
+        "score": 89.25668704386803
+      },
+      {
+        "term": "runs",
+        "score": 62.20920612148378
+      },
+      {
+        "term": "run",
+        "score": 60.3480273503544
+      },
+      {
+        "term": "credits",
+        "score": 52.30162370364047
+      },
+      {
+        "term": "workers",
+        "score": 50.58422565086573
+      },
+      {
+        "term": "per",
+        "score": 50.290022791961995
+      },
+      {
+        "term": "usage",
+        "score": 41.387093714344694
+      },
+      {
+        "term": "each",
+        "score": 36.78852774608417
+      },
+      {
+        "term": "agent",
+        "score": 30.403775126192592
+      },
+      {
+        "term": "sync",
+        "score": 29.89067879369339
+      }
+    ],
+    "https://www.notion.com/en-gb/help": [
+      {
+        "term": "notion",
+        "score": 12
+      },
+      {
+        "term": "help",
+        "score": 5.807940494972229
+      },
+      {
+        "term": "claude",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "cursor",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "connect",
+        "score": 4.598565968260521
+      },
+      {
+        "term": "beta",
+        "score": 4.02320182335696
+      },
+      {
+        "term": "use",
+        "score": 3.9553611933556034
+      },
+      {
+        "term": "agents",
+        "score": 3.9553611933556034
+      },
+      {
+        "term": "features",
+        "score": 3.5769147207285403
+      },
+      {
+        "term": "learn",
+        "score": 3.212271607140631
+      }
+    ],
+    "https://www.notion.com/en-gb/blog": [
+      {
+        "term": "notion",
+        "score": 23
+      },
+      {
+        "term": "work",
+        "score": 13.1437221576519
+      },
+      {
+        "term": "agents",
+        "score": 11.86608358006681
+      },
+      {
+        "term": "hqintroducing",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "calendar",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "founder",
+        "score": 10.0580045583924
+      },
+      {
+        "term": "notionfor",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "akshay",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "kotharico",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "ivan",
+        "score": 8.114244276715276
+      }
+    ],
+    "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion": [
+      {
+        "term": "memory",
+        "score": 52.883508634996
+      },
+      {
+        "term": "lore",
+        "score": 51.39021375253008
+      },
+      {
+        "term": "information",
+        "score": 42.243619145248076
+      },
+      {
+        "term": "agent",
+        "score": 33.98068984692113
+      },
+      {
+        "term": "vault",
+        "score": 24.342732830145827
+      },
+      {
+        "term": "model",
+        "score": 21.637984737907402
+      },
+      {
+        "term": "agents",
+        "score": 19.776805966778017
+      },
+      {
+        "term": "right",
+        "score": 14.307658882914161
+      },
+      {
+        "term": "single",
+        "score": 13.795697904781564
+      },
+      {
+        "term": "often",
+        "score": 13.795697904781564
+      }
+    ],
+    "https://www.notion.com/en-gb": [
+      {
+        "term": "works",
+        "score": 3.5769147207285403
+      },
+      {
+        "term": "tools",
+        "score": 3.285930539412975
+      },
+      {
+        "term": "faster",
+        "score": 3.212271607140631
+      },
+      {
+        "term": "doing",
+        "score": 3.212271607140631
+      },
+      {
+        "term": "product",
+        "score": 2.9039702474861144
+      },
+      {
+        "term": "team",
+        "score": 2.636907462237069
+      },
+      {
+        "term": "notionplaytrusted",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "forbes",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "triage",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "resolve",
+        "score": 2.2992829841302607
+      }
+    ],
+    "https://www.notion.com/en-gb/product": [
+      {
+        "term": "works",
+        "score": 3.5769147207285403
+      },
+      {
+        "term": "tools",
+        "score": 3.285930539412975
+      },
+      {
+        "term": "faster",
+        "score": 3.212271607140631
+      },
+      {
+        "term": "doing",
+        "score": 3.212271607140631
+      },
+      {
+        "term": "product",
+        "score": 2.9039702474861144
+      },
+      {
+        "term": "team",
+        "score": 2.636907462237069
+      },
+      {
+        "term": "notionplaytrusted",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "forbes",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "triage",
+        "score": 2.2992829841302607
+      },
+      {
+        "term": "resolve",
+        "score": 2.2992829841302607
+      }
+    ],
+    "https://www.notion.com/en-gb/teams": [
+      {
+        "term": "notion",
+        "score": 16
+      },
+      {
+        "term": "projects",
+        "score": 12.06960547007088
+      },
+      {
+        "term": "template",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "team",
+        "score": 7.910722386711207
+      },
+      {
+        "term": "keep",
+        "score": 7.153829441457081
+      },
+      {
+        "term": "unlimited",
+        "score": 6.897848952390782
+      },
+      {
+        "term": "everyone",
+        "score": 6.03480273503544
+      },
+      {
+        "term": "file",
+        "score": 6.03480273503544
+      },
+      {
+        "term": "comparison",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "docs",
+        "score": 5.3653720810928105
+      }
+    ],
+    "https://www.notion.com/en-gb/about": [
+      {
+        "term": "computing",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "today",
+        "score": 6.897848952390782
+      },
+      {
+        "term": "future",
+        "score": 6.03480273503544
+      },
+      {
+        "term": "many",
+        "score": 6.03480273503544
+      },
+      {
+        "term": "way",
+        "score": 5.807940494972229
+      },
+      {
+        "term": "tools",
+        "score": 5.476550899021625
+      },
+      {
+        "term": "probably",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "tabs",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "industrial",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "revolution",
+        "score": 5.4094961844768505
+      }
+    ]
+  }
+}
