@@ -2,14 +2,17 @@ import { createHash } from "node:crypto";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-export const DATALAKE_ROOT = path.join(process.cwd(), "datalake");
+/** Resolved lazily (not cached at import time) so tests can chdir first. */
+export function datalakeRoot(): string {
+  return path.join(process.cwd(), "datalake");
+}
 
 export function urlHash(url: string): string {
   return createHash("sha1").update(url).digest("hex").slice(0, 16);
 }
 
 export function productDir(product: string): string {
-  return path.join(DATALAKE_ROOT, product);
+  return path.join(datalakeRoot(), product);
 }
 
 export function rawDir(product: string): string {
