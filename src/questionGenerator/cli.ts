@@ -7,7 +7,9 @@ import { scanProblemAudienceClaims } from "./problemAudienceScanner";
 import { renderQuestionsMarkdown } from "./render";
 import { generateCandidateQuestions } from "./templates";
 
-const USAGE = "Usage: npm run questions -- --product <name> --brand <Brand>";
+const USAGE =
+  "Usage: npm run questions -- --product <name> --brand <Brand> [--competitors <A,B,...>]\n" +
+  "  --competitors enables the comparing_with_criteria stage's named-comparison templates (needs >=2).";
 
 function parseArgs(argv: string[]): Record<string, string> {
   const args: Record<string, string> = {};
@@ -36,12 +38,15 @@ async function main() {
   }
 
   const excludeTerms = [args.brand];
+  const competitors = args.competitors
+    ? args.competitors.split(",").map((c) => c.trim()).filter(Boolean)
+    : [];
 
   const hooks = await scanProductHooks(args.product, { excludeTerms });
   const hookQuestions = generateCandidateQuestions(hooks);
 
   const claims = await scanProblemAudienceClaims(args.product, { excludeTerms });
-  const inferentialQuestions = generateInferentialQuestions(claims);
+  const inferentialQuestions = generateInferentialQuestions(claims, competitors);
 
   const outDir = path.join(productDir(args.product), "questions");
   await writeJson(path.join(outDir, "candidate_user_questions.json"), {

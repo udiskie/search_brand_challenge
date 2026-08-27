@@ -57,17 +57,34 @@ export interface ProblemClaim {
   evidence: HookEvidence[];
 }
 
+/**
+ * Where the asker is on the awareness ladder, from least to most
+ * articulated:
+ * - `pain_only`: describes a symptom/frustration, no solution ask at all.
+ * - `problem_framed`: has named the problem, doesn't know how to solve it
+ *   (open "what's the best way", not "what tool").
+ * - `comparing_with_criteria`: knows they want a tool, wants named options
+ *   evaluated against criteria derived from their own pain point.
+ */
+export type AwarenessStage = "pain_only" | "problem_framed" | "comparing_with_criteria";
+
 export interface InferentialQuestionTemplate {
   id: string;
-  /** Contains `{problem}` and optionally `{audience}`/`{persona}` placeholders. */
+  stage: AwarenessStage;
+  /** Contains `{problem}` and optionally `{audience}`/`{persona}`/`{competitorA}`/`{competitorB}` placeholders. */
   pattern: string;
   rationale: string;
+  /** Only usable when the claim has a detected audience signal. */
+  requiresAudience?: boolean;
+  /** Only usable when at least two named competitors were supplied. */
+  requiresCompetitors?: boolean;
 }
 
 export interface InferentialQuestion {
   id: string;
   text: string;
   templateId: string;
+  stage: AwarenessStage;
   problem: string;
   audience: string[];
   evidenceUrls: string[];
