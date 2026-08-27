@@ -1,7 +1,7 @@
 {
   "product": "notion",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T20:12:25.720Z",
+  "generatedAt": "2026-08-27T20:46:02.459Z",
   "themes": [
     {
       "name": "Pricing & Plans",
@@ -23,7 +23,7 @@
         },
         {
           "term": "free",
-          "score": 40.23201823356959,
+          "score": 40.2320182335696,
           "documentFrequency": 3
         },
         {
@@ -213,7 +213,7 @@
         },
         {
           "term": "agent",
-          "score": 69.74983705420652,
+          "score": 69.74983705420654,
           "documentFrequency": 4
         },
         {
@@ -223,7 +223,7 @@
         },
         {
           "term": "agents",
-          "score": 51.419695513622855,
+          "score": 51.41969551362284,
           "documentFrequency": 7
         }
       ],
@@ -327,7 +327,7 @@
       "terms": [
         {
           "term": "workspace",
-          "score": 70.09985150747681,
+          "score": 70.09985150747679,
           "documentFrequency": 9
         },
         {
@@ -344,11 +344,6 @@
           "term": "team",
           "score": 31.642889546844827,
           "documentFrequency": 7
-        },
-        {
-          "term": "people",
-          "score": 24.092037053554733,
-          "documentFrequency": 5
         }
       ],
       "questions": [
@@ -812,7 +807,7 @@
         },
         {
           "term": "security",
-          "score": 28.61531776582832,
+          "score": 28.615317765828323,
           "documentFrequency": 4
         }
       ],
@@ -956,12 +951,12 @@
     },
     {
       "term": "data",
-      "score": 49.790209910679785,
+      "score": 49.79020991067978,
       "documentFrequency": 5
     },
     {
       "term": "work",
-      "score": 46.003027551781656,
+      "score": 46.00302755178165,
       "documentFrequency": 9
     },
     {
@@ -991,16 +986,16 @@
     },
     {
       "term": "add",
-      "score": 33.98068984692113,
+      "score": 33.98068984692114,
       "documentFrequency": 4
     },
     {
-      "term": "like",
+      "term": "time",
       "score": 32.961343277963365,
       "documentFrequency": 7
     },
     {
-      "term": "time",
+      "term": "like",
       "score": 32.961343277963365,
       "documentFrequency": 7
     },
@@ -1011,7 +1006,7 @@
     },
     {
       "term": "tools",
-      "score": 31.763995214325426,
+      "score": 31.76399521432542,
       "documentFrequency": 9
     },
     {
@@ -1030,14 +1025,19 @@
       "documentFrequency": 6
     },
     {
+      "term": "vault",
+      "score": 24.342732830145827,
+      "documentFrequency": 1
+    },
+    {
       "term": "refund",
       "score": 24.342732830145827,
       "documentFrequency": 1
     },
     {
-      "term": "vault",
-      "score": 24.342732830145827,
-      "documentFrequency": 1
+      "term": "meeting",
+      "score": 24.13921094014176,
+      "documentFrequency": 3
     },
     {
       "term": "file",
@@ -1045,9 +1045,9 @@
       "documentFrequency": 3
     },
     {
-      "term": "meeting",
-      "score": 24.13921094014176,
-      "documentFrequency": 3
+      "term": "every",
+      "score": 24.092037053554733,
+      "documentFrequency": 5
     }
   ]
 }
