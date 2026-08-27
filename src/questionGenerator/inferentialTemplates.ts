@@ -135,6 +135,17 @@ function pickAudiencePhrase(audience: AudienceSignal): string | null {
   return audience.userTypes[0] ?? audience.orgTypes[0] ?? null;
 }
 
+/** All unordered pairs, e.g. [Jira,Asana,Monday] -> [[Jira,Asana],[Jira,Monday],[Asana,Monday]]. */
+function allPairs(items: string[]): [string, string][] {
+  const pairs: [string, string][] = [];
+  for (let i = 0; i < items.length; i++) {
+    for (let j = i + 1; j < items.length; j++) {
+      pairs.push([items[i], items[j]]);
+    }
+  }
+  return pairs;
+}
+
 function fillTemplate(
   pattern: string,
   problem: string,
@@ -164,12 +175,20 @@ export function generateInferentialQuestions(
 ): InferentialQuestion[] {
   const questions: InferentialQuestion[] = [];
   let counter = 0;
-  const [competitorA, competitorB] = competitors;
-  const hasNamedCompetitors = competitors.length >= 2;
+  const pairs = allPairs(competitors);
+  const hasNamedCompetitors = pairs.length > 0;
 
-  for (const claim of claims) {
+  claims.forEach((claim, claimIndex) => {
     const audiencePhrase = pickAudiencePhrase(claim.audience);
     const audienceList = [...claim.audience.userTypes, ...claim.audience.orgTypes];
+    // Rotate through every competitor pair across claims (not always the
+    // first two) so a comparison stage with N>2 competitors doesn't only
+    // ever name the same two -- found by inspecting real output where
+    // "Jira and Asana" appeared in every single comparison question even
+    // with Monday and Notion also passed in.
+    const [competitorA, competitorB] = hasNamedCompetitors
+      ? pairs[claimIndex % pairs.length]
+      : [];
 
     const applicableTemplates: InferentialQuestionTemplate[] = [
       ...PAIN_ONLY_TEMPLATES,
@@ -203,7 +222,7 @@ export function generateInferentialQuestions(
         evidenceUrls: claim.evidence.map((e) => e.url),
       });
     }
-  }
+  });
 
   return questions;
 }

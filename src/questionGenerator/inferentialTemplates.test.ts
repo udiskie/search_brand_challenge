@@ -57,6 +57,22 @@ describe("generateInferentialQuestions", () => {
     expect(questions.some((q) => q.templateId.startsWith("comparison-named"))).toBe(false);
   });
 
+  it("with >2 competitors: rotates through every pair across claims instead of always naming the same two", () => {
+    // claimWithAudience (index 0) uses comparison-named-audience;
+    // claimWithoutAudience (index 1) uses comparison-named -- both are
+    // "named-comparison" templates, just different variants.
+    const claims = [claimWithAudience, claimWithoutAudience];
+    const questions = generateInferentialQuestions(claims, ["Jira", "Asana", "Monday"]);
+    const namedComparisons = questions.filter((q) => q.templateId.startsWith("comparison-named"));
+    expect(namedComparisons).toHaveLength(2);
+    // claim index 0 -> pair 0 (Jira, Asana); claim index 1 -> pair 1 (Jira, Monday)
+    expect(namedComparisons[0].text).toContain("Jira");
+    expect(namedComparisons[0].text).toContain("Asana");
+    expect(namedComparisons[1].text).toContain("Jira");
+    expect(namedComparisons[1].text).toContain("Monday");
+    expect(namedComparisons[1].text).not.toContain("Asana");
+  });
+
   it("covers all three awareness stages", () => {
     const questions = generateInferentialQuestions([claimWithAudience], ["Jira", "Asana"]);
     const stages = new Set(questions.map((q) => q.stage));
