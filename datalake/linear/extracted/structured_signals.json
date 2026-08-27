@@ -1,0 +1,1274 @@
+[
+  {
+    "url": "https://linear.app/",
+    "title": "Linear – The system for product development",
+    "titleLength": 43,
+    "metaDescription": "Purpose-built for planning and building products with AI agents.",
+    "metaDescriptionLength": 64,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "The product development system for teams and agentsThe product developmentsystem for teams and agentsThe product development system for teams and agents"
+      },
+      {
+        "tag": "h3",
+        "text": "Faster app launch"
+      },
+      {
+        "tag": "h4",
+        "text": "Activity"
+      },
+      {
+        "tag": "h2",
+        "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products."
+      },
+      {
+        "tag": "h2",
+        "text": "Intakeand integrations"
+      },
+      {
+        "tag": "h2",
+        "text": "Planningand monitoring"
+      },
+      {
+        "tag": "h2",
+        "text": "AI andautomations"
+      },
+      {
+        "tag": "h2",
+        "text": "Build, review,and ship"
+      },
+      {
+        "tag": "h2",
+        "text": "Changelog"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for the future. Available today."
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"Faster app launch\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 69,
+    "externalLinkCount": 4,
+    "imagesTotal": 38,
+    "imagesMissingAlt": 27,
+    "wordCount": 1093,
+    "topKeywordDensity": [
+      {
+        "term": "eng",
+        "count": 22,
+        "density": 0.025404157043879907
+      },
+      {
+        "term": "product",
+        "count": 13,
+        "density": 0.015011547344110854
+      },
+      {
+        "term": "linear",
+        "count": 12,
+        "density": 0.013856812933025405
+      },
+      {
+        "term": "teams",
+        "count": 12,
+        "density": 0.013856812933025405
+      },
+      {
+        "term": "syncstatus",
+        "count": 12,
+        "density": 0.013856812933025405
+      },
+      {
+        "term": "import",
+        "count": 11,
+        "density": 0.012702078521939953
+      },
+      {
+        "term": "dashboard",
+        "count": 10,
+        "density": 0.011547344110854504
+      },
+      {
+        "term": "view",
+        "count": 10,
+        "density": 0.011547344110854504
+      },
+      {
+        "term": "react",
+        "count": 9,
+        "density": 0.010392609699769052
+      },
+      {
+        "term": "usevehiclestate",
+        "count": 9,
+        "density": 0.010392609699769052
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/pricing",
+    "title": "Pricing – Linear",
+    "titleLength": 16,
+    "metaDescription": "Use Linear for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features.",
+    "metaDescriptionLength": 130,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Pricing"
+      },
+      {
+        "tag": "h3",
+        "text": "Free"
+      },
+      {
+        "tag": "h3",
+        "text": "Basic"
+      },
+      {
+        "tag": "h3",
+        "text": "Business"
+      },
+      {
+        "tag": "h3",
+        "text": "Enterprise"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for the future. Available today."
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"Free\")"
+    ],
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "internalLinkCount": 70,
+    "externalLinkCount": 4,
+    "imagesTotal": 0,
+    "imagesMissingAlt": 0,
+    "wordCount": 191,
+    "topKeywordDensity": [
+      {
+        "term": "unlimited",
+        "count": 11,
+        "density": 0.059782608695652176
+      },
+      {
+        "term": "startedget",
+        "count": 8,
+        "density": 0.043478260869565216
+      },
+      {
+        "term": "teams",
+        "count": 6,
+        "density": 0.03260869565217391
+      },
+      {
+        "term": "per",
+        "count": 4,
+        "density": 0.021739130434782608
+      },
+      {
+        "term": "user",
+        "count": 4,
+        "density": 0.021739130434782608
+      },
+      {
+        "term": "features",
+        "count": 3,
+        "density": 0.016304347826086956
+      },
+      {
+        "term": "google",
+        "count": 3,
+        "density": 0.016304347826086956
+      },
+      {
+        "term": "free",
+        "count": 2,
+        "density": 0.010869565217391304
+      },
+      {
+        "term": "month",
+        "count": 2,
+        "density": 0.010869565217391304
+      },
+      {
+        "term": "monthbilled",
+        "count": 2,
+        "density": 0.010869565217391304
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+    "title": "Changes to Linear’s pricing plans – Linear Docs",
+    "titleLength": 47,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Changes to Linear’s pricing plans"
+      },
+      {
+        "tag": "h2",
+        "text": "We’re moving all workspaces onto our current plans⁠"
+      },
+      {
+        "tag": "h2",
+        "text": "What’s changing⁠"
+      },
+      {
+        "tag": "h2",
+        "text": "Timeline⁠"
+      },
+      {
+        "tag": "h2",
+        "text": "FAQ⁠"
+      },
+      {
+        "tag": "h2",
+        "text": "⁠"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 21,
+    "externalLinkCount": 0,
+    "imagesTotal": 0,
+    "imagesMissingAlt": 0,
+    "wordCount": 530,
+    "topKeywordDensity": [
+      {
+        "term": "plan",
+        "count": 13,
+        "density": 0.04180064308681672
+      },
+      {
+        "term": "linear",
+        "count": 10,
+        "density": 0.03215434083601286
+      },
+      {
+        "term": "move",
+        "count": 10,
+        "density": 0.03215434083601286
+      },
+      {
+        "term": "current",
+        "count": 9,
+        "density": 0.028938906752411574
+      },
+      {
+        "term": "plans",
+        "count": 7,
+        "density": 0.022508038585209004
+      },
+      {
+        "term": "moving",
+        "count": 7,
+        "density": 0.022508038585209004
+      },
+      {
+        "term": "business",
+        "count": 6,
+        "density": 0.01929260450160772
+      },
+      {
+        "term": "features",
+        "count": 6,
+        "density": 0.01929260450160772
+      },
+      {
+        "term": "workspaces",
+        "count": 5,
+        "density": 0.01607717041800643
+      },
+      {
+        "term": "using",
+        "count": 5,
+        "density": 0.01607717041800643
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/docs",
+    "title": "Linear Docs",
+    "titleLength": 11,
+    "metaDescription": "This guide is intended to give you an overview of Linear's features, discover their flexibility, and provide tips for how to use Linear to improve the speed, value, and joy of your work.",
+    "metaDescriptionLength": 186,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Linear Docs"
+      },
+      {
+        "tag": "h2",
+        "text": "Popular"
+      },
+      {
+        "tag": "h3",
+        "text": "Start Guide"
+      },
+      {
+        "tag": "h3",
+        "text": "Import Issues"
+      },
+      {
+        "tag": "h3",
+        "text": "Projects"
+      },
+      {
+        "tag": "h3",
+        "text": "GitHub Automations"
+      },
+      {
+        "tag": "h2",
+        "text": "Linear basics"
+      },
+      {
+        "tag": "h3",
+        "text": "Workflows"
+      },
+      {
+        "tag": "h3",
+        "text": "Select Issues"
+      },
+      {
+        "tag": "h3",
+        "text": "Issue Relations"
+      },
+      {
+        "tag": "h3",
+        "text": "Display Options"
+      },
+      {
+        "tag": "h3",
+        "text": "Triage"
+      },
+      {
+        "tag": "h3",
+        "text": "Parent and Sub-Issues"
+      },
+      {
+        "tag": "h3",
+        "text": "Notifications"
+      },
+      {
+        "tag": "h3",
+        "text": "Teams"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 22,
+    "externalLinkCount": 0,
+    "imagesTotal": 0,
+    "imagesMissingAlt": 0,
+    "wordCount": 120,
+    "topKeywordDensity": [
+      {
+        "term": "issues",
+        "count": 5,
+        "density": 0.0625
+      },
+      {
+        "term": "issue",
+        "count": 2,
+        "density": 0.025
+      },
+      {
+        "term": "skip",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "content",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "popularstart",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "guidelearn",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "use",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "app",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "follow",
+        "count": 1,
+        "density": 0.0125
+      },
+      {
+        "term": "best",
+        "count": 1,
+        "density": 0.0125
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/docs/start-guide",
+    "title": "Start Guide – Linear Docs",
+    "titleLength": 25,
+    "metaDescription": "Linear helps teams plan, track, and deliver work without a lot of overhead. This guide gets you from new workspace to working in Linear quickly.",
+    "metaDescriptionLength": 144,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Start Guide"
+      },
+      {
+        "tag": "h2",
+        "text": "Overview and demo⁠"
+      },
+      {
+        "tag": "h2",
+        "text": "Create a workspace⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "Getting the most out of Linear⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "Video resources⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "Learn from real examples⁠"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 27,
+    "externalLinkCount": 4,
+    "imagesTotal": 3,
+    "imagesMissingAlt": 0,
+    "wordCount": 244,
+    "topKeywordDensity": [
+      {
+        "term": "linear",
+        "count": 13,
+        "density": 0.08176100628930817
+      },
+      {
+        "term": "workspace",
+        "count": 6,
+        "density": 0.03773584905660377
+      },
+      {
+        "term": "demo",
+        "count": 4,
+        "density": 0.025157232704402517
+      },
+      {
+        "term": "workflows",
+        "count": 4,
+        "density": 0.025157232704402517
+      },
+      {
+        "term": "see",
+        "count": 4,
+        "density": 0.025157232704402517
+      },
+      {
+        "term": "start",
+        "count": 3,
+        "density": 0.018867924528301886
+      },
+      {
+        "term": "use",
+        "count": 3,
+        "density": 0.018867924528301886
+      },
+      {
+        "term": "guide",
+        "count": 2,
+        "density": 0.012578616352201259
+      },
+      {
+        "term": "teams",
+        "count": 2,
+        "density": 0.012578616352201259
+      },
+      {
+        "term": "work",
+        "count": 2,
+        "density": 0.012578616352201259
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+    "title": "Sharing Linear’s growth with the people building it",
+    "titleLength": 51,
+    "metaDescription": "As Linear passes $100 million in ARR, we’re giving our team another opportunity to participate in the upside.",
+    "metaDescriptionLength": 109,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Sharing Linear’s growth with the people building it"
+      },
+      {
+        "tag": "h3",
+        "text": "Linear is the tool of choice for AI-native teams, enterprises, and startups⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "The platform for agent-driven product development⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "What comes next⁠"
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"Linear is the tool of choice for AI-nati\")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 63,
+    "externalLinkCount": 4,
+    "imagesTotal": 2,
+    "imagesMissingAlt": 0,
+    "wordCount": 694,
+    "topKeywordDensity": [
+      {
+        "term": "linear",
+        "count": 18,
+        "density": 0.04316546762589928
+      },
+      {
+        "term": "people",
+        "count": 6,
+        "density": 0.014388489208633094
+      },
+      {
+        "term": "next",
+        "count": 6,
+        "density": 0.014388489208633094
+      },
+      {
+        "term": "team",
+        "count": 6,
+        "density": 0.014388489208633094
+      },
+      {
+        "term": "product",
+        "count": 6,
+        "density": 0.014388489208633094
+      },
+      {
+        "term": "building",
+        "count": 5,
+        "density": 0.011990407673860911
+      },
+      {
+        "term": "tender",
+        "count": 5,
+        "density": 0.011990407673860911
+      },
+      {
+        "term": "year",
+        "count": 5,
+        "density": 0.011990407673860911
+      },
+      {
+        "term": "company",
+        "count": 5,
+        "density": 0.011990407673860911
+      },
+      {
+        "term": "salesforce",
+        "count": 4,
+        "density": 0.009592326139088728
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/blog",
+    "title": "Now – Updates from the Linear team",
+    "titleLength": 34,
+    "metaDescription": "Linear product updates, thoughts on crafting beautiful products, and reflections on building a startup.",
+    "metaDescriptionLength": 103,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Now"
+      },
+      {
+        "tag": "h3",
+        "text": "Sharing Linear’s growth with the people building it"
+      },
+      {
+        "tag": "h3",
+        "text": "Rebuilding Linear’s delta sync read path"
+      },
+      {
+        "tag": "h3",
+        "text": "How teams build"
+      },
+      {
+        "tag": "h3",
+        "text": "Coinbase’s bet on agent-first development"
+      },
+      {
+        "tag": "h3",
+        "text": "How we built Linear Agent"
+      },
+      {
+        "tag": "h3",
+        "text": "Introducing Loops"
+      },
+      {
+        "tag": "h2",
+        "text": "Changelog"
+      },
+      {
+        "tag": "h3",
+        "text": "Boom Supersonic builds as fast as it flies"
+      },
+      {
+        "tag": "h3",
+        "text": "Teaching an agent to auto-fix bugs"
+      },
+      {
+        "tag": "h3",
+        "text": "Now Linear writes the code, too"
+      },
+      {
+        "tag": "h3",
+        "text": "Reviewing code in the agent era"
+      },
+      {
+        "tag": "h3",
+        "text": "Code review should be fast"
+      },
+      {
+        "tag": "h3",
+        "text": "Code Intelligence for Linear Agent"
+      },
+      {
+        "tag": "h2",
+        "text": "Press"
+      },
+      {
+        "tag": "h3",
+        "text": "Protecting the Thinking Behind Great Design, Inside Linear's Design Team"
+      },
+      {
+        "tag": "h3",
+        "text": "The New Standard: a talk with Linear, Raycast, and Anthropic"
+      },
+      {
+        "tag": "h3",
+        "text": "AI Agents and the Future of Software Teams with Linear + Sequoia Capital"
+      },
+      {
+        "tag": "h3",
+        "text": "How Karri Saarinen Redefined Product Design"
+      },
+      {
+        "tag": "h3",
+        "text": "Protecting the Thinking Behind Great Design, Inside Linear's Design Team"
+      },
+      {
+        "tag": "h3",
+        "text": "The New Standard: a talk with Linear, Raycast, and Anthropic"
+      },
+      {
+        "tag": "h3",
+        "text": "AI Agents and the Future of Software Teams with Linear + Sequoia Capital"
+      },
+      {
+        "tag": "h3",
+        "text": "How Karri Saarinen Redefined Product Design"
+      },
+      {
+        "tag": "h3",
+        "text": "Cars24’s push to being AI-native with Linear"
+      },
+      {
+        "tag": "h3",
+        "text": "How we hire at Linear"
+      },
+      {
+        "tag": "h3",
+        "text": "The coding agent behind 60% of Ramp’s merged PRs"
+      },
+      {
+        "tag": "h3",
+        "text": "Output isn’t design"
+      },
+      {
+        "tag": "h3",
+        "text": "How we use Linear Agent at Linear"
+      },
+      {
+        "tag": "h3",
+        "text": "Post mortem on Linear security incident on March 24th, 2026"
+      },
+      {
+        "tag": "h2",
+        "text": "Archive"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for the future. Available today."
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [
+      "heading level skipped: h1 -> h3 (\"Sharing Linear’s growth with the people \")"
+    ],
+    "schemaTypes": [],
+    "internalLinkCount": 98,
+    "externalLinkCount": 12,
+    "imagesTotal": 34,
+    "imagesMissingAlt": 34,
+    "wordCount": 995,
+    "topKeywordDensity": [
+      {
+        "term": "linear",
+        "count": 29,
+        "density": 0.04296296296296296
+      },
+      {
+        "term": "agent",
+        "count": 14,
+        "density": 0.02074074074074074
+      },
+      {
+        "term": "code",
+        "count": 13,
+        "density": 0.01925925925925926
+      },
+      {
+        "term": "saarinen",
+        "count": 11,
+        "density": 0.016296296296296295
+      },
+      {
+        "term": "aug",
+        "count": 10,
+        "density": 0.014814814814814815
+      },
+      {
+        "term": "product",
+        "count": 9,
+        "density": 0.013333333333333334
+      },
+      {
+        "term": "now",
+        "count": 8,
+        "density": 0.011851851851851851
+      },
+      {
+        "term": "team",
+        "count": 8,
+        "density": 0.011851851851851851
+      },
+      {
+        "term": "may",
+        "count": 8,
+        "density": 0.011851851851851851
+      },
+      {
+        "term": "teams",
+        "count": 7,
+        "density": 0.01037037037037037
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/about",
+    "title": "About – Linear",
+    "titleLength": 14,
+    "metaDescription": "We’re bringing magic back to software.",
+    "metaDescriptionLength": 38,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Building tools for the next era of product development"
+      },
+      {
+        "tag": "h2",
+        "text": "A new species of product tool"
+      },
+      {
+        "tag": "h2",
+        "text": "Meet the team behind Linear"
+      },
+      {
+        "tag": "h2",
+        "text": "Backed by the best"
+      },
+      {
+        "tag": "h2",
+        "text": "Built for the future. Available today."
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 52,
+    "externalLinkCount": 14,
+    "imagesTotal": 8,
+    "imagesMissingAlt": 0,
+    "wordCount": 414,
+    "topKeywordDensity": [
+      {
+        "term": "product",
+        "count": 4,
+        "density": 0.011730205278592375
+      },
+      {
+        "term": "linear",
+        "count": 3,
+        "density": 0.008797653958944282
+      },
+      {
+        "term": "products",
+        "count": 3,
+        "density": 0.008797653958944282
+      },
+      {
+        "term": "built",
+        "count": 3,
+        "density": 0.008797653958944282
+      },
+      {
+        "term": "team",
+        "count": 3,
+        "density": 0.008797653958944282
+      },
+      {
+        "term": "founder",
+        "count": 3,
+        "density": 0.008797653958944282
+      },
+      {
+        "term": "building",
+        "count": 2,
+        "density": 0.005865102639296188
+      },
+      {
+        "term": "tools",
+        "count": 2,
+        "density": 0.005865102639296188
+      },
+      {
+        "term": "next",
+        "count": 2,
+        "density": 0.005865102639296188
+      },
+      {
+        "term": "fundamentally",
+        "count": 2,
+        "density": 0.005865102639296188
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/careers",
+    "title": "We're hiring – Linear",
+    "titleLength": 21,
+    "metaDescription": "We are crafting the tool for teams who care about quality. Join us on our mission!",
+    "metaDescriptionLength": 82,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Help us craft high-quality tools"
+      },
+      {
+        "tag": "h2",
+        "text": "On a quest for quality"
+      },
+      {
+        "tag": "h2",
+        "text": "How we think and work"
+      },
+      {
+        "tag": "h2",
+        "text": "Open roles"
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 74,
+    "externalLinkCount": 12,
+    "imagesTotal": 10,
+    "imagesMissingAlt": 10,
+    "wordCount": 474,
+    "topKeywordDensity": [
+      {
+        "term": "americalearn",
+        "count": 22,
+        "density": 0.062146892655367235
+      },
+      {
+        "term": "product",
+        "count": 13,
+        "density": 0.03672316384180791
+      },
+      {
+        "term": "north",
+        "count": 7,
+        "density": 0.01977401129943503
+      },
+      {
+        "term": "people",
+        "count": 6,
+        "density": 0.01694915254237288
+      },
+      {
+        "term": "quality",
+        "count": 5,
+        "density": 0.014124293785310734
+      },
+      {
+        "term": "building",
+        "count": 5,
+        "density": 0.014124293785310734
+      },
+      {
+        "term": "design",
+        "count": 5,
+        "density": 0.014124293785310734
+      },
+      {
+        "term": "tool",
+        "count": 4,
+        "density": 0.011299435028248588
+      },
+      {
+        "term": "best",
+        "count": 4,
+        "density": 0.011299435028248588
+      },
+      {
+        "term": "work",
+        "count": 4,
+        "density": 0.011299435028248588
+      }
+    ]
+  },
+  {
+    "url": "https://linear.app/agents",
+    "title": "Linear for Agents",
+    "titleLength": 17,
+    "metaDescription": "Build and deploy AI agents that work alongside you as teammates.",
+    "metaDescriptionLength": 64,
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Artificial colleagues.Natural collaboration."
+      },
+      {
+        "tag": "h2",
+        "text": "Delegate, automate, and orchestrate work"
+      },
+      {
+        "tag": "h3",
+        "text": "Fast, focused, and reliable. Just like the rest of your team."
+      },
+      {
+        "tag": "h3",
+        "text": "Delegate issues, but not accountability"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay in the loop every step of the way"
+      },
+      {
+        "tag": "h3",
+        "text": "Orchestrate tasks at scale"
+      },
+      {
+        "tag": "h2",
+        "text": "Agents for every use case, ready to deploy"
+      },
+      {
+        "tag": "h3",
+        "text": "Linear Agent"
+      },
+      {
+        "tag": "h3",
+        "text": "Cursor"
+      },
+      {
+        "tag": "h3",
+        "text": "OpenAI Codex"
+      },
+      {
+        "tag": "h3",
+        "text": "Linear Agent"
+      },
+      {
+        "tag": "h3",
+        "text": "Cursor"
+      },
+      {
+        "tag": "h3",
+        "text": "OpenAI Codex"
+      },
+      {
+        "tag": "h2",
+        "text": "Create your own agents"
+      },
+      {
+        "tag": "h3",
+        "text": "Product"
+      },
+      {
+        "tag": "h3",
+        "text": "Features"
+      },
+      {
+        "tag": "h3",
+        "text": "Company"
+      },
+      {
+        "tag": "h3",
+        "text": "Resources"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal"
+      }
+    ],
+    "h1Count": 1,
+    "headingOrderIssues": [],
+    "schemaTypes": [],
+    "internalLinkCount": 62,
+    "externalLinkCount": 4,
+    "imagesTotal": 44,
+    "imagesMissingAlt": 14,
+    "wordCount": 796,
+    "topKeywordDensity": [
+      {
+        "term": "contextreply",
+        "count": 30,
+        "density": 0.04942339373970346
+      },
+      {
+        "term": "work",
+        "count": 19,
+        "density": 0.03130148270181219
+      },
+      {
+        "term": "issues",
+        "count": 16,
+        "density": 0.026359143327841845
+      },
+      {
+        "term": "added",
+        "count": 16,
+        "density": 0.026359143327841845
+      },
+      {
+        "term": "linear",
+        "count": 12,
+        "density": 0.019769357495881382
+      },
+      {
+        "term": "api",
+        "count": 11,
+        "density": 0.018121911037891267
+      },
+      {
+        "term": "them",
+        "count": 10,
+        "density": 0.016474464579901153
+      },
+      {
+        "term": "skillsreview",
+        "count": 10,
+        "density": 0.016474464579901153
+      },
+      {
+        "term": "today",
+        "count": 10,
+        "density": 0.016474464579901153
+      },
+      {
+        "term": "should",
+        "count": 10,
+        "density": 0.016474464579901153
+      }
+    ]
+  }
+]

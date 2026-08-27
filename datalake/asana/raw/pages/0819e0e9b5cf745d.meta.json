@@ -1,0 +1,26 @@
+{
+  "url": "https://asana.com/pricing-legacy",
+  "urlHash": "0819e0e9b5cf745d",
+  "status": 200,
+  "headers": {
+    "age": "20093",
+    "cache-control": "private, max-age=0, must-revalidate",
+    "cache-status": "\"Netlify Edge\"; hit; ttl=66307",
+    "content-encoding": "br",
+    "content-security-policy": "worker-src blob:; frame-ancestors 'self' https://www.surveymonkey.com https://google.com https://app.asana.com https://prod-eu1.app.asana.com https://prod-au1.app.asana.com https://prod-jp1.app.asana.com https://blog.asana.com https://academy.asana.com https://app.optimizely.com/ https://app.contentful.com; report-uri https://app.asana.com/-/csp_report; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://app.spara.co https://*.spara.co https://*.vector.co https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://ajax.aspnetcdn.com https://bat.bing.com https://sjs.bizographics.com https://ct.capterra.com https://googleads.g.doubleclick.net https://connect.facebook.net https://tracking.g2crowd.com https://www.google-analytics.com https://apis.google.com https://www.googleadservices.com https://*.googleapis.com https://tpc.googlesyndication.com https://www.googletagmanager.com https://ssl.gstatic.com https://cdn.jotfor.ms https://form.jotform.us https://snap.licdn.com https://px.ads.linkedin.com https://www.linkedin.com https://luna1.co https://js.recurly.com https://fast.wistia.com https://fast.wistia.net https://www.youtube.com https://s.ytimg.com https://*.marketo.com https://*.marketo.net https://cdnjs.cloudflare.com https://api.ipify.org https://cdn.pdst.fm https://*.vimeocdn.com https://resources.asana.com https://w58858w0sjxx.statuspage.io https://cdn.cookielaw.org https://geolocation.onetrust.com https://*.logs.datadoghq.com https://www.datadoghq-browser-agent.com https://tagmanager.google.com/debug https://t.contentsquare.net contentsquare.com app.contentsquare.com https://cdn.jsdelivr.net/npm/@sheerid/jslib@1/ https://v2.listenloop.com https://boards.greenhouse.io/embed/job_board/js https://job-boards.greenhouse.io https://www.redditstatic.com/ads/pixel.js https://yjtag.jp/tag.js https://s.yjtag.jp/tag.js https://s.yimg.jp/ https://yjtag.yahoo.co.jp/tag https://analytics.tiktok.com/i18n/pixel/ https://s.pinimg.com/ct/ https://b92.yahoo.co.jp/rt/ https://t-antenna.asana.com/ https://scripts.postie.com/wbgboxjj/lp.1.js https://b91.yahoo.co.jp/pagead/ https://b98.yahoo.co.jp/ https://accounts.google.com/gsi/client  https://js.adstk.io/convpixel.js https://a.quora.com/qevents.js https://d34r8q7sht0t9k.cloudfront.net/tag.js https://collector-39548.us.tvsquared.com/tv2track.js https://*.qualified.com https://static.xingcdn.com/xingtrk/index.js https://ct.pinterest.com/static/ct/token_create.js https://*.6sc.co https://*.6sense.com https://js.zi-scripts.com/ https://*.mountain.com/ https://c0.adalyser.com/adalyser.js https://dyv6f9ner1ir9.cloudfront.net/assets/js/nloader.js https://pagead2.googlesyndication.com https://c.amazon-adsystem.com/aat/amzn.js https://*.optimizely.com https://optimizely.s3.amazonaws.com https://tr.capterra.com https://pixel.byspotify.com/ping.min.js https://bzrcdn.openai.com/sdk/oaiq.min.js https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js https://cdp-cdn.asana.com https://tag.sites-analytics.com https://log.sites-analytics.com",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 26 Aug 2026 21:53:28 GMT",
+    "etag": "W/\"2ksdhf4xkyfjdv-df\"",
+    "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|x-asana-deploy|x-asana-experiments|accept-encoding,cookie=__prerender_bypass|__next_preview_data|is_logged_in",
+    "server": "Netlify",
+    "set-cookie": "user_geo=CL; Secure; Max-Age=2592000; Path=/",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "x-asana-deploy, x-asana-experiments, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-nf-request-id": "01M1010PP62PVHGVSYK1ES3NVD",
+    "x-powered-by": "Next.js"
+  },
+  "fetchedAt": "2026-08-26T21:53:29.076Z"
+}

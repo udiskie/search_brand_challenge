@@ -1,0 +1,227 @@
+[
+  {
+    "url": "https://asana.com",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together."
+    },
+    "factualDensity": {
+      "numberCount": 4,
+      "comparativeStatements": 1,
+      "promotionalAdjectiveCount": 3,
+      "score": 0.625
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 21,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://asana.com/pricing-legacy",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Asana feature pricing prior to pricing updates, available for historical reference only."
+    },
+    "factualDensity": {
+      "numberCount": 35,
+      "comparativeStatements": 2,
+      "promotionalAdjectiveCount": 2,
+      "score": 0.9487179487179487
+    },
+    "eeat": {
+      "hasVisibleAuthor": true,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 29,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://asana.com/create-account-mobile",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Easily organize and plan workflows, projects, and more, so you can keep your team's work on schedule. Start using Asana as your work management tool today."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 1,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.1
+    }
+  },
+  {
+    "url": "https://asana.com/create-account-signup",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Easily organize and plan workflows, projects, and more, so you can keep your team's work on schedule. Start using Asana as your work management tool today."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 1,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.1
+    }
+  },
+  {
+    "url": "https://asana.com/create-account",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Easily organize and plan workflows, projects, and more, so you can keep your team's work on schedule. Start using Asana as your work management tool today."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 1,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.1
+    }
+  },
+  {
+    "url": "https://asana.com/culture-and-belonging",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Asana strives to create an empowering and welcoming workplace culture. A critical element of that is working constantly to create a more diverse and inclusive team."
+    },
+    "factualDensity": {
+      "numberCount": 2,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 6,
+      "score": 0.25
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": true,
+      "hasUpdatedDate": true,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 23,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://asana.com/leadership",
+    "entityClarity": {
+      "hasSelfContainedDefinition": false,
+      "definitionSnippet": null
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 20,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://asana.com/paidservices",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Asana is the easiest way for teams to track their work. From tasks and projects to conversations and dashboards, Asana enables teams to move work from start to finish—and get great results."
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 20,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 1
+    }
+  },
+  {
+    "url": "https://asana.com/sales-email",
+    "entityClarity": {
+      "hasSelfContainedDefinition": true,
+      "definitionSnippet": "Contact our sales team about any questions you have"
+    },
+    "factualDensity": {
+      "numberCount": 0,
+      "comparativeStatements": 0,
+      "promotionalAdjectiveCount": 0,
+      "score": 0
+    },
+    "eeat": {
+      "hasVisibleAuthor": false,
+      "hasPublishDate": false,
+      "hasUpdatedDate": false,
+      "outboundCitationCount": 0
+    },
+    "extractableStructure": {
+      "listCount": 2,
+      "tableCount": 0,
+      "definitionBlockCount": 0,
+      "score": 0.2
+    }
+  }
+]

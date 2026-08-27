@@ -20,6 +20,57 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Data lake scraper
+
+Requires Node >=20.19 (`nvm use` if you have an older default — vite/vitest's
+native bindings don't resolve on older 20.x). Run:
+
+```bash
+npm run scrape -- --product <name> --url <https://site> [--mode quick|full] [--quick-cap 15] [--concurrency 3] [--delay 300]
+```
+
+This crawls the site's sitemap and writes SEO + GEO signals, a tf-idf
+tagcloud/phrase cloud, and the raw crawled pages into `datalake/{product}/`
+(see `WORK_PLAN.md` for the full folder layout). Quick mode (default) caps
+the crawl to a prioritized subset of pages (home, pricing, docs, blog);
+full mode crawls the entire sitemap. `datalake/` already has quick-mode
+output committed for Linear and its AEO competitors (Jira via
+atlassian.com, Asana, Monday, Notion) as evidence — re-run the command
+above to refresh it.
+
+## AEO/GEO/SEO brand visibility audit
+
+Copy `.env.example` to `.env.local` and set your own key (get one at
+https://aistudio.google.com/apikey) — `.env.local` is gitignored and loaded
+automatically by the CLI below, so the key never needs to be typed inline or
+committed.
+
+Once a product has scraper output in `datalake/{product}/` (see above),
+generate the consolidated report with:
+
+```bash
+npm run aeo -- \
+  --product <name> --brand <Brand> --competitors <A,B,C> --category "<category>" \
+  [--url <https://site>] [--mode quick|full]
+```
+
+`--url` is only needed if the scraper hasn't been run for that product yet —
+this command will scrape it first automatically in that case. It generates
+a dynamic AEO prompt set, calls the Gemini REST API `runsPerPrompt` times per
+prompt (to sample its non-determinism rather than treat one call as
+representative), computes Share of Voice/position/sentiment metrics per
+brand, cross-validates against the site's own tagcloud, and writes
+`datalake/{product}/report/report.md` (plus `report.json`/`priorities.json`).
+
+See `.claude/skills/brand-visibility-audit/SKILL.md` for the full procedure,
+every metric's formula, and known limitations.
+
+Run the full test suite (scraper + AEO) with:
+
+```bash
+npm test
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

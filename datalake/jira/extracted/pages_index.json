@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.atlassian.com/software/bamboo/pricing",
+    "urlHash": "cf6f980cb7ce6ace",
+    "title": "Bamboo - Pricing | Atlassian",
+    "pageType": "pricing"
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+    "urlHash": "f34f5c297c9b4d5a",
+    "title": "Roll Out Compass to Your Teams | Atlassian",
+    "pageType": "docs"
+  },
+  {
+    "url": "https://www.atlassian.com/",
+    "urlHash": "b8010495aee1076a",
+    "title": "Collaboration software for software, IT and business teams | Atlassian",
+    "pageType": "home"
+  },
+  {
+    "url": "https://www.atlassian.com/software/bitbucket/pricing",
+    "urlHash": "1e2e67645dc52f14",
+    "title": "Bitbucket Pricing: Find the Right Plan for You | Atlassian",
+    "pageType": "pricing"
+  },
+  {
+    "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+    "urlHash": "03b2fbd45a1aba4a",
+    "title": "Plan Your Compass Rollout Strategy | Atlassian",
+    "pageType": "docs"
+  },
+  {
+    "url": "https://www.atlassian.com/blog/about",
+    "urlHash": "03c610f956b74cab",
+    "title": "About - Inside Atlassian",
+    "pageType": "blog"
+  },
+  {
+    "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+    "urlHash": "e6ca59747ebbd1af",
+    "title": "Celebrating 10 years of the Atlassian Marketplace - Inside Atlassian",
+    "pageType": "blog"
+  },
+  {
+    "url": "https://www.atlassian.com/platform",
+    "urlHash": "4a5a45689fcfeb86",
+    "title": "Atlassian's platform | Atlassian",
+    "pageType": "other"
+  },
+  {
+    "url": "https://www.atlassian.com/platform/ai-trust",
+    "urlHash": "94595b4a50bce934",
+    "title": "Rovo AI Security | Trusted AI built responsibly and securely | Atlassian",
+    "pageType": "other"
+  },
+  {
+    "url": "https://www.atlassian.com/platform/analytics",
+    "urlHash": "ade3eec749bc9652",
+    "title": "Analytics - Built into the Atlassian platform | Atlassian",
+    "pageType": "other"
+  }
+]

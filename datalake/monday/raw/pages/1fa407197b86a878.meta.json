@@ -1,0 +1,30 @@
+{
+  "url": "https://monday.com/",
+  "urlHash": "1fa407197b86a878",
+  "status": 200,
+  "headers": {
+    "age": "24041",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a31612003cdde9a1-SCL",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 26 Aug 2026 21:53:37 GMT",
+    "last-modified": "Wed, 26 Aug 2026 15:13:21 GMT",
+    "link": "<https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/656da6fea306219773d04208/css/websitepages.shared.7ac5c22f1.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-esXCLxaF00GUuyfyUl99/tkWk5XFbaVvP50Q4Z4fXAWLBUPvbm5/HZtarG7Ozezc\", <https://monday.com>; rel=preconnect, <https://cdn.jsdelivr.net>; rel=preconnect, <https://dapulse-res.cloudinary.com>; rel=preconnect, <https://d3e54v103j8qbb.cloudfront.net>; rel=preconnect, <https://monday.com/static/css/splide.min.css>; rel=preload; as=style, <https://monday.com/.well-known/api-catalog>; rel=\"api-catalog\", <https://monday.com/.well-known/mcp.json>; rel=\"service-desc\", <https://monday.com/.well-known/agent-skills/index.json>; rel=\"service-desc\", <https://api.monday.com/v2/get_schema?format=sdl>; rel=\"describedby\", <https://api.monday.com/v2/get_schema>; rel=\"describedby\", <https://monday.com/.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\", <https://monday.com/.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\", <https://monday.com/.well-known/api-catalog>; rel=\"api-catalog\", <https://monday.com/.well-known/mcp.json>; rel=\"service-desc\", <https://monday.com/.well-known/agent-skills/index.json>; rel=\"service-desc\", <https://api.monday.com/v2/get_schema?format=sdl>; rel=\"describedby\", <https://api.monday.com/v2/get_schema>; rel=\"describedby\", <https://monday.com/.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\", <https://monday.com/.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\"",
+    "server": "cloudflare",
+    "set-cookie": "__cf_bm=X94CA.A8vs_zK9w4h1xYb9rO6P5FSCsmh16gaqsbt5c-1787781217.3200164-1.0.1.1-d46cGvDszLn6vpVKOLJCYIFD8Wzqqos_nhsRmH7Z_qqNMciy3GR3smF8ib_nXzEQVBC7O11_sHP67SPVW1d6JzBjvcdsStAt73rUrwRDM3uazihAzGBZ_qUBCYpSRaaGa4.fwnyaMM6xQQhPCCdBHA; HttpOnly; SameSite=None; Secure; Path=/; Domain=monday.com; Expires=Wed, 26 Aug 2026 22:23:37 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "surrogate-control": "max-age=2147483647",
+    "surrogate-key": "websitepages.monday.com 656da6fea306219773d04208 pageId:6a5f577cca05b259162612f6",
+    "transfer-encoding": "chunked",
+    "vary": "accept-encoding",
+    "via": "1.1 5ab436928123155d47de978fd75997ea.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "Gh7RFviNKp9WvjldO5sMWYPkONYXHjjYWyPVqIFAR7Qc7A62D_8w-w==",
+    "x-amz-cf-pop": "SCL51-P6",
+    "x-cache": "Miss from cloudfront",
+    "x-lambda-id": "c43d47b9-75f9-4f8b-9fdc-831bf5bd2d1a",
+    "x-wf-region": "us-east-1"
+  },
+  "fetchedAt": "2026-08-26T21:53:37.595Z"
+}

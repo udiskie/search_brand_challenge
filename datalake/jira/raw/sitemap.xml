@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/products.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/solutions.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/resources.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/templates.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/customers.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/company.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/locales.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.atlassian.com/sitemaps/other.xml</loc>
+  </sitemap>
+</sitemapindex>
