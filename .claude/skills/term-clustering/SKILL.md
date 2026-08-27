@@ -5,11 +5,11 @@ description: Groups a product's flat tagcloud terms into named semantic themes, 
 
 # Term Clustering
 
-**Status:** hand-curated taxonomy method (`--method taxonomy`) is built and
-run against real data for all 5 products. `--method llm` is a swappable
-second clustering source that slots into the same correlation/dashboard code
-via a `?method=` toggle -- see "Comparing the two methods" below for whether
-it has landed yet.
+**Status:** both methods are built and run against real data for all 5
+products -- `--method taxonomy` (hand-curated) and `--method llm` (one
+Gemini call per product), swappable via the dashboard's `?method=` toggle.
+See "Comparing the two methods" below for what running both against the
+same real data actually showed.
 
 ## Purpose
 
@@ -50,7 +50,7 @@ page whenever a tagcloud exists), with `?method=taxonomy` / `?method=llm` to
 switch. Requesting a method that hasn't been run yet falls back to whichever
 method *has* run, with a visible note rather than a 404.
 
-## Method (a): hand-curated taxonomy (`src/clustering/taxonomy.ts`)
+## Method (b): hand-curated taxonomy (`src/clustering/taxonomy.ts`)
 
 One shared, category-level keyword map ("project management / productivity
 SaaS", the category all 5 audited products share) -- same mechanism as
@@ -73,6 +73,21 @@ up unclustered (proper nouns, verbs, generic SaaS words like "customer" /
 "business" the taxonomy doesn't cover). That's an honest limitation, not a
 bug -- expanding the taxonomy's coverage is a matter of adding more keywords,
 not fixing broken logic.
+
+## Method (a): LLM-based (`src/clustering/clusterTermsByLlm.ts`)
+
+One low-temperature (0.2) Gemini call per product (`callGemini`, reused from
+`src/aeo/geminiClient.ts`), given the top 50 tagcloud terms by score (same
+`KNOWN_SCRAPE_ARTIFACTS` exclusion applied first, so both methods start from
+the same candidate set) and asked to invent its own theme names and bucket
+the terms into them, returned as strict JSON. Parsed defensively: any term
+the model names that wasn't actually in the input is dropped rather than
+fabricated into a theme; the whole response falls back to fully-unclustered
+if it isn't valid JSON in the expected shape or if Gemini returns no text at
+all (rate limit, safety block, timeout). This is the first non-deterministic,
+paid-API step in the pipeline outside AEO measurement itself -- see
+DECISIONS.md's "Term clustering: an LLM call, deliberately, for one specific
+step" for why that tradeoff was made on purpose here and nowhere else.
 
 ## Correlation (`src/clustering/correlate.ts`, shared by both methods)
 
@@ -124,9 +139,21 @@ flow/conversion one. Instead:
 
 ## Comparing the two methods
 
-See this file's git history / `WORK_PLAN.md` for whether `--method llm` has
-landed yet. Once it has: both methods write to separate files
-(`theme_clusters.taxonomy.json` / `theme_clusters.llm.json`) specifically so
-they can be committed and compared side by side rather than one overwriting
-the other -- switch between them on `/products/{product}/clusters` via
-`?method=`.
+Both methods write to separate files (`theme_clusters.taxonomy.json` /
+`theme_clusters.llm.json`) so they can be committed and compared side by
+side rather than one overwriting the other -- switch between them on
+`/products/{product}/clusters` via `?method=`; the page shows a compact
+theme-count / unclustered-count comparison note whenever both exist for a
+product.
+
+Run against Linear's real committed evidence, the difference was real and
+sizable, not marginal: the taxonomy left 33 of the top-50 terms unclustered
+(a fixed 9-theme keyword list, however carefully authored, can't anticipate
+every real word) vs. only 7 for the LLM method, which also invented its own
+theme names on the fly ("Project & Issue Tracking," "Development & Code,"
+"Time & Scheduling") rather than picking from a preset list -- a closer fit
+to the actual vocabulary, at the cost of non-determinism (re-running
+`--method llm` isn't guaranteed to reproduce identical theme names) and a
+real Gemini API call per product. Neither method is "more correct"; they
+trade determinism/cost for coverage/fit in opposite directions, which is
+the whole point of building both instead of picking one on paper.

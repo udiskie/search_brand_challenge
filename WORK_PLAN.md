@@ -186,10 +186,11 @@ CI).
   takes the first N per source, not a human-curated subset picked from
   `candidate_user_questions.md` — see `user-question-generator`'s SKILL.md.
 
-- ~~**Genuine semantic clustering of extracted tags.**~~ **Taxonomy method
-  done** (`feature/term-clustering-taxonomy`, see
-  `.claude/skills/term-clustering/SKILL.md`), LLM method planned as a
-  follow-on (`feature/term-clustering-llm`) for direct comparison. Today's
+- ~~**Genuine semantic clustering of extracted tags.**~~ **Both methods
+  done** (`feature/term-clustering-taxonomy` then
+  `feature/term-clustering-llm`, see
+  `.claude/skills/term-clustering/SKILL.md`), built specifically for direct
+  comparison. Today's
   `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) was a flat tf-idf
   ranking of individual word tokens with no grouping by meaning — confirmed
   against real output, where e.g. `team`/`teams` and `agent`/`agents` ranked
@@ -207,11 +208,16 @@ CI).
   generic force-directed graph — evaluated and rejected the latter as too
   cluttered to answer the actual question, which is a flow/conversion one;
   see the skill's own write-up for the reasoning. The LLM method
-  (`--method llm`) is the deliberate second half of this comparison — the
-  first non-deterministic, paid-API step in a pipeline otherwise entirely
-  deterministic by design — and writes to a sibling output file so both
-  methods can be compared side by side via the dashboard's `?method=`
-  toggle instead of one overwriting the other.
+  (`--method llm`, `src/clustering/clusterTermsByLlm.ts`) is the deliberate
+  second half of this comparison — the first non-deterministic, paid-API
+  step in a pipeline otherwise entirely deterministic by design (see
+  DECISIONS.md) — and writes to a sibling output file so both methods can be
+  compared side by side via the dashboard's `?method=` toggle instead of one
+  overwriting the other. Run against real Linear evidence: the taxonomy left
+  33 of the top-50 terms unclustered vs. only 7 for the LLM method, which
+  also invented its own theme names rather than picking from a fixed list —
+  a real, demonstrated coverage/determinism tradeoff, not a hypothetical
+  one.
 
 - ~~**UI work to display results to the user.**~~ **Done** (`feature/dashboard`),
   ahead of clustering above rather than after it: clustering is purely a
