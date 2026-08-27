@@ -1,7 +1,7 @@
 {
   "product": "monday",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:26:21.237Z",
+  "generatedAt": "2026-08-27T19:41:57.910Z",
   "themes": [
     {
       "name": "Integrations & Ecosystem",
@@ -19,9 +19,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 6,
+        "sampleContexts": [
+          "s who want complete customization and want to consolidate 5 apps into 1. * **The Trap:** It's easy to waste days endle",
+          ") and Bitbucket, with thousands of plugins on the Atlassian Marketplace. * **Advanced reporting:** Industry-standard burndown",
+          "gration ecosystem (Confluence, Bitbucket, plus thousands of Marketplace apps). * **Drawbacks:** Slow and clunky UI. Steep learnin"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -45,9 +49,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 19,
+        "sampleContexts": [
+          "herramienta con el resto del ecosistema corporativo (Slack, Teams, Salesforce, Figma, GitHub).",
+          "very Layer (Best for Pure PM Workflows) If your engineering team already has their own tool (like Jira) and you need a dedic",
+          "lance macro-strategy with micro-execution.** You don't need team permissions or complex reporting; you need high productivit"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -66,7 +74,7 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
+        "runsScanned": 30,
         "runsMentioning": 0,
         "sampleContexts": []
       },
@@ -87,9 +95,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 18,
+        "sampleContexts": [
+          "esa el rol de Product Manager está bien separado del rol de Project Manager/Scrum Master y necesitas enfocarte en visión, estra",
+          "recurso más valioso es el tiempo. La mejor herramienta de *project management* para ti no es la que tiene más funciones, sino",
+          "separating *Product Strategy* (the \"why\" and \"what\") from *Project Execution* (the \"how\" and \"when\").** Because of this, most"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -108,9 +120,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 16,
+        "sampleContexts": [
+          "s (Por hacer / En proceso / Hecho). * **Precio:** Excelente plan gratuito. ### 2. Todoist (para Equipos) (La más rápida par",
+          "* | Coaching a Managers, contratación, retención, cultura y plan de carrera. | | **Sistemas y Procesos (20%)** | Optimizació",
+          "nitamente flexible y gratis para uso personal. Hay miles de plantillas gratuitas para startups. * **Lo malo:** Es fáci"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,

@@ -1,7 +1,7 @@
 {
   "product": "notion",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:26:21.586Z",
+  "generatedAt": "2026-08-27T19:41:58.355Z",
   "themes": [
     {
       "name": "Pricing & Plans",
@@ -44,9 +44,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 14,
+        "sampleContexts": [
+          "sy (intuitive for task tracking) | | **Pricing** | Generous free plan; cheaper paid tiers | Good free plan; paid tiers can g",
+          "ón burocráticos. Necesitas **fricción cero**, velocidad, un plan gratuito generoso y, preferiblemente, algo que centralice t",
+          "es, a detailed roadmap for Product Marketing, and a release plan for Sales). * **Execution Sync:** Pushes finalized specs/"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -80,9 +84,11 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 1,
+        "sampleContexts": [
+          "**AI Support:** Use tools like Crisp or Intercom with AI agents to handle 50%+ of basic customer queries. --- ### 7. Sch"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -121,9 +127,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 18,
+        "sampleContexts": [
+          "ngeniería: --- ### 1. Definir la Estructura Organizativa (Team Topologies) No intentes gestionar una gran masa homogénea d",
+          "undamental question: **Do you want a flexible, customizable workspace for docs and databases, or a structured, ready-to-use proje",
+          "quipos en función de la arquitectura deseada. * **Adopta *Team Topologies* (Topología de Equipos):** * **Equipos ali"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -157,9 +167,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 8,
+        "sampleContexts": [
+          "ent | | **Setup Required** | High (build it yourself or use templates) | Low (ready to use immediately) | | **Document Writing**",
+          "**Setup Time** | High (you have to build your system or use templates) | Low (ready to use immediately) | | **Documentation** |",
+          "esign, architecture, bug fixes. * **Growth / Marketing:** Content creation, SEO, cold outreach, ad campaigns, social media. *"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -183,9 +197,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 4,
+        "sampleContexts": [
+          "nterprise Ready:** Already compliant with your company’s IT/Security standards if they use Atlassian. * **Verdict:** The path of",
+          "ring (no third-party sync issues). * Meets enterprise security, SAML/SSO, and compliance standards automatically. *",
+          "r executive visibility. * **Enterprise Fit:** Best-in-class security, governance, and scale. * **Drawback:** Steep learning curv"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,

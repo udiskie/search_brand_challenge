@@ -1,7 +1,7 @@
 {
   "product": "jira",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:26:20.520Z",
+  "generatedAt": "2026-08-27T19:41:57.092Z",
   "themes": [
     {
       "name": "Collaboration & Teams",
@@ -24,9 +24,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 18,
+        "sampleContexts": [
+          "Organizing a \"team\" as a solo startup founder presents a unique paradox: you a",
+          "Because these three tools target fundamentally different team dynamics, the right recommendation depends entirely on **wh",
+          "startup founder is working solo, the phrase \"organizing the team's work\" might sound like a contradiction. However, a solo f"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -50,9 +54,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 5,
+        "sampleContexts": [
+          "*Zapier** or **Make** | Automating repetitive tasks between apps (e.g., sending leads to CRM). | | **Time Tracking / Focus**",
+          "am dependency mapping. * **Deep Ecosystem:** Thousands of apps/plugins in the Atlassian Marketplace and native integration",
+          "e features, and granular access controls. * **Massive Marketplace:** Thousands of plugins and integrations for every tool ima"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -76,9 +84,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 10,
+        "sampleContexts": [
+          "r, Marketer, Admin). 2. **The Extended Team:** Contractors, freelancers, and AI tools. 3. **The Future Team:** The employees",
+          "strict Agile/Scrum:** Jira has built-in features for sprint planning, backlog grooming, story points, and release tracking.",
+          "g your setup instead of actually working. * **Cost:** Free tier is very generous for solo users. * **ClickUp** *"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
