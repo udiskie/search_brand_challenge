@@ -66,7 +66,7 @@ export default async function PromptsPage(props: PageProps<"/products/[product]/
         <div>
           <Link
             href={`/products/${product}`}
-            className="text-sm text-muted-foreground hover:underline"
+            className="text-sm text-link hover:underline"
           >
             ← Back to report
           </Link>
