@@ -1,13 +1,8 @@
 import { KNOWN_SCRAPE_ARTIFACTS } from "../questionGenerator/datalakeScanner";
 import type { TagcloudTerm } from "../scraper/types";
 import { CATEGORY_THEMES } from "./taxonomy";
+import { buildTheme, sortThemesByScore, toThemeTerm } from "./themeUtils";
 import type { Theme, ThemeTerm } from "./types";
-
-const EMPTY_ANSWER_STATS = { runsScanned: 0, runsMentioning: 0, sampleContexts: [] };
-
-function toThemeTerm(term: TagcloudTerm): ThemeTerm {
-  return { term: term.term, score: term.score, documentFrequency: term.documentFrequency };
-}
 
 /**
  * Buckets tagcloud terms into the hand-curated taxonomy (src/clustering/
@@ -44,19 +39,9 @@ export function clusterTermsByTaxonomy(tagcloud: TagcloudTerm[]): {
     termsByTheme.set(themeName, bucket);
   }
 
-  const themes: Theme[] = [...termsByTheme.entries()].map(([name, terms]) => ({
-    name,
-    terms: terms.sort((a, b) => b.score - a.score),
-    questions: [],
-    neutralAnswers: { ...EMPTY_ANSWER_STATS, sampleContexts: [] },
-    brandGroundedAnswers: { ...EMPTY_ANSWER_STATS, sampleContexts: [] },
-  }));
-
-  themes.sort((a, b) => {
-    const aTotal = a.terms.reduce((sum, t) => sum + t.score, 0);
-    const bTotal = b.terms.reduce((sum, t) => sum + t.score, 0);
-    return bTotal - aTotal;
-  });
+  const themes = sortThemesByScore(
+    [...termsByTheme.entries()].map(([name, terms]) => buildTheme(name, terms))
+  );
 
   return { themes, unclustered };
 }
