@@ -21,6 +21,10 @@ const VERB_BASE_FORM: Record<string, string> = {
   improve: "improve",
   restores: "restore",
   restore: "restore",
+  enables: "enable",
+  enable: "enable",
+  gives: "give",
+  give: "give",
 };
 
 const ORG_TYPE_KEYWORDS = [
@@ -49,6 +53,15 @@ function escapeRegExp(value: string): string {
 // "engineering teams plan, track..." reads wrong inside "trying to
 // {problem}"). Includes the known audience phrases, longest first, so
 // "engineering teams" is stripped as a unit rather than left dangling.
+//
+// Only "helps"/"lets" go here: their object is reliably a bare verb
+// phrase ("helps teams plan/ship/track..."), so dropping the verb+filler
+// still leaves a grammatical clause. "enables"/"gives" more often
+// introduce a noun phrase ("enables unlimited issues, enhanced security
+// controls...") -- dropping the verb there breaks the clause entirely
+// ("trying to unlimited issues..."), discovered running this against
+// real data. Those two keep their (normalized) verb -- see
+// ENABLE_STYLE_PATTERN below.
 const FILLER_TERMS = [
   "you", "your team", "teams?", "users?", "people",
   ...ORG_TYPE_KEYWORDS.map(escapeRegExp),
@@ -56,7 +69,12 @@ const FILLER_TERMS = [
 ].sort((a, b) => b.length - a.length);
 
 const HELP_STYLE_PATTERN = new RegExp(
-  `\\b(?:helps?|lets?|enables?|gives?)\\s+(?:${FILLER_TERMS.join("|")})?\\s*([a-z][^.!?]{5,140})`,
+  `\\b(?:helps?|lets?)\\s+(?:${FILLER_TERMS.join("|")})?\\s*([a-z][^.!?]{5,140})`,
+  "gi"
+);
+
+const ENABLE_STYLE_PATTERN = new RegExp(
+  `\\b(enables?|gives?)\\s+(?:${FILLER_TERMS.join("|")})?\\s*([a-z][^.!?]{5,140})`,
   "gi"
 );
 
@@ -72,11 +90,17 @@ function trimFragment(fragment: string): string {
   return fragment.replace(/[,;:]\s*$/, "").trim();
 }
 
+// Longest match first so e.g. "product teams" (plural, matched) outranks
+// "product team" (singular, also matches as a substring of the same
+// text) -- otherwise pickAudiencePhrase() would grab the singular form
+// even when the source said "teams", producing a subject-verb mismatch
+// like "for product team that need to...".
 function findAudienceSignals(text: string): AudienceSignal {
   const lower = text.toLowerCase();
+  const byLengthDesc = (a: string, b: string) => b.length - a.length;
   return {
-    orgTypes: ORG_TYPE_KEYWORDS.filter((term) => lower.includes(term)),
-    userTypes: USER_TYPE_KEYWORDS.filter((term) => lower.includes(term)),
+    orgTypes: ORG_TYPE_KEYWORDS.filter((term) => lower.includes(term)).sort(byLengthDesc),
+    userTypes: USER_TYPE_KEYWORDS.filter((term) => lower.includes(term)).sort(byLengthDesc),
   };
 }
 
@@ -109,6 +133,14 @@ function extractProblemClaimsFromText(
 
   for (const match of text.matchAll(HELP_STYLE_PATTERN)) {
     const problem = trimFragment(match[1]).slice(0, MAX_PROBLEM_LENGTH);
+    if (!isMeaningfulProblem(problem, exclude)) continue;
+    claims.push({ problem, audience, evidence: [{ url, snippet: match[0].trim() }] });
+  }
+
+  for (const match of text.matchAll(ENABLE_STYLE_PATTERN)) {
+    const verb = VERB_BASE_FORM[match[1].toLowerCase()] ?? match[1].toLowerCase();
+    const object = trimFragment(match[2]).slice(0, MAX_PROBLEM_LENGTH);
+    const problem = `${verb} ${object}`;
     if (!isMeaningfulProblem(problem, exclude)) continue;
     claims.push({ problem, audience, evidence: [{ url, snippet: match[0].trim() }] });
   }
@@ -183,6 +215,19 @@ export async function scanProblemAudienceClaims(
     } else {
       byProblem.set(key, { ...claim, evidence: [...claim.evidence] });
     }
+  }
+
+  // A GEO definition often duplicates its page's meta description verbatim
+  // (see extractGeoSignals's findDefinitionSnippet fallback), which
+  // otherwise shows up as the same url+snippet listed twice as "evidence".
+  for (const claim of byProblem.values()) {
+    const seen = new Set<string>();
+    claim.evidence = claim.evidence.filter((e) => {
+      const key = `${e.url} ${e.snippet}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }
 
   return [...byProblem.values()];

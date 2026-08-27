@@ -42,18 +42,74 @@ async function seed(product: string) {
       wordCount: 10,
       topKeywordDensity: [],
     },
+    {
+      url: "https://example.com/pricing",
+      title: "Pricing",
+      titleLength: 7,
+      metaDescription:
+        "Upgrade to enable unlimited issues, enhanced security controls, and additional features.",
+      metaDescriptionLength: 89,
+      headings: [],
+      h1Count: 1,
+      headingOrderIssues: [],
+      schemaTypes: [],
+      internalLinkCount: 0,
+      externalLinkCount: 0,
+      imagesTotal: 0,
+      imagesMissingAlt: 0,
+      wordCount: 10,
+      topKeywordDensity: [],
+    },
+    {
+      url: "https://example.com/",
+      title: "Home",
+      titleLength: 4,
+      metaDescription: "Example helps product teams ship with high velocity.",
+      metaDescriptionLength: 54,
+      headings: [],
+      h1Count: 1,
+      headingOrderIssues: [],
+      schemaTypes: [],
+      internalLinkCount: 0,
+      externalLinkCount: 0,
+      imagesTotal: 0,
+      imagesMissingAlt: 0,
+      wordCount: 10,
+      topKeywordDensity: [],
+    },
   ]);
 
   await writeJson(path.join(geoDir(product), "geo_signals.json"), [
     {
       url: "https://example.com/start-guide",
-      entityClarity: { hasSelfContainedDefinition: false, definitionSnippet: null },
+      // Duplicates the page's own meta description verbatim, as
+      // extractGeoSignals's definition-snippet fallback often does --
+      // exercises the evidence-dedup path.
+      entityClarity: {
+        hasSelfContainedDefinition: true,
+        definitionSnippet:
+          "Example helps engineering teams plan, track, and deliver work without a lot of overhead.",
+      },
       factualDensity: { numberCount: 0, comparativeStatements: 0, promotionalAdjectiveCount: 0, score: 0.5 },
       eeat: { hasVisibleAuthor: false, hasPublishDate: false, hasUpdatedDate: false, outboundCitationCount: 0 },
       extractableStructure: { listCount: 0, tableCount: 0, definitionBlockCount: 0, score: 0 },
     },
     {
       url: "https://example.com/leaky",
+      entityClarity: { hasSelfContainedDefinition: false, definitionSnippet: null },
+      factualDensity: { numberCount: 0, comparativeStatements: 0, promotionalAdjectiveCount: 0, score: 0.5 },
+      eeat: { hasVisibleAuthor: false, hasPublishDate: false, hasUpdatedDate: false, outboundCitationCount: 0 },
+      extractableStructure: { listCount: 0, tableCount: 0, definitionBlockCount: 0, score: 0 },
+    },
+    {
+      url: "https://example.com/pricing",
+      entityClarity: { hasSelfContainedDefinition: false, definitionSnippet: null },
+      factualDensity: { numberCount: 0, comparativeStatements: 0, promotionalAdjectiveCount: 0, score: 0.5 },
+      eeat: { hasVisibleAuthor: false, hasPublishDate: false, hasUpdatedDate: false, outboundCitationCount: 0 },
+      extractableStructure: { listCount: 0, tableCount: 0, definitionBlockCount: 0, score: 0 },
+    },
+    {
+      url: "https://example.com/",
       entityClarity: { hasSelfContainedDefinition: false, definitionSnippet: null },
       factualDensity: { numberCount: 0, comparativeStatements: 0, promotionalAdjectiveCount: 0, score: 0.5 },
       eeat: { hasVisibleAuthor: false, hasPublishDate: false, hasUpdatedDate: false, outboundCitationCount: 0 },
@@ -116,6 +172,28 @@ describe("scanProblemAudienceClaims", () => {
     const claims = await scanProblemAudienceClaims("example", { excludeTerms: ["example"] });
     const problems = claims.map((c) => c.problem.toLowerCase());
     expect(new Set(problems).size).toBe(problems.length);
+  });
+
+  it("deduplicates identical evidence entries (meta description duplicated as a GEO definition)", async () => {
+    await seed("example");
+    const claims = await scanProblemAudienceClaims("example", { excludeTerms: ["example"] });
+    const claim = claims.find((c) => c.problem.startsWith("plan, track"))!;
+    const snippets = claim.evidence.map((e) => `${e.url}|${e.snippet}`);
+    expect(new Set(snippets).size).toBe(snippets.length);
+  });
+
+  it("keeps the (normalized) verb for an 'enables X noun-phrase' claim instead of stripping it", async () => {
+    await seed("example");
+    const claims = await scanProblemAudienceClaims("example", { excludeTerms: ["example"] });
+    const claim = claims.find((c) => c.problem.startsWith("enable unlimited issues"));
+    expect(claim).toBeDefined();
+  });
+
+  it("prefers the plural audience match over a singular substring match", async () => {
+    await seed("example");
+    const claims = await scanProblemAudienceClaims("example", { excludeTerms: ["example"] });
+    const claim = claims.find((c) => c.problem.includes("ship with high velocity"))!;
+    expect(claim.audience.userTypes[0]).toBe("product teams");
   });
 
   it("drops trivially short fragments", async () => {
