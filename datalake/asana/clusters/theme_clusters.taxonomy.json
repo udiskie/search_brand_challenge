@@ -1,0 +1,339 @@
+{
+  "product": "asana",
+  "method": "taxonomy",
+  "generatedAt": "2026-08-27T19:26:20.881Z",
+  "themes": [
+    {
+      "name": "Issue & Project Tracking",
+      "terms": [
+        {
+          "term": "tasks",
+          "score": 67.84538572328661,
+          "documentFrequency": 1
+        },
+        {
+          "term": "projects",
+          "score": 33.922692861643306,
+          "documentFrequency": 1
+        },
+        {
+          "term": "project",
+          "score": 33.05959206488904,
+          "documentFrequency": 2
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Pricing & Plans",
+      "terms": [
+        {
+          "term": "unlimited",
+          "score": 28.703817036775106,
+          "documentFrequency": 1
+        },
+        {
+          "term": "subscription",
+          "score": 28.703817036775106,
+          "documentFrequency": 1
+        },
+        {
+          "term": "plan",
+          "score": 28.651646456237167,
+          "documentFrequency": 2
+        },
+        {
+          "term": "free",
+          "score": 23.239727474969982,
+          "documentFrequency": 7
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Collaboration & Teams",
+      "terms": [
+        {
+          "term": "team",
+          "score": 54.2669977575493,
+          "documentFrequency": 6
+        },
+        {
+          "term": "teams",
+          "score": 45.71497387511853,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "AI & Automation",
+      "terms": [
+        {
+          "term": "agents",
+          "score": 23.484941211906904,
+          "documentFrequency": 1
+        },
+        {
+          "term": "workflows",
+          "score": 23.484941211906904,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Security & Compliance",
+      "terms": [
+        {
+          "term": "security",
+          "score": 26.094379124341003,
+          "documentFrequency": 1
+        },
+        {
+          "term": "compliance",
+          "score": 18.266065387038704,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    }
+  ],
+  "unclustered": [
+    {
+      "term": "iconcheck",
+      "score": 313.13254949209204,
+      "documentFrequency": 1
+    },
+    {
+      "term": "work",
+      "score": 96.6928399210234,
+      "documentFrequency": 5
+    },
+    {
+      "term": "asana",
+      "score": 65,
+      "documentFrequency": 9
+    },
+    {
+      "term": "check",
+      "score": 57.40763407355021,
+      "documentFrequency": 1
+    },
+    {
+      "term": "right",
+      "score": 47.90726829685388,
+      "documentFrequency": 3
+    },
+    {
+      "term": "circle",
+      "score": 44.07945608651872,
+      "documentFrequency": 2
+    },
+    {
+      "term": "learn",
+      "score": 39.671510477866846,
+      "documentFrequency": 2
+    },
+    {
+      "term": "morelearn",
+      "score": 39.141568686511505,
+      "documentFrequency": 1
+    },
+    {
+      "term": "manage",
+      "score": 39.141568686511505,
+      "documentFrequency": 1
+    },
+    {
+      "term": "data",
+      "score": 37.46753767354091,
+      "documentFrequency": 2
+    },
+    {
+      "term": "organization",
+      "score": 36.53213077407741,
+      "documentFrequency": 1
+    },
+    {
+      "term": "morearrow",
+      "score": 35.263564869214974,
+      "documentFrequency": 2
+    },
+    {
+      "term": "across",
+      "score": 31.313254949209206,
+      "documentFrequency": 1
+    },
+    {
+      "term": "management",
+      "score": 28.74436097811233,
+      "documentFrequency": 3
+    },
+    {
+      "term": "due",
+      "score": 28.703817036775106,
+      "documentFrequency": 1
+    },
+    {
+      "term": "cancel",
+      "score": 28.703817036775106,
+      "documentFrequency": 1
+    },
+    {
+      "term": "chevron",
+      "score": 28.651646456237167,
+      "documentFrequency": 2
+    },
+    {
+      "term": "company",
+      "score": 27.090354888959126,
+      "documentFrequency": 4
+    },
+    {
+      "term": "every",
+      "score": 26.828070246238173,
+      "documentFrequency": 3
+    },
+    {
+      "term": "see",
+      "score": 26.828070246238173,
+      "documentFrequency": 3
+    },
+    {
+      "term": "custom",
+      "score": 24.243700847585295,
+      "documentFrequency": 2
+    },
+    {
+      "term": "per",
+      "score": 23.484941211906904,
+      "documentFrequency": 1
+    },
+    {
+      "term": "user",
+      "score": 22.03972804325936,
+      "documentFrequency": 2
+    },
+    {
+      "term": "view",
+      "score": 22.03972804325936,
+      "documentFrequency": 2
+    },
+    {
+      "term": "service",
+      "score": 21.151558732723874,
+      "documentFrequency": 5
+    },
+    {
+      "term": "platform",
+      "score": 20.875503299472804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "iconunlimited",
+      "score": 20.875503299472804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "goals",
+      "score": 20.317766166719345,
+      "documentFrequency": 4
+    },
+    {
+      "term": "account",
+      "score": 20.317766166719345,
+      "documentFrequency": 4
+    },
+    {
+      "term": "down",
+      "score": 19.835755238933423,
+      "documentFrequency": 2
+    },
+    {
+      "term": "create",
+      "score": 18.993449215142252,
+      "documentFrequency": 6
+    },
+    {
+      "term": "paid",
+      "score": 18.624618986159398,
+      "documentFrequency": 4
+    },
+    {
+      "term": "client",
+      "score": 18.266065387038704,
+      "documentFrequency": 1
+    },
+    {
+      "term": "time",
+      "score": 18.266065387038704,
+      "documentFrequency": 1
+    },
+    {
+      "term": "process",
+      "score": 18.266065387038704,
+      "documentFrequency": 1
+    },
+    {
+      "term": "officerlearn",
+      "score": 18.266065387038704,
+      "documentFrequency": 1
+    },
+    {
+      "term": "support",
+      "score": 18.129907485191893,
+      "documentFrequency": 5
+    }
+  ]
+}

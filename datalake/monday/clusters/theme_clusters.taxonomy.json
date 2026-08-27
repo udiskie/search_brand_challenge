@@ -1,0 +1,339 @@
+{
+  "product": "monday",
+  "method": "taxonomy",
+  "generatedAt": "2026-08-27T19:26:21.237Z",
+  "themes": [
+    {
+      "name": "Integrations & Ecosystem",
+      "terms": [
+        {
+          "term": "marketplace",
+          "score": 183.94263873042084,
+          "documentFrequency": 2
+        },
+        {
+          "term": "apps",
+          "score": 108.62644923063792,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Collaboration & Teams",
+      "terms": [
+        {
+          "term": "team",
+          "score": 91.2113253785778,
+          "documentFrequency": 4
+        },
+        {
+          "term": "teams",
+          "score": 48.28834872983529,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "AI & Automation",
+      "terms": [
+        {
+          "term": "agents",
+          "score": 118.6844537890303,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Issue & Project Tracking",
+      "terms": [
+        {
+          "term": "project",
+          "score": 74.42923373210375,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Pricing & Plans",
+      "terms": [
+        {
+          "term": "plan",
+          "score": 59.019092892020915,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    }
+  ],
+  "unclustered": [
+    {
+      "term": "app",
+      "score": 213.83331752411425,
+      "documentFrequency": 2
+    },
+    {
+      "term": "management",
+      "score": 130.09700008919555,
+      "documentFrequency": 5
+    },
+    {
+      "term": "min",
+      "score": 103.46773428586174,
+      "documentFrequency": 2
+    },
+    {
+      "term": "work",
+      "score": 101.18655562492988,
+      "documentFrequency": 5
+    },
+    {
+      "term": "platform",
+      "score": 99.58041982135956,
+      "documentFrequency": 5
+    },
+    {
+      "term": "founded",
+      "score": 94.66618322834489,
+      "documentFrequency": 1
+    },
+    {
+      "term": "date",
+      "score": 94.66618322834489,
+      "documentFrequency": 1
+    },
+    {
+      "term": "number",
+      "score": 94.27060234934069,
+      "documentFrequency": 2
+    },
+    {
+      "term": "sales",
+      "score": 92.99978273894205,
+      "documentFrequency": 4
+    },
+    {
+      "term": "crm",
+      "score": 91.21132537857778,
+      "documentFrequency": 4
+    },
+    {
+      "term": "service",
+      "score": 86.49883920217464,
+      "documentFrequency": 3
+    },
+    {
+      "term": "data",
+      "score": 85.12519758922673,
+      "documentFrequency": 5
+    },
+    {
+      "term": "read",
+      "score": 85.12519758922672,
+      "documentFrequency": 5
+    },
+    {
+      "term": "saas",
+      "score": 83.84719085939119,
+      "documentFrequency": 1
+    },
+    {
+      "term": "customer",
+      "score": 80.48058121639215,
+      "documentFrequency": 4
+    },
+    {
+      "term": "businesses",
+      "score": 78.43769467491433,
+      "documentFrequency": 1
+    },
+    {
+      "term": "monday",
+      "score": 75,
+      "documentFrequency": 10
+    },
+    {
+      "term": "marketing",
+      "score": 73.32675177493508,
+      "documentFrequency": 4
+    },
+    {
+      "term": "started",
+      "score": 72.2761111606642,
+      "documentFrequency": 5
+    },
+    {
+      "term": "developers",
+      "score": 70.32345039819906,
+      "documentFrequency": 1
+    },
+    {
+      "term": "target",
+      "score": 64.3799235556473,
+      "documentFrequency": 2
+    },
+    {
+      "term": "development",
+      "score": 64.3799235556473,
+      "documentFrequency": 2
+    },
+    {
+      "term": "like",
+      "score": 62.35962826203287,
+      "documentFrequency": 3
+    },
+    {
+      "term": "custom",
+      "score": 60.3480273503544,
+      "documentFrequency": 3
+    },
+    {
+      "term": "customers",
+      "score": 57.230635531656645,
+      "documentFrequency": 4
+    },
+    {
+      "term": "marketplaces",
+      "score": 56.79970993700693,
+      "documentFrequency": 1
+    },
+    {
+      "term": "email",
+      "score": 55.44217817129237,
+      "documentFrequency": 4
+    },
+    {
+      "term": "audience",
+      "score": 55.182791619126256,
+      "documentFrequency": 2
+    },
+    {
+      "term": "business",
+      "score": 54.608617321390724,
+      "documentFrequency": 5
+    },
+    {
+      "term": "tools",
+      "score": 54.608617321390724,
+      "documentFrequency": 5
+    },
+    {
+      "term": "categories",
+      "score": 54.094961844768505,
+      "documentFrequency": 1
+    },
+    {
+      "term": "every",
+      "score": 50.07680609019957,
+      "documentFrequency": 4
+    },
+    {
+      "term": "using",
+      "score": 50.07680609019956,
+      "documentFrequency": 4
+    },
+    {
+      "term": "product",
+      "score": 48.27842188028352,
+      "documentFrequency": 3
+    },
+    {
+      "term": "leads",
+      "score": 48.27842188028352,
+      "documentFrequency": 3
+    },
+    {
+      "term": "emails",
+      "score": 44.71143400910675,
+      "documentFrequency": 4
+    },
+    {
+      "term": "per",
+      "score": 44.25522005692656,
+      "documentFrequency": 3
+    },
+    {
+      "term": "own",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "campaigns",
+      "score": 43.36566669639852,
+      "documentFrequency": 5
+    },
+    {
+      "term": "quotes",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "analytics",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "meeting",
+      "score": 42.243619145248076,
+      "documentFrequency": 3
+    },
+    {
+      "term": "com",
+      "score": 41.7595308928282,
+      "documentFrequency": 5
+    }
+  ]
+}
