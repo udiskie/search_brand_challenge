@@ -1,0 +1,226 @@
+[
+  {
+    "dimension": "geo",
+    "finding": "No self-contained \"what is this\" definition on https://asana.com/leadership",
+    "impact": "high",
+    "effort": "low",
+    "suggestedAction": "Add one self-contained sentence defining the product (e.g. in the meta description or opening paragraph) that an LLM can quote directly."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://asana.com/create-account-mobile",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://asana.com/create-account-signup",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://asana.com/create-account",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://asana.com/paidservices",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://asana.com/sales-email",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Broken/unreachable sitemap URL: https://asana.com/resources/pricing-strategy",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Fix or remove the broken URL from the sitemap."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/create-account-mobile (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/create-account-mobile",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://asana.com/create-account-mobile (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/create-account-signup (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/create-account-signup",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://asana.com/create-account-signup (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/create-account (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/create-account",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://asana.com/create-account (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/culture-and-belonging (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/leadership (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/leadership",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/paidservices (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/paidservices",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://asana.com/sales-email (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://asana.com/sales-email",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "aeo",
+    "finding": "Top site keywords the model never uses when describing Asana: iconcheck, tasks, check, right, circle",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."
+  },
+  {
+    "dimension": "seo",
+    "finding": "2 H1 tags on https://asana.com",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Keep exactly one H1 per page; demote the rest to H2/H3."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Meta description too short on https://asana.com/leadership (19 chars)",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Expand the meta description to ~120-160 characters."
+  },
+  {
+    "dimension": "seo",
+    "finding": "167 images missing alt text across 9 crawled pages",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Add descriptive alt text to every content image."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://asana.com/create-account-mobile",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://asana.com/create-account-signup",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://asana.com/create-account",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://asana.com/paidservices",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://asana.com/sales-email",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  }
+]

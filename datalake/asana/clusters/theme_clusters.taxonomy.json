@@ -1,7 +1,7 @@
 {
   "product": "asana",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:26:20.881Z",
+  "generatedAt": "2026-08-27T19:41:57.459Z",
   "themes": [
     {
       "name": "Issue & Project Tracking",
@@ -24,9 +24,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 15,
+        "sampleContexts": [
+          "ener el enfoque**. Aquí tienes las mejores herramientas de Project Management organizadas según tu estilo de trabajo y tipo de",
+          "Both **Asana** and **Monday.com** are industry-leading project management tools, but they cater to slightly different work",
+          "g, operations, design, sales) alongside software or general projects. * **Choose Jira** if you are a **large enterprise**, req"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -60,9 +64,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 11,
+        "sampleContexts": [
+          "an organizarse en minutos sin leer un manual. * **Precio:** Plan gratuito muy completo. ### 2. **Todoist (para Equipos)** (",
+          "un solo sitio. * **Lo mejor:** La flexibilidad y sus plantillas gratuitas para startups. * **Lo malo:** Es fáci",
+          "rface, excellent task dependency management, and a powerful free plan. * **Choose Monday.com if** you want a highly visual,"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -86,9 +94,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 21,
+        "sampleContexts": [
+          "\" (minimum 3 users) | | **Customization** | Moderate (keeps team standardized) | Extremely High (you build your own workflow",
+          "Linear** if you are a modern **tech startup or software dev team** that wants speed, simplicity, and great design. * **Cho",
+          "As a solo founder, you aren't just one person—you are a team of six people stuck in one body: CEO, Product Manager, Deve"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -112,9 +124,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 13,
+        "sampleContexts": [
+          "**Best For** | Task management, cross-functional projects, workflows | Operations, sales/CRM, resource management, high-level da",
+          "require strict Agile/Scrum frameworks, or need deep custom workflows and compliance. --- ### 1. Linear: *The Best for Modern S",
+          "nder in this era, your team consists of you + software + AI agents. * **Automation:** Use Zapier or Make to connect systems ("
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -138,9 +154,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 5,
+        "sampleContexts": [
+          "t Agile/Scrum frameworks, or need deep custom workflows and compliance. --- ### 1. Linear: *The Best for Modern Software Teams*",
+          "rise, require deep customization/reporting, or need complex compliance and multi-team scaling. * **Choose Asana** if you need a fl",
+          "rprise software company**, need deep customization, complex compliance, or handle IT support alongside dev work. * **Choose Asana*"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,

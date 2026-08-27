@@ -1,0 +1,180 @@
+{
+  "config": {
+    "brand": "Monday",
+    "competitors": [
+      "Linear",
+      "Jira",
+      "Asana",
+      "Notion"
+    ],
+    "category": "project management",
+    "promptCount": 10,
+    "runsPerPrompt": 3,
+    "temperature": 0.9,
+    "model": "gemini-3.6-flash"
+  },
+  "prompts": [
+    {
+      "id": "discovery-0",
+      "text": "What project management tools exist for a startup founder working solo?",
+      "dimensions": {
+        "intent": "discovery",
+        "persona": {
+          "role": "startup founder",
+          "teamSize": "solo"
+        },
+        "specificity": "generic",
+        "attribute": "price",
+        "language": "en",
+        "brandsNamed": []
+      }
+    },
+    {
+      "id": "direct_comparison-1",
+      "text": "Monday vs Jira, ¿cuál elijo?",
+      "dimensions": {
+        "intent": "direct_comparison",
+        "persona": {
+          "role": "engineering lead",
+          "teamSize": "large team"
+        },
+        "specificity": "specific",
+        "attribute": "integrations",
+        "language": "es",
+        "brandsNamed": [
+          "Monday",
+          "Jira"
+        ]
+      }
+    },
+    {
+      "id": "recommendation_constraint-2",
+      "text": "What's the best project management tool for a product manager at a large company that needs that fits their workflow?",
+      "dimensions": {
+        "intent": "recommendation_constraint",
+        "persona": {
+          "role": "product manager",
+          "teamSize": "large company"
+        },
+        "specificity": "generic",
+        "attribute": "none",
+        "language": "en",
+        "brandsNamed": []
+      }
+    },
+    {
+      "id": "troubleshooting_replacement-3",
+      "text": "¿Qué alternativas a Monday ofrecen algo rápido y simple de usar?",
+      "dimensions": {
+        "intent": "troubleshooting_replacement",
+        "persona": {
+          "role": "freelancer",
+          "teamSize": "solo"
+        },
+        "specificity": "semi_specific",
+        "attribute": "speed_ux",
+        "language": "es",
+        "brandsNamed": [
+          "Monday"
+        ]
+      }
+    },
+    {
+      "id": "final_decision-4",
+      "text": "Between Monday, Linear, and Jira, which one do you recommend?",
+      "dimensions": {
+        "intent": "final_decision",
+        "persona": {
+          "role": "marketing team",
+          "teamSize": "small team"
+        },
+        "specificity": "specific",
+        "attribute": "methodology",
+        "language": "en",
+        "brandsNamed": [
+          "Monday",
+          "Linear",
+          "Jira"
+        ]
+      }
+    },
+    {
+      "id": "discovery-5",
+      "text": "¿Qué herramientas de project management existen para un fundador de startup que trabaja solo?",
+      "dimensions": {
+        "intent": "discovery",
+        "persona": {
+          "role": "startup founder",
+          "teamSize": "solo"
+        },
+        "specificity": "generic",
+        "attribute": "price",
+        "language": "es",
+        "brandsNamed": []
+      }
+    },
+    {
+      "id": "direct_comparison-6",
+      "text": "Monday vs Asana, which one should I choose?",
+      "dimensions": {
+        "intent": "direct_comparison",
+        "persona": {
+          "role": "engineering lead",
+          "teamSize": "large team"
+        },
+        "specificity": "specific",
+        "attribute": "integrations",
+        "language": "en",
+        "brandsNamed": [
+          "Monday",
+          "Asana"
+        ]
+      }
+    },
+    {
+      "id": "recommendation_constraint-7",
+      "text": "¿Cuál es la mejor herramienta de project management para un product manager en una empresa grande que necesita que se adapte a su flujo de trabajo?",
+      "dimensions": {
+        "intent": "recommendation_constraint",
+        "persona": {
+          "role": "product manager",
+          "teamSize": "large company"
+        },
+        "specificity": "generic",
+        "attribute": "none",
+        "language": "es",
+        "brandsNamed": []
+      }
+    },
+    {
+      "id": "adversarial_control-8",
+      "text": "How should a startup founder working solo organize their team's work?",
+      "dimensions": {
+        "intent": "adversarial_control",
+        "persona": {
+          "role": "startup founder",
+          "teamSize": "solo"
+        },
+        "specificity": "generic",
+        "attribute": "none",
+        "language": "en",
+        "brandsNamed": []
+      }
+    },
+    {
+      "id": "adversarial_control-9",
+      "text": "¿Cómo debería organizar el trabajo un líder de ingeniería que gestiona un equipo grande?",
+      "dimensions": {
+        "intent": "adversarial_control",
+        "persona": {
+          "role": "engineering lead",
+          "teamSize": "large team"
+        },
+        "specificity": "generic",
+        "attribute": "none",
+        "language": "es",
+        "brandsNamed": []
+      }
+    }
+  ]
+}

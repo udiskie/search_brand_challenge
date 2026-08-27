@@ -1,0 +1,22 @@
+{
+  "runId": "5aa9c07f-b871-4015-94a9-8b9d073adbb2",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Jira ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T18:53:55.536Z",
+  "finishReason": "STOP",
+  "rawText": "Jira es excelente para grandes corporaciones, pero suele ser lento, complejo y requiere mucha configuración. Si buscas **velocidad, simplicidad y una buena experiencia de usuario**, aquí tienes las mejores alternativas divididas según el tipo de equipo:\n\n---\n\n### 1. Para equipos de desarrollo / Software (Los \"Jira Killer\")\n\n*   **Linear** *(La recomendación #1 si vienes de Jira)*\n    *   **¿Por qué es rápida y simple?:** Está diseñada específicamente para volar. Funciona muchísimo con atajos de teclado, su interfaz es ultra minimalista y carga al instante.\n    *   **Ideal para:** Equipos de software modernos que quieren metodologías ágiles sin la burocracia de Jira.\n    *   **Integraciones:** GitHub, GitLab, Figma, Slack.\n\n*   **Shortcut** *(Antes conocido como Clubhouse)*\n    *   **¿Por qué es rápida y simple?:** Ofrece la potencia de Jira (epics, historias de usuario, sprints) pero con una interfaz mucho más limpia, intuitiva y rápida de cargar.\n    *   **Ideal para:** Equipos de tecnología en crecimiento que necesitan más estructura que Trello, pero menos complejidad que Jira.\n\n---\n\n### 2. Para máxima simplicidad y gestión visual (Kanban)\n\n*   **Trello**\n    *   **¿Por qué es rápida y simple?:** Es el estándar de oro de la simplicidad. Se basa en tableros de tarjetas (Kanban) donde arrastras y sueltas tareas. No requiere entrenamiento.\n    *   **Ideal para:** Equipos pequeños, proyectos sencillos o personas no técnicas.\n    *   **Nota:** Si necesitas informes avanzados o gestión de código compleja, se te quedará corto.\n\n---\n\n### 3. Para equipos mixtos o gestión de proyectos general\n\n*   **Asana**\n    *   **¿Por qué es rápida y simple?:** Su interfaz es extremadamente amigable e intuitiva. Permite cambiar entre vistas de lista, tablero (Kanban) y cronograma (Gantt) con un solo clic.\n    *   **Ideal para:** Equipos multidisciplinarios (marketing, diseño, producto, operaciones).\n\n*   **Monday.com**\n    *   **¿Por qué es rápida y simple?:** Es muy visual y colorida. Crear tablas de seguimiento y automatizaciones sencillas (\"cuando X pase, avisa a Y\") se hace en segundos sin saber programar.\n    *   **Ideal para:** Equipos que quieren ver el estado de los proyectos de un vistazo.\n\n---\n\n### Resumen para elegir rápido:\n\n*   Si eres **desarrollador o equipo de software**: Ve a por **Linear**. Es probablemente lo que estás buscando.\n*   Si quieres **cero complicaciones y solo mover tarjetas**: Elige **Trello**.\n*   Si tienes un **equipo con perfiles variados (técnicos y no técnicos)**: Elige **Asana**."
+}
