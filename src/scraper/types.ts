@@ -59,6 +59,7 @@ export interface TagcloudTerm {
   term: string;
   score: number;
   documentFrequency: number;
+  occurrences: number;
 }
 
 export interface Tagcloud {

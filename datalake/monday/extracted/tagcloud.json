@@ -3,252 +3,302 @@
     {
       "term": "app",
       "score": 213.83331752411425,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 93
     },
     {
       "term": "marketplace",
       "score": 183.94263873042084,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 80
     },
     {
       "term": "management",
       "score": 130.09700008919555,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 81
     },
     {
       "term": "agents",
       "score": 118.6844537890303,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 59
     },
     {
       "term": "apps",
       "score": 108.62644923063792,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 54
     },
     {
       "term": "min",
       "score": 103.46773428586174,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 45
     },
     {
       "term": "work",
-      "score": 101.18655562492988,
-      "documentFrequency": 5
+      "score": 101.18655562492987,
+      "documentFrequency": 5,
+      "occurrences": 63
     },
     {
       "term": "platform",
       "score": 99.58041982135956,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 62
     },
     {
       "term": "founded",
       "score": 94.66618322834489,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 35
     },
     {
       "term": "date",
       "score": 94.66618322834489,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 35
     },
     {
       "term": "number",
       "score": 94.27060234934069,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 41
     },
     {
       "term": "sales",
       "score": 92.99978273894205,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 52
     },
     {
       "term": "team",
-      "score": 91.2113253785778,
-      "documentFrequency": 4
+      "score": 91.21132537857778,
+      "documentFrequency": 4,
+      "occurrences": 51
     },
     {
       "term": "crm",
       "score": 91.21132537857778,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 51
     },
     {
       "term": "service",
       "score": 86.49883920217464,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 43
     },
     {
       "term": "data",
       "score": 85.12519758922673,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 53
     },
     {
       "term": "read",
       "score": 85.12519758922672,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 53
     },
     {
       "term": "saas",
       "score": 83.84719085939119,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 31
     },
     {
       "term": "customer",
       "score": 80.48058121639215,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 45
     },
     {
       "term": "businesses",
       "score": 78.43769467491433,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 29
     },
     {
       "term": "monday",
       "score": 75,
-      "documentFrequency": 10
+      "documentFrequency": 10,
+      "occurrences": 75
     },
     {
       "term": "project",
       "score": 74.42923373210375,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 37
     },
     {
       "term": "marketing",
       "score": 73.32675177493508,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 41
     },
     {
       "term": "started",
-      "score": 72.2761111606642,
-      "documentFrequency": 5
+      "score": 72.27611116066419,
+      "documentFrequency": 5,
+      "occurrences": 45
     },
     {
       "term": "developers",
       "score": 70.32345039819906,
-      "documentFrequency": 1
-    },
-    {
-      "term": "target",
-      "score": 64.3799235556473,
-      "documentFrequency": 2
+      "documentFrequency": 1,
+      "occurrences": 26
     },
     {
       "term": "development",
       "score": 64.3799235556473,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 28
+    },
+    {
+      "term": "target",
+      "score": 64.3799235556473,
+      "documentFrequency": 2,
+      "occurrences": 28
     },
     {
       "term": "like",
       "score": 62.35962826203287,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 31
     },
     {
       "term": "custom",
       "score": 60.3480273503544,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 30
     },
     {
       "term": "plan",
       "score": 59.019092892020915,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 33
     },
     {
       "term": "customers",
       "score": 57.230635531656645,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 32
     },
     {
       "term": "marketplaces",
       "score": 56.79970993700693,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 21
     },
     {
       "term": "email",
-      "score": 55.44217817129237,
-      "documentFrequency": 4
+      "score": 55.442178171292376,
+      "documentFrequency": 4,
+      "occurrences": 31
     },
     {
       "term": "audience",
       "score": 55.182791619126256,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 24
     },
     {
       "term": "business",
       "score": 54.608617321390724,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 34
     },
     {
       "term": "tools",
       "score": 54.608617321390724,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 34
     },
     {
       "term": "categories",
       "score": 54.094961844768505,
-      "documentFrequency": 1
-    },
-    {
-      "term": "every",
-      "score": 50.07680609019957,
-      "documentFrequency": 4
+      "documentFrequency": 1,
+      "occurrences": 20
     },
     {
       "term": "using",
+      "score": 50.07680609019957,
+      "documentFrequency": 4,
+      "occurrences": 28
+    },
+    {
+      "term": "every",
       "score": 50.07680609019956,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 28
     },
     {
       "term": "teams",
-      "score": 48.28834872983529,
-      "documentFrequency": 4
+      "score": 48.288348729835285,
+      "documentFrequency": 4,
+      "occurrences": 27
     },
     {
       "term": "product",
       "score": 48.27842188028352,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 24
     },
     {
       "term": "leads",
       "score": 48.27842188028352,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 24
     },
     {
       "term": "emails",
       "score": 44.71143400910675,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 25
     },
     {
       "term": "per",
       "score": 44.25522005692656,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 22
     },
     {
       "term": "own",
       "score": 43.68637669847495,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 19
     },
     {
       "term": "campaigns",
       "score": 43.36566669639852,
-      "documentFrequency": 5
-    },
-    {
-      "term": "quotes",
-      "score": 43.275969475814804,
-      "documentFrequency": 1
+      "documentFrequency": 5,
+      "occurrences": 27
     },
     {
       "term": "analytics",
       "score": 43.275969475814804,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 16
+    },
+    {
+      "term": "quotes",
+      "score": 43.275969475814804,
+      "documentFrequency": 1,
+      "occurrences": 16
     },
     {
       "term": "meeting",
       "score": 42.243619145248076,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 21
     },
     {
       "term": "com",
       "score": 41.7595308928282,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 26
     }
   ],
   "byPage": {
@@ -294,6 +344,48 @@
         "score": 24.092037053554733
       }
     ],
+    "https://monday.com/appdeveloper/blog/saas-marketplaces-for-developers/": [
+      {
+        "term": "app",
+        "score": 183.94263873042087
+      },
+      {
+        "term": "marketplace",
+        "score": 181.64335574629058
+      },
+      {
+        "term": "apps",
+        "score": 102.59164649560248
+      },
+      {
+        "term": "founded",
+        "score": 94.66618322834489
+      },
+      {
+        "term": "date",
+        "score": 94.66618322834489
+      },
+      {
+        "term": "number",
+        "score": 91.97131936521043
+      },
+      {
+        "term": "saas",
+        "score": 83.84719085939119
+      },
+      {
+        "term": "platform",
+        "score": 83.5190617856564
+      },
+      {
+        "term": "businesses",
+        "score": 78.43769467491433
+      },
+      {
+        "term": "developers",
+        "score": 70.32345039819906
+      }
+    ],
     "https://monday.com/crm/campaigns/pricing": [
       {
         "term": "campaigns",
@@ -336,88 +428,34 @@
         "score": 13.795697904781564
       }
     ],
-    "https://monday.com/crm/pricing": [
+    "https://monday.com/academy/view/lesson/admin-essentials": [
       {
-        "term": "team",
-        "score": 51.86526345056384
+        "term": "academy",
+        "score": 2.01160091167848
       },
       {
-        "term": "custom",
-        "score": 48.27842188028352
+        "term": "courses",
+        "score": 2.01160091167848
       },
       {
-        "term": "data",
-        "score": 48.18407410710947
+        "term": "webinars",
+        "score": 2.01160091167848
       },
       {
-        "term": "quotes",
-        "score": 43.275969475814804
+        "term": "certifications",
+        "score": 2.01160091167848
       },
       {
-        "term": "work",
-        "score": 41.7595308928282
+        "term": "skills",
+        "score": 1.7884573603642702
       },
       {
-        "term": "using",
-        "score": 41.134519288378215
+        "term": "training",
+        "score": 1.7884573603642702
       },
       {
-        "term": "leads",
-        "score": 40.2320182335696
-      },
-      {
-        "term": "invoices",
-        "score": 32.18996177782365
-      },
-      {
-        "term": "plan",
-        "score": 30.403775126192592
-      },
-      {
-        "term": "app",
-        "score": 29.89067879369339
-      }
-    ],
-    "https://monday.com/help": [
-      {
-        "term": "supportlearn",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "moretalk",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "saleslearn",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "morevisit",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "centerlearn",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "shibuya",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "tel",
-        "score": 4.598565968260521
-      },
-      {
-        "term": "aviv",
-        "score": 4.598565968260521
-      },
-      {
-        "term": "paulo",
-        "score": 4.598565968260521
-      },
-      {
-        "term": "help",
-        "score": 4.02320182335696
+        "term": "monday",
+        "score": 1
       }
     ],
     "https://monday.com/blog": [
@@ -462,6 +500,78 @@
         "score": 37.866473291337954
       }
     ],
+    "https://monday.com/crm/pricing": [
+      {
+        "term": "team",
+        "score": 51.86526345056384
+      },
+      {
+        "term": "custom",
+        "score": 48.27842188028352
+      },
+      {
+        "term": "data",
+        "score": 48.18407410710947
+      },
+      {
+        "term": "quotes",
+        "score": 43.275969475814804
+      },
+      {
+        "term": "work",
+        "score": 41.7595308928282
+      },
+      {
+        "term": "using",
+        "score": 41.134519288378215
+      },
+      {
+        "term": "leads",
+        "score": 40.2320182335696
+      },
+      {
+        "term": "invoices",
+        "score": 32.18996177782365
+      },
+      {
+        "term": "plan",
+        "score": 30.403775126192592
+      },
+      {
+        "term": "app",
+        "score": 29.89067879369339
+      }
+    ],
+    "https://monday.com/academy": [
+      {
+        "term": "academy",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "courses",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "webinars",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "certifications",
+        "score": 2.01160091167848
+      },
+      {
+        "term": "skills",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "training",
+        "score": 1.7884573603642702
+      },
+      {
+        "term": "monday",
+        "score": 1
+      }
+    ],
     "https://monday.com/lang/de/help": [
       {
         "term": "mehr",
@@ -504,36 +614,6 @@
         "score": 4.598565968260521
       }
     ],
-    "https://monday.com/academy": [
-      {
-        "term": "academy",
-        "score": 2.01160091167848
-      },
-      {
-        "term": "courses",
-        "score": 2.01160091167848
-      },
-      {
-        "term": "webinars",
-        "score": 2.01160091167848
-      },
-      {
-        "term": "certifications",
-        "score": 2.01160091167848
-      },
-      {
-        "term": "skills",
-        "score": 1.7884573603642702
-      },
-      {
-        "term": "training",
-        "score": 1.7884573603642702
-      },
-      {
-        "term": "monday",
-        "score": 1
-      }
-    ],
     "https://monday.com/academy/view/certification/work-management-core-certification": [
       {
         "term": "academy",
@@ -564,76 +644,46 @@
         "score": 1
       }
     ],
-    "https://monday.com/academy/view/lesson/admin-essentials": [
+    "https://monday.com/help": [
       {
-        "term": "academy",
-        "score": 2.01160091167848
+        "term": "supportlearn",
+        "score": 5.4094961844768505
       },
       {
-        "term": "courses",
-        "score": 2.01160091167848
+        "term": "moretalk",
+        "score": 5.4094961844768505
       },
       {
-        "term": "webinars",
-        "score": 2.01160091167848
+        "term": "saleslearn",
+        "score": 5.4094961844768505
       },
       {
-        "term": "certifications",
-        "score": 2.01160091167848
+        "term": "morevisit",
+        "score": 5.4094961844768505
       },
       {
-        "term": "skills",
-        "score": 1.7884573603642702
+        "term": "centerlearn",
+        "score": 5.4094961844768505
       },
       {
-        "term": "training",
-        "score": 1.7884573603642702
+        "term": "shibuya",
+        "score": 5.4094961844768505
       },
       {
-        "term": "monday",
-        "score": 1
-      }
-    ],
-    "https://monday.com/appdeveloper/blog/saas-marketplaces-for-developers/": [
-      {
-        "term": "app",
-        "score": 183.94263873042087
+        "term": "tel",
+        "score": 4.598565968260521
       },
       {
-        "term": "marketplace",
-        "score": 181.64335574629058
+        "term": "aviv",
+        "score": 4.598565968260521
       },
       {
-        "term": "apps",
-        "score": 102.59164649560248
+        "term": "paulo",
+        "score": 4.598565968260521
       },
       {
-        "term": "founded",
-        "score": 94.66618322834489
-      },
-      {
-        "term": "date",
-        "score": 94.66618322834489
-      },
-      {
-        "term": "number",
-        "score": 91.97131936521043
-      },
-      {
-        "term": "saas",
-        "score": 83.84719085939119
-      },
-      {
-        "term": "platform",
-        "score": 83.5190617856564
-      },
-      {
-        "term": "businesses",
-        "score": 78.43769467491433
-      },
-      {
-        "term": "developers",
-        "score": 70.32345039819906
+        "term": "help",
+        "score": 4.02320182335696
       }
     ]
   }
