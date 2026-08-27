@@ -186,6 +186,39 @@ CI).
   the persona-inference tension in `DECISIONS.md` for why brand-grounded and
   neutral prompt sources shouldn't be silently merged into one metric.
 
+- **Genuine semantic clustering of extracted tags.** Today's
+  `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) is a flat tf-idf
+  ranking of individual word tokens with no grouping by meaning — confirmed
+  against real output, where e.g. `team`/`teams` and `agent`/`agents` rank
+  as unrelated entries, and scrape artifacts (`contextreply`, `syncstatus`)
+  interleave with real content words purely because tf-idf has no concept
+  of "is this even a real word." The goal: bucket tags into named semantic
+  themes (e.g. "AI/Agents", "Speed & Focus", "Pricing & Security"), then use
+  those clusters to correlate generated questions (Part 1/Part 2) and,
+  eventually, Gemini's answers to a theme — letting a user see "what we
+  found about theme X" instead of a flat list of 100+ items. Two paths, with
+  a real tradeoff: (a) embeddings + a clustering step, or an LLM call to
+  categorize — genuine semantic understanding, but the *first*
+  non-deterministic, paid-API-dependent step in a pipeline that has
+  otherwise been entirely deterministic/free by explicit design (regex,
+  tf-idf, curated keyword lists throughout); (b) a hand-curated taxonomy
+  (same mechanism as `ORG_TYPE_KEYWORDS`/`USER_TYPE_KEYWORDS` in
+  `problemAudienceScanner.ts`) — cheap, deterministic, consistent with the
+  rest of the codebase, but not truly "semantic," and needs re-authoring per
+  product/category. Recommendation if/when this gets built: start with (b),
+  since it fits the existing pattern; revisit (a) only if the taxonomy
+  proves too rigid across different product categories.
+
+- **UI work to display clustered results to the user.** No consumer for any
+  of this exists yet — the scaffolded Next.js app (`src/app/page.tsx`) is
+  still the untouched `create-next-app` default; nothing in this project
+  renders `datalake/` output (reports, priorities, candidate questions, or
+  the semantic clusters above) in an actual web page. This is a separate,
+  later work item: a dashboard reading `report/report.json`,
+  `report/priorities.json`, and `questions/candidate_user_questions.json`
+  per product, ideally grouped by the semantic clusters once those exist
+  rather than by the current flat lists/dimension breakdowns.
+
 ## Open decisions to carry into `DECISIONS.md`
 
 - Whether raw crawled HTML (`raw/pages/*.html`) is committed to the repo or
