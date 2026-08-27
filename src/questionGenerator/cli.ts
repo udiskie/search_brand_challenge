@@ -2,6 +2,8 @@
 import path from "node:path";
 import { productDir, writeJson, writeText } from "../scraper/datalake";
 import { scanProductHooks } from "./datalakeScanner";
+import { generateInferentialQuestions } from "./inferentialTemplates";
+import { scanProblemAudienceClaims } from "./problemAudienceScanner";
 import { renderQuestionsMarkdown } from "./render";
 import { generateCandidateQuestions } from "./templates";
 
@@ -33,19 +35,35 @@ async function main() {
     return;
   }
 
-  const hooks = await scanProductHooks(args.product, { excludeTerms: [args.brand] });
-  const questions = generateCandidateQuestions(hooks);
+  const excludeTerms = [args.brand];
+
+  const hooks = await scanProductHooks(args.product, { excludeTerms });
+  const hookQuestions = generateCandidateQuestions(hooks);
+
+  const claims = await scanProblemAudienceClaims(args.product, { excludeTerms });
+  const inferentialQuestions = generateInferentialQuestions(claims);
 
   const outDir = path.join(productDir(args.product), "questions");
-  await writeJson(path.join(outDir, "candidate_user_questions.json"), { hooks, questions });
+  await writeJson(path.join(outDir, "candidate_user_questions.json"), {
+    hooks,
+    hookQuestions,
+    claims,
+    inferentialQuestions,
+  });
   await writeText(
     path.join(outDir, "candidate_user_questions.md"),
-    renderQuestionsMarkdown(args.brand, hooks, questions)
+    renderQuestionsMarkdown(args.brand, hooks, hookQuestions, claims, inferentialQuestions)
   );
 
   console.log(
     JSON.stringify(
-      { product: args.product, hookCount: hooks.length, questionCount: questions.length },
+      {
+        product: args.product,
+        hookCount: hooks.length,
+        hookQuestionCount: hookQuestions.length,
+        claimCount: claims.length,
+        inferentialQuestionCount: inferentialQuestions.length,
+      },
       null,
       2
     )
