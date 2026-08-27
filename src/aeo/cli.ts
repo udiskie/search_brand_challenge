@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { runAeoAudit } from "./run";
+import { runAeoAudit, type BrandGroundedQuestionSource } from "./run";
 import type { AeoAuditConfig } from "./types";
 
 try {
@@ -12,7 +12,11 @@ try {
 const USAGE =
   "Usage: npm run aeo -- --product <name> --brand <Brand> --competitors <A,B,C> " +
   "--category <category> [--url <site>] [--mode quick|full] [--model gemini-3.6-flash] " +
-  "[--prompts 20] [--runs 5] [--temperature 0.9]";
+  "[--prompts 20] [--runs 5] [--temperature 0.9]\n" +
+  "  [--include-questions hooks|inferential|both] [--questions-runs 2] [--questions-limit N]\n" +
+  "  --include-questions runs Part 1/2 candidate questions (from `npm run questions`)\n" +
+  "  through Gemini as a third, explicitly non-neutral prompt source -- requires\n" +
+  "  `npm run questions` to have been run for this product first.";
 
 function parseArgs(argv: string[]): Record<string, string> {
   const args: Record<string, string> = {};
@@ -66,6 +70,15 @@ async function main() {
     model,
   };
 
+  const includeQuestionsSource = args["include-questions"] as
+    | BrandGroundedQuestionSource
+    | undefined;
+  if (includeQuestionsSource && !["hooks", "inferential", "both"].includes(includeQuestionsSource)) {
+    console.error('--include-questions must be "hooks", "inferential", or "both"');
+    process.exitCode = 1;
+    return;
+  }
+
   const summary = await runAeoAudit({
     product: args.product,
     auditConfig,
@@ -80,6 +93,13 @@ async function main() {
     },
     siteUrl: args.url,
     scrapeMode: mode,
+    includeBrandGroundedQuestions: includeQuestionsSource
+      ? {
+          source: includeQuestionsSource,
+          runsPerPrompt: args["questions-runs"] ? Number(args["questions-runs"]) : undefined,
+          limit: args["questions-limit"] ? Number(args["questions-limit"]) : undefined,
+        }
+      : undefined,
   });
 
   console.log(JSON.stringify(summary, null, 2));
