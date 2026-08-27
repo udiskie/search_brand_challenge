@@ -37,7 +37,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
       <SiteHeader />
       <main className="mx-auto w-full max-w-5xl flex-1 space-y-6 px-6 py-10">
         <div>
-          <Link href="/" className="text-sm text-muted-foreground hover:underline">
+          <Link href="/" className="text-sm text-link hover:underline">
             ← All products
           </Link>
           <h1 className="mt-2 text-2xl font-semibold tracking-tight capitalize">
@@ -47,7 +47,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
             {candidateQuestions ? (
               <Link
                 href={`/products/${product}/questions`}
-                className="inline-block text-sm text-muted-foreground hover:underline"
+                className="inline-block text-sm text-link hover:underline"
               >
                 View {candidateQuestions.hookQuestions.length +
                   candidateQuestions.inferentialQuestions.length}{" "}
@@ -57,7 +57,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
             {tagcloud ? (
               <Link
                 href={`/products/${product}/clusters`}
-                className="inline-block text-sm text-muted-foreground hover:underline"
+                className="inline-block text-sm text-link hover:underline"
               >
                 View term clusters →
               </Link>
@@ -117,7 +117,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               </div>
               <p className="mt-3 text-xs text-muted-foreground">
                 {report.aeo.totalRuns} neutral prompt runs ·{" "}
-                <Link href={`/products/${product}/prompts`} className="underline hover:no-underline">
+                <Link href={`/products/${product}/prompts`} className="text-link underline hover:no-underline">
                   See prompts sent →
                 </Link>
               </p>
@@ -130,14 +130,14 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                   do not compare directly to the neutral AEO table above; see{" "}
                   <Link
                     href={`/products/${product}/questions`}
-                    className="underline hover:no-underline"
+                    className="text-link underline hover:no-underline"
                   >
                     the candidate questions
                   </Link>{" "}
                   for context, or{" "}
                   <Link
                     href={`/products/${product}/prompts`}
-                    className="underline hover:no-underline"
+                    className="text-link underline hover:no-underline"
                   >
                     the prompts sent →
                   </Link>

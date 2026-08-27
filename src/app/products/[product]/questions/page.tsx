@@ -27,7 +27,7 @@ export default async function QuestionsPage(
         <div>
           <Link
             href={`/products/${product}`}
-            className="text-sm text-muted-foreground hover:underline"
+            className="text-sm text-link hover:underline"
           >
             ← Back to report
           </Link>
@@ -41,7 +41,7 @@ export default async function QuestionsPage(
           </p>
           <Link
             href={`/products/${product}/clusters`}
-            className="mt-1 inline-block text-sm text-muted-foreground hover:underline"
+            className="mt-1 inline-block text-sm text-link hover:underline"
           >
             See which theme each question maps to →
           </Link>
