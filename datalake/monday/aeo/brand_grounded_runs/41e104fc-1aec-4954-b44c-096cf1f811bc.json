@@ -1,0 +1,11 @@
+{
+  "runId": "41e104fc-1aec-4954-b44c-096cf1f811bc",
+  "promptId": "long-form-quote-match-2",
+  "promptText": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:12.331Z",
+  "finishReason": "STOP",
+  "rawText": "This description belongs to **monday sales CRM** (by **monday.com**). \n\nTheir \"Basic CRM\" plan starts at $10 per user/month (billed annually) and includes features like unlimited pipelines and contacts."
+}

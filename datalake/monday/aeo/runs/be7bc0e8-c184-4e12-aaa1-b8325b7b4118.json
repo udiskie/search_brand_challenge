@@ -1,0 +1,23 @@
+{
+  "runId": "be7bc0e8-c184-4e12-aaa1-b8325b7b4118",
+  "promptId": "direct_comparison-1",
+  "promptText": "Monday vs Jira, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Monday",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:04:44.791Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Monday.com** y **Jira** depende casi exclusivamente del **tipo de equipo que tengas y la naturaleza de tus proyectos**. Aunque ambas son herramientas líderes en gestión de proyectos, fueron creadas para públicos muy diferentes.\n\nAquí tienes el resumen rápido para decidirte en 1 minuto:\n\n*   **Elige Monday.com** si eres un equipo no técnico (Marketing, Recursos Humanos, Ventas, Operaciones, Creativos) o si buscas una herramienta muy visual, fácil de usar y adaptable a cualquier proceso.\n*   **Elige Jira** si eres un equipo de desarrollo de software, IT o ingeniería que trabaja con metodologías ágiles (Scrum, Kanban), o necesitas seguimiento de errores (bugs) e integración con código.\n\n---\n\n### Comparativa detallada: Monday vs. Jira\n\n#### 1. Facilidad de uso y curva de aprendizaje\n*   **Monday.com:** **Ganador indiscutible.** Es extremadamente intuitivo, colorido y fácil de configurar. Cualquier persona sin experiencia previa en gestión de proyectos puede empezar a usarlo en minutos.\n*   **Jira:** Tiene una curva de aprendizaje empinada. Su interfaz puede resultar abrumadora y \"toscamente técnica\" para personas que no son desarrolladores. Requiere tiempo de configuración inicial.\n\n#### 2. Casos de uso y versatilidad\n*   **Monday.com:** Es un \"camaleón\". Sirve para gestionar campañas de marketing, embudos de ventas (CRM), eventos, procesos de contratación o proyectos generales.\n*   **Jira:** Está hiperespecializado. Fue diseñado por y para desarrolladores. Es perfecto para gestionar el ciclo de vida del desarrollo de software, *sprints*, *backlogs* e incidencias de IT.\n\n#### 3. Metodologías de trabajo\n*   **Monday.com:** Soporta vistas de Diagrama de Gantt, Tablas, Kanban, Calendario y Mapas. Se adapta a la forma en que tú quieras trabajar.\n*   **Jira:** Respira metodologías **Agile (Scrum y Kanban)** por naturaleza. Sus informes nativos (gráficos de trabajo pendiente/burndown, velocidad del equipo) son la norma en la industria del software.\n\n#### 4. Integraciones y Ecosistema\n*   **Monday.com:** Se integra muy bien con herramientas de oficina y creatividad: Slack, Teams, Google Drive, Figma, HubSpot, Zendesk.\n*   **Jira:** Pertenece al ecosistema de Atlassian. Se integra nativamente a la perfección con **GitHub, GitLab, Bitbucket y Confluence** (su wiki para documentación técnica).\n\n#### 5. Precios\n*   **Monday.com:** Ofrece un plan gratuito muy limitado. Sus planes de pago suelen cobrar por \"bloques de usuarios\" (mínimo 3 personas), lo que puede encarecerlo un poco para equipos pequeños.\n*   **Jira:** Tiene un **plan gratuito muy potente** para hasta 10 usuarios (ideal para *startups* de tecnología). Sus planes de pago suelen ser ligeramente más económicos por usuario que los de Monday.\n\n---\n\n### Resumen: ¿Cuál elegir?\n\n#### Choose **Monday.com** si:\n1. Tu empresa tiene departamentos diversos (Marketing, RRHH, Operaciones) que necesitan colaborar en el mismo lugar.\n2. La interfaz visual y la facilidad de adopción son tu prioridad número uno.\n3. Quieres automatizaciones sencillas sin necesidad de saber programar.\n\n#### Choose **Jira** si:\n1. Creas software, aplicaciones web o gestionas infraestructura tecnológica.\n2. Tu equipo trabaja con *Sprints*, *Story Points* y *Epic Tracking*.\n3. Necesitas rastrear errores de código e integrarte con repositorios como GitHub.\n\n**¿Un punto medio?** \nSi eres un equipo de software pero Jira te parece demasiado complejo, considera **Monday Dev** (la versión de Monday adaptada para desarrolladores) o **ClickUp**. Si eres un equipo no técnico pero Jira es la norma en tu empresa, considera **Jira Work Management** (la versión simplificada de Jira para negocios)."
+}

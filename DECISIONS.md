@@ -101,3 +101,36 @@ missing?) rather than being bolted on quickly.
 **What was left out:** Any persona inference in `src/aeo/`. Contrast with
 `user-question-generator`, where brand-grounded personas/audiences are
 exactly the point (see its own `SKILL.md`) and this tension doesn't apply.
+
+## Term clustering: an LLM call, deliberately, for one specific step
+
+**Decision:** `src/clustering/clusterTermsByLlm.ts` (the `--method llm` path
+of `term-clustering`, see its own `SKILL.md`) makes one Gemini call per
+product to bucket tagcloud terms into semantic themes — the first LLM call
+anywhere in this project's pipeline outside the AEO measurement itself
+(`src/aeo/`). Every other extractor/scanner/generator (SEO signals, GEO
+signals, tagcloud tf-idf, hook/problem scanning, question templates) is
+regex/keyword-based and deterministic by explicit design, documented
+repeatedly across `WORK_PLAN.md` and this file.
+
+**Why:** The user explicitly asked for this comparison — build the
+deterministic hand-curated taxonomy first (`clusterTermsByTaxonomy.ts`),
+then the LLM method second, specifically to compare the two side by side.
+Run against real data for Linear: the taxonomy method left 33 of the top-50
+terms unclustered (a fixed keyword list can't cover everything without
+constant re-authoring); the LLM method left only 7, with sensible theme
+names it invented itself ("Project & Issue Tracking," "Development &
+Code") rather than picking from a fixed list. That's a real, demonstrated
+tradeoff, not a hypothetical one — genuine semantic coverage in exchange for
+non-determinism and a per-product API cost.
+
+**What was left out:** No validation beyond "does the response parse as the
+expected JSON shape and only reference terms that were actually in the
+input" (`clusterTermsByLlm.ts` drops any invented term rather than
+fabricating it into the output). No caching/reuse of a previous LLM
+clustering run if the tagcloud hasn't changed — every `--method llm`
+invocation re-spends a Gemini call. No mechanism to detect when the LLM's
+theme names drift in wording between runs (e.g. "AI & Automation" vs. "AI &
+Automation Tools") in a way that would make repeated re-clustering look
+falsely unstable; the dashboard's method-comparison note only compares
+theme/unclustered *counts*, not name-level alignment.

@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 /** Resolved lazily (not cached at import time) so tests can chdir first. */
@@ -39,6 +39,10 @@ export function reportDir(product: string): string {
   return path.join(productDir(product), "report");
 }
 
+export function clustersDir(product: string): string {
+  return path.join(productDir(product), "clusters");
+}
+
 export async function ensureDir(dir: string): Promise<void> {
   await mkdir(dir, { recursive: true });
 }
@@ -60,5 +64,20 @@ export async function readJson<T>(filePath: string): Promise<T | undefined> {
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return undefined;
     throw err;
+  }
+}
+
+/** Every *.json file in `dir`, parsed -- [] if the directory doesn't exist. */
+export async function readAllJson<T>(dir: string): Promise<T[]> {
+  try {
+    const files = await readdir(dir);
+    const items = await Promise.all(
+      files
+        .filter((file) => file.endsWith(".json"))
+        .map((file) => readJson<T>(path.join(dir, file)))
+    );
+    return items.filter((item) => item !== undefined) as T[];
+  } catch {
+    return [];
   }
 }

@@ -1,0 +1,23 @@
+{
+  "runId": "87984b75-bad5-4710-856e-824d2139233a",
+  "promptId": "direct_comparison-1",
+  "promptText": "Jira vs Asana, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Jira",
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:01:06.641Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Jira** y **Asana** depende principalmente de **quién vaya a usar la herramienta** y **qué tipo de trabajo** se vaya a gestionar.\n\nAquí tienes el resumen rápido y luego la comparativa detallada:\n\n*   **Elige Jira si:** Eres un equipo de desarrollo de software, TI o producto que trabaja estrictamente con metodologías ágiles (Scrum/Kanban) y necesitas gestionar código, errores (*bugs*) y lanzamientos.\n*   **Elige Asana si:** Eres un equipo no técnico (marketing, operaciones, diseño, RRHH) o un equipo mixto que busca gestionar proyectos generales, tareas diarias y colaboraciones interdepartamentales de forma intuitiva.\n\n---\n\n### Comparativa detallada\n\n| Característica | **Jira** | **Asana** |\n| :--- | :--- | :--- |\n| **Público objetivo** | Equipos de Software, TI, DevOps y Producto. | Equipos de Marketing, Operaciones, Diseño, RRHH, Negocios. |\n| **Facilidad de uso** | Curva de aprendizaje alta. Puede resultar abrumador. | Muy intuitivo, visual y fácil de empezar a usar. |\n| **Metodologías** | Diseñado para **Agile, Scrum y Kanban**. | Versátil (Listas, Tableros, Cronogramas/Gantt, Calendario). |\n| **Gestión de código/TI** | Excelente (Integración nativa con GitHub, Bitbucket, etc.). | Limitada (requiere integraciones externas complejas). |\n| **Personalización** | Extremadamente alta (flujos de trabajo, permisos, campos). | Media-Alta (flexible pero dentro de sus plantillas). |\n| **Reportes y métricas** | Avanzados para Agile (Velocity charts, Burndown charts). | Enfocados en estado de proyectos, carga de trabajo y metas. |\n\n---\n\n### Profundizando en Jira\n\n**Puntos fuertes:**\n1.  **Estándar en el desarrollo de software:** Está pensado por y para programadores.\n2.  **Seguimiento de código y *bugs*:** Puedes vincular *commits*, *pull requests* y desplegar código directamente desde las tareas.\n3.  **Agile puro:** Gestión nativa de *Sprints*, *Backlogs*, estimación por puntos de historia y gráficos de rendimiento (*Burndown charts*).\n4.  **Control de permisos:** Ideal para empresas grandes con políticas estrictas de seguridad.\n\n**Desventajas:**\n*   Su interfaz es compleja y poco atractiva para perfiles no técnicos.\n*   Configurarlo bien requiere tiempo y, a menudo, un administrador dedicado.\n\n---\n\n### Profundizando en Asana\n\n**Puntos fuertes:**\n1.  **Experiencia de usuario (UX):** Su interfaz es limpia, visual y amigable. La adopción por parte del equipo suele ser muy rápida.\n2.  **Gestión de carga de trabajo (*Workload*):** Permite ver fácilmente quién está sobrecargado de tareas en el equipo.\n3.  **Vistas múltiples:** Puedes cambiar entre lista, tablero Kanban, calendario y diagrama de Gantt con un solo clic.\n4.  **Automatizaciones sencillas:** Crear reglas del tipo \"Si pasa X, haz Y\" es muy fácil sin saber programar.\n\n**Desventajas:**\n*   No está preparado para el ciclo de vida del desarrollo de software complejo (no gestiona *sprints* ni *backlogs* de forma nativa como Jira).\n*   Puede ser más costoso a medida que escalas en usuarios en sus planes pagados.\n\n---\n\n### Guía de decisión rápida\n\n1.  **¿Tu equipo principal está formado por programadores o ingenieros de software?**\n    *   👉 **Elige Jira.**\n\n2.  **¿Tu equipo es de Marketing, Ventas, Diseño, Recursos Humanos u Operaciones?**\n    *   👉 **Elige Asana.**\n\n3.  **¿Tienes un equipo mixto (Devs + Negocio) y quieres una sola herramienta para todos?**\n    *   Si prima la **facilidad de uso** para que todo el mundo la adopte: 👉 **Asana** (o explorar *Jira Work Management*, que es la versión de Jira para equipos de negocio).\n    *   Si lo más crítico es el **control técnico del software**: 👉 **Jira**.\n\n**Recomendación final:** Si no desarrollas software, **no elijas Jira**; te resultará frustrante y demasiado complejo. Si desarrollas software, Asana se te quedará corta muy rápido."
+}

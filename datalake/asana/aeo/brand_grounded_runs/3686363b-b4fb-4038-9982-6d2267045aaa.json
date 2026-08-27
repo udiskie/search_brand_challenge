@@ -1,0 +1,11 @@
+{
+  "runId": "3686363b-b4fb-4038-9982-6d2267045aaa",
+  "promptId": "long-form-quote-match-0",
+  "promptText": "What tool matches this description: \"Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:59:59.381Z",
+  "finishReason": "STOP",
+  "rawText": "The tool that matches this description is **Height** (height.app). \n\nHeight is an AI-powered project and work management platform designed to allow human teams and AI agents to collaborate seamlessly on task tracking, automation, and workflow execution."
+}

@@ -1,0 +1,12 @@
+{
+  "runId": "384d43c3-f86a-4ac0-8ebe-bcdf448f4a2d",
+  "promptId": "pain-vent-0",
+  "promptText": "As an engineering lead, my team keeps struggling to with anything you need.",
+  "source": "inferential",
+  "templateId": "pain-vent",
+  "stage": "pain_only",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:21.036Z",
+  "finishReason": "STOP",
+  "rawText": "It looks like your sentence got cut off right after **\"my team keeps struggling to...\"** \n\nPlease finish your thought! What specific challenge is your team facing?\n\nIn the meantime, here are a few common areas engineering leads often ask for help with—feel free to pick one, or just complete your prompt:\n\n1. **Delivery & Execution:**\n   * Meeting sprint goals / poor estimation.\n   * Balancing feature work with technical debt.\n   * Slow PR reviews or CI/CD bottlenecks.\n\n2. **Process & Communication:**\n   * Context switching and constant interruptions.\n   * Friction between Engineering and Product/Design.\n   * Remote/async communication breakdown.\n\n3. **Culture & Ownership:**\n   * Engineers not taking initiative or product ownership.\n   * Low morale, burnout, or quiet quitting.\n   * Difficulty onboarding new developers quickly.\n\n4. **Technical Alignment:**\n   * Struggling to adopt new standards, tests, or documentation.\n   * Architecture/scaling challenges.\n\n**Tell me what's going on, and I can help you with:**\n* Actionable frameworks (DORA metrics, RACI, prioritization matrices).\n* 1:1 talking points or team retrospective agendas.\n* Process improvements and communication templates. \n\nWhenever you're ready, complete your sentence!"
+}

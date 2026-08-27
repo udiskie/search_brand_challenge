@@ -1,0 +1,23 @@
+{
+  "runId": "75b93330-1e06-4c32-bab2-8470dfa05ef2",
+  "promptId": "direct_comparison-1",
+  "promptText": "Monday vs Jira, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Monday",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:04:48.575Z",
+  "finishReason": "STOP",
+  "rawText": "La decisión entre **Monday.com** y **Jira** depende casi exclusivamente del **tipo de equipo que tengas** y de la **naturaleza de tus proyectos**. \n\nAquí tienes la regla de oro rápida para decidir:\n\n* **Elige Monday.com si:** Tu equipo es multidisciplinario (marketing, ventas, RRHH, operaciones) y buscas una herramienta visual, intuitiva y fácil de usar desde el primer día.\n* **Elige Jira si:** Tu equipo es de **desarrollo de software, IT o producto**, y trabajan bajo metodologías ágiles estrictas (Scrum, Kanban).\n\n---\n\n### Comparativa directa: Monday vs Jira\n\n| Característica | Monday.com | Jira (Atlassian) |\n| :--- | :--- | :--- |\n| **Público principal** | Equipos de marketing, creativos, RRHH, proyectos generales. | Desarrolladores de software, IT, QA, gestores de producto. |\n| **Facilidad de uso** | **Muy alta.** Curva de aprendizaje casi nula. Muy visual. | **Media/Baja.** Curva de aprendizaje empinada, interfaz más compleja. |\n| **Metodologías Ágiles** | Buenas vistas de Kanban/Gantt, pero básicas. | **Líder del mercado.** Gestión de Sprints, Epics, Backlog, Burndown charts. |\n| **Personalización** | Muy flexible visualmente (columnas, colores, automatizaciones sencillas). | Extremadamente potente en flujos de trabajo (*workflows*) e incidencias. |\n| **Integraciones Tech** | Buenas (Slack, Teams, Google Workspace). | Excelentes para dev (GitHub, GitLab, Bitbucket, Jenkins). |\n| **Precio** | Cobran por \"bloques\" de usuarios (mínimo 3). Puede ser costoso. | Plan gratuito potente (hasta 10 usuarios). Pago por usuario individual. |\n\n---\n\n### Análisis detallado\n\n#### 🟢 Elige Monday.com si:\n1. **La adopción rápida es prioridad:** Tu equipo no es técnico y no quieres pasar semanas enseñándoles a usar una herramienta.\n2. **Gestionas procesos variados:** Necesitas llevar un seguimiento de campañas de marketing, reclutamiento de personal, eventos o presupuestos.\n3. **El aspecto visual importa:** Te gustan los tableros coloridos, las vistas de cronograma (Gantt), calendarios y paneles de control (*dashboards*) ejecutivos muy claros.\n4. **Quieres automatizaciones simples:** Crear reglas tipo \"Si el estado cambia a *Aprobado*, notificar a X persona\" en 2 clics.\n\n#### 🔵 Elige Jira si:\n1. **Creas código o software:** Necesitas reportar *bugs*, gestionar versiones (*releases*), integrarte con repositorios de código (GitHub) y rastrear desplegables.\n2. **Aplicas Scrum o Kanban puro:** Necesitas gestionar la velocidad del equipo, puntos de historia (*story points*), *sprints* de 2 semanas y *backlogs*.\n3. **Usas el ecosistema Atlassian:** Ya utilices herramientas como **Confluence** (para documentación) o **Bitbucket**.\n4. **Necesitas flujos de trabajo estrictos:** Quieres que una tarea no pueda pasar al estado \"Hecho\" a menos que haya pasado por \"Revisión de Código\" y \"QA\".\n\n---\n\n### Resumen final para tu decisión\n\n* **¿Eres una Startup de Software o un departamento de TI?** Ve por **Jira**. Es el estándar de la industria tecnológica.\n* **¿Eres una agencia, equipo de marketing, consultora o PYME general?** Ve por **Monday.com**. Mantendrás a tu equipo feliz porque no sentirán que la herramienta es una carga burocrática. \n\n*Nota:* Si tienes un equipo de desarrollo dentro de una empresa no técnica, una combinación muy común es usar **Jira para los desarrolladores** y **Monday para el resto de la empresa**, conectándolos mediante integraciones."
+}

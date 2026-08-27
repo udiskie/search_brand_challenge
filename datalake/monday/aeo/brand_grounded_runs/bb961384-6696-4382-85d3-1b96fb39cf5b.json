@@ -1,0 +1,12 @@
+{
+  "runId": "bb961384-6696-4382-85d3-1b96fb39cf5b",
+  "promptId": "pain-frustration-1",
+  "promptText": "We can never seem to with anything you need -- it's honestly exhausting.",
+  "source": "inferential",
+  "templateId": "pain-frustration",
+  "stage": "pain_only",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:25.705Z",
+  "finishReason": "STOP",
+  "rawText": "It sounds like you're carrying a really heavy load right now, and the exhaustion and frustration are reaching a tipping point. \n\nBecause I want to respond in the way that’s most helpful to you, let me know which direction fits best:\n\n1. **If you're feeling frustrated with *me* (as an AI):** I hear you. Let’s pause and reset. Tell me how I can simplify things right now so interacting with me feels like less work and less demanding.\n2. **If you’re venting about a real-life relationship, family member, or work situation:** That kind of endless, moving-target pressure is deeply draining. If you want to talk it through, vent, or brainstorm ways to set boundaries, I'm here to listen.\n3. **If this is dialogue for a story, script, or roleplay:** Let me know the context or the character's response, and we can keep going from there.\n\nTake a breath—how can I best support you right now?"
+}

@@ -1,0 +1,11 @@
+{
+  "runId": "fb8c84d8-93ac-41c2-86a6-832ab7b41214",
+  "promptId": "long-form-quote-match-2",
+  "promptText": "What tool matches this description: \"The next gen of notes & docs. Simple. Powerful. Beautiful.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:10:33.099Z",
+  "finishReason": "STOP",
+  "rawText": "The tool that matches this description is **Craft** (also known as **Craft Docs** or **Craft.do**). \n\nIt is a popular note-taking and document creation app known for its sleek design, block-based editor, and strong integration across Apple platforms (iOS/Mac), Windows, and the web."
+}

@@ -1,0 +1,752 @@
+{
+  "product": "jira",
+  "method": "taxonomy",
+  "generatedAt": "2026-08-27T20:11:53.087Z",
+  "themes": [
+    {
+      "name": "Collaboration & Teams",
+      "terms": [
+        {
+          "term": "teams",
+          "score": 79,
+          "documentFrequency": 10
+        },
+        {
+          "term": "team",
+          "score": 54.76550899021625,
+          "documentFrequency": 9
+        },
+        {
+          "term": "share",
+          "score": 28.16241276349872,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-10",
+          "text": "What tool matches this description: \"Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-11",
+          "text": "As a freelancer, I'm looking for a tool where: Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-12",
+          "text": "What tool matches this description: \"Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-13",
+          "text": "As a startup founder, I'm looking for a tool where: Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-14",
+          "text": "What tool matches this description: \"Gain full visibility into how your teams work with Atlassian Analytics\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-15",
+          "text": "As a freelancer, I'm looking for a tool where: Gain full visibility into how your teams work with Atlassian Analytics Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-16",
+          "text": "What tool would you recommend for a team that wants \"teams\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-17",
+          "text": "I need something that helps with teams -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-18",
+          "text": "Which tool in this space is known for teams?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-19",
+          "text": "As a freelancer, I want a tool that focuses on teams instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-20",
+          "text": "What tool would you recommend for a team that wants \"atlassian\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-21",
+          "text": "I need something that helps with atlassian -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-24",
+          "text": "What tool would you recommend for a team that wants \"data\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-25",
+          "text": "I need something that helps with data -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-28",
+          "text": "What tool would you recommend for a team that wants \"compass\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-29",
+          "text": "I need something that helps with compass -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-32",
+          "text": "What tool would you recommend for a team that wants \"work\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-33",
+          "text": "I need something that helps with work -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-36",
+          "text": "What tool would you recommend for a team that wants \"marketplace\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-37",
+          "text": "I need something that helps with marketplace -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-40",
+          "text": "What tool would you recommend for a team that wants \"team\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-41",
+          "text": "I need something that helps with team -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-42",
+          "text": "Which tool in this space is known for team?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-43",
+          "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-44",
+          "text": "What tool would you recommend for a team that wants \"support\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-45",
+          "text": "I need something that helps with support -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-48",
+          "text": "What tool would you recommend for a team that wants \"teamwork\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-49",
+          "text": "I need something that helps with teamwork -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-52",
+          "text": "What tool would you recommend for a team that wants \"analytics\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-53",
+          "text": "I need something that helps with analytics -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-56",
+          "text": "What tool would you recommend for a team that wants \"senior\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-57",
+          "text": "I need something that helps with senior -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-60",
+          "text": "What tool would you recommend for a team that wants \"rollout\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-61",
+          "text": "I need something that helps with rollout -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-64",
+          "text": "What tool would you recommend for a team that wants \"component\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-65",
+          "text": "I need something that helps with component -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-68",
+          "text": "What tool would you recommend for a team that wants \"apps\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-69",
+          "text": "I need something that helps with apps -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-72",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-73",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-76",
+          "text": "What tool would you recommend for a team that wants \"leaders\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-77",
+          "text": "I need something that helps with leaders -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-80",
+          "text": "What tool would you recommend for a team that wants \"need\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-81",
+          "text": "I need something that helps with need -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-84",
+          "text": "What tool would you recommend for a team that wants \"platform\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-85",
+          "text": "I need something that helps with platform -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-88",
+          "text": "What tool would you recommend for a team that wants \"time\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-89",
+          "text": "I need something that helps with time -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-92",
+          "text": "What tool would you recommend for a team that wants \"across\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-93",
+          "text": "I need something that helps with across -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-0",
+          "text": "As an engineering lead, my team keeps struggling to organize, discuss, and complete shared work.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-4",
+          "text": "How do most teams manage to organize, discuss, and complete shared work?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to improve productivity, quality, and speed with the AI-native SDLC for every software team.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-9",
+          "text": "We can never seem to improve productivity, quality, and speed with the AI-native SDLC for every software team -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-10",
+          "text": "Every week it's the same story: we just can't improve productivity, quality, and speed with the AI-native SDLC for every software team.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-11",
+          "text": "What's the best way to improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-12",
+          "text": "How do most teams manage to improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-13",
+          "text": "We know we need to improve productivity, quality, and speed with the AI-native SDLC for every software team, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-14",
+          "text": "What criteria matter most when picking a tool to help improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-15",
+          "text": "Between Linear and Monday, which is better suited to help improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to make sense of our ever-changing world of work.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to make sense of our ever-changing world of work?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-24",
+          "text": "As an engineering lead, my team keeps struggling to businesses translate complex topics into clear communication their audiences understand.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-28",
+          "text": "How do most teams manage to businesses translate complex topics into clear communication their audiences understand?",
+          "kind": "inferential"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 19,
+        "sampleContexts": [
+          "s down to one primary factor: **What kind of work does your team do?** * **Choose Jira** if you are a **software developm",
+          "When you are a solo startup founder, the phrase \"team's work\" usually refers to three things: **managing yourself",
+          "r cross-functional coordination) and **how your engineering team works**. In enterprise environments, Product Managers usu"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 8,
+        "sampleContexts": [
+          "mic* is failing, not necessarily the people involved. When shared work fails, it usually stems from three distinct breakdown",
+          "The best way to organize, discuss, and complete shared work is to establish a **centralized system** built on thr",
+          "ernal service catalog designed to help software engineering teams manage distributed architectures (microservices, APIs, libr"
+        ]
+      }
+    },
+    {
+      "name": "Integrations & Ecosystem",
+      "terms": [
+        {
+          "term": "marketplace",
+          "score": 57.482074603256514,
+          "documentFrequency": 2
+        },
+        {
+          "term": "apps",
+          "score": 39.55361193355604,
+          "documentFrequency": 7
+        }
+      ],
+      "questions": [
+        {
+          "id": "long-form-quote-match-8",
+          "text": "What tool matches this description: \"To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-9",
+          "text": "As a startup founder, I'm looking for a tool where: To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-36",
+          "text": "What tool would you recommend for a team that wants \"marketplace\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-37",
+          "text": "I need something that helps with marketplace -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-38",
+          "text": "Which tool in this space is known for marketplace?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-39",
+          "text": "As a freelancer, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-68",
+          "text": "What tool would you recommend for a team that wants \"apps\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-69",
+          "text": "I need something that helps with apps -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-70",
+          "text": "Which tool in this space is known for apps?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-71",
+          "text": "As a freelancer, I want a tool that focuses on apps instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 6,
+        "sampleContexts": [
+          "**Por qué destaca:** Promete reemplazar a todas las demás apps. Tiene tareas, documentos, pizarras, control de tiempo (*ti",
+          "* **Best for:** Developers building SaaS, web, or mobile apps. * **Pricing:** Free for up to 250 active issues; $8/",
+          ", Bitbucket, Service Management, and thousands of Atlassian Marketplace apps. * **Advanced Reporting:** Massive suit of burnd"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 1,
+        "sampleContexts": [
+          "plenty for early-stage startups. * **Why it’s great:** Huge marketplace of pre-built actions, zero infrastructure setup, and you ca"
+        ]
+      }
+    },
+    {
+      "name": "Pricing & Plans",
+      "terms": [
+        {
+          "term": "plan",
+          "score": 39.34606192801394,
+          "documentFrequency": 4
+        },
+        {
+          "term": "free",
+          "score": 32.189961777823655,
+          "documentFrequency": 2
+        }
+      ],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-72",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-73",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-74",
+          "text": "Which tool in this space is known for plan?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-75",
+          "text": "As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 9,
+        "sampleContexts": [
+          "dario de contenidos de marketing en la misma app. * **Plan gratuito:** Extremadamente generoso para uso personal.",
+          "**Jira:** Suele ser **más económico** por usuario en sus planes básicos (Plan Free hasta 10 usuarios; Plan Standard desde",
+          "atabases) These are best if you want to keep your business plan, task list, feature roadmap, and meeting notes in a single"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 3,
+        "sampleContexts": [
+          "nent ownership, dependencies, and engineering health. As a freelancer, learning how to implement and manage Atlassian Compa",
+          "andalone Bamboo strictly to high-end enterprise self-hosted plans (Bamboo Data Center), which costs thousands of dollars a y",
+          "+ Telemetry/monitoring added. --- ### Your 30-Day Action Plan Don't try to implement all of this overnight. Roll it out"
+        ]
+      }
+    }
+  ],
+  "unclustered": [
+    {
+      "term": "atlassian",
+      "score": 77,
+      "documentFrequency": 10
+    },
+    {
+      "term": "data",
+      "score": 67.23755894588048,
+      "documentFrequency": 8
+    },
+    {
+      "term": "compass",
+      "score": 62.08064057151704,
+      "documentFrequency": 2
+    },
+    {
+      "term": "work",
+      "score": 60.64887163145259,
+      "documentFrequency": 7
+    },
+    {
+      "term": "partners",
+      "score": 59.504458029245356,
+      "documentFrequency": 1
+    },
+    {
+      "term": "support",
+      "score": 50.07680609019957,
+      "documentFrequency": 4
+    },
+    {
+      "term": "teamwork",
+      "score": 49.79020991067978,
+      "documentFrequency": 5
+    },
+    {
+      "term": "bamboo",
+      "score": 48.685465660291655,
+      "documentFrequency": 1
+    },
+    {
+      "term": "analytics",
+      "score": 45.98565968260522,
+      "documentFrequency": 2
+    },
+    {
+      "term": "senior",
+      "score": 44.25522005692656,
+      "documentFrequency": 3
+    },
+    {
+      "term": "rollout",
+      "score": 43.68637669847496,
+      "documentFrequency": 2
+    },
+    {
+      "term": "component",
+      "score": 43.68637669847495,
+      "documentFrequency": 2
+    },
+    {
+      "term": "years",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
+      "term": "leaders",
+      "score": 39.34606192801394,
+      "documentFrequency": 4
+    },
+    {
+      "term": "need",
+      "score": 37.75161321731949,
+      "documentFrequency": 6
+    },
+    {
+      "term": "platform",
+      "score": 36.020120863864534,
+      "documentFrequency": 8
+    },
+    {
+      "term": "time",
+      "score": 34.84764296983337,
+      "documentFrequency": 6
+    },
+    {
+      "term": "across",
+      "score": 34.279797009081896,
+      "documentFrequency": 7
+    },
+    {
+      "term": "adoption",
+      "score": 34.197215498534156,
+      "documentFrequency": 3
+    },
+    {
+      "term": "over",
+      "score": 32.19223248655686,
+      "documentFrequency": 4
+    },
+    {
+      "term": "strategy",
+      "score": 32.122716071406316,
+      "documentFrequency": 5
+    },
+    {
+      "term": "cloud",
+      "score": 31.94367272234726,
+      "documentFrequency": 6
+    },
+    {
+      "term": "use",
+      "score": 30.516580267835995,
+      "documentFrequency": 5
+    },
+    {
+      "term": "center",
+      "score": 30.174013675177196,
+      "documentFrequency": 3
+    },
+    {
+      "term": "bitbucket",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "storage",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "past",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "build",
+      "score": 29.039702474861144,
+      "documentFrequency": 6
+    },
+    {
+      "term": "goals",
+      "score": 29.039702474861144,
+      "documentFrequency": 6
+    },
+    {
+      "term": "context",
+      "score": 28.162412763498715,
+      "documentFrequency": 3
+    },
+    {
+      "term": "catalog",
+      "score": 27.591395809563128,
+      "documentFrequency": 2
+    },
+    {
+      "term": "hygiene",
+      "score": 27.591395809563128,
+      "documentFrequency": 2
+    },
+    {
+      "term": "insights",
+      "score": 27.587717351118087,
+      "documentFrequency": 6
+    },
+    {
+      "term": "minutes",
+      "score": 27.047480922384253,
+      "documentFrequency": 1
+    },
+    {
+      "term": "rovo",
+      "score": 26.826860405464053,
+      "documentFrequency": 4
+    },
+    {
+      "term": "explore",
+      "score": 26.82686040546405,
+      "documentFrequency": 4
+    },
+    {
+      "term": "learn",
+      "score": 26.36907462237069,
+      "documentFrequency": 7
+    },
+    {
+      "term": "developer",
+      "score": 26.15081185182024,
+      "documentFrequency": 3
+    },
+    {
+      "term": "every",
+      "score": 26.15081185182024,
+      "documentFrequency": 3
+    },
+    {
+      "term": "should",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "manager",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "feedback",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "section",
+      "score": 25.292112825432866,
+      "documentFrequency": 2
+    }
+  ]
+}

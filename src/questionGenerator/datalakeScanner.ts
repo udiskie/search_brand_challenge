@@ -10,7 +10,7 @@ import type { ProductHook } from "./types";
  * see WORK_PLAN.md/SKILL.md caveats on the scraper's tf-idf tagcloud).
  * Excluded outright rather than left for a human to notice and discard.
  */
-const KNOWN_SCRAPE_ARTIFACTS = new Set([
+export const KNOWN_SCRAPE_ARTIFACTS = new Set([
   "contextreply",
   "americalearn",
   "syncstatus",

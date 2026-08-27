@@ -1,6 +1,12 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
-import type { Report } from "@/aeo/types";
+import type {
+  AeoAuditConfig,
+  BrandGroundedRunResult,
+  GeminiRunResult,
+  GeneratedPrompt,
+  Report,
+} from "@/aeo/types";
 import type {
   CandidateQuestion,
   InferentialQuestion,
@@ -8,6 +14,8 @@ import type {
   ProductHook,
 } from "@/questionGenerator/types";
 import {
+  aeoDir,
+  clustersDir,
   datalakeRoot,
   extractedDir,
   productDir,
@@ -15,12 +23,32 @@ import {
   reportDir,
 } from "@/scraper/datalake";
 import type { Tagcloud } from "@/scraper/types";
+import type { ClusteringMethod, ThemeClustering } from "@/clustering/types";
 
 export interface CandidateQuestionsFile {
   hooks: ProductHook[];
   hookQuestions: CandidateQuestion[];
   claims: ProblemClaim[];
   inferentialQuestions: InferentialQuestion[];
+}
+
+export interface PromptsConfigFile {
+  config: AeoAuditConfig;
+  prompts: GeneratedPrompt[];
+}
+
+async function readAllJsonInDir<T>(dir: string): Promise<T[]> {
+  try {
+    const files = await readdir(dir);
+    const items = await Promise.all(
+      files
+        .filter((file) => file.endsWith(".json"))
+        .map((file) => readJson<T>(path.join(dir, file)))
+    );
+    return items.filter((item) => item !== undefined) as T[];
+  } catch {
+    return [];
+  }
 }
 
 export interface ProductSummary {
@@ -54,6 +82,35 @@ export async function getCandidateQuestions(
 ): Promise<CandidateQuestionsFile | undefined> {
   return readJson<CandidateQuestionsFile>(
     path.join(productDir(product), "questions", "candidate_user_questions.json")
+  );
+}
+
+/** The neutral AEO prompt set as generated, before any Gemini calls. */
+export async function getNeutralPromptsConfig(
+  product: string
+): Promise<PromptsConfigFile | undefined> {
+  return readJson<PromptsConfigFile>(path.join(aeoDir(product), "prompts_config.json"));
+}
+
+/** Every individual neutral-prompt call actually sent to Gemini, raw response included. */
+export async function getNeutralRuns(product: string): Promise<GeminiRunResult[]> {
+  return readAllJsonInDir<GeminiRunResult>(path.join(aeoDir(product), "runs"));
+}
+
+/** Every individual brand-grounded (Part 1/2) call actually sent to Gemini. */
+export async function getBrandGroundedRuns(product: string): Promise<BrandGroundedRunResult[]> {
+  return readAllJsonInDir<BrandGroundedRunResult>(
+    path.join(aeoDir(product), "brand_grounded_runs")
+  );
+}
+
+/** Theme clustering output for the given method -- undefined if that method hasn't been run for this product. */
+export async function getThemeClusters(
+  product: string,
+  method: ClusteringMethod
+): Promise<ThemeClustering | undefined> {
+  return readJson<ThemeClustering>(
+    path.join(clustersDir(product), `theme_clusters.${method}.json`)
   );
 }
 

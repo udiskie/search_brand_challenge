@@ -1,0 +1,22 @@
+{
+  "runId": "2e6c1510-83f1-4dc7-abc5-adc60de18884",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Monday ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Monday"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:05:18.669Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Monday.com porque te parece demasiado complejo, lento o cargado de funciones que no usas, la clave es buscar herramientas con una **curva de aprendizaje casi nula** y una **interfaz limpia**.\n\nAquí tienes las mejores alternativas ordenadas por su nivel de rapidez y simplicidad:\n\n---\n\n### 1. Trello (La más visual y sencilla)\nEs el rey del sistema Kanban (tarjetas y columnas). Si Monday te abruma, Trello es todo lo contrario: abres una cuenta y en 2 minutos ya estás trabajando.\n* **Por qué es más simple:** No hay tablas complejas ni configuraciones avanzadas por defecto. Todo es arrastrar y soltar tarjetas.\n* **Ideal para:** Equipos pequeños o proyectos individuales que solo necesitan ver el estado de las tareas (Por hacer / En proceso / Hecho).\n* **Precio:** Plan gratuito muy completo.\n\n### 2. Todoist (La más rápida para gestión de tareas)\nSi lo que buscas es agilidad pura para anotar tareas, asignarlas y cumplir plazos sin perder tiempo configurando tableros.\n* **Por qué es más simple:** Su entrada de texto inteligente te permite escribir *\"Enviar reporte mañana a las 10am @Juan\"* y automáticamente crea la tarea, la fecha y se la asigna a Juan. Es la más rápida del mercado.\n* **Ideal para:** Gestión de tareas diarias, listas de pendientes y equipos que priorizan la velocidad sobre los gráficos complejos.\n* **Precio:** Gratuito (muy funcional), planes de pago muy económicos.\n\n### 3. Asana (El equilibrio perfecto)\nEs el competidor más directo de Monday, pero con una interfaz mucho más limpia, ordenada y menos \"ruidosa\".\n* **Por qué es más simple:** Su vista por defecto (lista o tablero) es muy intuitiva. No te bombardea con cientos de botones o colores si no los necesitas.\n* **Ideal para:** Equipos que necesitan coordinar proyectos reales con dependencias y fechas, pero quieren evitar la complejidad técnica de Monday.\n* **Precio:** Plan gratuito excelente para equipos de hasta 10-15 personas.\n\n### 4. MeisterTask (La alternativa elegante a Trello)\nEs una herramienta basada en Kanban, pero con un diseño extremadamente cuidado, moderno y minimalista.\n* **Por qué es más simple:** Se enfoca al 100% en la productividad sin distracciones. Las automatizaciones son muy fáciles de configurar (ej: \"si muevo la tarjeta aquí, notificar al cliente\").\n* **Ideal para:** Equipos creativos o empresas que valoran la estética y la simplicidad. Se hospeda en Europa (cumple estrictamente con el RGPD).\n* **Precio:** Versión gratuita básica, planes de pago asequibles.\n\n### 5. Basecamp (Para organizar proyectos sin microgestión)\nBasecamp cambia el enfoque: en lugar de gráficos de Gantt y tablas complejas, reúne en un solo lugar mensajes, tareas, archivos y fechas clave.\n* **Por qué es más simple:** Elimina la necesidad de configurar flujos de trabajo. Todo el mundo entra y sabe exactamente dónde está cada cosa.\n* **Ideal para:** Equipos remotos o agencias que buscan comunicarse de forma sencilla con clientes sin marear con softwares complicados.\n* **Precio:** Precio fijo (no cobra por usuario en su plan principal).\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n* **Si quieres lo MÁS RÁPIDO para escribir y organizar:** Elige **Todoist**.\n* **Si quieres algo SUPER VISUAL (post-its digitales):** Elige **Trello**.\n* **Si quieres algo PARECIDO A MONDAY pero más limpio:** Elige **Asana**."
+}
