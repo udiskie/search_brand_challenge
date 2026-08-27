@@ -1,0 +1,22 @@
+{
+  "runId": "9247e4db-2cbd-4323-85df-a337fd930dd7",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Linear ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Linear"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-26T22:55:52.387Z",
+  "finishReason": "STOP",
+  "rawText": "Linear se ha vuelto el estándar de oro para equipos de desarrollo por su **velocidad extreme, diseño minimalista y navegación por teclado**. \n\nSi buscas alternativas que mantengan esa misma filosofía (rápidas, sin rodeos y fáciles de usar), aquí tienes las mejores opciones agrupadas por su enfoque:\n\n---\n\n### 1. Las alternativas más directas (Clones modernos y ultra rápidos)\n\n*   **Plane (La mejor alternativa Open Source)**\n    *   **¿Por qué elegirlo?:** Es prácticamente un clon de Linear, pero de código abierto. Es extremadamente rápido, limpio y enfocado en desarrolladores.\n    *   **Lo mejor:** Puedes usar su versión en la nube (gratuita para equipos pequeños) o alojarlo en tus propios servidores (Self-hosted).\n    *   **Ideal para:** Equipos que aman Linear pero necesitan privacidad de datos o una opción 100% gratuita.\n\n*   **Height**\n    *   **¿Por qué elegirlo?:** Es una de las pocas herramientas que compite cara a cara con Linear en diseño y fluidez. Permite cambiar entre vistas (Kanban, lista, hoja de cálculo) al instante.\n    *   **Lo mejor:** Su motor de búsqueda es ultra rápido y sus funciones de IA ayudan a categorizar tareas automáticamente.\n    *   **Ideal para:** Equipos que quieren la rapidez de Linear pero necesitan vistas más flexibles (como tablas).\n\n*   **Kitemaker**\n    *   **¿Por qué elegirlo?:** Diseñado específicamente para eliminar la fricción. Evita que pases horas configurando \"tickets\" y se enfoca en la colaboración.\n    *   **Lo mejor:** Integración profunda con Figma, Github y Slack. Escribes todo en Markdown súper rápido.\n    *   **Ideal para:** Equipos pequeños de producto/desarrollo que quieren gestionar tareas sin la burocracia de Jira.\n\n---\n\n### 2. Si ya usas herramientas de código\n\n*   **GitHub Projects (La versión moderna / V2)**\n    *   **¿Por qué elegirlo?:** GitHub rediseñó totalmente sus \"Projects\". Ahora funciona con vistas tipo tabla/Kanban muy rápidas, atajos de teclado y comandos estilo `Command + K`.\n    *   **Lo mejor:** Está 100% integrado con tu código, Pull Requests e Issues. Es gratis.\n    *   **Ideal para:** Equipos que no quieren pagar una herramienta extra y prefieren tener todo dentro de GitHub.\n\n---\n\n### 3. Alternativas que combinan Documentos + Tareas\n\n*   **Superthread**\n    *   **¿Por qué elegirlo?:** Nace de la idea de combinar la rapidez de Linear con la gestión de conocimiento de Notion.\n    *   **Lo mejor:** Es ridículamente rápido. Puedes pasar de escribir una nota de reunión a crear tarjetas de tareas en un segundo.\n    *   **Ideal para:** Startups que quieren simplicidad y no quieren pagar Notion y Linear por separado.\n\n---\n\n### 4. Si quieres algo más tradicional pero sin la complejidad de Jira\n\n*   **Shortcut (antes Clubhouse)**\n    *   **¿Por qué elegirlo?:** Está a medio camino entre la simplicidad de Linear y el poder de Jira. \n    *   **Lo mejor:** Muy bien pensado para escalar. Es más rápido y visualmente más limpio que Jira o Asana.\n    *   **Ideal para:** Equipos que están creciendo y sienten que Linear se les queda corto en reportes, pero odian Jira.\n\n*   **Trello**\n    *   **¿Por qué elegirlo?:** El clásico tablero Kanban. \n    *   **Lo mejor:** Cero curva de aprendizaje. Entras, creas una tarjeta y la mueves.\n    *   **Ideal para:** Equipos no técnicos o proyectos donde solo necesitas ver estados (Por hacer / En proceso / Hecho).\n\n---\n\n### Resumen: ¿Cuál deberías probar primero?\n\n1.  Si quieres **lo más clavado a Linear y gratis/Open Source**: Prueba **Plane**.\n2.  Si buscas **velocidad + IA + vistas flexibles**: Prueba **Height**.\n3.  Si quieres **ahorrar dinero y ya usas GitHub**: Usa **GitHub Projects**.\n4.  Si quieres **máxima simplicidad sin código**: Prueba **Kitemaker**."
+}

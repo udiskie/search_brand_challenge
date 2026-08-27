@@ -1,0 +1,170 @@
+[
+  {
+    "dimension": "geo",
+    "finding": "No self-contained \"what is this\" definition on https://linear.app/docs/changes-to-linears-pricing-plans",
+    "impact": "high",
+    "effort": "low",
+    "suggestedAction": "Add one self-contained sentence defining the product (e.g. in the meta description or opening paragraph) that an LLM can quote directly."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing meta description on https://linear.app/docs/changes-to-linears-pricing-plans",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a ~150-character meta description summarizing the page."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/pricing",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/docs/changes-to-linears-pricing-plans",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://linear.app/docs (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/docs",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://linear.app/docs/start-guide (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/docs/start-guide",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/blog",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://linear.app/agents (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://linear.app/agents",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "aeo",
+    "finding": "Top site keywords the model never uses when describing Linear: contextreply, eng, americalearn, work, added",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Meta description too short on https://linear.app/about (38 chars)",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Expand the meta description to ~120-160 characters."
+  },
+  {
+    "dimension": "seo",
+    "finding": "85 images missing alt text across 10 crawled pages",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Add descriptive alt text to every content image."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/docs/changes-to-linears-pricing-plans",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/docs",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/docs/start-guide",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/blog",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/about",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/careers",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://linear.app/agents",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  }
+]

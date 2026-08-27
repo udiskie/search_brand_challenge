@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 /** Resolved lazily (not cached at import time) so tests can chdir first. */
@@ -51,4 +51,14 @@ export async function writeJson(filePath: string, data: unknown): Promise<void> 
 export async function writeText(filePath: string, data: string): Promise<void> {
   await ensureDir(path.dirname(filePath));
   await writeFile(filePath, data, "utf-8");
+}
+
+/** Returns undefined (rather than throwing) when the file doesn't exist. */
+export async function readJson<T>(filePath: string): Promise<T | undefined> {
+  try {
+    return JSON.parse(await readFile(filePath, "utf-8")) as T;
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return undefined;
+    throw err;
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "runId": "7ab26896-dd8c-401c-ae5b-bb9c42a08d56",
+  "promptId": "direct_comparison-1",
+  "promptText": "Linear vs Asana, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Linear",
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-26T22:55:14.830Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Linear** y **Asana** depende fundamentalmente de **quién sea tu equipo** y **qué tipo de trabajo hacen**. Aunque ambas son herramientas de gestión de proyectos, están diseñadas para filosofías y públicos completamente diferentes.\n\nAquí tienes el resumen rápido y luego el desglose detallado:\n\n*   **Elige Linear si:** Eres un equipo de desarrollo de software, producto o diseño, valoras la velocidad extrema, los atajos de teclado y sigues metodologías ágiles (Scrum/Kanban).\n*   **Elige Asana si:** Eres un equipo multidisciplinario (marketing, operaciones, RRHH, ventas) o una empresa que necesita gestionar proyectos de todo tipo con vistas muy flexibles (Gantt, listas, calendarios).\n\n---\n\n### 1. Linear: \"Construido para desarrolladores y equipos de producto\"\n\nLinear se ha convertido en el estándar de oro para startups tecnológicas y equipos de ingeniería modernos. Su enfoque es \"opinionado\" (te impone una forma eficiente de trabajar) y minimalista.\n\n*   **Lo mejor:**\n    *   **Velocidad extrema:** Es increíblemente rápida. Casi todo se puede hacer con atajos de teclado (estilo *Command Palette* como en VS Code).\n    *   **Integración con GitHub/GitLab:** La sincronización con código es nativa e impecable (cerrar un ticket automáticamente al hacer un *merge*, etc.).\n    *   **Enfoque en Producto:** Maneja ciclos (sprints), roadmap de producto y *backlog* de forma intuitiva.\n    *   **UI/UX impecable:** Es una de las aplicaciones mejor diseñadas del mercado.\n*   **Lo malo:**\n    *   **Poco flexible para no-desarrolladores:** A un equipo de Marketing o Recursos Humanos le costará mucho adaptarse a la lógica de Linear.\n    *   **Menos personalizable:** Tienes que adaptarte a su metodología, no al revés.\n\n---\n\n### 2. Asana: \"El todoterreno para toda la empresa\"\n\nAsana es una de las herramientas de gestión de proyectos más completas y populares del mundo. Es extremadamente flexible y está pensada para que cualquier departamento pueda usarla.\n\n*   **Lo mejor:**\n    *   **Versatilidad:** Puedes crear listas de tareas, tableros Kanban, cronogramas (Gantt) y calendarios.\n    *   **Colaboración cruzada:** Es ideal para conectar el trabajo de Marketing con Diseño, Ventas y Operaciones en un solo lugar.\n    *   **Automatizaciones y Formularios:** Permite crear flujos de trabajo complejos y recibir solicitudes a través de formularios personalizados.\n    *   **Gestión de carga de trabajo:** Permite ver la capacidad y sobrecarga de trabajo de los miembros del equipo.\n*   **Lo malo:**\n    *   **Puede sentirse pesada/lenta:** Comparada con Linear, la interfaz es más recargada y tarda más en cargar.\n    *   **No optimizada para código:** No está diseñada específicamente para el ciclo de vida del desarrollo de software.\n\n---\n\n### Comparativa directa\n\n| Característica | Linear | Asana |\n| :--- | :--- | :--- |\n| **Audiencia principal** | Devs, Product Managers, Diseñadores | Todo tipo de equipos (Marketing, Ops, HR, Devs) |\n| **Velocidad y Rendimiento** | ⚡ Ultra rápida (foco en teclado) | 🐢 Normal / A veces pesada |\n| **Integración con Git** | 🥇 Nativa y profunda | 🥈 Básica (vía integraciones) |\n| **Vista de Cronograma/Gantt**| 🟧 Básica (Roadmaps) | 🟩 Muy avanzada y visual |\n| **Curva de aprendizaje** | Rápida para devs, alta para no-tech | Fácil para cualquiera |\n| **Gratis (Free Tier)** | Muy generoso (hasta 250 issues activos) | Generoso (hasta 10 usuarios con funciones básicas) |\n\n---\n\n### Veredicto final: ¿Cuál elegir?\n\n#### Elige **Linear** si:\n1. Tu empresa es una **startup tecnológica** o un equipo centrado exclusivamente en crear software.\n2. Tu equipo vive en GitHub/GitLab y odia perder tiempo haciendo clics en interfaces lentas.\n3. Quieres una herramienta que reemplace a Jira con una experiencia de usuario 10 veces mejor.\n\n#### Elige **Asana** si:\n1. Necesitas que **toda la empresa** (incluyendo marketing, ventas, finanzas) use la misma herramienta.\n2. Manejas proyectos con clientes externos, eventos o lanzamientos que requieren diagramas de Gantt detallados.\n3. Necesitas formularios de solicitud entrante y automatizaciones de procesos de negocio complejos."
+}

@@ -38,7 +38,34 @@ output committed for Linear and its AEO competitors (Jira via
 atlassian.com, Asana, Monday, Notion) as evidence — re-run the command
 above to refresh it.
 
-Run the scraper's test suite with:
+## AEO/GEO/SEO brand visibility audit
+
+Copy `.env.example` to `.env.local` and set your own key (get one at
+https://aistudio.google.com/apikey) — `.env.local` is gitignored and loaded
+automatically by the CLI below, so the key never needs to be typed inline or
+committed.
+
+Once a product has scraper output in `datalake/{product}/` (see above),
+generate the consolidated report with:
+
+```bash
+npm run aeo -- \
+  --product <name> --brand <Brand> --competitors <A,B,C> --category "<category>" \
+  [--url <https://site>] [--mode quick|full]
+```
+
+`--url` is only needed if the scraper hasn't been run for that product yet —
+this command will scrape it first automatically in that case. It generates
+a dynamic AEO prompt set, calls the Gemini REST API `runsPerPrompt` times per
+prompt (to sample its non-determinism rather than treat one call as
+representative), computes Share of Voice/position/sentiment metrics per
+brand, cross-validates against the site's own tagcloud, and writes
+`datalake/{product}/report/report.md` (plus `report.json`/`priorities.json`).
+
+See `.claude/skills/brand-visibility-audit/SKILL.md` for the full procedure,
+every metric's formula, and known limitations.
+
+Run the full test suite (scraper + AEO) with:
 
 ```bash
 npm test
