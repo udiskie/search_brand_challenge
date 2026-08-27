@@ -407,7 +407,9 @@ export function renderReportMarkdown(report: Report): string {
     if (brandRow && (sourceBreakdown.length > 0 || stageBreakdown.length > 0)) {
       lines.push(`${report.brand}'s Share of Voice by breakdown:`);
       for (const e of [...sourceBreakdown, ...stageBreakdown]) {
-        lines.push(`- ${e.dimension} = ${e.value}: ${(e.shareOfVoice * 100).toFixed(0)}% (${e.runCount} runs)`);
+        lines.push(
+          `- ${e.dimension} = ${e.value}: ${(e.shareOfVoice * 100).toFixed(0)}% (${e.runCount} run${e.runCount === 1 ? "" : "s"})`
+        );
       }
       lines.push("");
     }
