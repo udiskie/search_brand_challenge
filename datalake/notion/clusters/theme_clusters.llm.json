@@ -1,0 +1,354 @@
+{
+  "product": "notion",
+  "method": "llm",
+  "generatedAt": "2026-08-27T19:35:02.997Z",
+  "themes": [
+    {
+      "name": "Workspace & Content Management",
+      "terms": [
+        {
+          "term": "notion",
+          "score": 159,
+          "documentFrequency": 10
+        },
+        {
+          "term": "workspace",
+          "score": 70.09985150747681,
+          "documentFrequency": 9
+        },
+        {
+          "term": "information",
+          "score": 60.34802735035439,
+          "documentFrequency": 3
+        },
+        {
+          "term": "data",
+          "score": 49.790209910679785,
+          "documentFrequency": 5
+        },
+        {
+          "term": "content",
+          "score": 37.55760456764967,
+          "documentFrequency": 4
+        },
+        {
+          "term": "template",
+          "score": 36.78852774608417,
+          "documentFrequency": 2
+        },
+        {
+          "term": "pages",
+          "score": 35.7691472072854,
+          "documentFrequency": 4
+        },
+        {
+          "term": "domain",
+          "score": 35.16172519909953,
+          "documentFrequency": 1
+        },
+        {
+          "term": "page",
+          "score": 33.395657846090316,
+          "documentFrequency": 6
+        },
+        {
+          "term": "vault",
+          "score": 24.342732830145827,
+          "documentFrequency": 1
+        },
+        {
+          "term": "file",
+          "score": 24.13921094014176,
+          "documentFrequency": 3
+        },
+        {
+          "term": "meeting",
+          "score": 24.13921094014176,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Pricing & Subscription Plans",
+      "terms": [
+        {
+          "term": "per",
+          "score": 80.4640364671392,
+          "documentFrequency": 3
+        },
+        {
+          "term": "credits",
+          "score": 58.33642643867591,
+          "documentFrequency": 3
+        },
+        {
+          "term": "paid",
+          "score": 50.58422565086573,
+          "documentFrequency": 2
+        },
+        {
+          "term": "plan",
+          "score": 46.26682096860503,
+          "documentFrequency": 3
+        },
+        {
+          "term": "each",
+          "score": 45.98565968260522,
+          "documentFrequency": 2
+        },
+        {
+          "term": "billing",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
+        },
+        {
+          "term": "usage",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
+        },
+        {
+          "term": "free",
+          "score": 40.23201823356959,
+          "documentFrequency": 3
+        },
+        {
+          "term": "month",
+          "score": 34.48924476195391,
+          "documentFrequency": 2
+        },
+        {
+          "term": "credit",
+          "score": 34.197215498534156,
+          "documentFrequency": 3
+        },
+        {
+          "term": "monthly",
+          "score": 32.189961777823655,
+          "documentFrequency": 2
+        },
+        {
+          "term": "unlimited",
+          "score": 25.292112825432866,
+          "documentFrequency": 2
+        },
+        {
+          "term": "cost",
+          "score": 24.342732830145827,
+          "documentFrequency": 1
+        },
+        {
+          "term": "refund",
+          "score": 24.342732830145827,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "AI Agents & Automation",
+      "terms": [
+        {
+          "term": "worker",
+          "score": 89.25668704386803,
+          "documentFrequency": 1
+        },
+        {
+          "term": "agent",
+          "score": 69.74983705420652,
+          "documentFrequency": 4
+        },
+        {
+          "term": "run",
+          "score": 64.37122917371136,
+          "documentFrequency": 3
+        },
+        {
+          "term": "runs",
+          "score": 62.20920612148378,
+          "documentFrequency": 1
+        },
+        {
+          "term": "memory",
+          "score": 55.182791619126256,
+          "documentFrequency": 2
+        },
+        {
+          "term": "workers",
+          "score": 52.88350863499599,
+          "documentFrequency": 2
+        },
+        {
+          "term": "agents",
+          "score": 51.419695513622855,
+          "documentFrequency": 7
+        },
+        {
+          "term": "lore",
+          "score": 51.39021375253008,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Productivity & Workflow Utilities",
+      "terms": [
+        {
+          "term": "work",
+          "score": 46.003027551781656,
+          "documentFrequency": 9
+        },
+        {
+          "term": "use",
+          "score": 44.827426858030165,
+          "documentFrequency": 7
+        },
+        {
+          "term": "sync",
+          "score": 34.48924476195391,
+          "documentFrequency": 2
+        },
+        {
+          "term": "add",
+          "score": 33.98068984692113,
+          "documentFrequency": 4
+        },
+        {
+          "term": "like",
+          "score": 32.961343277963365,
+          "documentFrequency": 7
+        },
+        {
+          "term": "time",
+          "score": 32.961343277963365,
+          "documentFrequency": 7
+        },
+        {
+          "term": "tools",
+          "score": 31.763995214325426,
+          "documentFrequency": 9
+        },
+        {
+          "term": "help",
+          "score": 27.587717351118087,
+          "documentFrequency": 6
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Team & User Management",
+      "terms": [
+        {
+          "term": "members",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
+        },
+        {
+          "term": "team",
+          "score": 31.642889546844827,
+          "documentFrequency": 7
+        },
+        {
+          "term": "single",
+          "score": 29.89067879369339,
+          "documentFrequency": 2
+        },
+        {
+          "term": "seat",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "people",
+          "score": 24.092037053554733,
+          "documentFrequency": 5
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Security & Access Control",
+      "terms": [
+        {
+          "term": "custom",
+          "score": 58.01196416921552,
+          "documentFrequency": 7
+        },
+        {
+          "term": "access",
+          "score": 45.98565968260521,
+          "documentFrequency": 2
+        },
+        {
+          "term": "security",
+          "score": 28.61531776582832,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    }
+  ],
+  "unclustered": []
+}

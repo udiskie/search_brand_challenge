@@ -1,0 +1,387 @@
+{
+  "product": "jira",
+  "method": "llm",
+  "generatedAt": "2026-08-27T19:34:12.414Z",
+  "themes": [
+    {
+      "name": "Products & Ecosystem",
+      "terms": [
+        {
+          "term": "atlassian",
+          "score": 77,
+          "documentFrequency": 10
+        },
+        {
+          "term": "compass",
+          "score": 62.08064057151704,
+          "documentFrequency": 2
+        },
+        {
+          "term": "partners",
+          "score": 59.504458029245356,
+          "documentFrequency": 1
+        },
+        {
+          "term": "marketplace",
+          "score": 57.482074603256514,
+          "documentFrequency": 2
+        },
+        {
+          "term": "bamboo",
+          "score": 48.685465660291655,
+          "documentFrequency": 1
+        },
+        {
+          "term": "apps",
+          "score": 39.55361193355604,
+          "documentFrequency": 7
+        },
+        {
+          "term": "bitbucket",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "rovo",
+          "score": 26.826860405464053,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Team Collaboration & Work",
+      "terms": [
+        {
+          "term": "teams",
+          "score": 79,
+          "documentFrequency": 10
+        },
+        {
+          "term": "work",
+          "score": 60.64887163145259,
+          "documentFrequency": 7
+        },
+        {
+          "term": "team",
+          "score": 54.76550899021625,
+          "documentFrequency": 9
+        },
+        {
+          "term": "teamwork",
+          "score": 49.79020991067978,
+          "documentFrequency": 5
+        },
+        {
+          "term": "share",
+          "score": 28.16241276349872,
+          "documentFrequency": 3
+        },
+        {
+          "term": "feedback",
+          "score": 26.150811851820237,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Data & Analytics Insights",
+      "terms": [
+        {
+          "term": "data",
+          "score": 67.23755894588048,
+          "documentFrequency": 8
+        },
+        {
+          "term": "analytics",
+          "score": 45.98565968260522,
+          "documentFrequency": 2
+        },
+        {
+          "term": "context",
+          "score": 28.162412763498715,
+          "documentFrequency": 3
+        },
+        {
+          "term": "catalog",
+          "score": 27.591395809563128,
+          "documentFrequency": 2
+        },
+        {
+          "term": "hygiene",
+          "score": 27.591395809563128,
+          "documentFrequency": 2
+        },
+        {
+          "term": "insights",
+          "score": 27.587717351118087,
+          "documentFrequency": 6
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Cloud Platform & Infrastructure",
+      "terms": [
+        {
+          "term": "component",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
+        },
+        {
+          "term": "platform",
+          "score": 36.020120863864534,
+          "documentFrequency": 8
+        },
+        {
+          "term": "cloud",
+          "score": 31.94367272234726,
+          "documentFrequency": 6
+        },
+        {
+          "term": "center",
+          "score": 30.174013675177196,
+          "documentFrequency": 3
+        },
+        {
+          "term": "storage",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "build",
+          "score": 29.039702474861144,
+          "documentFrequency": 6
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Strategy & Execution Planning",
+      "terms": [
+        {
+          "term": "rollout",
+          "score": 43.68637669847496,
+          "documentFrequency": 2
+        },
+        {
+          "term": "plan",
+          "score": 39.34606192801394,
+          "documentFrequency": 4
+        },
+        {
+          "term": "adoption",
+          "score": 34.197215498534156,
+          "documentFrequency": 3
+        },
+        {
+          "term": "strategy",
+          "score": 32.122716071406316,
+          "documentFrequency": 5
+        },
+        {
+          "term": "goals",
+          "score": 29.039702474861144,
+          "documentFrequency": 6
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Roles & Leadership",
+      "terms": [
+        {
+          "term": "senior",
+          "score": 44.25522005692656,
+          "documentFrequency": 3
+        },
+        {
+          "term": "leaders",
+          "score": 39.34606192801394,
+          "documentFrequency": 4
+        },
+        {
+          "term": "developer",
+          "score": 26.15081185182024,
+          "documentFrequency": 3
+        },
+        {
+          "term": "manager",
+          "score": 26.150811851820237,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Time & Historical Tracking",
+      "terms": [
+        {
+          "term": "years",
+          "score": 43.275969475814804,
+          "documentFrequency": 1
+        },
+        {
+          "term": "time",
+          "score": 34.84764296983337,
+          "documentFrequency": 6
+        },
+        {
+          "term": "past",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "minutes",
+          "score": 27.047480922384253,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Support & Learning Resources",
+      "terms": [
+        {
+          "term": "support",
+          "score": 50.07680609019957,
+          "documentFrequency": 4
+        },
+        {
+          "term": "explore",
+          "score": 26.82686040546405,
+          "documentFrequency": 4
+        },
+        {
+          "term": "learn",
+          "score": 26.36907462237069,
+          "documentFrequency": 7
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    }
+  ],
+  "unclustered": [
+    {
+      "term": "need",
+      "score": 37.75161321731949,
+      "documentFrequency": 6
+    },
+    {
+      "term": "across",
+      "score": 34.279797009081896,
+      "documentFrequency": 7
+    },
+    {
+      "term": "over",
+      "score": 32.19223248655686,
+      "documentFrequency": 4
+    },
+    {
+      "term": "free",
+      "score": 32.189961777823655,
+      "documentFrequency": 2
+    },
+    {
+      "term": "use",
+      "score": 30.516580267835995,
+      "documentFrequency": 5
+    },
+    {
+      "term": "every",
+      "score": 26.15081185182024,
+      "documentFrequency": 3
+    },
+    {
+      "term": "should",
+      "score": 26.150811851820237,
+      "documentFrequency": 3
+    },
+    {
+      "term": "section",
+      "score": 25.292112825432866,
+      "documentFrequency": 2
+    }
+  ]
+}
