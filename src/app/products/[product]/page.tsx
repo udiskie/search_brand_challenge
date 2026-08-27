@@ -106,7 +106,10 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                 </table>
               </div>
               <p className="mt-3 text-xs text-muted-foreground">
-                {report.aeo.totalRuns} neutral prompt runs.
+                {report.aeo.totalRuns} neutral prompt runs ·{" "}
+                <Link href={`/products/${product}/prompts`} className="underline hover:no-underline">
+                  See prompts sent →
+                </Link>
               </p>
             </Panel>
 
@@ -121,7 +124,13 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                   >
                     the candidate questions
                   </Link>{" "}
-                  for context.
+                  for context, or{" "}
+                  <Link
+                    href={`/products/${product}/prompts`}
+                    className="underline hover:no-underline"
+                  >
+                    the prompts sent →
+                  </Link>
                 </p>
                 <div className="mt-3 overflow-x-auto">
                   <table className="w-full min-w-[560px] text-sm">
