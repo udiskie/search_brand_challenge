@@ -1,64 +1,8 @@
 {
   "product": "jira",
   "method": "llm",
-  "generatedAt": "2026-08-27T19:34:12.414Z",
+  "generatedAt": "2026-08-27T19:42:55.581Z",
   "themes": [
-    {
-      "name": "Products & Ecosystem",
-      "terms": [
-        {
-          "term": "atlassian",
-          "score": 77,
-          "documentFrequency": 10
-        },
-        {
-          "term": "compass",
-          "score": 62.08064057151704,
-          "documentFrequency": 2
-        },
-        {
-          "term": "partners",
-          "score": 59.504458029245356,
-          "documentFrequency": 1
-        },
-        {
-          "term": "marketplace",
-          "score": 57.482074603256514,
-          "documentFrequency": 2
-        },
-        {
-          "term": "bamboo",
-          "score": 48.685465660291655,
-          "documentFrequency": 1
-        },
-        {
-          "term": "apps",
-          "score": 39.55361193355604,
-          "documentFrequency": 7
-        },
-        {
-          "term": "bitbucket",
-          "score": 29.752229014622678,
-          "documentFrequency": 1
-        },
-        {
-          "term": "rovo",
-          "score": 26.826860405464053,
-          "documentFrequency": 4
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
     {
       "name": "Team Collaboration & Work",
       "terms": [
@@ -95,9 +39,203 @@
       ],
       "questions": [],
       "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 23,
+        "sampleContexts": [
+          "Organizing a \"team\" as a solo startup founder presents a unique paradox: you a",
+          "adaptabilidad?** * Permite crear flujos de trabajo (*workflows*) ultra personalizados, con reglas de transición, camp",
+          "Because these three tools target fundamentally different team dynamics, the right recommendation depends entirely on **wh"
+        ]
+      },
+      "brandGroundedAnswers": {
         "runsScanned": 0,
         "runsMentioning": 0,
         "sampleContexts": []
+      }
+    },
+    {
+      "name": "Platform & Marketplace",
+      "terms": [
+        {
+          "term": "marketplace",
+          "score": 57.482074603256514,
+          "documentFrequency": 2
+        },
+        {
+          "term": "component",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
+        },
+        {
+          "term": "apps",
+          "score": 39.55361193355604,
+          "documentFrequency": 7
+        },
+        {
+          "term": "platform",
+          "score": 36.020120863864534,
+          "documentFrequency": 8
+        },
+        {
+          "term": "cloud",
+          "score": 31.94367272234726,
+          "documentFrequency": 6
+        },
+        {
+          "term": "storage",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "catalog",
+          "score": 27.591395809563128,
+          "documentFrequency": 2
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 13,
+        "sampleContexts": [
+          "*Zapier** or **Make** | Automating repetitive tasks between apps (e.g., sending leads to CRM). | | **Time Tracking / Focus**",
+          "am dependency mapping. * **Deep Ecosystem:** Thousands of apps/plugins in the Atlassian Marketplace and native integration",
+          "scheduling). * **Automation:** Zapier or Make.com. * **File Storage:** Google Drive. ### Summary Strategy Organize your solo w"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Atlassian Products & Ecosystem",
+      "terms": [
+        {
+          "term": "atlassian",
+          "score": 77,
+          "documentFrequency": 10
+        },
+        {
+          "term": "compass",
+          "score": 62.08064057151704,
+          "documentFrequency": 2
+        },
+        {
+          "term": "bamboo",
+          "score": 48.685465660291655,
+          "documentFrequency": 1
+        },
+        {
+          "term": "bitbucket",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
+          "term": "rovo",
+          "score": 26.826860405464053,
+          "documentFrequency": 4
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 15,
+        "sampleContexts": [
+          "rfil de adaptabilidad y escala: --- ### 1. Jira Software (Atlassian) – *El estándar de la industria para productos tecnológicos",
+          "ira — Best for Enterprise Software & Rigid Agile** Jira (by Atlassian) is the legacy industry standard for software development m",
+          "--- ### Detailed Comparison | Feature / Aspect | Jira (by Atlassian) | Monday.com | | :--- | :--- | :--- | | **Primary Audience"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Support & Resources",
+      "terms": [
+        {
+          "term": "partners",
+          "score": 59.504458029245356,
+          "documentFrequency": 1
+        },
+        {
+          "term": "support",
+          "score": 50.07680609019957,
+          "documentFrequency": 4
+        },
+        {
+          "term": "center",
+          "score": 30.174013675177196,
+          "documentFrequency": 3
+        },
+        {
+          "term": "explore",
+          "score": 26.82686040546405,
+          "documentFrequency": 4
+        },
+        {
+          "term": "learn",
+          "score": 26.36907462237069,
+          "documentFrequency": 7
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 10,
+        "sampleContexts": [
+          "tomer outreach, content creation, demo calls. * `[Ops/Support]` Answering support emails, onboarding users. * **Time-Bl",
+          "*Easy Onboarding:** Very intuitive; non-technical users can learn it in an afternoon. * **Cross-Departmental Collaboration:",
+          "ng, HR, Sales, Ops, general PMs | | **Ease of Use** | Steep learning curve; complex setup | Very intuitive; visual drag-and-d"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Strategy & Leadership",
+      "terms": [
+        {
+          "term": "senior",
+          "score": 44.25522005692656,
+          "documentFrequency": 3
+        },
+        {
+          "term": "leaders",
+          "score": 39.34606192801394,
+          "documentFrequency": 4
+        },
+        {
+          "term": "strategy",
+          "score": 32.122716071406316,
+          "documentFrequency": 5
+        },
+        {
+          "term": "goals",
+          "score": 29.039702474861144,
+          "documentFrequency": 6
+        },
+        {
+          "term": "manager",
+          "score": 26.150811851820237,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 18,
+        "sampleContexts": [
+          "very task on your to-do list by department: * `[CEO]` Strategy, fundraising, accounting, legal. * `[Product/Dev]` Co",
+          "Para un **Product Manager (PM) en una empresa grande (Enterprise)** que busca la máxi",
+          "ernal Team:** Yourself, wearing multiple hats (CEO, Product Manager, Developer, Marketer, Admin). 2. **The Extended Team:** Con"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -124,16 +262,6 @@
           "documentFrequency": 3
         },
         {
-          "term": "catalog",
-          "score": 27.591395809563128,
-          "documentFrequency": 2
-        },
-        {
-          "term": "hygiene",
-          "score": 27.591395809563128,
-          "documentFrequency": 2
-        },
-        {
           "term": "insights",
           "score": 27.587717351118087,
           "documentFrequency": 6
@@ -141,9 +269,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 11,
+        "sampleContexts": [
+          "1. Organize Yourself: The \"Hat\" System When you work solo, context-switching is your biggest enemy. Shifting from high-level s",
+          "lly hire. To organize work effectively without drowning in context-switching or burnout, you need a lightweight **Operating Sy",
+          "eetings; you need **speed, low administrative overhead, and context-switching management** (since you are simultaneously CEO, d"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -152,53 +284,7 @@
       }
     },
     {
-      "name": "Cloud Platform & Infrastructure",
-      "terms": [
-        {
-          "term": "component",
-          "score": 43.68637669847495,
-          "documentFrequency": 2
-        },
-        {
-          "term": "platform",
-          "score": 36.020120863864534,
-          "documentFrequency": 8
-        },
-        {
-          "term": "cloud",
-          "score": 31.94367272234726,
-          "documentFrequency": 6
-        },
-        {
-          "term": "center",
-          "score": 30.174013675177196,
-          "documentFrequency": 3
-        },
-        {
-          "term": "storage",
-          "score": 29.752229014622678,
-          "documentFrequency": 1
-        },
-        {
-          "term": "build",
-          "score": 29.039702474861144,
-          "documentFrequency": 6
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Strategy & Execution Planning",
+      "name": "Adoption & Technical Execution",
       "terms": [
         {
           "term": "rollout",
@@ -206,67 +292,35 @@
           "documentFrequency": 2
         },
         {
-          "term": "plan",
-          "score": 39.34606192801394,
-          "documentFrequency": 4
-        },
-        {
           "term": "adoption",
           "score": 34.197215498534156,
           "documentFrequency": 3
         },
         {
-          "term": "strategy",
-          "score": 32.122716071406316,
-          "documentFrequency": 5
-        },
-        {
-          "term": "goals",
+          "term": "build",
           "score": 29.039702474861144,
           "documentFrequency": 6
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Roles & Leadership",
-      "terms": [
-        {
-          "term": "senior",
-          "score": 44.25522005692656,
-          "documentFrequency": 3
         },
         {
-          "term": "leaders",
-          "score": 39.34606192801394,
-          "documentFrequency": 4
+          "term": "hygiene",
+          "score": 27.591395809563128,
+          "documentFrequency": 2
         },
         {
           "term": "developer",
           "score": 26.15081185182024,
           "documentFrequency": 3
-        },
-        {
-          "term": "manager",
-          "score": 26.150811851820237,
-          "documentFrequency": 3
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 16,
+        "sampleContexts": [
+          "oblem), managing **external contractors/freelancers**, or **building systems for future hires**. To operate effectively with",
+          "ally as a modern alternative to Jira. It focuses heavily on developer experience, keyboard shortcuts, and speed. * **Pros:** *",
+          "m:** Yourself, wearing multiple hats (CEO, Product Manager, Developer, Marketer, Admin). 2. **The Extended Team:** Contractors, f"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -275,65 +329,28 @@
       }
     },
     {
-      "name": "Time & Historical Tracking",
+      "name": "Plans & Pricing",
       "terms": [
         {
-          "term": "years",
-          "score": 43.275969475814804,
-          "documentFrequency": 1
+          "term": "plan",
+          "score": 39.34606192801394,
+          "documentFrequency": 4
         },
         {
-          "term": "time",
-          "score": 34.84764296983337,
-          "documentFrequency": 6
-        },
-        {
-          "term": "past",
-          "score": 29.752229014622678,
-          "documentFrequency": 1
-        },
-        {
-          "term": "minutes",
-          "score": 27.047480922384253,
-          "documentFrequency": 1
+          "term": "free",
+          "score": 32.189961777823655,
+          "documentFrequency": 2
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Support & Learning Resources",
-      "terms": [
-        {
-          "term": "support",
-          "score": 50.07680609019957,
-          "documentFrequency": 4
-        },
-        {
-          "term": "explore",
-          "score": 26.82686040546405,
-          "documentFrequency": 4
-        },
-        {
-          "term": "learn",
-          "score": 26.36907462237069,
-          "documentFrequency": 7
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 10,
+        "sampleContexts": [
+          "r, Marketer, Admin). 2. **The Extended Team:** Contractors, freelancers, and AI tools. 3. **The Future Team:** The employees",
+          "strict Agile/Scrum:** Jira has built-in features for sprint planning, backlog grooming, story points, and release tracking.",
+          "g your setup instead of actually working. * **Cost:** Free tier is very generous for solo users. * **ClickUp** *"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -344,8 +361,18 @@
   ],
   "unclustered": [
     {
+      "term": "years",
+      "score": 43.275969475814804,
+      "documentFrequency": 1
+    },
+    {
       "term": "need",
       "score": 37.75161321731949,
+      "documentFrequency": 6
+    },
+    {
+      "term": "time",
+      "score": 34.84764296983337,
       "documentFrequency": 6
     },
     {
@@ -359,14 +386,19 @@
       "documentFrequency": 4
     },
     {
-      "term": "free",
-      "score": 32.189961777823655,
-      "documentFrequency": 2
-    },
-    {
       "term": "use",
       "score": 30.516580267835995,
       "documentFrequency": 5
+    },
+    {
+      "term": "past",
+      "score": 29.752229014622678,
+      "documentFrequency": 1
+    },
+    {
+      "term": "minutes",
+      "score": 27.047480922384253,
+      "documentFrequency": 1
     },
     {
       "term": "every",

@@ -1,10 +1,10 @@
 {
   "product": "monday",
   "method": "llm",
-  "generatedAt": "2026-08-27T19:34:47.741Z",
+  "generatedAt": "2026-08-27T19:43:27.453Z",
   "themes": [
     {
-      "name": "Software & Platform Ecosystem",
+      "name": "Platform & Ecosystem",
       "terms": [
         {
           "term": "app",
@@ -52,6 +52,11 @@
           "documentFrequency": 5
         },
         {
+          "term": "categories",
+          "score": 54.094961844768505,
+          "documentFrequency": 1
+        },
+        {
           "term": "product",
           "score": 48.27842188028352,
           "documentFrequency": 3
@@ -59,9 +64,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 25,
+        "sampleContexts": [
+          "quipos) (La más rápida para teclear) Aunque empezó como una app de tareas personales, su versión para equipos es probableme",
+          "ndo que buscas **alta adaptabilidad al flujo de trabajo del Product Manager y escala empresarial**, las 4 mejores opciones del",
+          "tivo\" de la startup. Puedes tener un tablero Kanban para el producto, una base de datos para inversionistas/CRM, y páginas para"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -70,7 +79,7 @@
       }
     },
     {
-      "name": "Project & Team Management",
+      "name": "Project & Task Management",
       "terms": [
         {
           "term": "management",
@@ -83,9 +92,19 @@
           "documentFrequency": 5
         },
         {
-          "term": "team",
-          "score": 91.2113253785778,
-          "documentFrequency": 4
+          "term": "service",
+          "score": 86.49883920217464,
+          "documentFrequency": 3
+        },
+        {
+          "term": "data",
+          "score": 85.12519758922673,
+          "documentFrequency": 5
+        },
+        {
+          "term": "monday",
+          "score": 75,
+          "documentFrequency": 10
         },
         {
           "term": "project",
@@ -93,24 +112,9 @@
           "documentFrequency": 3
         },
         {
-          "term": "developers",
-          "score": 70.32345039819906,
+          "term": "analytics",
+          "score": 43.275969475814804,
           "documentFrequency": 1
-        },
-        {
-          "term": "development",
-          "score": 64.3799235556473,
-          "documentFrequency": 2
-        },
-        {
-          "term": "plan",
-          "score": 59.019092892020915,
-          "documentFrequency": 4
-        },
-        {
-          "term": "teams",
-          "score": 48.28834872983529,
-          "documentFrequency": 4
         },
         {
           "term": "meeting",
@@ -120,9 +124,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 27,
+        "sampleContexts": [
+          "Si buscas alternativas a Monday.com porque te resulta demasiado compleja, lenta de configur",
+          "é se adapta a tu flujo?** Permite crear flujos de trabajo (*workflows*) totalmente personalizados, tipos de tickets a medida",
+          "aff, EM). Debe haber dos caminos claros: la vía de gestión (Management) y la vía de contribución individual (IC). * **Cultura de"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -131,7 +139,7 @@
       }
     },
     {
-      "name": "Sales & Marketing Operations",
+      "name": "Sales & Marketing",
       "terms": [
         {
           "term": "sales",
@@ -186,9 +194,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 30,
+        "sampleContexts": [
+          "l\". Puedes escribir *\"Reunión con cliente mañana a las 4pm #Marketing\"* y la app crea la tarea, asigna la fecha, la hora y el pro",
+          "* Gestionas productos que involucran a equipos no técnicos (Marketing, Operaciones, Diseño, Ventas) que necesitan colaborar en la",
+          "esos, la entrega y el desarrollo de carrera. * **Tech Leads / Staff Engineers:** Se enfocan en la arquitectura, la visi"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -197,12 +209,12 @@
       }
     },
     {
-      "name": "Business & Customer Relations",
+      "name": "Teams & Customers",
       "terms": [
         {
-          "term": "service",
-          "score": 86.49883920217464,
-          "documentFrequency": 3
+          "term": "team",
+          "score": 91.2113253785778,
+          "documentFrequency": 4
         },
         {
           "term": "customer",
@@ -215,6 +227,16 @@
           "documentFrequency": 1
         },
         {
+          "term": "developers",
+          "score": 70.32345039819906,
+          "documentFrequency": 1
+        },
+        {
+          "term": "development",
+          "score": 64.3799235556473,
+          "documentFrequency": 2
+        },
+        {
           "term": "customers",
           "score": 57.230635531656645,
           "documentFrequency": 4
@@ -223,13 +245,22 @@
           "term": "business",
           "score": 54.608617321390724,
           "documentFrequency": 5
+        },
+        {
+          "term": "teams",
+          "score": 48.28834872983529,
+          "documentFrequency": 4
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 21,
+        "sampleContexts": [
+          "herramienta con el resto del ecosistema corporativo (Slack, Teams, Salesforce, Figma, GitHub).",
+          "ategic Product Tool** (Roadmapping, feature prioritization, customer feedback aggregation). 2. **Execution/Delivery Tool** (Spri",
+          "lance macro-strategy with micro-execution.** You don't need team permissions or complex reporting; you need high productivit"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -238,24 +269,43 @@
       }
     },
     {
-      "name": "Data & Analytics",
+      "name": "Company & Timeline",
       "terms": [
         {
-          "term": "data",
-          "score": 85.12519758922673,
+          "term": "min",
+          "score": 103.46773428586174,
+          "documentFrequency": 2
+        },
+        {
+          "term": "date",
+          "score": 94.66618322834489,
+          "documentFrequency": 1
+        },
+        {
+          "term": "founded",
+          "score": 94.66618322834489,
+          "documentFrequency": 1
+        },
+        {
+          "term": "started",
+          "score": 72.2761111606642,
           "documentFrequency": 5
         },
         {
-          "term": "analytics",
-          "score": 43.275969475814804,
-          "documentFrequency": 1
+          "term": "plan",
+          "score": 59.019092892020915,
+          "documentFrequency": 4
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 16,
+        "sampleContexts": [
+          "iones mucho más **intuitivas, ligeras y listas para usar en minutos**. Aquí tienes las mejores alternativas enfocadas en l",
+          "la calidad del código y la innovación. * **Gestión por Dominios:** Agrupa los equipos por áreas de negocio o plataformas",
+          "nitamente flexible y gratis para uso personal. Hay miles de plantillas gratuitas para startups. * **Lo malo:** Es fáci"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -265,21 +315,6 @@
     }
   ],
   "unclustered": [
-    {
-      "term": "min",
-      "score": 103.46773428586174,
-      "documentFrequency": 2
-    },
-    {
-      "term": "founded",
-      "score": 94.66618322834489,
-      "documentFrequency": 1
-    },
-    {
-      "term": "date",
-      "score": 94.66618322834489,
-      "documentFrequency": 1
-    },
     {
       "term": "number",
       "score": 94.27060234934069,
@@ -291,24 +326,9 @@
       "documentFrequency": 5
     },
     {
-      "term": "monday",
-      "score": 75,
-      "documentFrequency": 10
-    },
-    {
-      "term": "started",
-      "score": 72.2761111606642,
-      "documentFrequency": 5
-    },
-    {
       "term": "like",
       "score": 62.35962826203287,
       "documentFrequency": 3
-    },
-    {
-      "term": "categories",
-      "score": 54.094961844768505,
-      "documentFrequency": 1
     },
     {
       "term": "every",

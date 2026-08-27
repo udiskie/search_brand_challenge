@@ -1,84 +1,8 @@
 {
   "product": "notion",
   "method": "llm",
-  "generatedAt": "2026-08-27T19:35:02.997Z",
+  "generatedAt": "2026-08-27T19:43:42.332Z",
   "themes": [
-    {
-      "name": "Workspace & Content Management",
-      "terms": [
-        {
-          "term": "notion",
-          "score": 159,
-          "documentFrequency": 10
-        },
-        {
-          "term": "workspace",
-          "score": 70.09985150747681,
-          "documentFrequency": 9
-        },
-        {
-          "term": "information",
-          "score": 60.34802735035439,
-          "documentFrequency": 3
-        },
-        {
-          "term": "data",
-          "score": 49.790209910679785,
-          "documentFrequency": 5
-        },
-        {
-          "term": "content",
-          "score": 37.55760456764967,
-          "documentFrequency": 4
-        },
-        {
-          "term": "template",
-          "score": 36.78852774608417,
-          "documentFrequency": 2
-        },
-        {
-          "term": "pages",
-          "score": 35.7691472072854,
-          "documentFrequency": 4
-        },
-        {
-          "term": "domain",
-          "score": 35.16172519909953,
-          "documentFrequency": 1
-        },
-        {
-          "term": "page",
-          "score": 33.395657846090316,
-          "documentFrequency": 6
-        },
-        {
-          "term": "vault",
-          "score": 24.342732830145827,
-          "documentFrequency": 1
-        },
-        {
-          "term": "file",
-          "score": 24.13921094014176,
-          "documentFrequency": 3
-        },
-        {
-          "term": "meeting",
-          "score": 24.13921094014176,
-          "documentFrequency": 3
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
     {
       "name": "Pricing & Subscription Plans",
       "terms": [
@@ -91,6 +15,11 @@
           "term": "credits",
           "score": 58.33642643867591,
           "documentFrequency": 3
+        },
+        {
+          "term": "custom",
+          "score": 58.01196416921552,
+          "documentFrequency": 7
         },
         {
           "term": "paid",
@@ -138,26 +67,40 @@
           "documentFrequency": 2
         },
         {
+          "term": "single",
+          "score": 29.89067879369339,
+          "documentFrequency": 2
+        },
+        {
+          "term": "seat",
+          "score": 29.752229014622678,
+          "documentFrequency": 1
+        },
+        {
           "term": "unlimited",
           "score": 25.292112825432866,
           "documentFrequency": 2
         },
         {
-          "term": "cost",
+          "term": "refund",
           "score": 24.342732830145827,
           "documentFrequency": 1
         },
         {
-          "term": "refund",
+          "term": "cost",
           "score": 24.342732830145827,
           "documentFrequency": 1
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 20,
+        "sampleContexts": [
+          "rabajo de un equipo grande de ingeniería (a partir de 20-30 personas hasta cientos) requiere un cambio de mentalidad fundam",
+          "down to one fundamental question: **Do you want a flexible, customizable workspace for docs and databases, or a structured, re",
+          "po**. No necesitas herramientas con complejas jerarquías de permisos ni flujos de aprobación burocráticos. Necesitas **fric"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -211,9 +154,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 4,
+        "sampleContexts": [
+          "ancer, creator, or small team** looking for a single app to run your entire business (notes, client portals, tasks, ideas).",
+          "**AI Support:** Use tools like Crisp or Intercom with AI agents to handle 50%+ of basic customer queries. --- ### 7. Sch",
+          "apting to rigid software. #### Choose **Asana** if: 1. You run a **medium-to-large team or agency** where tracking who is"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -222,7 +169,72 @@
       }
     },
     {
-      "name": "Productivity & Workflow Utilities",
+      "name": "Documents & Content Management",
+      "terms": [
+        {
+          "term": "notion",
+          "score": 159,
+          "documentFrequency": 10
+        },
+        {
+          "term": "information",
+          "score": 60.34802735035439,
+          "documentFrequency": 3
+        },
+        {
+          "term": "data",
+          "score": 49.790209910679785,
+          "documentFrequency": 5
+        },
+        {
+          "term": "content",
+          "score": 37.55760456764967,
+          "documentFrequency": 4
+        },
+        {
+          "term": "template",
+          "score": 36.78852774608417,
+          "documentFrequency": 2
+        },
+        {
+          "term": "pages",
+          "score": 35.7691472072854,
+          "documentFrequency": 4
+        },
+        {
+          "term": "page",
+          "score": 33.395657846090316,
+          "documentFrequency": 6
+        },
+        {
+          "term": "vault",
+          "score": 24.342732830145827,
+          "documentFrequency": 1
+        },
+        {
+          "term": "file",
+          "score": 24.13921094014176,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 27,
+        "sampleContexts": [
+          "pos grandes, las reuniones no escalan. La documentación (en Notion, Confluence, etc.) debe ser la única fuente de verdad (*Sin",
+          "The choice between **Notion** and **Asana** comes down to one fundamental question: **D",
+          "La elección entre **Notion** y **Jira** depende principalmente de **a qué se dedica tu"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 0,
+        "runsMentioning": 0,
+        "sampleContexts": []
+      }
+    },
+    {
+      "name": "Productivity & Workflow Tools",
       "terms": [
         {
           "term": "work",
@@ -263,13 +275,22 @@
           "term": "help",
           "score": 27.587717351118087,
           "documentFrequency": 6
+        },
+        {
+          "term": "meeting",
+          "score": 24.13921094014176,
+          "documentFrequency": 3
         }
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 23,
+        "sampleContexts": [
+          "Con qué frecuencia enviamos código a producción? 2. **Lead Time for Changes:** ¿Cuánto tiempo pasa desde que se escribe una",
+          "undamental question: **Do you want a flexible, customizable workspace for docs and databases, or a structured, ready-to-use",
+          "on qué frecuencia envías código a producción. 2. *Lead Time for Changes:* Cuánto tarda una idea en llegar a producción."
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -278,12 +299,27 @@
       }
     },
     {
-      "name": "Team & User Management",
+      "name": "Team & User Access",
       "terms": [
+        {
+          "term": "workspace",
+          "score": 70.09985150747681,
+          "documentFrequency": 9
+        },
+        {
+          "term": "access",
+          "score": 45.98565968260521,
+          "documentFrequency": 2
+        },
         {
           "term": "members",
           "score": 43.68637669847495,
           "documentFrequency": 2
+        },
+        {
+          "term": "domain",
+          "score": 35.16172519909953,
+          "documentFrequency": 1
         },
         {
           "term": "team",
@@ -291,14 +327,9 @@
           "documentFrequency": 7
         },
         {
-          "term": "single",
-          "score": 29.89067879369339,
-          "documentFrequency": 2
-        },
-        {
-          "term": "seat",
-          "score": 29.752229014622678,
-          "documentFrequency": 1
+          "term": "security",
+          "score": 28.61531776582832,
+          "documentFrequency": 4
         },
         {
           "term": "people",
@@ -308,40 +339,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Security & Access Control",
-      "terms": [
-        {
-          "term": "custom",
-          "score": 58.01196416921552,
-          "documentFrequency": 7
-        },
-        {
-          "term": "access",
-          "score": 45.98565968260521,
-          "documentFrequency": 2
-        },
-        {
-          "term": "security",
-          "score": 28.61531776582832,
-          "documentFrequency": 4
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 18,
+        "sampleContexts": [
+          "ngeniería: --- ### 1. Definir la Estructura Organizativa (Team Topologies) No intentes gestionar una gran masa homogénea d",
+          "undamental question: **Do you want a flexible, customizable workspace for docs and databases, or a structured, ready-to-use proje",
+          "quipos en función de la arquitectura deseada. * **Adopta *Team Topologies* (Topología de Equipos):** * **Equipos ali"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,

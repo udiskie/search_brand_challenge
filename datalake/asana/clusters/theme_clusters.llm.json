@@ -1,10 +1,10 @@
 {
   "product": "asana",
   "method": "llm",
-  "generatedAt": "2026-08-27T19:34:25.928Z",
+  "generatedAt": "2026-08-27T19:43:09.919Z",
   "themes": [
     {
-      "name": "UI & Navigation",
+      "name": "UI & Navigation Elements",
       "terms": [
         {
           "term": "iconcheck",
@@ -37,14 +37,14 @@
           "documentFrequency": 2
         },
         {
-          "term": "see",
-          "score": 26.828070246238173,
-          "documentFrequency": 3
-        },
-        {
           "term": "view",
           "score": 22.03972804325936,
           "documentFrequency": 2
+        },
+        {
+          "term": "iconunlimited",
+          "score": 20.875503299472804,
+          "documentFrequency": 1
         },
         {
           "term": "down",
@@ -54,9 +54,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 11,
+        "sampleContexts": [
+          "columns for almost anything (status, numbers, formulas, dropdowns, ratings, team owners). 2. **Visual Dashboards & Reporting",
+          "There is no single \"best\" tool among the three—the right choice depends entirely on **who is using it** and **what k",
+          "tive tasks, cold outreach, financial bookkeeping, user interviews. **A Sample Solo Founder Week:** * **Monday Morning:** *L"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -103,11 +107,6 @@
           "documentFrequency": 1
         },
         {
-          "term": "workflows",
-          "score": 23.484941211906904,
-          "documentFrequency": 1
-        },
-        {
           "term": "goals",
           "score": 20.317766166719345,
           "documentFrequency": 4
@@ -121,18 +120,77 @@
           "term": "time",
           "score": 18.266065387038704,
           "documentFrequency": 1
-        },
-        {
-          "term": "process",
-          "score": 18.266065387038704,
-          "documentFrequency": 1
         }
       ],
       "questions": [],
       "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 23,
+        "sampleContexts": [
+          "ener el enfoque**. Aquí tienes las mejores herramientas de Project Management organizadas según tu estilo de trabajo y tipo de",
+          "Both **Asana** and **Monday.com** are industry-leading project management tools, but they cater to slightly different work",
+          "depends entirely on **who is using it** and **what kind of work you do**. Here is the quick answer based on common use ca"
+        ]
+      },
+      "brandGroundedAnswers": {
         "runsScanned": 0,
         "runsMentioning": 0,
         "sampleContexts": []
+      }
+    },
+    {
+      "name": "Platform & Security",
+      "terms": [
+        {
+          "term": "asana",
+          "score": 65,
+          "documentFrequency": 9
+        },
+        {
+          "term": "data",
+          "score": 37.46753767354091,
+          "documentFrequency": 2
+        },
+        {
+          "term": "security",
+          "score": 26.094379124341003,
+          "documentFrequency": 1
+        },
+        {
+          "term": "custom",
+          "score": 24.243700847585295,
+          "documentFrequency": 2
+        },
+        {
+          "term": "service",
+          "score": 21.151558732723874,
+          "documentFrequency": 5
+        },
+        {
+          "term": "platform",
+          "score": 20.875503299472804,
+          "documentFrequency": 1
+        },
+        {
+          "term": "compliance",
+          "score": 18.266065387038704,
+          "documentFrequency": 1
+        },
+        {
+          "term": "support",
+          "score": 18.129907485191893,
+          "documentFrequency": 5
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 26,
+        "sampleContexts": [
+          "Si buscas alternativas a Asana porque te resulta pesado, complejo o lento de configurar, h",
+          "Both **Asana** and **Monday.com** are industry-leading project managemen",
+          "hat wants speed, simplicity, and great design. * **Choose Asana** if you manage **cross-functional teams** (marketing, oper"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -181,9 +239,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 22,
+        "sampleContexts": [
+          "sales/CRM, resource management, high-level dashboards | | **User Interface** | Clean, minimalist, standard lists/boards | Co",
+          "Linear** if you are a modern **tech startup or software dev team** that wants speed, simplicity, and great design. * **Cho",
+          "As a solo founder, you aren't just one person—you are a team of six people stuck in one body: CEO, Product Manager, Deve"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -192,7 +254,7 @@
       }
     },
     {
-      "name": "Plans & Billing",
+      "name": "Pricing & Subscriptions",
       "terms": [
         {
           "term": "unlimited",
@@ -225,11 +287,6 @@
           "documentFrequency": 7
         },
         {
-          "term": "iconunlimited",
-          "score": 20.875503299472804,
-          "documentFrequency": 1
-        },
-        {
           "term": "paid",
           "score": 18.624618986159398,
           "documentFrequency": 4
@@ -237,9 +294,13 @@
       ],
       "questions": [],
       "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 30,
+        "runsMentioning": 11,
+        "sampleContexts": [
+          "an organizarse en minutos sin leer un manual. * **Precio:** Plan gratuito muy completo. ### 2. **Todoist (para Equipos)** (",
+          "un solo sitio. * **Lo mejor:** La flexibilidad y sus plantillas gratuitas para startups. * **Lo malo:** Es fáci",
+          "rface, excellent task dependency management, and a powerful free plan. * **Choose Monday.com if** you want a highly visual,"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -248,63 +309,7 @@
       }
     },
     {
-      "name": "Platform & Security",
-      "terms": [
-        {
-          "term": "data",
-          "score": 37.46753767354091,
-          "documentFrequency": 2
-        },
-        {
-          "term": "security",
-          "score": 26.094379124341003,
-          "documentFrequency": 1
-        },
-        {
-          "term": "custom",
-          "score": 24.243700847585295,
-          "documentFrequency": 2
-        },
-        {
-          "term": "agents",
-          "score": 23.484941211906904,
-          "documentFrequency": 1
-        },
-        {
-          "term": "service",
-          "score": 21.151558732723874,
-          "documentFrequency": 5
-        },
-        {
-          "term": "platform",
-          "score": 20.875503299472804,
-          "documentFrequency": 1
-        },
-        {
-          "term": "compliance",
-          "score": 18.266065387038704,
-          "documentFrequency": 1
-        },
-        {
-          "term": "support",
-          "score": 18.129907485191893,
-          "documentFrequency": 5
-        }
-      ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Help & Learning",
+      "name": "Learning & Discovery",
       "terms": [
         {
           "term": "learn",
@@ -317,6 +322,11 @@
           "documentFrequency": 1
         },
         {
+          "term": "see",
+          "score": 26.828070246238173,
+          "documentFrequency": 3
+        },
+        {
           "term": "officerlearn",
           "score": 18.266065387038704,
           "documentFrequency": 1
@@ -324,9 +334,47 @@
       ],
       "questions": [],
       "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 2,
+        "sampleContexts": [
+          "**Enterprise Pros:** \"Work Graph\" model makes it easy to see how individual feature tasks roll up into company-level goa",
+          "lex logic) | Good, but can get messy on huge projects | | **Learning Curve** | Low to Moderate | Low (Very intuitive visually"
+        ]
+      },
+      "brandGroundedAnswers": {
         "runsScanned": 0,
         "runsMentioning": 0,
         "sampleContexts": []
+      }
+    },
+    {
+      "name": "Workflows & Automation",
+      "terms": [
+        {
+          "term": "agents",
+          "score": 23.484941211906904,
+          "documentFrequency": 1
+        },
+        {
+          "term": "workflows",
+          "score": 23.484941211906904,
+          "documentFrequency": 1
+        },
+        {
+          "term": "process",
+          "score": 18.266065387038704,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 14,
+        "sampleContexts": [
+          "**Best For** | Task management, cross-functional projects, workflows | Operations, sales/CRM, resource management, high-level da",
+          "require strict Agile/Scrum frameworks, or need deep custom workflows and compliance. --- ### 1. Linear: *The Best for Modern S",
+          "tor, virtual assistant, or co-founder, you can hand off the process immediately without training downtime. --- ### 6. Leverag"
+        ]
       },
       "brandGroundedAnswers": {
         "runsScanned": 0,
@@ -336,11 +384,6 @@
     }
   ],
   "unclustered": [
-    {
-      "term": "asana",
-      "score": 65,
-      "documentFrequency": 9
-    },
     {
       "term": "across",
       "score": 31.313254949209206,
