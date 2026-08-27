@@ -209,15 +209,21 @@ CI).
   since it fits the existing pattern; revisit (a) only if the taxonomy
   proves too rigid across different product categories.
 
-- **UI work to display clustered results to the user.** No consumer for any
-  of this exists yet — the scaffolded Next.js app (`src/app/page.tsx`) is
-  still the untouched `create-next-app` default; nothing in this project
-  renders `datalake/` output (reports, priorities, candidate questions, or
-  the semantic clusters above) in an actual web page. This is a separate,
-  later work item: a dashboard reading `report/report.json`,
-  `report/priorities.json`, and `questions/candidate_user_questions.json`
-  per product, ideally grouped by the semantic clusters once those exist
-  rather than by the current flat lists/dimension breakdowns.
+- ~~**UI work to display results to the user.**~~ **Done** (`feature/dashboard`),
+  ahead of clustering above rather than after it: clustering is purely a
+  display-organization concern on data that already existed, not a
+  prerequisite, so this shipped the dashboard against the flat data first.
+  Replaces the untouched `create-next-app` scaffold with: a home page
+  listing every `datalake/` product (score badges for ones with a full AEO
+  report, a "scraped, no report yet" state for scrape-only competitors), a
+  per-product report page (executive summary, AEO Share-of-Voice table, the
+  brand-grounded section when present, SEO/GEO panels, priority matrix), and
+  a candidate-questions page (Part 1/Part 2, broken down by awareness
+  stage). `src/lib/dashboardData.ts` reads directly off `datalake/` JSON via
+  the scraper's existing path helpers/`readJson()` — no new storage layer,
+  no API routes. If/when semantic clustering above gets built, this is the
+  page that would consume it (grouping by theme instead of the current flat
+  lists).
 
 ## Open decisions to carry into `DECISIONS.md`
 
