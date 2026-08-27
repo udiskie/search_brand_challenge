@@ -2,7 +2,7 @@ import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
-import { extractedDir, geoDir, writeJson } from "../scraper/datalake";
+import { extractedDir, geoDir, productDir, writeJson } from "../scraper/datalake";
 import { runAeoAudit } from "./run";
 import type { AeoAuditConfig } from "./types";
 
@@ -178,5 +178,131 @@ describe("runAeoAudit", () => {
 
     const runFiles = readJson("linear", "aeo", "prompts_config.json");
     expect(runFiles.prompts).toHaveLength(2);
+  });
+
+  it("throws a clear error when brand-grounded questions are requested but none were generated", async () => {
+    await seedScraperOutput("linear");
+
+    await expect(
+      runAeoAudit(
+        {
+          product: "linear",
+          auditConfig: baseAuditConfig,
+          geminiConfig: baseGeminiConfig,
+          includeBrandGroundedQuestions: { source: "both" },
+        },
+        geminiFetch("Linear is great.")
+      )
+    ).rejects.toThrow(/Missing candidate questions/);
+  });
+
+  it("runs brand-grounded questions through Gemini and reports them separately", async () => {
+    await seedScraperOutput("linear");
+    await writeJson(
+      path.join(productDir("linear"), "questions", "candidate_user_questions.json"),
+      {
+        hookQuestions: [
+          {
+            id: "direct-differentiator-0",
+            text: 'What tool matches "keyboard-first workflow"?',
+            templateId: "direct-differentiator",
+            hook: "keyboard-first workflow",
+            hookSource: "tagcloud",
+            evidenceUrls: ["https://example.com/"],
+          },
+        ],
+        inferentialQuestions: [
+          {
+            id: "pain-vent-0",
+            text: "As an engineering lead, my team keeps struggling to ship fast.",
+            templateId: "pain-vent",
+            stage: "pain_only",
+            problem: "ship fast",
+            audience: [],
+            evidenceUrls: ["https://example.com/"],
+          },
+        ],
+      }
+    );
+
+    const summary = await runAeoAudit(
+      {
+        product: "linear",
+        auditConfig: baseAuditConfig,
+        geminiConfig: baseGeminiConfig,
+        includeBrandGroundedQuestions: { source: "both", runsPerPrompt: 1 },
+      },
+      geminiFetch("Linear and Jira are both solid, keyboard-first options.")
+    );
+
+    expect(summary.brandGroundedRunCount).toBe(2); // 1 hook + 1 inferential, 1 run each
+
+    const readJson = (...parts: string[]) =>
+      JSON.parse(readFileSync(path.join(tmpDir, "datalake", ...parts), "utf-8"));
+
+    const brandGroundedMetrics = readJson("linear", "aeo", "brand_grounded_metrics.json");
+    expect(brandGroundedMetrics.totalRuns).toBe(2);
+
+    const report = readJson("linear", "report", "report.json");
+    expect(report.brandGrounded.totalRuns).toBe(2);
+    // Never touches the neutral scores/priorities.
+    expect(report.scores).toHaveLength(3);
+
+    const reportMd = readFileSync(
+      path.join(tmpDir, "datalake", "linear", "report", "report.md"),
+      "utf-8"
+    );
+    expect(reportMd).toContain("Brand-grounded question performance");
+  });
+
+  it("respects the source filter (hooks only) and the limit", async () => {
+    await seedScraperOutput("linear");
+    await writeJson(
+      path.join(productDir("linear"), "questions", "candidate_user_questions.json"),
+      {
+        hookQuestions: [
+          {
+            id: "h0",
+            text: "Hook question 0",
+            templateId: "direct-differentiator",
+            hook: "a",
+            hookSource: "tagcloud",
+            evidenceUrls: [],
+          },
+          {
+            id: "h1",
+            text: "Hook question 1",
+            templateId: "direct-differentiator",
+            hook: "b",
+            hookSource: "tagcloud",
+            evidenceUrls: [],
+          },
+        ],
+        inferentialQuestions: [
+          {
+            id: "i0",
+            text: "Inferential question 0",
+            templateId: "pain-vent",
+            stage: "pain_only",
+            problem: "x",
+            audience: [],
+            evidenceUrls: [],
+          },
+        ],
+      }
+    );
+
+    const summary = await runAeoAudit(
+      {
+        product: "linear",
+        auditConfig: baseAuditConfig,
+        geminiConfig: baseGeminiConfig,
+        includeBrandGroundedQuestions: { source: "hooks", runsPerPrompt: 1, limit: 1 },
+      },
+      geminiFetch("Linear is great.")
+    );
+
+    // 2 hook questions available, limit=1 -> only 1 prompt x 1 run.
+    expect(summary.brandGroundedRunCount).toBe(1);
   });
 });
