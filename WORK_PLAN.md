@@ -165,6 +165,27 @@ CI).
   as part of the normal diff — the brief explicitly wants AI-agent tooling
   visible, not gitignored.
 
+## Future work — not yet built
+
+- **Wire Part 1 and Part 2 questions into the AEO pipeline.** The
+  `user-question-generator` skill (`src/questionGenerator/`) produces two
+  derivatives of candidate questions — Part 1 (hook-grounded, quotes/echoes
+  the site's own phrasing) and Part 2 (inferential, paraphrased across the
+  pain_only/problem_framed/comparing_with_criteria awareness stages) — but
+  today they're standalone text artifacts (`candidate_user_questions.json`/
+  `.md`) for a human to review and hand-pick from. Neither is currently sent
+  to Gemini: the only questions that actually get run through
+  `src/aeo/geminiClient.ts` come from `brand-visibility-audit`'s own,
+  separate, neutral `promptGenerator.ts`. Wiring them in means feeding
+  reviewed/selected Part 1 or Part 2 questions into `runGeminiForPrompts()`
+  and through the same mention-extraction/metrics/report pipeline the AEO
+  skill already has, likely as a third prompt source alongside (not
+  replacing) the neutral benchmarking set, since Part 1/Part 2 are
+  deliberately brand-grounded rather than neutral — see
+  `.claude/skills/brand-visibility-audit/SKILL.md`'s neutrality framing and
+  the persona-inference tension in `DECISIONS.md` for why brand-grounded and
+  neutral prompt sources shouldn't be silently merged into one metric.
+
 ## Open decisions to carry into `DECISIONS.md`
 
 - Whether raw crawled HTML (`raw/pages/*.html`) is committed to the repo or
