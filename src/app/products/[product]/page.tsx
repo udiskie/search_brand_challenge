@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Panel } from "@/components/dashboard/Panel";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
+import { TagcloudBarChart } from "@/components/dashboard/TagcloudBarChart";
 import {
   getCandidateQuestions,
   getReport,
@@ -207,6 +208,21 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                 ) : null}
               </Panel>
             </div>
+
+            {tagcloud && tagcloud.site.length > 0 ? (
+              <Panel title="Word occurrences (scraped content)">
+                <p className="mb-3 text-xs text-muted-foreground">
+                  Raw count of how many times each of the top {Math.min(20, tagcloud.site.length)}{" "}
+                  terms appears across the crawled pages — not the tf-idf ranking used elsewhere,
+                  just occurrences.
+                </p>
+                <TagcloudBarChart
+                  terms={[...tagcloud.site]
+                    .sort((a, b) => b.occurrences - a.occurrences)
+                    .slice(0, 20)}
+                />
+              </Panel>
+            ) : null}
 
             <Panel title="Priority matrix (impact × effort)">
               <div className="overflow-x-auto">
