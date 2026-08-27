@@ -1,0 +1,23 @@
+{
+  "runId": "4a40929d-7923-4453-8157-9abdc62c80d0",
+  "promptId": "direct_comparison-1",
+  "promptText": "Jira vs Asana, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Jira",
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:01:11.696Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Jira** y **Asana** se reduce principalmente a una pregunta: **¿Tu equipo desarrolla software o gestiona proyectos generales de negocio?**\n\nAquí tienes el resumen rápido para decidir:\n\n*   **Elige Jira si:** Eres un equipo de desarrollo de software, TI o producto que trabaja con metodologías Ágiles (Scrum, Kanban) y necesitas integrar tu código y herramientas de desarrollo.\n*   **Elige Asana si:** Eres un equipo de marketing, recursos humanos, operaciones, o una agencia que necesita gestionar tareas, proyectos transversales y procesos de forma visual, intuitiva y rápida.\n\n---\n\n### Comparativa detallada: Jira vs. Asana\n\n| Característica | **Jira (Atlassian)** | **Asana** |\n| :--- | :--- | :--- |\n| **Enfoque principal** | Desarrollo de software, seguimiento de errores (bugs) y gestión de TI. | Gestión del trabajo, tareas y proyectos de negocio. |\n| **Metodología** | Diseñado 100% para Agile, Scrum, Kanban y DevOps. | Flexible: Listas, Tableros (Kanban), Cronogramas (Gantt), Calendario. |\n| **Facilidad de uso** | Curva de aprendizaje **alta**. Puede sentirse complejo y rígido. | Curva de aprendizaje **baja**. Interfaz muy intuitiva y visual. |\n| **Integraciones clave** | GitHub, Bitbucket, GitLab, Jenkins, Confluence, Figma. | Slack, Google Drive, Microsoft Teams, Salesforce, Adobe. |\n| **Informes / Reporting** | Métricas ágiles avanzadas (Burndown charts, Velocity, Cumulative flow). | Paneles visuales, carga de trabajo del equipo, estado de proyectos. |\n\n---\n\n### Profundizando en cada herramienta\n\n#### **1. Jira: El rey del desarrollo de software**\nJira es el estándar de la industria para los equipos de tecnología. No es solo un gestor de tareas, es una herramienta de seguimiento de problemas (*issue tracking*).\n\n*   **Lo mejor de Jira:**\n    *   **Trazabilidad total:** Puedes vincular un ticket de Jira directamente con una línea de código en GitHub o un despliegue en producción.\n    *   **Reportes Ágiles profundos:** Ideal para los *Scrum Masters* o *Product Owners* que necesitan medir la velocidad del equipo y el rendimiento de los *sprints*.\n    *   **Ecosistema Atlassian:** Se conecta a la perfección con Confluence (documentación) y Jira Service Management.\n*   **Lo peor de Jira:**\n    *   Es abrumador para usuarios no técnicos.\n    *   Configurar los flujos de trabajo (*workflows*) puede requerir un administrador dedicado.\n\n#### **2. Asana: La mejor para la colaboración y proyectos de negocio**\nAsana está diseñada para que cualquier persona, sin importar su perfil técnico, pueda organizarse en minutos. Es excelente para ver \"quién está haciendo qué y para cuándo\".\n\n*   **Lo mejor de Asana:**\n    *   **Diseño e Interfaz:** Es una de las herramientas más agradables de usar del mercado.\n    *   **Vista de Cronograma (Gantt):** Permite planificar proyectos a largo plazo y ver dependencias entre tareas de forma muy fácil.\n    *   **Gestión de Carga de Trabajo (*Workload*):** Puedes ver si algún miembro del equipo está sobrecargado de tareas.\n*   **Lo peor de Asana:**\n    *   No tiene funciones nativas avanzadas para desarrollo de software (no hay puntos de historia, ni integración profunda con repositorios de código).\n    *   Las funciones más potentes (como los Portafolios o la Carga de trabajo) están en los planes más caros.\n\n---\n\n### ¿Cuál deberías elegir? (Guía de decisión)\n\n**Elige JIRA si tu equipo es:**\n1.  Un equipo de programadores, ingenieros o soporte técnico.\n2.  Un equipo que trabaja con *Sprints* de 2 semanas, *Backlogs* y *User Stories*.\n3.  Una empresa que necesita auditar el proceso de despliegue de software.\n\n**Elige ASANA si tu equipo es:**\n1.  Un equipo multidisciplinario (Marketing, Diseño, Ventas, Recursos Humanos).\n2.  Una agencia que gestiona clientes y campañas con fechas límite claras.\n3.  Una empresa donde la gente rechaza las herramientas complejas y necesitas que empiecen a usarla **hoy mismo**.\n\n*Nota sobre empresas mixtas:* Muchas empresas medianas o grandes usan **ambas**: Asana para los equipos de negocio (Marketing/Producto) y Jira para los ingenieros, conectándolas mediante integraciones directas."
+}

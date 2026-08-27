@@ -1,0 +1,1562 @@
+{
+  "hooks": [
+    {
+      "hook": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together."
+        }
+      ]
+    },
+    {
+      "hook": "Contact our sales team about any questions you have",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://asana.com/sales-email",
+          "snippet": "Contact our sales team about any questions you have"
+        }
+      ]
+    },
+    {
+      "hook": "work",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Work & Project Management for Human-Agent Teams • AsanaThe OS for human-agent teamsSupercharge your teams to get things doneTry Asana for free."
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Multiple humans can train, guide, and improve any agent.Shared memorychevron-up iconShared memory means AI Teammates learn from the work itself."
+        }
+      ]
+    },
+    {
+      "hook": "team",
+      "source": "tagcloud",
+      "documentFrequency": 6,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Assign tasks to your team with assignees and due dates, comment on each others' tasks, and attach files to drive work forward.Unlimited projectsUnlimited messagesUnlimited activity logUnlimited file storage (100MB per file)Collaborate with …"
+        }
+      ]
+    },
+    {
+      "hook": "right",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "To cancel a paid plan, log in to the Asana account you wish to cancel, click your profile photo from the right of the top bar, select Admin console, navigate to the Billing tab, and then select Cancel Plan."
+        },
+        {
+          "url": "https://asana.com/leadership",
+          "snippet": "Dan RogersChief Executive OfficerLearn morearrow-right-circle iconAziz MegjiChief Financial OfficerLearn morearrow-right-circle iconArnab BoseChief Product OfficerLearn morearrow-right-circle iconPrachi Gore Chief Marketing OfficerLearn mor…"
+        }
+      ]
+    },
+    {
+      "hook": "teams",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Work & Project Management for Human-Agent Teams • AsanaThe OS for human-agent teamsSupercharge your teams to get things doneTry Asana for free."
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "No credit card required.MonthlyYearlyRecommendedBasicFor individuals or teams just getting started with project management.$0Free foreverManage tasks and personal to-dos:Unlimited tasksBreak work down into small, actionable steps with tasks…"
+        }
+      ]
+    },
+    {
+      "hook": "circle",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/leadership",
+          "snippet": "Dan RogersChief Executive OfficerLearn morearrow-right-circle iconAziz MegjiChief Financial OfficerLearn morearrow-right-circle iconArnab BoseChief Product OfficerLearn morearrow-right-circle iconPrachi Gore Chief Marketing OfficerLearn mor…"
+        },
+        {
+          "url": "https://asana.com/leadership",
+          "snippet": "No credit card required.Get startedarrow-right-circle iconmobile iconWatch the demoSee how Asana connects companies at scale.View demoarrow-right-circle iconmessage-group iconSpeak with a sales repLearn how Asana helps teams collaborate sea…"
+        }
+      ]
+    },
+    {
+      "hook": "learn",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Multiple humans can train, guide, and improve any agent.Shared memorychevron-up iconShared memory means AI Teammates learn from the work itself."
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "You can learn about the Asana Nonprofit Discount here.What forms of payment do you accept?chevron-up iconYou can purchase Asana with any major credit card."
+        }
+      ]
+    },
+    {
+      "hook": "data",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Connect your company goals and the work to support them in one place, so everyone can see how their work contributes to company goals.WorkloadAssess team bandwidth, assign new work, and load balance tasks amongst your team so that your team…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Connect your company goals and the work to support them in one place, so everyone can see how their work contributes to company goals.WorkloadAssess team bandwidth, assign new work, and load balance tasks amongst your team so that your team…"
+        }
+      ]
+    },
+    {
+      "hook": "morearrow",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/leadership",
+          "snippet": "Dan RogersChief Executive OfficerLearn morearrow-right-circle iconAziz MegjiChief Financial OfficerLearn morearrow-right-circle iconArnab BoseChief Product OfficerLearn morearrow-right-circle iconPrachi Gore Chief Marketing OfficerLearn mor…"
+        }
+      ]
+    },
+    {
+      "hook": "project",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Work & Project Management for Human-Agent Teams • AsanaThe OS for human-agent teamsSupercharge your teams to get things doneTry Asana for free."
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        }
+      ]
+    },
+    {
+      "hook": "management",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Work & Project Management for Human-Agent Teams • AsanaThe OS for human-agent teamsSupercharge your teams to get things doneTry Asana for free."
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "No credit card required.MonthlyYearlyRecommendedBasicFor individuals or teams just getting started with project management.$0Free foreverManage tasks and personal to-dos:Unlimited tasksBreak work down into small, actionable steps with tasks…"
+        }
+      ]
+    },
+    {
+      "hook": "chevron",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "You can also see Asana activity across your organization.check iconcheck iconcheck iconGoogle SSOcheck iconcheck iconcheck iconCustom brandingcheck iconAdmin announcementscheck iconSAMLcheck iconUser and group provisioning & deprovisioning …"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "The price of Asana Business is $24.99 per user per month when billed annually and $30.49 when billed monthly.Does Asana offer a discount for nonprofits?chevron-up iconAsana is happy to offer eligible nonprofit organizations a discount on an…"
+        }
+      ]
+    },
+    {
+      "hook": "plan",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Connect your company goals and the work to support them in one place, so everyone can see how their work contributes to company goals.WorkloadAssess team bandwidth, assign new work, and load balance tasks amongst your team so that your team…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Connect your company goals and the work to support them in one place, so everyone can see how their work contributes to company goals.WorkloadAssess team bandwidth, assign new work, and load balance tasks amongst your team so that your team…"
+        }
+      ]
+    },
+    {
+      "hook": "company",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "You can also see Asana activity across your organization.Private teams and projectsBusinessFor teams and companies that need to manage work across initiatives.$24.99billed annuallyEverything in Premium, plus:PortfoliosMonitor and manage gro…"
+        }
+      ]
+    },
+    {
+      "hook": "every",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "No credit card required.GoogleMicrosoftorSign upBy signing up, I agree to Asana's Terms of Service and acknowledge the Privacy Statement.85% of Fortune 100 companies choose Asana¹AI that works the way your team worksAsana Work Graph®chevron…"
+        },
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Assign tasks to your team with assignees and due dates, comment on each others' tasks, and attach files to drive work forward.Unlimited projectsUnlimited messagesUnlimited activity logUnlimited file storage (100MB per file)Collaborate with …"
+        }
+      ]
+    },
+    {
+      "hook": "custom",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "Every completed task, every piece of feedback, every preference gets carried forward, so no one repeats context they've already given and every workflow starts smarter than the last.Enterprise governancechevron-up iconEvery agent has an ide…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Save your reports to see work across projects, assignees, custom fields and more.Custom fieldsLabel tasks with key information with text, dropdown or number fields.Unlimited free guestsFormsCreate a standard intake process with Forms, and m…"
+        },
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "Connect your company goals and the work to support them in one place, so everyone can see how their work contributes to company goals.WorkloadAssess team bandwidth, assign new work, and load balance tasks amongst your team so that your team…"
+        }
+      ]
+    },
+    {
+      "hook": "free",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": []
+    },
+    {
+      "hook": "user",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": []
+    },
+    {
+      "hook": "view",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": []
+    },
+    {
+      "hook": "service",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": []
+    },
+    {
+      "hook": "goals",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": []
+    }
+  ],
+  "hookQuestions": [
+    {
+      "id": "long-form-quote-match-0",
+      "text": "What tool matches this description: \"Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "long-form-as-need-1",
+      "text": "As a startup founder, I'm looking for a tool where: Work management software for teams and AI agents. Plan, automate, and execute critical workflows together. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-2",
+      "text": "What tool matches this description: \"Contact our sales team about any questions you have\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Contact our sales team about any questions you have",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://asana.com/sales-email"
+      ]
+    },
+    {
+      "id": "long-form-as-need-3",
+      "text": "As a freelancer, I'm looking for a tool where: Contact our sales team about any questions you have Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Contact our sales team about any questions you have",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://asana.com/sales-email"
+      ]
+    },
+    {
+      "id": "direct-differentiator-4",
+      "text": "What tool would you recommend for a team that wants \"work\"?",
+      "templateId": "direct-differentiator",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "problem-framed-5",
+      "text": "I need something that helps with work -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "comparison-anchor-6",
+      "text": "Which tool in this space is known for work?",
+      "templateId": "comparison-anchor",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "persona-specific-7",
+      "text": "As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "direct-differentiator-8",
+      "text": "What tool would you recommend for a team that wants \"team\"?",
+      "templateId": "direct-differentiator",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-9",
+      "text": "I need something that helps with team -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-10",
+      "text": "Which tool in this space is known for team?",
+      "templateId": "comparison-anchor",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-11",
+      "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-12",
+      "text": "What tool would you recommend for a team that wants \"right\"?",
+      "templateId": "direct-differentiator",
+      "hook": "right",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "problem-framed-13",
+      "text": "I need something that helps with right -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "right",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "comparison-anchor-14",
+      "text": "Which tool in this space is known for right?",
+      "templateId": "comparison-anchor",
+      "hook": "right",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "persona-specific-15",
+      "text": "As a freelancer, I want a tool that focuses on right instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "right",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "direct-differentiator-16",
+      "text": "What tool would you recommend for a team that wants \"teams\"?",
+      "templateId": "direct-differentiator",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-17",
+      "text": "I need something that helps with teams -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-18",
+      "text": "Which tool in this space is known for teams?",
+      "templateId": "comparison-anchor",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-19",
+      "text": "As a freelancer, I want a tool that focuses on teams instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-20",
+      "text": "What tool would you recommend for a team that wants \"circle\"?",
+      "templateId": "direct-differentiator",
+      "hook": "circle",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "problem-framed-21",
+      "text": "I need something that helps with circle -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "circle",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "comparison-anchor-22",
+      "text": "Which tool in this space is known for circle?",
+      "templateId": "comparison-anchor",
+      "hook": "circle",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "persona-specific-23",
+      "text": "As a freelancer, I want a tool that focuses on circle instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "circle",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "direct-differentiator-24",
+      "text": "What tool would you recommend for a team that wants \"learn\"?",
+      "templateId": "direct-differentiator",
+      "hook": "learn",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-25",
+      "text": "I need something that helps with learn -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "learn",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-26",
+      "text": "Which tool in this space is known for learn?",
+      "templateId": "comparison-anchor",
+      "hook": "learn",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-27",
+      "text": "As a freelancer, I want a tool that focuses on learn instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "learn",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-28",
+      "text": "What tool would you recommend for a team that wants \"data\"?",
+      "templateId": "direct-differentiator",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-29",
+      "text": "I need something that helps with data -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-30",
+      "text": "Which tool in this space is known for data?",
+      "templateId": "comparison-anchor",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-31",
+      "text": "As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-32",
+      "text": "What tool would you recommend for a team that wants \"morearrow\"?",
+      "templateId": "direct-differentiator",
+      "hook": "morearrow",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "problem-framed-33",
+      "text": "I need something that helps with morearrow -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "morearrow",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "comparison-anchor-34",
+      "text": "Which tool in this space is known for morearrow?",
+      "templateId": "comparison-anchor",
+      "hook": "morearrow",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "persona-specific-35",
+      "text": "As a freelancer, I want a tool that focuses on morearrow instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "morearrow",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/leadership"
+      ]
+    },
+    {
+      "id": "direct-differentiator-36",
+      "text": "What tool would you recommend for a team that wants \"project\"?",
+      "templateId": "direct-differentiator",
+      "hook": "project",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "problem-framed-37",
+      "text": "I need something that helps with project -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "project",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "comparison-anchor-38",
+      "text": "Which tool in this space is known for project?",
+      "templateId": "comparison-anchor",
+      "hook": "project",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "persona-specific-39",
+      "text": "As a freelancer, I want a tool that focuses on project instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "project",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "direct-differentiator-40",
+      "text": "What tool would you recommend for a team that wants \"management\"?",
+      "templateId": "direct-differentiator",
+      "hook": "management",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-41",
+      "text": "I need something that helps with management -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "management",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-42",
+      "text": "Which tool in this space is known for management?",
+      "templateId": "comparison-anchor",
+      "hook": "management",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-43",
+      "text": "As a freelancer, I want a tool that focuses on management instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "management",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-44",
+      "text": "What tool would you recommend for a team that wants \"chevron\"?",
+      "templateId": "direct-differentiator",
+      "hook": "chevron",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-45",
+      "text": "I need something that helps with chevron -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "chevron",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-46",
+      "text": "Which tool in this space is known for chevron?",
+      "templateId": "comparison-anchor",
+      "hook": "chevron",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-47",
+      "text": "As a freelancer, I want a tool that focuses on chevron instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "chevron",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-48",
+      "text": "What tool would you recommend for a team that wants \"plan\"?",
+      "templateId": "direct-differentiator",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-49",
+      "text": "I need something that helps with plan -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-50",
+      "text": "Which tool in this space is known for plan?",
+      "templateId": "comparison-anchor",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-51",
+      "text": "As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-52",
+      "text": "What tool would you recommend for a team that wants \"company\"?",
+      "templateId": "direct-differentiator",
+      "hook": "company",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-53",
+      "text": "I need something that helps with company -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "company",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-54",
+      "text": "Which tool in this space is known for company?",
+      "templateId": "comparison-anchor",
+      "hook": "company",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-55",
+      "text": "As a freelancer, I want a tool that focuses on company instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "company",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-56",
+      "text": "What tool would you recommend for a team that wants \"every\"?",
+      "templateId": "direct-differentiator",
+      "hook": "every",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-57",
+      "text": "I need something that helps with every -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "every",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-58",
+      "text": "Which tool in this space is known for every?",
+      "templateId": "comparison-anchor",
+      "hook": "every",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-59",
+      "text": "As a freelancer, I want a tool that focuses on every instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "every",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-60",
+      "text": "What tool would you recommend for a team that wants \"custom\"?",
+      "templateId": "direct-differentiator",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-framed-61",
+      "text": "I need something that helps with custom -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-62",
+      "text": "Which tool in this space is known for custom?",
+      "templateId": "comparison-anchor",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "persona-specific-63",
+      "text": "As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://asana.com",
+        "https://asana.com/pricing-legacy",
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-64",
+      "text": "What tool would you recommend for a team that wants \"free\"?",
+      "templateId": "direct-differentiator",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-65",
+      "text": "I need something that helps with free -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-66",
+      "text": "Which tool in this space is known for free?",
+      "templateId": "comparison-anchor",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-67",
+      "text": "As a freelancer, I want a tool that focuses on free instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-68",
+      "text": "What tool would you recommend for a team that wants \"user\"?",
+      "templateId": "direct-differentiator",
+      "hook": "user",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-69",
+      "text": "I need something that helps with user -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "user",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-70",
+      "text": "Which tool in this space is known for user?",
+      "templateId": "comparison-anchor",
+      "hook": "user",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-71",
+      "text": "As a freelancer, I want a tool that focuses on user instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "user",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-72",
+      "text": "What tool would you recommend for a team that wants \"view\"?",
+      "templateId": "direct-differentiator",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-73",
+      "text": "I need something that helps with view -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-74",
+      "text": "Which tool in this space is known for view?",
+      "templateId": "comparison-anchor",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-75",
+      "text": "As a freelancer, I want a tool that focuses on view instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-76",
+      "text": "What tool would you recommend for a team that wants \"service\"?",
+      "templateId": "direct-differentiator",
+      "hook": "service",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-77",
+      "text": "I need something that helps with service -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "service",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-78",
+      "text": "Which tool in this space is known for service?",
+      "templateId": "comparison-anchor",
+      "hook": "service",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-79",
+      "text": "As a freelancer, I want a tool that focuses on service instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "service",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-80",
+      "text": "What tool would you recommend for a team that wants \"goals\"?",
+      "templateId": "direct-differentiator",
+      "hook": "goals",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-81",
+      "text": "I need something that helps with goals -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "goals",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-82",
+      "text": "Which tool in this space is known for goals?",
+      "templateId": "comparison-anchor",
+      "hook": "goals",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-83",
+      "text": "As a freelancer, I want a tool that focuses on goals instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "goals",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    }
+  ],
+  "claims": [
+    {
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://asana.com/paidservices",
+          "snippet": "enables teams to move work from start to finish—and get great results"
+        }
+      ]
+    },
+    {
+      "problem": "improve any agent",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://asana.com",
+          "snippet": "improve any agent"
+        }
+      ]
+    },
+    {
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://asana.com/pricing-legacy",
+          "snippet": "remove teammates at any time, even before changing your subscription"
+        }
+      ]
+    }
+  ],
+  "inferentialQuestions": [
+    {
+      "id": "pain-vent-0",
+      "text": "As an engineering lead, my team keeps struggling to enable to move work from start to finish—and get great results.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "pain-frustration-1",
+      "text": "We can never seem to enable to move work from start to finish—and get great results -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "pain-recurring-2",
+      "text": "Every week it's the same story: we just can't enable to move work from start to finish—and get great results.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "problem-best-way-3",
+      "text": "What's the best way to enable to move work from start to finish—and get great results?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "problem-how-to-4",
+      "text": "How do most teams manage to enable to move work from start to finish—and get great results?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "problem-advice-5",
+      "text": "We know we need to enable to move work from start to finish—and get great results, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-6",
+      "text": "What criteria matter most when picking a tool to help enable to move work from start to finish—and get great results?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "comparison-named-7",
+      "text": "Between Linear and Jira, which is better suited to help enable to move work from start to finish—and get great results?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "enable to move work from start to finish—and get great results",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/paidservices"
+      ]
+    },
+    {
+      "id": "pain-vent-8",
+      "text": "As an engineering lead, my team keeps struggling to improve any agent.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "pain-frustration-9",
+      "text": "We can never seem to improve any agent -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "pain-recurring-10",
+      "text": "Every week it's the same story: we just can't improve any agent.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "problem-best-way-11",
+      "text": "What's the best way to improve any agent?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "problem-how-to-12",
+      "text": "How do most teams manage to improve any agent?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "problem-advice-13",
+      "text": "We know we need to improve any agent, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-14",
+      "text": "What criteria matter most when picking a tool to help improve any agent?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "comparison-named-15",
+      "text": "Between Linear and Monday, which is better suited to help improve any agent?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "improve any agent",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com"
+      ]
+    },
+    {
+      "id": "pain-vent-16",
+      "text": "As an engineering lead, my team keeps struggling to remove teammates at any time, even before changing your subscription.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "pain-frustration-17",
+      "text": "We can never seem to remove teammates at any time, even before changing your subscription -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "pain-recurring-18",
+      "text": "Every week it's the same story: we just can't remove teammates at any time, even before changing your subscription.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-best-way-19",
+      "text": "What's the best way to remove teammates at any time, even before changing your subscription?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-how-to-20",
+      "text": "How do most teams manage to remove teammates at any time, even before changing your subscription?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "problem-advice-21",
+      "text": "We know we need to remove teammates at any time, even before changing your subscription, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-22",
+      "text": "What criteria matter most when picking a tool to help remove teammates at any time, even before changing your subscription?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    },
+    {
+      "id": "comparison-named-23",
+      "text": "Between Linear and Notion, which is better suited to help remove teammates at any time, even before changing your subscription?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "remove teammates at any time, even before changing your subscription",
+      "audience": [],
+      "evidenceUrls": [
+        "https://asana.com/pricing-legacy"
+      ]
+    }
+  ]
+}

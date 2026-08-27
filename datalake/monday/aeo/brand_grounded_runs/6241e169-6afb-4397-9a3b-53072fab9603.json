@@ -1,0 +1,12 @@
+{
+  "runId": "6241e169-6afb-4397-9a3b-53072fab9603",
+  "promptId": "problem-best-way-3",
+  "promptText": "What's the best way to with anything you need?",
+  "source": "inferential",
+  "templateId": "problem-best-way",
+  "stage": "problem_framed",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:35.487Z",
+  "finishReason": "STOP",
+  "rawText": "It looks like a word might be missing from your question (e.g., \"the best way to **deal with**,\" \"**get help with**,\" or \"**start with**\"), but here are the two best ways to answer depending on what you mean:\n\n---\n\n### Option 1: If you mean \"How do I tackle or accomplish anything I need?\"\nWhether you are dealing with a complex project, learning a new skill, or solving a life problem, the most effective framework is **The 5-Step System**:\n\n1. **Define the Goal Clearly:** Write down *exactly* what you need or want to achieve. Vague goals lead to vague actions.\n2. **Break It Down:** Divide the big need into tiny, manageable steps (e.g., instead of \"Clean the house,\" use \"Clear off the kitchen counter\").\n3. **Find the Right Tools & Help:** Don't do it alone. Use search engines, AI, books, experts, or templates to skip the trial-and-error phase.\n4. **Take One Small Action:** Start with a 2-minute task to build momentum.\n5. **Adjust as You Go:** Pay attention to what works, discard what doesn't, and refine your approach.\n\n---\n\n### Option 2: If you mean \"How do I get the best results from AI/this assistant for anything I need?\"\nTo get the absolute best help from me for any topic, task, or problem, follow these tips:\n\n1. **Provide Context:** Tell me *who* you are, *what* you're trying to do, and *why*. \n   * *Example:* Instead of \"Give me a workout,\" try \"I'm a beginner with 30 minutes a day and two dumbbells. Give me a 3-day workout plan.\"\n2. **Tell Me the Format You Want:** Ask for a bulleted list, a step-by-step guide, a short summary, a formal email, or an explanation meant for a 10-year-old.\n3. **Iterate:** If the first answer isn't quite right, tell me what to change (e.g., \"Make it shorter,\" \"Add more detail,\" or \"Focus more on X\").\n\n---\n\n**If you had something specific in mind, feel free to clarify, and I’ll help you right away!**"
+}

@@ -162,7 +162,7 @@
   },
   {
     "dimension": "aeo",
-    "finding": "Top site keywords the model never uses when describing Asana: iconcheck, tasks, check, right, circle",
+    "finding": "Top site keywords the model never uses when describing Asana: iconcheck, work, tasks, check, right",
     "impact": "medium",
     "effort": "medium",
     "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."

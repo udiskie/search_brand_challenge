@@ -1,0 +1,23 @@
+{
+  "runId": "e04c7cdb-5320-4524-adf1-aa8feab21ca4",
+  "promptId": "direct_comparison-6",
+  "promptText": "Jira vs Monday, which one should I choose?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "en",
+    "brandsNamed": [
+      "Jira",
+      "Monday"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:02:26.586Z",
+  "finishReason": "STOP",
+  "rawText": "The choice between **Jira** and **Monday.com** comes down to one primary question: **What kind of work does your team do?**\n\n*   **Choose Jira** if you are a **software development, IT, or technical team** practicing Agile, Scrum, or Kanban. \n*   **Choose Monday.com** if you are a **cross-functional, marketing, sales, HR, or project management team** that values ease of use, visual tracking, and quick setup.\n\nHere is a detailed breakdown to help you decide.\n\n---\n\n### At-a-Glance Comparison\n\n| Feature | Jira (Atlassian) | Monday.com |\n| :--- | :--- | :--- |\n| **Best For** | Software Dev, IT, DevOps, Engineers | Business Ops, Marketing, Sales, HR, PMs |\n| **Learning Curve** | Moderate to Steep | Very Low (Intuitive) |\n| **Agile Features** | Native (Scrum, Backlogs, Burndown) | Basic (Requires customization) |\n| **User Interface** | Functional, utility-focused, complex | Bright, visual, highly customizable |\n| **Code Integrations** | Native (GitHub, Bitbucket, GitLab, CI/CD) | Limited (via Zapier/Make or basic apps) |\n| **Custom Workflows** | Extremely complex & powerful logic | Drag-and-drop, intuitive automations |\n| **Minimum Users** | 1 user | 3 users (per paid tier) |\n\n---\n\n### 1. Choose **Jira** if...\n\n#### You are building software or managing IT operations\nJira was built from the ground up for software teams. It natively supports sprint planning, backlogs, epic tracking, releases, and issue tracking. \n\n#### You use Agile methodologies (Scrum/Kanban)\nJira has built-in Agile reports out of the box—such as Velocity Charts, Burndown/Burnup Charts, and Cumulative Flow Diagrams—that software managers rely on.\n\n#### You need deep developer tool integrations\nJira connects seamlessly with code repositories (GitHub, GitLab, Bitbucket) and CI/CD tools (Jenkins, CircleCI). Developers can link commits, pull requests, and deployment statuses directly to Jira tickets.\n\n#### You require strict, granular permissions and complex workflows\nIf your organization requires multi-step approval processes, strict data security, and complex conditional workflows, Jira’s admin controls are top-tier.\n\n---\n\n### 2. Choose **Monday.com** if...\n\n#### You want an intuitive, easy-to-learn tool\nMonday.com looks like a modernized, visual spreadsheet. Virtually anyone on your team can log in and start using it in 15 minutes without formal training.\n\n#### You are managing non-technical projects\nMarketing campaigns, content calendars, recruitment pipelines, product launches, and general task management thrive on Monday.com.\n\n#### You love visual project management\nMonday offers visually rich views out of the box: Gantt charts, Kanban boards, Timeline views, Workload views, and customized Dashboards. \n\n#### You want quick, code-free automations\nMonday’s automation builder is one of the best on the market. You can easily set up rules like: *\"When a status changes to 'Done', notify the manager and move the item to the Archive board.\"*\n\n---\n\n### Pricing & Value\n\n*   **Jira:** Offers a very generous **Free plan for up to 10 users**. Paid tiers start relatively cheap ($8.15/user/month for Standard), making it cost-effective for small tech startups. However, advanced features (like Advanced Roadmaps) require the Enterprise or Premium tiers.\n*   **Monday.com:** Offers a limited **Free plan (up to 2 users)**. Paid plans start at $9–$12/user/month (billed annually), but **require a minimum of 3 seats**. Advanced features like time tracking, Gantt charts, and integrations are locked behind higher tiers (Standard/Pro).\n\n---\n\n### Quick Decision Checklist\n\nAsk yourself these 3 questions to decide immediately:\n\n1. **Are more than 50% of the users developers, QA engineers, or IT staff?**\n   * *Yes* $\\rightarrow$ **Choose Jira**\n   * *No* $\\rightarrow$ **Choose Monday.com**\n\n2. **Is your primary goal tracking code releases and software bugs?**\n   * *Yes* $\\rightarrow$ **Choose Jira**\n   * *No* $\\rightarrow$ **Choose Monday.com**\n\n3. **Is user adoption and a fast setup your highest priority?**\n   * *Yes* $\\rightarrow$ **Choose Monday.com**\n   * *No* $\\rightarrow$ **Choose Jira**"
+}

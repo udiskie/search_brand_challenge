@@ -1,12 +1,12 @@
 # Brand Visibility Audit: Monday
 
-Generated 2026-08-27T19:01:18.589Z · Competitors: Linear, Jira, Asana, Notion
+Generated 2026-08-27T20:07:35.489Z · Competitors: Linear, Jira, Asana, Notion
 
 ## Executive summary
 
 - 🟢 **SEO**: 78/100 (good)
 - 🟡 **GEO**: 55/100 (needs_work)
-- 🟡 **AEO**: 66/100 (needs_work)
+- 🟡 **AEO**: 61/100 (needs_work)
 
 ## SEO
 
@@ -25,13 +25,33 @@ Total runs: 30
 
 | Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
 |---|---|---|---|---|---|
-| Monday | 73% | 1.60x | 1.8 | 47% | 0.09 |
-| Linear | 57% | 1.13x | 2.2 | 7% | 0.35 |
-| Jira | 50% | 0.97x | 2.1 | 17% | 0.20 |
-| Asana | 40% | 0.74x | 2.5 | 3% | 0.50 |
-| Notion | 37% | 0.67x | 1.3 | 27% | 0.45 |
+| Monday | 67% | 1.54x | 1.6 | 40% | 0.05 |
+| Linear | 47% | 0.97x | 2.0 | 10% | 0.50 |
+| Jira | 57% | 1.24x | 2.0 | 20% | 0.35 |
+| Asana | 33% | 0.65x | 2.3 | 0% | 0.30 |
+| Notion | 37% | 0.72x | 1.5 | 23% | 0.73 |
 
-**GEO/AEO gap**: 25 of the site's top 30 keywords never show up in how the model describes Monday: app, marketplace, agents, apps, min, work, platform, founded, date, number.
+**GEO/AEO gap**: 24 of the site's top 30 keywords never show up in how the model describes Monday: app, marketplace, agents, apps, min, platform, founded, date, number, sales.
+
+## Brand-grounded question performance (not neutral -- see caveat)
+
+Results from running user-question-generator's Part 1 (hook-grounded, quotes the site) / Part 2 (inferential, paraphrased across pain_only/problem_framed/ comparing_with_criteria) candidate questions through Gemini. These questions are deliberately grounded in Monday's own site content, not neutral -- do not compare these numbers to the neutral AEO table above as if they were measuring the same thing; this section exists to show how the brand performs on its *own best-case* questions, separately from fair category benchmarking.
+
+Total runs: 8
+
+| Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
+|---|---|---|---|---|---|
+| Monday | 25% | 2.67x | 1.5 | 13% | 0.00 |
+| Linear | 0% | 0.00x | — | 0% | 0.00 |
+| Jira | 0% | 0.00x | — | 0% | 0.00 |
+| Asana | 13% | 1.00x | 1.0 | 13% | 0.00 |
+| Notion | 25% | 2.67x | 1.5 | 13% | 0.50 |
+
+Monday's Share of Voice by breakdown:
+- source = hook: 50% (4 runs)
+- source = inferential: 0% (4 runs)
+- stage = pain_only: 0% (3 runs)
+- stage = problem_framed: 0% (1 run)
 
 ## Priority matrix (impact × effort)
 

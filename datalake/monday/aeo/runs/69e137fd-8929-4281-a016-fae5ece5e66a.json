@@ -1,0 +1,23 @@
+{
+  "runId": "69e137fd-8929-4281-a016-fae5ece5e66a",
+  "promptId": "direct_comparison-1",
+  "promptText": "Monday vs Jira, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Monday",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:04:48.562Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Monday.com** y **Jira** se reduce principalmente a una pregunta: **¿A qué se dedica tu equipo?**\n\nAquí tienes la regla de oro rápida para decidir:\n*   **Elige Monday.com** si buscas una herramienta visual, fácil de usar y flexible para **equipos no técnicos** (Marketing, Ventas, RRHH, Operaciones o Gestión de Proyectos general).\n*   **Elige Jira** si tienes un **equipo de desarrollo de software, IT o producto** que trabaja estrictamente con metodologías Ágiles (Scrum o Kanban).\n\n---\n\n### Comparativa detallada\n\n#### 1. Monday.com: La opción intuitiva y visual\nMonday es una plataforma de trabajo \"todo en uno\" centrada en la flexibilidad y la experiencia de usuario.\n\n*   **Lo mejor:**\n    *   **Curva de aprendizaje casi nula:** Es muy visual, colorida e intuitiva. Tu equipo aprenderá a usarla en minutos.\n    *   **Altamente personalizable:** Puedes crear flujos de trabajo para casi cualquier cosa (campañas de marketing, pipelines de ventas, reclutamiento).\n    *   **Múltiples vistas:** Permite ver los datos como tabla (Excel vitaminado), Kanban, Gantt, Calendario o Mapas con un solo clic.\n    *   **Automatizaciones sencillas:** Crear reglas tipo \"Si X pasa, mueve a Y\" es extremadamente fácil.\n*   **Lo peor:**\n    *   Se queda corta para el seguimiento complejo de errores (bugs) o desarrollo de software avanzado.\n    *   El modelo de precios escala por \"bloques\" de usuarios, lo que puede resultar caro para equipos medianos.\n\n#### 2. Jira (Jira Software): El estándar para desarrollo de software\nCreada por Atlassian, Jira es la herramienta rey en el mundo del desarrollo técnico y la gestión de productos digitales.\n\n*   **Lo mejor:**\n    *   **Diseñado para Agile:** Excelente para gestionar *Sprints*, *Backlogs*, *Epics* y mapas de ruta (*roadmaps*).\n    *   **Trazabilidad técnica:** Se integra de forma nativa con GitHub, Bitbucket, GitLab y herramientas de CI/CD.\n    *   **Reportes avanzados:** Gráficos de *Burndown*, velocidad del equipo y reportes de rendimiento técnico incomparables.\n    *   **Ecosistema Atlassian:** Se conecta perfectamente con Confluence (documentación) y Jira Service Management.\n*   **Lo peor:**\n    *   **Curva de aprendizaje alta:** Es compleja, rígida y puede resultar frustrante para usuarios no técnicos.\n    *   **Interfaz menos atractiva:** Se siente más como una herramienta administrativa que como un espacio de trabajo moderno.\n\n---\n\n### Tabla comparativa rápida\n\n| Característica | Monday.com | Jira Software |\n| :--- | :--- | :--- |\n| **Público objetivo** | Negocio general, Marketing, RRHH, Operaciones | Desarrolladores, IT, Equipos de Producto |\n| **Facilidad de uso** | ⭐⭐⭐⭐⭐ (Muy fácil) | ⭐⭐☆☆☆ (Complejo) |\n| **Desarrollo de Software** | ⭐⭐☆☆☆ (Básico) | ⭐⭐⭐⭐⭐ (El estándar) |\n| **Gestión de Proyectos General**| ⭐⭐⭐⭐⭐ (Excelente) | ⭐⭐☆☆☆ (Rígido) |\n| **Personalización visual** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐☆☆ |\n| **Gestión de Sprints/Backlog** | ⭐⭐⭐☆☆ (Aceptable) | ⭐⭐⭐⭐⭐ (Excelente) |\n\n---\n\n### Cuestionario de decisión: ¿Cuál deberías elegir?\n\n**Ve por MONDAY.COM si:**\n1. En tu equipo **NO hay programadores** (o no es la actividad principal).\n2. Quieres implementar una herramienta **rápida** sin pasar semanas capacitando al personal.\n3. Quieres gestionar proyectos variados: lanzamientos de marketing, procesos de clientes, eventos, tareas diarias.\n4. Valoras una interfaz bonita, limpia y motivadora.\n\n**Ve por JIRA si:**\n1. Tu objetivo principal es **crear software, aplicaciones o gestionar infraestructura IT**.\n2. Tu equipo vive y respira **Scrum o Kanban** (planifican por *Sprints*, estiman *story points*, etc.).\n3. Necesitas vincular el código de los programadores directamente con las tareas del proyecto.\n4. Ya utilizas otras herramientas de Atlassian como **Confluence, Trello o Bitbucket**.\n\n*Nota final:* Si tienes un equipo mixto (ej. 10 desarrolladores y 5 mercadólogos), lo común en la industria es usar **Jira para los desarrolladores** y **Monday para el resto de la empresa**, o bien usar integrations entre ambas."
+}

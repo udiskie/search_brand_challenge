@@ -1,7 +1,7 @@
 {
   "product": "notion",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:41:58.355Z",
+  "generatedAt": "2026-08-27T20:12:25.720Z",
   "themes": [
     {
       "name": "Pricing & Plans",
@@ -42,20 +42,165 @@
           "documentFrequency": 1
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-22",
+          "text": "What tool would you recommend for a team that wants \"credits\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-23",
+          "text": "I need something that helps with credits -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-24",
+          "text": "Which tool in this space is known for credits?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-25",
+          "text": "As a startup founder, I want a tool that focuses on credits instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-50",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-51",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-52",
+          "text": "Which tool in this space is known for plan?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-53",
+          "text": "As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-70",
+          "text": "What tool would you recommend for a team that wants \"billing\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-71",
+          "text": "I need something that helps with billing -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-72",
+          "text": "Which tool in this space is known for billing?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-73",
+          "text": "As a startup founder, I want a tool that focuses on billing instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-78",
+          "text": "What tool would you recommend for a team that wants \"free\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-79",
+          "text": "I need something that helps with free -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-80",
+          "text": "Which tool in this space is known for free?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-81",
+          "text": "As a startup founder, I want a tool that focuses on free instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-9",
+          "text": "We can never seem to remove members from the workspace and groups but can’t access other security & billing settings -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-10",
+          "text": "Every week it's the same story: we just can't remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-audience-11",
+          "text": "For enterprise, it's a constant challenge to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-12",
+          "text": "What's the best way to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-13",
+          "text": "How do most teams manage to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-14",
+          "text": "We know we need to remove members from the workspace and groups but can’t access other security & billing settings, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-audience-way-15",
+          "text": "What's the best way for enterprise to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-audience-16",
+          "text": "What should I prioritize when choosing a tool for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-audience-17",
+          "text": "Between Linear and Asana, which is better for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 14,
+        "runsMentioning": 17,
         "sampleContexts": [
-          "sy (intuitive for task tracking) | | **Pricing** | Generous free plan; cheaper paid tiers | Good free plan; paid tiers can g",
-          "ón burocráticos. Necesitas **fricción cero**, velocidad, un plan gratuito generoso y, preferiblemente, algo que centralice t",
-          "es, a detailed roadmap for Product Marketing, and a release plan for Sales). * **Execution Sync:** Pushes finalized specs/"
+          "lataformas:** Mac, iOS, iPadOS, Windows, Web. * **Precio:** Plan gratuito muy completo / Suscripción mensual. ### 3. Obsidi",
+          "el producto. * **Lo bueno:** Extremadamente flexible, plan gratuito muy completo, gran comunidad con plantillas hechas",
+          "ases all in one place), highly customizable visually, great cost-to-value ratio. * **Cons:** Poor fit for complex software d"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 5,
+        "sampleContexts": [
+          "velopment and version control platform, offering a range of plans including: * **Free:** For individual developers and small",
+          "oftware-as-a-service (SaaS) companies use that exact model (Free $\\rightarrow$ Startup $\\rightarrow$ Enterprise), **what spe",
+          "e Groups** synced via SAML/SCIM if you are on an Enterprise plan. * Be careful with database views; permissions apply"
+        ]
       }
     },
     {
@@ -82,16 +227,97 @@
           "documentFrequency": 7
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-6",
+          "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-7",
+          "text": "As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-14",
+          "text": "What tool would you recommend for a team that wants \"agent\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-15",
+          "text": "I need something that helps with agent -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-16",
+          "text": "Which tool in this space is known for agent?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-17",
+          "text": "As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-34",
+          "text": "What tool would you recommend for a team that wants \"workers\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-35",
+          "text": "I need something that helps with workers -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-36",
+          "text": "Which tool in this space is known for workers?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-37",
+          "text": "As a startup founder, I want a tool that focuses on workers instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-38",
+          "text": "What tool would you recommend for a team that wants \"agents\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-39",
+          "text": "I need something that helps with agents -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-40",
+          "text": "Which tool in this space is known for agents?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-41",
+          "text": "As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
         "runsMentioning": 1,
         "sampleContexts": [
-          "**AI Support:** Use tools like Crisp or Intercom with AI agents to handle 50%+ of basic customer queries. --- ### 7. Sch"
+          "extended team** (freelancers, contractors, advisors, and AI agents). 3. **Your future first hires** (who need a system to ste"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
+        "runsScanned": 8,
         "runsMentioning": 0,
         "sampleContexts": []
       }
@@ -125,20 +351,330 @@
           "documentFrequency": 5
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-6",
+          "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-7",
+          "text": "As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-8",
+          "text": "What tool matches this description: \"A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-9",
+          "text": "As a startup founder, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-10",
+          "text": "What tool would you recommend for a team that wants \"workspace\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-11",
+          "text": "I need something that helps with workspace -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-12",
+          "text": "Which tool in this space is known for workspace?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-13",
+          "text": "As a startup founder, I want a tool that focuses on workspace instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-14",
+          "text": "What tool would you recommend for a team that wants \"agent\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-15",
+          "text": "I need something that helps with agent -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-18",
+          "text": "What tool would you recommend for a team that wants \"information\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-19",
+          "text": "I need something that helps with information -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-22",
+          "text": "What tool would you recommend for a team that wants \"credits\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-23",
+          "text": "I need something that helps with credits -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-26",
+          "text": "What tool would you recommend for a team that wants \"custom\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-27",
+          "text": "I need something that helps with custom -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-30",
+          "text": "What tool would you recommend for a team that wants \"memory\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-31",
+          "text": "I need something that helps with memory -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-34",
+          "text": "What tool would you recommend for a team that wants \"workers\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-35",
+          "text": "I need something that helps with workers -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-38",
+          "text": "What tool would you recommend for a team that wants \"agents\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-39",
+          "text": "I need something that helps with agents -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-42",
+          "text": "What tool would you recommend for a team that wants \"paid\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-43",
+          "text": "I need something that helps with paid -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-46",
+          "text": "What tool would you recommend for a team that wants \"data\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-47",
+          "text": "I need something that helps with data -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-50",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-51",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-54",
+          "text": "What tool would you recommend for a team that wants \"work\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-55",
+          "text": "I need something that helps with work -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-58",
+          "text": "What tool would you recommend for a team that wants \"each\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-59",
+          "text": "I need something that helps with each -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-62",
+          "text": "What tool would you recommend for a team that wants \"access\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-63",
+          "text": "I need something that helps with access -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-66",
+          "text": "What tool would you recommend for a team that wants \"members\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-67",
+          "text": "I need something that helps with members -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-68",
+          "text": "Which tool in this space is known for members?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-69",
+          "text": "As a startup founder, I want a tool that focuses on members instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-70",
+          "text": "What tool would you recommend for a team that wants \"billing\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-71",
+          "text": "I need something that helps with billing -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-74",
+          "text": "What tool would you recommend for a team that wants \"usage\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-75",
+          "text": "I need something that helps with usage -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-78",
+          "text": "What tool would you recommend for a team that wants \"free\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-79",
+          "text": "I need something that helps with free -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-82",
+          "text": "What tool would you recommend for a team that wants \"content\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-83",
+          "text": "I need something that helps with content -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-86",
+          "text": "What tool would you recommend for a team that wants \"template\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-87",
+          "text": "I need something that helps with template -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-0",
+          "text": "As an engineering lead, my team keeps struggling to streamline page & teamspace permissions.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-9",
+          "text": "We can never seem to remove members from the workspace and groups but can’t access other security & billing settings -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-10",
+          "text": "Every week it's the same story: we just can't remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-audience-11",
+          "text": "For enterprise, it's a constant challenge to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-12",
+          "text": "What's the best way to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-13",
+          "text": "How do most teams manage to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-14",
+          "text": "We know we need to remove members from the workspace and groups but can’t access other security & billing settings, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-audience-way-15",
+          "text": "What's the best way for enterprise to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-audience-16",
+          "text": "What should I prioritize when choosing a tool for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-audience-17",
+          "text": "Between Linear and Asana, which is better for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 18,
+        "runsMentioning": 17,
         "sampleContexts": [
-          "ngeniería: --- ### 1. Definir la Estructura Organizativa (Team Topologies) No intentes gestionar una gran masa homogénea d",
-          "undamental question: **Do you want a flexible, customizable workspace for docs and databases, or a structured, ready-to-use proje",
-          "quipos en función de la arquitectura deseada. * **Adopta *Team Topologies* (Topología de Equipos):** * **Equipos ali"
+          "problems, the best recommendation depends entirely on your team's size, technical depth, and primary needs. Here is the qu",
+          "a organización debe ser modular y escalable. * **Aplica \"Team Topologies\" (Topología de Equipos):** * **Equipos ali",
+          "entales**: --- ### 1. Diseño y Estructura Organizacional (Team Topologies) No puedes gestionar a 20+ personas directamente"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 7,
+        "sampleContexts": [
+          "notoriously one of the biggest friction points for growing teams. It usually starts fine, but as pages get nested, contra",
+          "extra features like higher storage and execution time. * **Team:** For collaborative teams needing advanced code review and",
+          "and scales easily. * **Trello / Jira:** Free tier for small teams, scaling up to Atlassian’s Enterprise tier. ### 2. CRM &"
+        ]
       }
     },
     {
@@ -165,20 +701,105 @@
           "documentFrequency": 6
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "direct-differentiator-82",
+          "text": "What tool would you recommend for a team that wants \"content\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-83",
+          "text": "I need something that helps with content -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-84",
+          "text": "Which tool in this space is known for content?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-85",
+          "text": "As a startup founder, I want a tool that focuses on content instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-86",
+          "text": "What tool would you recommend for a team that wants \"template\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-87",
+          "text": "I need something that helps with template -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-88",
+          "text": "Which tool in this space is known for template?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-89",
+          "text": "As a startup founder, I want a tool that focuses on template instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-0",
+          "text": "As an engineering lead, my team keeps struggling to streamline page & teamspace permissions.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-1",
+          "text": "We can never seem to streamline page & teamspace permissions -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-2",
+          "text": "Every week it's the same story: we just can't streamline page & teamspace permissions.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-3",
+          "text": "What's the best way to streamline page & teamspace permissions?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-4",
+          "text": "How do most teams manage to streamline page & teamspace permissions?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-5",
+          "text": "We know we need to streamline page & teamspace permissions, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-6",
+          "text": "What criteria matter most when picking a tool to help streamline page & teamspace permissions?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-7",
+          "text": "Between Linear and Jira, which is better suited to help streamline page & teamspace permissions?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 8,
+        "runsMentioning": 10,
         "sampleContexts": [
-          "ent | | **Setup Required** | High (build it yourself or use templates) | Low (ready to use immediately) | | **Document Writing**",
-          "**Setup Time** | High (you have to build your system or use templates) | Low (ready to use immediately) | | **Documentation** |",
-          "esign, architecture, bug fixes. * **Growth / Marketing:** Content creation, SEO, cold outreach, ad campaigns, social media. *"
+          "e flexibility:** Can be used for PRDs, internal wikis, CRM, content calendars, and task boards. * **Docs + Tasks together",
+          "product management, bug fixes. * **Marketing / Growth:** Content creation, SEO, ads, social media, outreach. * **Sales / S",
+          "ign, feature development. * **CMO (Growth & Marketing):** Content creation, cold outreach, social media, ads. * **COO/Suppo"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 7,
+        "sampleContexts": [
+          "points for growing teams. It usually starts fine, but as pages get nested, contractors get added, and ad-hoc sharing happe",
+          "iption is from **GitHub** (specifically used on its pricing pages and documentation). **GitHub** is the world's leading sof",
+          "t have accidentally pasted a generic snippet from a pricing page! Because almost all modern software-as-a-service (SaaS) c"
+        ]
       }
     },
     {
@@ -195,20 +816,95 @@
           "documentFrequency": 4
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "direct-differentiator-62",
+          "text": "What tool would you recommend for a team that wants \"access\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-63",
+          "text": "I need something that helps with access -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-64",
+          "text": "Which tool in this space is known for access?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-65",
+          "text": "As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-9",
+          "text": "We can never seem to remove members from the workspace and groups but can’t access other security & billing settings -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-10",
+          "text": "Every week it's the same story: we just can't remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-audience-11",
+          "text": "For enterprise, it's a constant challenge to remove members from the workspace and groups but can’t access other security & billing settings.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-12",
+          "text": "What's the best way to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-13",
+          "text": "How do most teams manage to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-14",
+          "text": "We know we need to remove members from the workspace and groups but can’t access other security & billing settings, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-audience-way-15",
+          "text": "What's the best way for enterprise to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-audience-16",
+          "text": "What should I prioritize when choosing a tool for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-audience-17",
+          "text": "Between Linear and Asana, which is better for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 4,
+        "runsMentioning": 6,
         "sampleContexts": [
-          "nterprise Ready:** Already compliant with your company’s IT/Security standards if they use Atlassian. * **Verdict:** The path of",
-          "ring (no third-party sync issues). * Meets enterprise security, SAML/SSO, and compliance standards automatically. *",
-          "r executive visibility. * **Enterprise Fit:** Best-in-class security, governance, and scale. * **Drawback:** Steep learning curv"
+          "integration ecosystem, powerful enterprise reporting, deep security/compliance controls, handles thousands of users easily. * *",
+          "all teams. * **Business ($15–$18/user/mo):** Advanced security, SAML SSO, private teamspaces. * **Asana:** * **Fr",
+          "ise Benefits:** Leverages your company’s existing Atlassian security, compliance (SOC2, GDPR), SSO, and permission structures. *"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 6,
+        "sampleContexts": [
+          "ing\" to \"Group Archetypes\" **The Golden Rule:** Never grant access to an individual person on a page. Always grant access to a",
+          "prise:** For large organizations requiring enterprise-grade security, compliance, deployment options (cloud or self-hosted), and",
+          "n recordings. Free for individual use, scales to enterprise security. ### 4. Customer Support & Chat * **Crisp:** Offers a free"
+        ]
       }
     }
   ],

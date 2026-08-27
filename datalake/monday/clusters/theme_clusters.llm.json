@@ -1,7 +1,7 @@
 {
   "product": "monday",
   "method": "llm",
-  "generatedAt": "2026-08-27T19:43:27.453Z",
+  "generatedAt": "2026-08-27T20:12:25.319Z",
   "themes": [
     {
       "name": "Platform & Ecosystem",
@@ -17,11 +17,6 @@
           "documentFrequency": 2
         },
         {
-          "term": "agents",
-          "score": 118.6844537890303,
-          "documentFrequency": 3
-        },
-        {
           "term": "apps",
           "score": 108.62644923063792,
           "documentFrequency": 3
@@ -32,14 +27,14 @@
           "documentFrequency": 5
         },
         {
+          "term": "service",
+          "score": 86.49883920217464,
+          "documentFrequency": 3
+        },
+        {
           "term": "saas",
           "score": 83.84719085939119,
           "documentFrequency": 1
-        },
-        {
-          "term": "custom",
-          "score": 60.3480273503544,
-          "documentFrequency": 3
         },
         {
           "term": "marketplaces",
@@ -62,80 +57,165 @@
           "documentFrequency": 3
         }
       ],
-      "questions": [],
-      "neutralAnswers": {
-        "runsScanned": 30,
-        "runsMentioning": 25,
-        "sampleContexts": [
-          "quipos) (La más rápida para teclear) Aunque empezó como una app de tareas personales, su versión para equipos es probableme",
-          "ndo que buscas **alta adaptabilidad al flujo de trabajo del Product Manager y escala empresarial**, las 4 mejores opciones del",
-          "tivo\" de la startup. Puedes tener un tablero Kanban para el producto, una base de datos para inversionistas/CRM, y páginas para"
-        ]
-      },
-      "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
-      }
-    },
-    {
-      "name": "Project & Task Management",
-      "terms": [
+      "questions": [
         {
-          "term": "management",
-          "score": 130.09700008919555,
-          "documentFrequency": 5
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.\"?",
+          "kind": "hook"
         },
         {
-          "term": "work",
-          "score": 101.18655562492988,
-          "documentFrequency": 5
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results. Any suggestions?",
+          "kind": "hook"
         },
         {
-          "term": "service",
-          "score": 86.49883920217464,
-          "documentFrequency": 3
+          "id": "long-form-quote-match-10",
+          "text": "What tool matches this description: \"Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.\"?",
+          "kind": "hook"
         },
         {
-          "term": "data",
-          "score": 85.12519758922673,
-          "documentFrequency": 5
+          "id": "long-form-as-need-11",
+          "text": "As a freelancer, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?",
+          "kind": "hook"
         },
         {
-          "term": "monday",
-          "score": 75,
-          "documentFrequency": 10
+          "id": "direct-differentiator-12",
+          "text": "What tool would you recommend for a team that wants \"marketplace\"?",
+          "kind": "hook"
         },
         {
-          "term": "project",
-          "score": 74.42923373210375,
-          "documentFrequency": 3
+          "id": "problem-framed-13",
+          "text": "I need something that helps with marketplace -- what should my team use?",
+          "kind": "hook"
         },
         {
-          "term": "analytics",
-          "score": 43.275969475814804,
-          "documentFrequency": 1
+          "id": "comparison-anchor-14",
+          "text": "Which tool in this space is known for marketplace?",
+          "kind": "hook"
         },
         {
-          "term": "meeting",
-          "score": 42.243619145248076,
-          "documentFrequency": 3
+          "id": "persona-specific-15",
+          "text": "As a freelancer, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-24",
+          "text": "What tool would you recommend for a team that wants \"apps\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-25",
+          "text": "I need something that helps with apps -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-26",
+          "text": "Which tool in this space is known for apps?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-27",
+          "text": "As a freelancer, I want a tool that focuses on apps instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-32",
+          "text": "What tool would you recommend for a team that wants \"platform\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-33",
+          "text": "I need something that helps with platform -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-34",
+          "text": "Which tool in this space is known for platform?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-35",
+          "text": "As a freelancer, I want a tool that focuses on platform instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-48",
+          "text": "What tool would you recommend for a team that wants \"service\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-49",
+          "text": "I need something that helps with service -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-50",
+          "text": "Which tool in this space is known for service?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-51",
+          "text": "As a freelancer, I want a tool that focuses on service instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-17",
+          "text": "We can never seem to give business teams the ability to build internal apps, dashboards, and automations without … -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-18",
+          "text": "Every week it's the same story: we just can't give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-19",
+          "text": "What's the best way to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-21",
+          "text": "We know we need to give business teams the ability to build internal apps, dashboards, and automations without …, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-22",
+          "text": "What criteria matter most when picking a tool to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-23",
+          "text": "Between Linear and Notion, which is better suited to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
         }
       ],
-      "questions": [],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 27,
+        "runsMentioning": 26,
         "sampleContexts": [
-          "Si buscas alternativas a Monday.com porque te resulta demasiado compleja, lenta de configur",
-          "é se adapta a tu flujo?** Permite crear flujos de trabajo (*workflows*) totalmente personalizados, tipos de tickets a medida",
-          "aff, EM). Debe haber dos caminos claros: la vía de gestión (Management) y la vía de contribución individual (IC). * **Cultura de"
+          "Para un **Product Manager (PM) en una empresa grande (Enterprise)** que busca",
+          "pe: * **Choose Linear** if you are a **software startup, product team, or developer-centric company** looking for speed, mod",
+          "that **you are the team**. You are simultaneously the CEO, Product Manager, Lead Engineer, Chief Marketing Officer, and Custom"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 5,
+        "sampleContexts": [
+          "nstant interruptions. * Friction between Engineering and Product/Design. * Remote/async communication breakdown. 3. **Cu",
+          "\" use \"Clear off the kitchen counter\"). 3. **Find the Right Tools & Help:** Don't do it alone. Use search engines, AI, books,",
+          "clean, pipeline-centric CRM without the bloat of enterprise tools. * **Pricing:** ~$7 to $12 / user / month (billed annually"
+        ]
       }
     },
     {
@@ -152,6 +232,11 @@
           "documentFrequency": 4
         },
         {
+          "term": "customer",
+          "score": 80.48058121639215,
+          "documentFrequency": 4
+        },
+        {
           "term": "marketing",
           "score": 73.32675177493508,
           "documentFrequency": 4
@@ -160,6 +245,11 @@
           "term": "target",
           "score": 64.3799235556473,
           "documentFrequency": 2
+        },
+        {
+          "term": "customers",
+          "score": 57.230635531656645,
+          "documentFrequency": 4
         },
         {
           "term": "email",
@@ -192,53 +282,563 @@
           "documentFrequency": 1
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-2",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-3",
+          "text": "As a freelancer, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-40",
+          "text": "What tool would you recommend for a team that wants \"sales\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-41",
+          "text": "I need something that helps with sales -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-42",
+          "text": "Which tool in this space is known for sales?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-43",
+          "text": "As a freelancer, I want a tool that focuses on sales instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-60",
+          "text": "What tool would you recommend for a team that wants \"customer\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-61",
+          "text": "I need something that helps with customer -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-62",
+          "text": "Which tool in this space is known for customer?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-63",
+          "text": "As a freelancer, I want a tool that focuses on customer instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-68",
+          "text": "What tool would you recommend for a team that wants \"marketing\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-69",
+          "text": "I need something that helps with marketing -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-70",
+          "text": "Which tool in this space is known for marketing?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-71",
+          "text": "As a freelancer, I want a tool that focuses on marketing instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-76",
+          "text": "What tool would you recommend for a team that wants \"target\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-77",
+          "text": "I need something that helps with target -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-78",
+          "text": "Which tool in this space is known for target?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-79",
+          "text": "As a freelancer, I want a tool that focuses on target instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 30,
+        "runsMentioning": 29,
         "sampleContexts": [
-          "l\". Puedes escribir *\"Reunión con cliente mañana a las 4pm #Marketing\"* y la app crea la tarea, asigna la fecha, la hora y el pro",
-          "* Gestionas productos que involucran a equipos no técnicos (Marketing, Operaciones, Diseño, Ventas) que necesitan colaborar en la",
-          "esos, la entrega y el desarrollo de carrera. * **Tech Leads / Staff Engineers:** Se enfocan en la arquitectura, la visi"
+          "rabajo como PM involucra a muchos stakeholders no técnicos (Marketing, Ventas, Operaciones, Diseño) y necesitas crear procesos mu",
+          "re a **cross-functional, non-technical, or business team** (marketing, sales, HR, operations) that needs visual, flexible workflo",
+          "multaneously the CEO, Product Manager, Lead Engineer, Chief Marketing Officer, and Customer Support Agent. If you don't organiz"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 6,
+        "sampleContexts": [
+          "? In the meantime, here are a few common areas engineering leads often ask for help with—feel free to pick one, or just comp",
+          "This description belongs to **monday sales CRM** (by **monday.com**). Their \"Basic CRM\" plan starts",
+          "leted list, a step-by-step guide, a short summary, a formal email, or an explanation meant for a 10-year-old. 3. **Iterate:**"
+        ]
       }
     },
     {
-      "name": "Teams & Customers",
+      "name": "Project & Work Management",
       "terms": [
+        {
+          "term": "management",
+          "score": 130.09700008919555,
+          "documentFrequency": 5
+        },
+        {
+          "term": "work",
+          "score": 101.18655562492988,
+          "documentFrequency": 5
+        },
         {
           "term": "team",
           "score": 91.2113253785778,
           "documentFrequency": 4
         },
         {
-          "term": "customer",
-          "score": 80.48058121639215,
+          "term": "monday",
+          "score": 75,
+          "documentFrequency": 10
+        },
+        {
+          "term": "project",
+          "score": 74.42923373210375,
+          "documentFrequency": 3
+        },
+        {
+          "term": "teams",
+          "score": 48.28834872983529,
           "documentFrequency": 4
         },
+        {
+          "term": "meeting",
+          "score": 42.243619145248076,
+          "documentFrequency": 3
+        }
+      ],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-2",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-3",
+          "text": "As a freelancer, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-12",
+          "text": "What tool would you recommend for a team that wants \"marketplace\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-13",
+          "text": "I need something that helps with marketplace -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-16",
+          "text": "What tool would you recommend for a team that wants \"management\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-17",
+          "text": "I need something that helps with management -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-18",
+          "text": "Which tool in this space is known for management?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-19",
+          "text": "As a freelancer, I want a tool that focuses on management instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-20",
+          "text": "What tool would you recommend for a team that wants \"agents\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-21",
+          "text": "I need something that helps with agents -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-24",
+          "text": "What tool would you recommend for a team that wants \"apps\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-25",
+          "text": "I need something that helps with apps -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-28",
+          "text": "What tool would you recommend for a team that wants \"work\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-29",
+          "text": "I need something that helps with work -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-30",
+          "text": "Which tool in this space is known for work?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-31",
+          "text": "As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-32",
+          "text": "What tool would you recommend for a team that wants \"platform\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-33",
+          "text": "I need something that helps with platform -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-36",
+          "text": "What tool would you recommend for a team that wants \"number\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-37",
+          "text": "I need something that helps with number -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-40",
+          "text": "What tool would you recommend for a team that wants \"sales\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-41",
+          "text": "I need something that helps with sales -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-44",
+          "text": "What tool would you recommend for a team that wants \"team\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-45",
+          "text": "I need something that helps with team -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-46",
+          "text": "Which tool in this space is known for team?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-47",
+          "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-48",
+          "text": "What tool would you recommend for a team that wants \"service\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-49",
+          "text": "I need something that helps with service -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-52",
+          "text": "What tool would you recommend for a team that wants \"data\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-53",
+          "text": "I need something that helps with data -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-56",
+          "text": "What tool would you recommend for a team that wants \"read\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-57",
+          "text": "I need something that helps with read -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-60",
+          "text": "What tool would you recommend for a team that wants \"customer\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-61",
+          "text": "I need something that helps with customer -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-64",
+          "text": "What tool would you recommend for a team that wants \"project\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-65",
+          "text": "I need something that helps with project -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-66",
+          "text": "Which tool in this space is known for project?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-67",
+          "text": "As a freelancer, I want a tool that focuses on project instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-68",
+          "text": "What tool would you recommend for a team that wants \"marketing\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-69",
+          "text": "I need something that helps with marketing -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-72",
+          "text": "What tool would you recommend for a team that wants \"started\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-73",
+          "text": "I need something that helps with started -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-76",
+          "text": "What tool would you recommend for a team that wants \"target\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-77",
+          "text": "I need something that helps with target -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-80",
+          "text": "What tool would you recommend for a team that wants \"development\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-81",
+          "text": "I need something that helps with development -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-84",
+          "text": "What tool would you recommend for a team that wants \"like\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-85",
+          "text": "I need something that helps with like -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-88",
+          "text": "What tool would you recommend for a team that wants \"custom\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-89",
+          "text": "I need something that helps with custom -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-0",
+          "text": "As an engineering lead, my team keeps struggling to with anything you need.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-4",
+          "text": "How do most teams manage to with anything you need?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to ship fast, giving your people space to innovate.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-12",
+          "text": "How do most teams manage to ship fast, giving your people space to innovate?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-17",
+          "text": "We can never seem to give business teams the ability to build internal apps, dashboards, and automations without … -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-18",
+          "text": "Every week it's the same story: we just can't give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-19",
+          "text": "What's the best way to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-21",
+          "text": "We know we need to give business teams the ability to build internal apps, dashboards, and automations without …, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-22",
+          "text": "What criteria matter most when picking a tool to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-23",
+          "text": "Between Linear and Notion, which is better suited to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-24",
+          "text": "As an engineering lead, my team keeps struggling to understand what’s working, where perform….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-28",
+          "text": "How do most teams manage to understand what’s working, where perform…?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-32",
+          "text": "As an engineering lead, my team keeps struggling to businesses seamlessly sync business data in one place.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-36",
+          "text": "How do most teams manage to businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-40",
+          "text": "As an engineering lead, my team keeps struggling to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-44",
+          "text": "How do most teams manage to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…?",
+          "kind": "inferential"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 28,
+        "sampleContexts": [
+          "hasta la de *delivery* (código). * Flujos de trabajo (workflows) infinitamente configurables. * Seguridad, permi",
+          "ds entirely on **who is using the tool** and **what kind of work you do**. Here is the quick answer based on team type: *",
+          "n you are a solo founder, the paradox is that **you are the team**. You are simultaneously the CEO, Product Manager, Lead En"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 7,
+        "sampleContexts": [
+          "It looks like your sentence got cut off right after **\"my team keeps struggling to...\"** Please finish your thought! Wha",
+          "This description belongs to **monday sales CRM** (by **monday.com**). Their \"Basic CRM\" plan s",
+          "sh anything I need?\" Whether you are dealing with a complex project, learning a new skill, or solving a life problem, the most"
+        ]
+      }
+    },
+    {
+      "name": "Business & Pricing",
+      "terms": [
         {
           "term": "businesses",
           "score": 78.43769467491433,
           "documentFrequency": 1
         },
         {
-          "term": "developers",
-          "score": 70.32345039819906,
-          "documentFrequency": 1
+          "term": "custom",
+          "score": 60.3480273503544,
+          "documentFrequency": 3
         },
         {
-          "term": "development",
-          "score": 64.3799235556473,
-          "documentFrequency": 2
-        },
-        {
-          "term": "customers",
-          "score": 57.230635531656645,
+          "term": "plan",
+          "score": 59.019092892020915,
           "documentFrequency": 4
         },
         {
@@ -247,35 +847,220 @@
           "documentFrequency": 5
         },
         {
-          "term": "teams",
-          "score": 48.28834872983529,
-          "documentFrequency": 4
+          "term": "per",
+          "score": 44.25522005692656,
+          "documentFrequency": 3
+        },
+        {
+          "term": "own",
+          "score": 43.68637669847495,
+          "documentFrequency": 2
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-2",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-3",
+          "text": "As a freelancer, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-4",
+          "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-5",
+          "text": "As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-10",
+          "text": "What tool matches this description: \"Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-11",
+          "text": "As a freelancer, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-88",
+          "text": "What tool would you recommend for a team that wants \"custom\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-89",
+          "text": "I need something that helps with custom -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-90",
+          "text": "Which tool in this space is known for custom?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-91",
+          "text": "As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-17",
+          "text": "We can never seem to give business teams the ability to build internal apps, dashboards, and automations without … -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-18",
+          "text": "Every week it's the same story: we just can't give business teams the ability to build internal apps, dashboards, and automations without ….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-19",
+          "text": "What's the best way to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-21",
+          "text": "We know we need to give business teams the ability to build internal apps, dashboards, and automations without …, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-22",
+          "text": "What criteria matter most when picking a tool to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-23",
+          "text": "Between Linear and Notion, which is better suited to help give business teams the ability to build internal apps, dashboards, and automations without …?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-32",
+          "text": "As an engineering lead, my team keeps struggling to businesses seamlessly sync business data in one place.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-33",
+          "text": "We can never seem to businesses seamlessly sync business data in one place -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-34",
+          "text": "Every week it's the same story: we just can't businesses seamlessly sync business data in one place.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-35",
+          "text": "What's the best way to businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-36",
+          "text": "How do most teams manage to businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-37",
+          "text": "We know we need to businesses seamlessly sync business data in one place, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-38",
+          "text": "What criteria matter most when picking a tool to help businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-39",
+          "text": "Between Jira and Notion, which is better suited to help businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-40",
+          "text": "As an engineering lead, my team keeps struggling to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti….",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-41",
+          "text": "We can never seem to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti… -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-42",
+          "text": "Every week it's the same story: we just can't plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti….",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-43",
+          "text": "What's the best way to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-44",
+          "text": "How do most teams manage to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-45",
+          "text": "We know we need to plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-46",
+          "text": "What criteria matter most when picking a tool to help plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-47",
+          "text": "Between Asana and Notion, which is better suited to help plan, build, and launch products faster by centralizing roadmaps, backlogs, collaboration, and reporti…?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 21,
+        "runsMentioning": 24,
         "sampleContexts": [
-          "herramienta con el resto del ecosistema corporativo (Slack, Teams, Salesforce, Figma, GitHub).",
-          "ategic Product Tool** (Roadmapping, feature prioritization, customer feedback aggregation). 2. **Execution/Delivery Tool** (Spri",
-          "lance macro-strategy with micro-execution.** You don't need team permissions or complex reporting; you need high productivit"
+          "r** if you are a **software startup, product team, or developer-centric company** looking for speed, modern UI, and zero bl",
+          "roduct Manager, Lead Engineer, Chief Marketing Officer, and Customer Support Agent. If you don't organize your work like a c",
+          "ze your team’s work when the team is just you (and a few helpers). --- ### 1. Structure Your \"Internal Team\" (The Hats Yo"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 5,
+        "sampleContexts": [
+          "monday sales CRM** (by **monday.com**). Their \"Basic CRM\" plan starts at $10 per user/month (billed annually) and includes",
+          "he 5-Step System**: 1. **Define the Goal Clearly:** Write down *exactly* what you need or want to achieve. Vague goals lea",
+          "st Value & Easiest to Use)* Designed specifically for small businesses and freelancers who want a clean, pipeline-centric CRM with"
+        ]
       }
     },
     {
-      "name": "Company & Timeline",
+      "name": "Company & Metadata",
       "terms": [
-        {
-          "term": "min",
-          "score": 103.46773428586174,
-          "documentFrequency": 2
-        },
         {
           "term": "date",
           "score": 94.66618322834489,
@@ -292,29 +1077,251 @@
           "documentFrequency": 5
         },
         {
-          "term": "plan",
-          "score": 59.019092892020915,
-          "documentFrequency": 4
+          "term": "com",
+          "score": 41.7595308928282,
+          "documentFrequency": 5
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "direct-differentiator-72",
+          "text": "What tool would you recommend for a team that wants \"started\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-73",
+          "text": "I need something that helps with started -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-74",
+          "text": "Which tool in this space is known for started?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-75",
+          "text": "As a freelancer, I want a tool that focuses on started instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 16,
+        "runsMentioning": 17,
         "sampleContexts": [
-          "iones mucho más **intuitivas, ligeras y listas para usar en minutos**. Aquí tienes las mejores alternativas enfocadas en l",
-          "la calidad del código y la innovación. * **Gestión por Dominios:** Agrupa los equipos por áreas de negocio o plataformas",
-          "nitamente flexible y gratis para uso personal. Hay miles de plantillas gratuitas para startups. * **Lo malo:** Es fáci"
+          "ngeniería ya utiliza el ecosistema de Atlassian, esta es la combinación ganadora. * **Por qué destaca en adaptabilidad:*",
+          "re a **software startup, product team, or developer-centric company** looking for speed, modern UI, and zero bloat. * **C",
+          "Si buscas alternativas a Monday.com porque te parece demasiado complejo, lento de configurar o"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 2,
+        "sampleContexts": [
+          "is description belongs to **monday sales CRM** (by **monday.com**). Their \"Basic CRM\" plan starts at $10 per user/month (",
+          "ctual project deliverables in the exact same workspace. * Completely customizable to your exact freelance workflow. ---"
+        ]
+      }
+    },
+    {
+      "name": "Development & Agents",
+      "terms": [
+        {
+          "term": "agents",
+          "score": 118.6844537890303,
+          "documentFrequency": 3
+        },
+        {
+          "term": "developers",
+          "score": 70.32345039819906,
+          "documentFrequency": 1
+        },
+        {
+          "term": "development",
+          "score": 64.3799235556473,
+          "documentFrequency": 2
+        }
+      ],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-10",
+          "text": "What tool matches this description: \"Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-11",
+          "text": "As a freelancer, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-20",
+          "text": "What tool would you recommend for a team that wants \"agents\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-21",
+          "text": "I need something that helps with agents -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-22",
+          "text": "Which tool in this space is known for agents?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-23",
+          "text": "As a freelancer, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-80",
+          "text": "What tool would you recommend for a team that wants \"development\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-81",
+          "text": "I need something that helps with development -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-82",
+          "text": "Which tool in this space is known for development?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-83",
+          "text": "As a freelancer, I want a tool that focuses on development instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 9,
+        "sampleContexts": [
+          "(by Atlassian) is the legacy industry standard for software development. It is immensely powerful, highly scalable, but often criti",
+          "eed to context-switch to another tab. * **Best for:** Developers who want to keep project management as close to the codebas",
+          "hyper-fast issue tracker designed specifically for software development. It feels like \"Superhuman for issue tracking.\" * **Best"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 3,
+        "sampleContexts": [
+          "burnout, or quiet quitting. * Difficulty onboarding new developers quickly. 4. **Technical Alignment:** * Struggling to ad",
+          "To build an environment where AI agents work side-by-side with your human team on a single platform",
+          "nto an all-in-one AI work platform where human teams and AI agents collaborate on project execution, task management, and busi"
+        ]
+      }
+    },
+    {
+      "name": "Data & Analytics",
+      "terms": [
+        {
+          "term": "data",
+          "score": 85.12519758922673,
+          "documentFrequency": 5
+        },
+        {
+          "term": "analytics",
+          "score": 43.275969475814804,
+          "documentFrequency": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": "direct-differentiator-52",
+          "text": "What tool would you recommend for a team that wants \"data\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-53",
+          "text": "I need something that helps with data -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-54",
+          "text": "Which tool in this space is known for data?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-55",
+          "text": "As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-32",
+          "text": "As an engineering lead, my team keeps struggling to businesses seamlessly sync business data in one place.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-33",
+          "text": "We can never seem to businesses seamlessly sync business data in one place -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-34",
+          "text": "Every week it's the same story: we just can't businesses seamlessly sync business data in one place.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-35",
+          "text": "What's the best way to businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-36",
+          "text": "How do most teams manage to businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-37",
+          "text": "We know we need to businesses seamlessly sync business data in one place, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-38",
+          "text": "What criteria matter most when picking a tool to help businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-39",
+          "text": "Between Jira and Notion, which is better suited to help businesses seamlessly sync business data in one place?",
+          "kind": "inferential"
+        }
+      ],
+      "neutralAnswers": {
+        "runsScanned": 30,
+        "runsMentioning": 7,
+        "sampleContexts": [
+          "Make):** Connect your tools so you aren't manually copying data (e.g., auto-save incoming leads to your CRM, or auto-post r",
+          "Founders who love spreadsheets, automation, and structured data. * **Pricing:** Free tier is strong; doc creators pay",
+          "ement, pipeline tracking, inventory, or CRM. 2. **You love data visualization:** You want colorful bars, pie charts, and cu"
+        ]
+      },
+      "brandGroundedAnswers": {
+        "runsScanned": 8,
+        "runsMentioning": 1,
+        "sampleContexts": [
+          "omation to agentic AI. You can create agents that listen to data, reason through decisions, and execute multi-step workflows"
+        ]
       }
     }
   ],
   "unclustered": [
+    {
+      "term": "min",
+      "score": 103.46773428586174,
+      "documentFrequency": 2
+    },
     {
       "term": "number",
       "score": 94.27060234934069,
@@ -339,21 +1346,6 @@
       "term": "using",
       "score": 50.07680609019956,
       "documentFrequency": 4
-    },
-    {
-      "term": "per",
-      "score": 44.25522005692656,
-      "documentFrequency": 3
-    },
-    {
-      "term": "own",
-      "score": 43.68637669847495,
-      "documentFrequency": 2
-    },
-    {
-      "term": "com",
-      "score": 41.7595308928282,
-      "documentFrequency": 5
     }
   ]
 }

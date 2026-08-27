@@ -1,0 +1,11 @@
+{
+  "runId": "d69a9163-7f2f-4783-b919-31444f40867f",
+  "promptId": "long-form-quote-match-0",
+  "promptText": "What tool matches this description: \"Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:03:33.933Z",
+  "finishReason": "STOP",
+  "rawText": "The tool described is **Atlassian Bamboo** (or simply **Bamboo**).\n\n**What it is:**  \nBamboo is a Continuous Integration and Continuous Deployment (CI/CD) server developed by Atlassian. It helps software development teams automate the building, testing, and releasing of software, integrating seamlessly with other Atlassian tools like Jira, Bitbucket, and Confluence."
+}

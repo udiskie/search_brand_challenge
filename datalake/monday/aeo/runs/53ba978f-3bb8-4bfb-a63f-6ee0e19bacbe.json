@@ -1,0 +1,22 @@
+{
+  "runId": "53ba978f-3bb8-4bfb-a63f-6ee0e19bacbe",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Monday ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Monday"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:05:16.682Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Monday.com porque te parece demasiado compleja, cargada de funciones que no usas o lenta de configurar, hay varias opciones diseñadas específicamente para **empezar a trabajar en minutos** sin curva de aprendizaje.\n\nAquí tienes las mejores alternativas **rápidas y simples**:\n\n---\n\n### 1. Trello (La más visual y sencilla)\nEs el referente de la simplicidad. Se basa en el sistema Kanban (tableros, listas y tarjetas).\n* **Por qué es más rápida/simple que Monday:** No hay configuraciones complejas de bases de datos. Creas un tablero, añades tres columnas (Por hacer, En proceso, Hecho) y ya estás trabajando.\n* **Lo mejor:** Muy intuitiva, interfaz limpísima y aplicación móvil excelente.\n* **Ideal para:** Equipos pequeños o proyectos visuales que no requieren automatizaciones avanzadas.\n\n### 2. Todoist for Teams (La más rápida para gestionar tareas)\nAunque nació como app personal, su versión para equipos es fantástica para quienes odian perder tiempo configurando software.\n* **Por qué es más rápida/simple que Monday:** Funciona mediante listas ultraligeras. Su reconocimiento de lenguaje natural te permite escribir \"Entregar reporte mañana a las 10am #Marketing\" y crea la tarea con fecha, hora y etiqueta automáticamente.\n* **Lo mejor:** Velocidad pura. Es la app más rápida para crear y marcar tareas.\n* **Ideal para:** Equipos que solo necesitan saber *qué* hay que hacer y *cuándo*, sin dashboards complejos.\n\n### 3. MeisterTask (Estilo Kanban moderno y limpio)\nEs muy similar a Trello pero con un diseño más estilizado y enfocado en la productividad.\n* **Por qué es más rápida/simple que Monday:** Se centra exclusivamente en flujos de trabajo visuales. La interfaz es minimalista y no te abruma con cientos de botones.\n* **Lo mejor:** Excelente gestión de dependencias de tareas y seguimiento de tiempo integrado sin complicaciones.\n* **Ideal para:** Equipos creativos o de diseño que quieren algo visual pero extremadamente ordenado.\n\n### 4. Plaky (La versión \"simplificada y gratis\" de Monday)\nPlaky es literalmente un clon de Monday.com, pero reducido a lo esencial.\n* **Por qué es más rápida/simple que Monday:** Mantiene la vista de tabla/lista con filas de colores que gusta de Monday, pero elimina el 80% de las funciones avanzadas que suelen estorbar.\n* **Lo mejor:** Es **100% gratuita** (sin límite de usuarios ni proyectos).\n* **Ideal para:** Quienes aman la estética de tablas de Monday pero quieren algo directo y sin pagar suscripciones.\n\n### 5. Basecamp (Simplicidad por descarte)\nBasecamp es famosa por su filosofía: \"menos funciones, mejor trabajo\".\n* **Por qué es más rápida/simple que Monday:** No tiene diagramas de Gantt complejos ni campos personalizados infinitos. Todo se divide en 6 herramientas básicas: Tablón de anuncios, Lista de tareas, Chat, Documentos, Agenda y Preguntas automáticas.\n* **Lo mejor:** Elimina la necesidad de usar Zoom, Slack y Monday por separado.\n* **Ideal para:** Equipos que quieren centralizar la comunicación y el trabajo sin microgestión.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n* **Si quieres crear un tablero y empezar en 2 minutos:** Elige **Trello**.\n* **Si quieres la máxima velocidad escribiendo tareas:** Elige **Todoist**.\n* **Si te gusta la forma de trabajar de Monday pero quieres que sea gratis y simple:** Elige **Plaky**.\n* **Si quieres organizar a todo tu equipo y su comunicación en un solo lugar:** Elige **Basecamp**."
+}

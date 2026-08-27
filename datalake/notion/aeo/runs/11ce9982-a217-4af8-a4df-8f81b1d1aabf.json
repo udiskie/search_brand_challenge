@@ -1,0 +1,22 @@
+{
+  "runId": "11ce9982-a217-4af8-a4df-8f81b1d1aabf",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Notion ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Notion"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:08:46.130Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Notion porque lo sientes **lento, complejo o requiere demasiado tiempo de configuración**, existen varias opciones excelentes que priorizan la velocidad y la simplicidad.\n\nAquí tienes las mejores alternativas divididas según lo que busques:\n\n---\n\n### 1. Las más parecidas a Notion (pero más rápidas y simples)\n\n*   **Craft** *(Mac, iOS, Windows, Web)*\n    *   **Por qué destaca:** Es probablemente la alternativa más directa a Notion en cuanto a diseño visual, pero es **infinitamente más rápida** y fluida.\n    *   **Lo bueno:** Funciona con bloques, permite crear documentos hermosos en segundos y tiene una app nativa (no consume tanta memoria RAM como Notion).\n    *   **Ideal para:** Crear documentos visuales, tomar notas organizadas y redactar sin distracciones.\n\n*   **UpNote** *(Windows, Mac, iOS, Android, Linux)*\n    *   **Por qué destaca:** Es una mezcla entre el antiguo Evernote y Notion, pero optimizada al máximo para ser ultrarrápida.\n    *   **Lo bueno:** Soporta texto enriquecido, código, tablas, listas plegables y libiertas anidadas. Se sincroniza al instante entre todos tus dispositivos. Su versión de pago de por vida es muy barata.\n    *   **Ideal para:** Quienes quieren organizar notas en carpetas complejas sin la molestia de configurar bases de datos.\n\n---\n\n### 2. Ultrarrápidas y Minimalistas (Basadas en texto/Markdown)\n\n*   **Obsidian** *(Todas las plataformas)*\n    *   **Por qué destaca:** Funciona 100% fuera de línea (los archivos se guardan en tu ordenador), por lo que **se abre de forma instantánea**.\n    *   **Lo bueno:** Muy simple si solo lo usas para escribir notas y vincularlas entre sí (como una Wikipedia personal). Si en el futuro quieres más funciones, tiene miles de complementos opcionales.\n    *   **Ideal para:** Personas que valoran la velocidad absoluta, la privacidad y el trabajo sin conexión a internet.\n\n*   **Bear** *(Solo ecosistema Apple: Mac, iPhone, iPad)*\n    *   **Por qué destaca:** Es considerada por muchos la app con el diseño más elegante y la experiencia de escritura más rápida del mercado.\n    *   **Lo bueno:** Usa etiquetas (hashtags) para organizar todo, lo que elimina la necesidad de crear carpetas. Es extremadamente fluida.\n    *   **Ideal para:** Usuarios de Apple que solo buscan un cuaderno digital rápido y bonito.\n\n---\n\n### 3. Para pensar en esquemas y listas (Sin rodeos)\n\n*   **Workflowy** *(Web, Windows, Mac, iOS, Android)*\n    *   **Por qué destaca:** Toda la aplicación es una sola lista de viñetas infinitas.\n    *   **Lo bueno:** Puedes \"hacer zoom\" en cualquier viñeta para convertirla en una página completa. No hay menús complicados ni plantillas que configurar. Abres la app y escribes.\n    *   **Ideal para:** Desglosar proyectos complejos, lluvia de ideas y listas de tareas sin perder el tiempo en formatos.\n\n---\n\n### 4. Las opciones \"Abrir y Escribir\" (Sin configuración)\n\n*   **Notas de Apple / Google Keep**\n    *   A veces la mejor alternativa a Notion es volver a lo básico.\n    *   **Notas de Apple:** Se ha vuelto muy potente en sus últimas actualizaciones (soporta enlaces entre notas, escaneo de documentos, carpetas inteligentes) y es instantánea.\n    *   **Google Keep:** Funciona como notas adhesivas (post-its). Perfecta para notas rápidas, listas de la compra o recordatorios efímeros.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n*   Si quieres **algo idéntico a Notion pero nativo y muy rápido**: Elige **Craft**.\n*   Si quieres **un cuaderno digital clásico, bonito y rápido**: Elige **UpNote**.\n*   Si quieres **privacidad, velocidad extrema y trabajar offline**: Elige **Obsidian**.\n*   Si solo quieres **hacer listas y organizar ideas al instante**: Elige **Workflowy**."
+}

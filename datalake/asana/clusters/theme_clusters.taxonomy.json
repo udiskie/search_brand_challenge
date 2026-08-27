@@ -1,7 +1,7 @@
 {
   "product": "asana",
   "method": "taxonomy",
-  "generatedAt": "2026-08-27T19:41:57.459Z",
+  "generatedAt": "2026-08-27T20:11:37.702Z",
   "themes": [
     {
       "name": "Issue & Project Tracking",
@@ -22,20 +22,45 @@
           "documentFrequency": 2
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "direct-differentiator-36",
+          "text": "What tool would you recommend for a team that wants \"project\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-37",
+          "text": "I need something that helps with project -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-38",
+          "text": "Which tool in this space is known for project?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-39",
+          "text": "As a freelancer, I want a tool that focuses on project instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 15,
+        "runsMentioning": 18,
         "sampleContexts": [
-          "ener el enfoque**. Aquí tienes las mejores herramientas de Project Management organizadas según tu estilo de trabajo y tipo de",
-          "Both **Asana** and **Monday.com** are industry-leading project management tools, but they cater to slightly different work",
-          "g, operations, design, sales) alongside software or general projects. * **Choose Jira** if you are a **large enterprise**, req"
+          "*time-blocking, asynchronous documentation, and lightweight project management.** Here is the step-by-step framework for a sol",
+          "Housekeeping):** * *Morning:* Finance, legal, admin tasks. * *Afternoon:* Weekly review, analyzing metrics, pla",
+          "*Jira** or **Azure DevOps (ADO)** for execution, the \"best\" project management tool depends on how your PM workflow connects to"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 6,
+        "sampleContexts": [
+          "Phase 1: DEFINE (Before You Start) *The most common reason projects stall or fail at the end is a messy beginning.* 1. **Estab",
+          "ack, or technical help), and people get distracted by *new* tasks while waiting. * **Near the End:** Perfectionism, fear of l",
+          "ption is **Height** (height.app). Height is an AI-powered project and work management platform designed to allow human teams"
+        ]
       }
     },
     {
@@ -62,20 +87,115 @@
           "documentFrequency": 7
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Work management software for teams and AI agents. Plan, automate, and execute critical workflows together. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-48",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-49",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-50",
+          "text": "Which tool in this space is known for plan?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-51",
+          "text": "As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-64",
+          "text": "What tool would you recommend for a team that wants \"free\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-65",
+          "text": "I need something that helps with free -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-66",
+          "text": "Which tool in this space is known for free?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-67",
+          "text": "As a freelancer, I want a tool that focuses on free instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to remove teammates at any time, even before changing your subscription.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-frustration-17",
+          "text": "We can never seem to remove teammates at any time, even before changing your subscription -- it's honestly exhausting.",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-recurring-18",
+          "text": "Every week it's the same story: we just can't remove teammates at any time, even before changing your subscription.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-best-way-19",
+          "text": "What's the best way to remove teammates at any time, even before changing your subscription?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to remove teammates at any time, even before changing your subscription?",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-advice-21",
+          "text": "We know we need to remove teammates at any time, even before changing your subscription, but we're not sure how. Any advice?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-criteria-generic-22",
+          "text": "What criteria matter most when picking a tool to help remove teammates at any time, even before changing your subscription?",
+          "kind": "inferential"
+        },
+        {
+          "id": "comparison-named-23",
+          "text": "Between Linear and Notion, which is better suited to help remove teammates at any time, even before changing your subscription?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 11,
+        "runsMentioning": 14,
         "sampleContexts": [
-          "an organizarse en minutos sin leer un manual. * **Precio:** Plan gratuito muy completo. ### 2. **Todoist (para Equipos)** (",
-          "un solo sitio. * **Lo mejor:** La flexibilidad y sus plantillas gratuitas para startups. * **Lo malo:** Es fáci",
-          "rface, excellent task dependency management, and a powerful free plan. * **Choose Monday.com if** you want a highly visual,"
+          "because **you are the team**. Even if you hire contractors, freelancers, or plan to make your first full-time hire soon, you",
+          "sks. * *Afternoon:* Weekly review, analyzing metrics, planning the next week's priorities. --- ### 3. Build a Lightw",
+          "ows * **Asana:** Rules and automations are robust on paid plans, making it easy to route tasks based on status changes or"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 3,
+        "sampleContexts": [
+          "manage sales inquiries, client leads, proposals, or overall freelance operations**, here are the top recommendations categor",
+          "without errors.** --- ### Your First Step: A 30-Day Game Plan If you try to fix everything at once, your team will get o",
+          "your company's actual context. * **Why it fits:** Great for planning and executing workflows where accuracy and company cont"
+        ]
       }
     },
     {
@@ -92,20 +212,295 @@
           "documentFrequency": 4
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Work management software for teams and AI agents. Plan, automate, and execute critical workflows together. Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-quote-match-2",
+          "text": "What tool matches this description: \"Contact our sales team about any questions you have\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-3",
+          "text": "As a freelancer, I'm looking for a tool where: Contact our sales team about any questions you have Any suggestions?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-4",
+          "text": "What tool would you recommend for a team that wants \"work\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-5",
+          "text": "I need something that helps with work -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-8",
+          "text": "What tool would you recommend for a team that wants \"team\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-9",
+          "text": "I need something that helps with team -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-10",
+          "text": "Which tool in this space is known for team?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-11",
+          "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-12",
+          "text": "What tool would you recommend for a team that wants \"right\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-13",
+          "text": "I need something that helps with right -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-16",
+          "text": "What tool would you recommend for a team that wants \"teams\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-17",
+          "text": "I need something that helps with teams -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "comparison-anchor-18",
+          "text": "Which tool in this space is known for teams?",
+          "kind": "hook"
+        },
+        {
+          "id": "persona-specific-19",
+          "text": "As a freelancer, I want a tool that focuses on teams instead of doing everything. Any recommendations?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-20",
+          "text": "What tool would you recommend for a team that wants \"circle\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-21",
+          "text": "I need something that helps with circle -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-24",
+          "text": "What tool would you recommend for a team that wants \"learn\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-25",
+          "text": "I need something that helps with learn -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-28",
+          "text": "What tool would you recommend for a team that wants \"data\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-29",
+          "text": "I need something that helps with data -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-32",
+          "text": "What tool would you recommend for a team that wants \"morearrow\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-33",
+          "text": "I need something that helps with morearrow -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-36",
+          "text": "What tool would you recommend for a team that wants \"project\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-37",
+          "text": "I need something that helps with project -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-40",
+          "text": "What tool would you recommend for a team that wants \"management\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-41",
+          "text": "I need something that helps with management -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-44",
+          "text": "What tool would you recommend for a team that wants \"chevron\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-45",
+          "text": "I need something that helps with chevron -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-48",
+          "text": "What tool would you recommend for a team that wants \"plan\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-49",
+          "text": "I need something that helps with plan -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-52",
+          "text": "What tool would you recommend for a team that wants \"company\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-53",
+          "text": "I need something that helps with company -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-56",
+          "text": "What tool would you recommend for a team that wants \"every\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-57",
+          "text": "I need something that helps with every -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-60",
+          "text": "What tool would you recommend for a team that wants \"custom\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-61",
+          "text": "I need something that helps with custom -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-64",
+          "text": "What tool would you recommend for a team that wants \"free\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-65",
+          "text": "I need something that helps with free -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-68",
+          "text": "What tool would you recommend for a team that wants \"user\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-69",
+          "text": "I need something that helps with user -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-72",
+          "text": "What tool would you recommend for a team that wants \"view\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-73",
+          "text": "I need something that helps with view -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-76",
+          "text": "What tool would you recommend for a team that wants \"service\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-77",
+          "text": "I need something that helps with service -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "direct-differentiator-80",
+          "text": "What tool would you recommend for a team that wants \"goals\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "problem-framed-81",
+          "text": "I need something that helps with goals -- what should my team use?",
+          "kind": "hook"
+        },
+        {
+          "id": "pain-vent-0",
+          "text": "As an engineering lead, my team keeps struggling to enable to move work from start to finish—and get great results.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-4",
+          "text": "How do most teams manage to enable to move work from start to finish—and get great results?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-8",
+          "text": "As an engineering lead, my team keeps struggling to improve any agent.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-12",
+          "text": "How do most teams manage to improve any agent?",
+          "kind": "inferential"
+        },
+        {
+          "id": "pain-vent-16",
+          "text": "As an engineering lead, my team keeps struggling to remove teammates at any time, even before changing your subscription.",
+          "kind": "inferential"
+        },
+        {
+          "id": "problem-how-to-20",
+          "text": "How do most teams manage to remove teammates at any time, even before changing your subscription?",
+          "kind": "inferential"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 21,
+        "runsMentioning": 19,
         "sampleContexts": [
-          "\" (minimum 3 users) | | **Customization** | Moderate (keeps team standardized) | Extremely High (you build your own workflow",
-          "Linear** if you are a modern **tech startup or software dev team** that wants speed, simplicity, and great design. * **Cho",
-          "As a solo founder, you aren't just one person—you are a team of six people stuck in one body: CEO, Product Manager, Deve"
+          "dard Combination (Strategy + Execution) If your engineering team uses Jira (which 80%+ of large enterprises do), you will ge",
+          "de un proyecto a otro sin contexto). * **Aplica el Modelo Team Topologies:** * *Stream-aligned teams:* Enfocados en",
+          "When you are a solo startup founder, \"organizing your team's work\" is a unique challenge because **you are the team**."
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 7,
+        "sampleContexts": [
+          "gets stuck in a perpetual state of \"almost done,\" it drains team morale, hurts quality, and creates a sense that you're cons",
+          "chat pop-ups that allow website visitors to message a sales team in real time. 3. **CRM Web-to-Lead Tools:** * **Example",
+          "roject and work management platform designed to allow human teams and AI agents to collaborate seamlessly on task tracking,"
+        ]
       }
     },
     {
@@ -122,20 +517,35 @@
           "documentFrequency": 1
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "id": "long-form-quote-match-0",
+          "text": "What tool matches this description: \"Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.\"?",
+          "kind": "hook"
+        },
+        {
+          "id": "long-form-as-need-1",
+          "text": "As a startup founder, I'm looking for a tool where: Work management software for teams and AI agents. Plan, automate, and execute critical workflows together. Any suggestions?",
+          "kind": "hook"
+        }
+      ],
       "neutralAnswers": {
         "runsScanned": 30,
         "runsMentioning": 13,
         "sampleContexts": [
-          "**Best For** | Task management, cross-functional projects, workflows | Operations, sales/CRM, resource management, high-level da",
-          "require strict Agile/Scrum frameworks, or need deep custom workflows and compliance. --- ### 1. Linear: *The Best for Modern S",
-          "nder in this era, your team consists of you + software + AI agents. * **Automation:** Use Zapier or Make to connect systems ("
+          "rarely a single tool that handles everything. Enterprise PM workflows are split into two distinct layers: 1. **Strategic Discover",
+          "ut also light CRM, creative assets, HR tracking, and simple workflows). --- ### Detailed Comparison #### 1. Interface & User E",
+          "traditional, structured project management, manage complex workflows with lots of subtasks/dependencies, and want a clean, distr"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
-        "runsMentioning": 0,
-        "sampleContexts": []
+        "runsScanned": 8,
+        "runsMentioning": 3,
+        "sampleContexts": [
+          "reinvent the wheel. Create repeatable templates for common workflows so you spend energy on execution, not administrative setup.",
+          "rk management platform designed to allow human teams and AI agents to collaborate seamlessly on task tracking, automation, and",
+          "ou want a **classic project management tool infused with AI agents**, an **AI-first platform built around digital workers**, o"
+        ]
       }
     },
     {
@@ -155,15 +565,15 @@
       "questions": [],
       "neutralAnswers": {
         "runsScanned": 30,
-        "runsMentioning": 5,
+        "runsMentioning": 6,
         "sampleContexts": [
-          "t Agile/Scrum frameworks, or need deep custom workflows and compliance. --- ### 1. Linear: *The Best for Modern Software Teams*",
-          "rise, require deep customization/reporting, or need complex compliance and multi-team scaling. * **Choose Asana** if you need a fl",
-          "rprise software company**, need deep customization, complex compliance, or handle IT support alongside dev work. * **Choose Asana*"
+          "Deep bi-directional sync with Jira, robust SOC2/enterprise security, and excellent role-based access controls. * **Aha!** (Be",
+          "s to executives and granular timelines to team leads. * **Security & Compliance:** Already approved by your enterprise IT/Secu",
+          "a third-party tool. * **Enterprise Strengths:** Unmatched security, permissions, compliance, and custom reporting capabilities"
         ]
       },
       "brandGroundedAnswers": {
-        "runsScanned": 0,
+        "runsScanned": 8,
         "runsMentioning": 0,
         "sampleContexts": []
       }

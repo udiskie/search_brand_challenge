@@ -36,7 +36,7 @@
   },
   {
     "dimension": "aeo",
-    "finding": "Top site keywords the model never uses when describing Jira: data, compass, partners, marketplace, support",
+    "finding": "Top site keywords the model never uses when describing Jira: data, compass, work, partners, marketplace",
     "impact": "medium",
     "effort": "medium",
     "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."

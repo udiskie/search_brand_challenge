@@ -1,0 +1,1751 @@
+{
+  "hooks": [
+    {
+      "hook": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses."
+        }
+      ]
+    },
+    {
+      "hook": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/product/docs",
+          "snippet": "The next gen of notes & docs. Simple. Powerful. Beautiful."
+        }
+      ]
+    },
+    {
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb",
+          "snippet": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
+        }
+      ]
+    },
+    {
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/product",
+          "snippet": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
+        }
+      ]
+    },
+    {
+      "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/about",
+          "snippet": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace."
+        }
+      ]
+    },
+    {
+      "hook": "workspace",
+      "source": "tagcloud",
+      "documentFrequency": 9,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion is that single place.Nick ErdenbergerGTM, OpenAIWatch video→* Plans may not be available for every workspace.Plans and featuresFreeUS$0 per seat/monthSign upPlus*US$10 per seat/monthGet startedBusinessUS$20 per seat/monthGet startedE…"
+        }
+      ]
+    },
+    {
+      "hook": "agent",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsNotion AIChat about anything, generate and edit docs, autofill databases and find answers across your Notion workspace.Notion Agent (chat, generate, autofi…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+        }
+      ]
+    },
+    {
+      "hook": "information",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Appears in search results and AI citations.Verify any pageUse Notion offline on the desktop and mobile app.OfflineChoose pages to download for offline use.Recents and Favourites auto-download for offline use.Recents and Favourites auto-down…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Teamspaces (private)Create groups of people according to role or department to streamline page & teamspace permissions.Permission groupsOverride teamspace permissi…"
+        }
+      ]
+    },
+    {
+      "hook": "credits",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Starts using credits on 15 October."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Starting on 11 August 2026, they’ll require Notion credits."
+        }
+      ]
+    },
+    {
+      "hook": "custom",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+        }
+      ]
+    },
+    {
+      "hook": "memory",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/blog",
+          "snippet": "Ivan ZhaoCo-founder & CEOTechBuilding Shared Memory for AI Agents in NotionLore turns conversations, decisions, tasks, and durable facts into Notion pages that future agents (and the people they work with) can easily useHesham SalmanEnginee…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+          "snippet": "Building Shared Memory for AI Agents in NotionAll posts←←All postsPublished 18 August 2026 in TechBuilding Shared Memory for AI Agents in NotionBy Hesham SalmanEngineering, NotionShare this postAs software engineering changes, tribal knowle…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+          "snippet": "We decided it was time to fix that with Notion.Give Your Agents a MemoryLore is the tool we built for that gap: shared, persistent memory for agents, backed by Notion."
+        }
+      ]
+    },
+    {
+      "hook": "workers",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Understand pricing for Workers in Notion | Notion Help – Notion Help CentreSearch help centreWorkers run code in the background to automate tasks in Notion."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+        }
+      ]
+    },
+    {
+      "hook": "agents",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "doughnut, bar and line charts).Charts1UnlimitedUnlimitedUnlimitedCapture, organise and act on responses right inside Notion.FormsBasicCustomCustom+ conditional logicCustom+ conditional logicBring charts, tables and lists into one dashboard …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Workers are often paired with Custom Agents, where the agent decides what to do and Workers reliably execute specific steps.During the beta, Workers are free to try on Business and Enterprise plans (including Business trials)."
+        }
+      ]
+    },
+    {
+      "hook": "paid",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Upgrade to a paid plan to customise your title and description metadata.Search engine indexing (SEO)BasicAdvancedAdvancedAdvancedSet a homepage, customise your site’s favicon and share preview, build a custom header bar and set light or dar…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Thousands of school email domains are eligible, not just .edu!For more info & FAQs, visit the Notion for Education page.What do the different analytics tiers mean?Basic page analytics (Free and Plus Plans): Includes a list of page viewers a…"
+        }
+      ]
+    },
+    {
+      "hook": "data",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+        }
+      ]
+    },
+    {
+      "hook": "plan",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.File uploadsUp to 5MBUnlimitedUnlimitedUnlimitedRestore your page to a previous version.Page history7 days30 days90 daysUnlimitedAdd a verified badge to pages that a…"
+        }
+      ]
+    },
+    {
+      "hook": "work",
+      "source": "tagcloud",
+      "documentFrequency": 9,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Learn more→There’s power in a single platform where you can do all your work from."
+        }
+      ]
+    },
+    {
+      "hook": "each",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.Pages & blocksUnlimited for individualslimited for 2+ membersUnlimitedUnlimitedUnlimitedOn the Free plan, you can uploa…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "This means you have the option to exchange members in your workspace without paying any additional costs, as long as your total billable seat count remains the same.You’ll receive an invoice for any charges accrued by changes in membership …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Your number of paid seats will be recalculated at each renewal to match the number of members present in the workspace.What happens when I change plans?Upgrading your plan: Your account will be upgraded and charged immediately."
+        }
+      ]
+    },
+    {
+      "hook": "access",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Completes complex, multi-step tasks using context from Notion, your connected apps and the web.Notion AgentAutomate your meeting notes and follow-ups – no bot neededAI Meeting NotesSearch across connected apps like Slack, Github and moreEnt…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Limit access to rows where the collaborator is assigned.Granular database permissionsAdd a verified badge to pages that are up to date."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        }
+      ]
+    },
+    {
+      "hook": "members",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Perfect for legal or compliance backups.Export entire workspace as PDFManage employee access at scale with secure single sign-on.SAML single sign-on (SSO)Automatically provision members in and out of your workspace with identity providers l…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
+        }
+      ]
+    },
+    {
+      "hook": "billing",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added.For every member you delete from your workspace, you will open up 1 available pa…"
+        }
+      ]
+    },
+    {
+      "hook": "usage",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Your actual usage may vary, and is the best way to size credits.Examples: scheduled sync credit usageThe table below shows examples of usage."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "Your actual usage depends on how often your syncs run and how much a Worker does for each run.Syncing more data or handling several updates will cost more."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+          "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+        }
+      ]
+    },
+    {
+      "hook": "free",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion Pricing Plans: Free, Plus, Business and Enterprise.One tool to run your company.Trusted by teams atEssentials for staying organised.FreeUS$0per member/monthFor individuals to organise personal projects and life.Sign upIncludes:Trial …"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try, then $10 per 1,000 monthly Notion credits.WorkersBetaExtend Notion with custom code to build agent tools, sync external data and trigger Notion workflows from anywhere."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Free to try now."
+        }
+      ]
+    },
+    {
+      "hook": "content",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "doughnut, bar and line charts).Unlimited chartsBlocks are pieces of content you add to a page (e.g."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Great for sensitive information like company planning or performance reviews.Private teamspacesVerify ownership of an email domain to access advanced security features including single sign-on.Domain verificationConnect to GitHub, Asana & m…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Notion is that single place.Nick ErdenbergerGTM, OpenAIWatch video→* Plans may not be available for every workspace.Plans and featuresFreeUS$0 per seat/monthSign upPlus*US$10 per seat/monthGet startedBusinessUS$20 per seat/monthGet startedE…"
+        }
+      ]
+    },
+    {
+      "hook": "template",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/product/docs",
+          "snippet": "Docs | NotionMeeting NotesConnect people & projects with updates & action items.Duplicate Template→Duplicate Template→Design SystemAll your company’s design assets in one place.Duplicate Template→Duplicate Template→Project requirementsA cus…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/product/docs",
+          "snippet": "Easy to share, easy to see.See all integrationsFigmaAlways share the most up-to-date designs with your team.Try now→AmplitudeTrack release metrics, experiment results and more.Try now→GithubBring pull requests, issues and even repos directl…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/teams",
+          "snippet": "to-do tick boxes, paragraphs, bullet points, etc.).Unlimited collaborative blocksA per-file size limit may apply to any file that you upload to a Notion page or database.Unlimited file uploadsConnect to some tools like Slack & Google DriveB…"
+        }
+      ]
+    }
+  ],
+  "hookQuestions": [
+    {
+      "id": "long-form-quote-match-0",
+      "text": "What tool matches this description: \"Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "long-form-as-need-1",
+      "text": "As a startup founder, I'm looking for a tool where: Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-2",
+      "text": "What tool matches this description: \"The next gen of notes & docs. Simple. Powerful. Beautiful.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs"
+      ]
+    },
+    {
+      "id": "long-form-as-need-3",
+      "text": "As a freelancer, I'm looking for a tool where: The next gen of notes & docs. Simple. Powerful. Beautiful. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-4",
+      "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb"
+      ]
+    },
+    {
+      "id": "long-form-as-need-5",
+      "text": "As a startup founder, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-6",
+      "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product"
+      ]
+    },
+    {
+      "id": "long-form-as-need-7",
+      "text": "As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-8",
+      "text": "What tool matches this description: \"A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/about"
+      ]
+    },
+    {
+      "id": "long-form-as-need-9",
+      "text": "As a startup founder, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/about"
+      ]
+    },
+    {
+      "id": "direct-differentiator-10",
+      "text": "What tool would you recommend for a team that wants \"workspace\"?",
+      "templateId": "direct-differentiator",
+      "hook": "workspace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-11",
+      "text": "I need something that helps with workspace -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "workspace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-12",
+      "text": "Which tool in this space is known for workspace?",
+      "templateId": "comparison-anchor",
+      "hook": "workspace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-13",
+      "text": "As a startup founder, I want a tool that focuses on workspace instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "workspace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-14",
+      "text": "What tool would you recommend for a team that wants \"agent\"?",
+      "templateId": "direct-differentiator",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "problem-framed-15",
+      "text": "I need something that helps with agent -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "comparison-anchor-16",
+      "text": "Which tool in this space is known for agent?",
+      "templateId": "comparison-anchor",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "persona-specific-17",
+      "text": "As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "direct-differentiator-18",
+      "text": "What tool would you recommend for a team that wants \"information\"?",
+      "templateId": "direct-differentiator",
+      "hook": "information",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-19",
+      "text": "I need something that helps with information -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "information",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-20",
+      "text": "Which tool in this space is known for information?",
+      "templateId": "comparison-anchor",
+      "hook": "information",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-21",
+      "text": "As a startup founder, I want a tool that focuses on information instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "information",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-22",
+      "text": "What tool would you recommend for a team that wants \"credits\"?",
+      "templateId": "direct-differentiator",
+      "hook": "credits",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "problem-framed-23",
+      "text": "I need something that helps with credits -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "credits",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "comparison-anchor-24",
+      "text": "Which tool in this space is known for credits?",
+      "templateId": "comparison-anchor",
+      "hook": "credits",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "persona-specific-25",
+      "text": "As a startup founder, I want a tool that focuses on credits instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "credits",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "direct-differentiator-26",
+      "text": "What tool would you recommend for a team that wants \"custom\"?",
+      "templateId": "direct-differentiator",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-27",
+      "text": "I need something that helps with custom -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-28",
+      "text": "Which tool in this space is known for custom?",
+      "templateId": "comparison-anchor",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-29",
+      "text": "As a startup founder, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "custom",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-30",
+      "text": "What tool would you recommend for a team that wants \"memory\"?",
+      "templateId": "direct-differentiator",
+      "hook": "memory",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/blog",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion"
+      ]
+    },
+    {
+      "id": "problem-framed-31",
+      "text": "I need something that helps with memory -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "memory",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/blog",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion"
+      ]
+    },
+    {
+      "id": "comparison-anchor-32",
+      "text": "Which tool in this space is known for memory?",
+      "templateId": "comparison-anchor",
+      "hook": "memory",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/blog",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion"
+      ]
+    },
+    {
+      "id": "persona-specific-33",
+      "text": "As a startup founder, I want a tool that focuses on memory instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "memory",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/blog",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion",
+        "https://www.notion.com/en-gb/blog/building-shared-memory-for-ai-agents-in-notion"
+      ]
+    },
+    {
+      "id": "direct-differentiator-34",
+      "text": "What tool would you recommend for a team that wants \"workers\"?",
+      "templateId": "direct-differentiator",
+      "hook": "workers",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "problem-framed-35",
+      "text": "I need something that helps with workers -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "workers",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "comparison-anchor-36",
+      "text": "Which tool in this space is known for workers?",
+      "templateId": "comparison-anchor",
+      "hook": "workers",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "persona-specific-37",
+      "text": "As a startup founder, I want a tool that focuses on workers instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "workers",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "direct-differentiator-38",
+      "text": "What tool would you recommend for a team that wants \"agents\"?",
+      "templateId": "direct-differentiator",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "problem-framed-39",
+      "text": "I need something that helps with agents -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "comparison-anchor-40",
+      "text": "Which tool in this space is known for agents?",
+      "templateId": "comparison-anchor",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "persona-specific-41",
+      "text": "As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "direct-differentiator-42",
+      "text": "What tool would you recommend for a team that wants \"paid\"?",
+      "templateId": "direct-differentiator",
+      "hook": "paid",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-43",
+      "text": "I need something that helps with paid -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "paid",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-44",
+      "text": "Which tool in this space is known for paid?",
+      "templateId": "comparison-anchor",
+      "hook": "paid",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-45",
+      "text": "As a startup founder, I want a tool that focuses on paid instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "paid",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-46",
+      "text": "What tool would you recommend for a team that wants \"data\"?",
+      "templateId": "direct-differentiator",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-47",
+      "text": "I need something that helps with data -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-48",
+      "text": "Which tool in this space is known for data?",
+      "templateId": "comparison-anchor",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-49",
+      "text": "As a startup founder, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-50",
+      "text": "What tool would you recommend for a team that wants \"plan\"?",
+      "templateId": "direct-differentiator",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-51",
+      "text": "I need something that helps with plan -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-52",
+      "text": "Which tool in this space is known for plan?",
+      "templateId": "comparison-anchor",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-53",
+      "text": "As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-54",
+      "text": "What tool would you recommend for a team that wants \"work\"?",
+      "templateId": "direct-differentiator",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-55",
+      "text": "I need something that helps with work -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-56",
+      "text": "Which tool in this space is known for work?",
+      "templateId": "comparison-anchor",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-57",
+      "text": "As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-58",
+      "text": "What tool would you recommend for a team that wants \"each\"?",
+      "templateId": "direct-differentiator",
+      "hook": "each",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-59",
+      "text": "I need something that helps with each -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "each",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-60",
+      "text": "Which tool in this space is known for each?",
+      "templateId": "comparison-anchor",
+      "hook": "each",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-61",
+      "text": "As a startup founder, I want a tool that focuses on each instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "each",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-62",
+      "text": "What tool would you recommend for a team that wants \"access\"?",
+      "templateId": "direct-differentiator",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-63",
+      "text": "I need something that helps with access -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-64",
+      "text": "Which tool in this space is known for access?",
+      "templateId": "comparison-anchor",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-65",
+      "text": "As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-66",
+      "text": "What tool would you recommend for a team that wants \"members\"?",
+      "templateId": "direct-differentiator",
+      "hook": "members",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-67",
+      "text": "I need something that helps with members -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "members",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-68",
+      "text": "Which tool in this space is known for members?",
+      "templateId": "comparison-anchor",
+      "hook": "members",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-69",
+      "text": "As a startup founder, I want a tool that focuses on members instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "members",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-70",
+      "text": "What tool would you recommend for a team that wants \"billing\"?",
+      "templateId": "direct-differentiator",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-71",
+      "text": "I need something that helps with billing -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-72",
+      "text": "Which tool in this space is known for billing?",
+      "templateId": "comparison-anchor",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-73",
+      "text": "As a startup founder, I want a tool that focuses on billing instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-74",
+      "text": "What tool would you recommend for a team that wants \"usage\"?",
+      "templateId": "direct-differentiator",
+      "hook": "usage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "problem-framed-75",
+      "text": "I need something that helps with usage -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "usage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "comparison-anchor-76",
+      "text": "Which tool in this space is known for usage?",
+      "templateId": "comparison-anchor",
+      "hook": "usage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "persona-specific-77",
+      "text": "As a startup founder, I want a tool that focuses on usage instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "usage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+        "https://www.notion.com/en-gb/help/understand-pricing-for-workers"
+      ]
+    },
+    {
+      "id": "direct-differentiator-78",
+      "text": "What tool would you recommend for a team that wants \"free\"?",
+      "templateId": "direct-differentiator",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-79",
+      "text": "I need something that helps with free -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-80",
+      "text": "Which tool in this space is known for free?",
+      "templateId": "comparison-anchor",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-81",
+      "text": "As a startup founder, I want a tool that focuses on free instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "free",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-82",
+      "text": "What tool would you recommend for a team that wants \"content\"?",
+      "templateId": "direct-differentiator",
+      "hook": "content",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-83",
+      "text": "I need something that helps with content -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "content",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-84",
+      "text": "Which tool in this space is known for content?",
+      "templateId": "comparison-anchor",
+      "hook": "content",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-85",
+      "text": "As a startup founder, I want a tool that focuses on content instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "content",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-86",
+      "text": "What tool would you recommend for a team that wants \"template\"?",
+      "templateId": "direct-differentiator",
+      "hook": "template",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/teams"
+      ]
+    },
+    {
+      "id": "problem-framed-87",
+      "text": "I need something that helps with template -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "template",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/teams"
+      ]
+    },
+    {
+      "id": "comparison-anchor-88",
+      "text": "Which tool in this space is known for template?",
+      "templateId": "comparison-anchor",
+      "hook": "template",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/teams"
+      ]
+    },
+    {
+      "id": "persona-specific-89",
+      "text": "As a startup founder, I want a tool that focuses on template instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "template",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/product/docs",
+        "https://www.notion.com/en-gb/teams"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "problem": "streamline page & teamspace permissions",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "streamline page & teamspace permissions"
+        }
+      ]
+    },
+    {
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": {
+        "orgTypes": [
+          "enterprise"
+        ],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "remove members from the workspace and groups but can’t access other security & billing settings"
+        }
+      ]
+    }
+  ],
+  "inferentialQuestions": [
+    {
+      "id": "pain-vent-0",
+      "text": "As an engineering lead, my team keeps struggling to streamline page & teamspace permissions.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-frustration-1",
+      "text": "We can never seem to streamline page & teamspace permissions -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-recurring-2",
+      "text": "Every week it's the same story: we just can't streamline page & teamspace permissions.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-best-way-3",
+      "text": "What's the best way to streamline page & teamspace permissions?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-how-to-4",
+      "text": "How do most teams manage to streamline page & teamspace permissions?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-advice-5",
+      "text": "We know we need to streamline page & teamspace permissions, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-6",
+      "text": "What criteria matter most when picking a tool to help streamline page & teamspace permissions?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-named-7",
+      "text": "Between Linear and Jira, which is better suited to help streamline page & teamspace permissions?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "streamline page & teamspace permissions",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-vent-8",
+      "text": "As an engineering lead, my team keeps struggling to remove members from the workspace and groups but can’t access other security & billing settings.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-frustration-9",
+      "text": "We can never seem to remove members from the workspace and groups but can’t access other security & billing settings -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-recurring-10",
+      "text": "Every week it's the same story: we just can't remove members from the workspace and groups but can’t access other security & billing settings.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "pain-vent-audience-11",
+      "text": "For enterprise, it's a constant challenge to remove members from the workspace and groups but can’t access other security & billing settings.",
+      "templateId": "pain-vent-audience",
+      "stage": "pain_only",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-best-way-12",
+      "text": "What's the best way to remove members from the workspace and groups but can’t access other security & billing settings?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-how-to-13",
+      "text": "How do most teams manage to remove members from the workspace and groups but can’t access other security & billing settings?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-advice-14",
+      "text": "We know we need to remove members from the workspace and groups but can’t access other security & billing settings, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-audience-way-15",
+      "text": "What's the best way for enterprise to remove members from the workspace and groups but can’t access other security & billing settings?",
+      "templateId": "problem-audience-way",
+      "stage": "problem_framed",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-criteria-audience-16",
+      "text": "What should I prioritize when choosing a tool for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+      "templateId": "comparison-criteria-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-named-audience-17",
+      "text": "Between Linear and Asana, which is better for enterprise that need to remove members from the workspace and groups but can’t access other security & billing settings?",
+      "templateId": "comparison-named-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "remove members from the workspace and groups but can’t access other security & billing settings",
+      "audience": [
+        "enterprise"
+      ],
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    }
+  ]
+}

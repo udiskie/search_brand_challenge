@@ -1,0 +1,11 @@
+{
+  "runId": "fdf4c340-8e5b-414c-af3e-9ee038f11ed2",
+  "promptId": "long-form-quote-match-0",
+  "promptText": "What tool matches this description: \"Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:13.254Z",
+  "finishReason": "STOP",
+  "rawText": "This description matches **ClickUp** (specifically promoting **ClickUp Brain** and its AI Work Platform). \n\nClickUp uses this branding to highlight its shift into an all-in-one AI work platform where human teams and AI agents collaborate on project execution, task management, and business operations."
+}

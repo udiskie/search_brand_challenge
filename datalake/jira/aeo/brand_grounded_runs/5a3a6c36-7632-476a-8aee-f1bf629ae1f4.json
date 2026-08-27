@@ -1,0 +1,11 @@
+{
+  "runId": "5a3a6c36-7632-476a-8aee-f1bf629ae1f4",
+  "promptId": "long-form-quote-match-2",
+  "promptText": "What tool matches this description: \"Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:03:35.612Z",
+  "finishReason": "STOP",
+  "rawText": "The tool described is **Atlassian Compass**.\n\n**Context:** \nAtlassian Compass is a developer portal and internal service catalog designed to help software engineering teams manage distributed architectures (microservices, APIs, libraries, etc.). \n\nThe description highlights key practices for using Compass, such as establishing team ownership over software components, monitoring adoption metrics, keeping catalog data accurate (data hygiene), and creating continuous improvement loops for engineering teams."
+}

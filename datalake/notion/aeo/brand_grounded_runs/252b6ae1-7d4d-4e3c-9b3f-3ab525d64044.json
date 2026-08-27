@@ -1,0 +1,11 @@
+{
+  "runId": "252b6ae1-7d4d-4e3c-9b3f-3ab525d64044",
+  "promptId": "long-form-quote-match-0",
+  "promptText": "What tool matches this description: \"Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:10:35.135Z",
+  "finishReason": "STOP",
+  "rawText": "This description is from **GitHub** (specifically used on its pricing pages and documentation). \n\n**GitHub** is the world's leading software development and version control platform, offering a range of plans including:\n* **Free:** For individual developers and small projects with basic features.\n* **Pro:** For advanced individual developers wanting extra features like higher storage and execution time.\n* **Team:** For collaborative teams needing advanced code review and management tools.\n* **Enterprise:** For large organizations requiring enterprise-grade security, compliance, deployment options (cloud or self-hosted), and dedicated support."
+}

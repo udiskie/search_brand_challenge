@@ -1,0 +1,22 @@
+{
+  "runId": "b408bec5-fbce-47d3-8cf1-631b388ff443",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Asana ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:58:16.047Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Asana que destaquen por ser **rápidas, intuitivas y sin complicaciones**, la clave está en reducir la curva de aprendizaje y eliminar funciones innecesarias. \n\nAquí tienes las mejores opciones agrupadas según su estilo de trabajo:\n\n---\n\n### 1. **Trello** (La mejor para organización visual)\nTrello es el rey de la simplicidad. Se basa en el sistema Kanban (tableros, columnas y tarjetas).\n* **Por qué es más rápido/simple que Asana:** No hay configuraciones complejas. Creas un tablero, añades tarjetas y las arrastras. Es completamente visual y muy rápido de entender para cualquier equipo.\n* **Ideal para:** Equipos pequeños, proyectos visuales o flujos de trabajo sencillos (Ej: *Por hacer -> En proceso -> Hecho*).\n* **Precio:** Tiene un plan gratuito muy completo.\n\n### 2. **Todoist (Business)** (La más rápida para listas y tareas)\nSi prefieres las listas de tareas en lugar de tableros grandes, Todoist es probablemente la herramienta más rápida del mercado.\n* **Por qué es más rápido/simple que Asana:** Su punto fuerte es la entrada de texto intuitiva. Puedes escribir *\"Reunión con cliente el jueves a las 10am p1\"* y la app crea la tarea, la fecha, la hora y la prioridad automáticamente. Carga al instante.\n* **Ideal para:** Personas o equipos que quieren gestionar tareas del día a día a la velocidad de la luz.\n* **Precio:** Plan gratuito básico; planes de pago muy accesibles para equipos.\n\n### 3. **MeisterTask** (Elegante, rápida y minimalista)\nEs muy similar a Trello, pero con un diseño más moderno, limpio y enfocado en la productividad sin distracciones.\n* **Por qué es más rápido/simple que Asana:** La interfaz es extremadamente limpia y fluida. Ofrece justo las funciones necesarias (automatizaciones básicas, etiquetas, tiempos) sin saturar la pantalla.\n* **Ideal para:** Equipos que buscan algo visual como Trello pero con un diseño más profesional y pulido.\n* **Precio:** Plan gratuito disponible (limitado) y planes pro económicos.\n\n### 4. **KanbanFlow** (Ultra ligera y sin adornos)\nSi buscas velocidad pura y cero distracciones visuales, KanbanFlow es una opción excelente (aunque su diseño sea más antiguo).\n* **Por qué es más rápido/simple que Asana:** La página carga en milisegundos. Es un tablero Kanban directo al grano que además incluye un temporizador Pomodoro integrado para medir el tiempo de trabajo.\n* **Ideal para:** Personas o equipos pequeños que priorizan la velocidad técnica y la gestión del tiempo por encima de una interfaz bonita.\n* **Precio:** Plan gratuito muy completo.\n\n### 5. **Plaky** (Similitud a Asana/Monday, pero gratis y simple)\nPlaky es una herramienta más reciente diseñada específicamente para ser una alternativa sencilla y gratuita a Asana o Monday.\n* **Por qué es más rápido/simple que Asana:** Ofrece la vista de lista/tabla de Asana pero sin las capas de complejidad. Es facilísima de configurar en 5 minutos.\n* **Ideal para:** Equipos que quieren la estructura de filas y columnas de Asana pero sin pagar y con una curva de aprendizaje nula.\n* **Precio:** Es 100% gratuita con usuarios y tareas ilimitadas.\n\n---\n\n### ¿Cuál deberías elegir?\n\n* **Si quieres algo súper visual:** Ve por **Trello**.\n* **Si quieres agilidad máxima escribiendo tareas:** Ve por **Todoist**.\n* **Si quieres algo similar a Asana pero gratis y fácil:** Ve por **Plaky**.\n* **Si valoras el diseño minimalista:** Ve por **MeisterTask**."
+}
