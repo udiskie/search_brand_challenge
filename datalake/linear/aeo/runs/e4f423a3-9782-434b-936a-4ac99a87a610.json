@@ -1,0 +1,22 @@
+{
+  "runId": "e4f423a3-9782-434b-936a-4ac99a87a610",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Linear ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Linear"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T15:31:21.987Z",
+  "finishReason": "STOP",
+  "rawText": "Linear es famoso por su velocidad extrema, su diseño minimalista y su enfoque en atajos de teclado. Si buscas alternativas que mantengan esa **rapidez, fluidez y simplicidad** (sin la complejidad ni la lentitud de herramientas como Jira o ClickUp), aquí tienes las mejores opciones actuales:\n\n---\n\n### 1. **Plane** (La alternativa Open Source más cercana)\nEs prácticamente el clon de código abierto de Linear. Está diseñado para equipos de software que buscan velocidad y una interfaz limpia sin distracciones.\n*   **Por qué es rápido y simple:** Su interfaz es casi idéntica a Linear. Carga al instante, tiene soporte para atajos de teclado y no te abruma con configuraciones innecesarias.\n*   **Lo mejor:** Puedes alojarlo en tu propio servidor (self-hosted) gratis o usar su versión en la nube.\n*   **Ideal para:** Equipos de desarrollo que quieren la experiencia de Linear pero en código abierto o con control total de sus datos.\n\n### 2. **Height**\nHeight se enfoca en la velocidad de entrada de datos y el flujo de trabajo automatizado. Es una de las herramientas más ágiles del mercado.\n*   **Por qué es rápido y simple:** Permite cambiar entre vistas (Kanban, lista, hoja de cálculo, calendario) al instante. Su buscador y creador de tareas son ultra rápidos. Además, incluye inteligencia artificial para asignar y actualizar tareas automáticamente.\n*   **Lo mejor:** Su vista estilo \"Excel/Spreadsheet\" permite editar docenas de tareas en segundos.\n*   **Ideal para:** Equipos multidisciplinarios (diseño, marketing, dev) que necesitan agilidad sin perder la simplicidad.\n\n### 3. **Shortcut** (Antes Clubhouse)\nFue uno de los inspiradores del concepto de gestión de proyectos rápida para desarrolladores. Es más estructurado que Linear pero igual de ágil.\n*   **Por qué es rápido y simple:** Su interfaz está optimizada para no dar clics de más. La navegación entre Historias (tasks), Epics e Iteraciones es fluida y sin tiempos de carga.\n*   **Lo mejor:** Excelente integración nativa con GitHub, GitLab y Bitbucket.\n*   **Ideal para:** Equipos de tecnología que han crecido un poco y necesitan un poco más de estructura que Linear, pero manteniendo la velocidad.\n\n### 4. **Superthread**\nUna herramienta moderna que combina **tareas rápidas estilo Linear con documentación estilo Notion**, pero sin la lentitud de Notion.\n*   **Por qué es rápido y simple:** Está construida desde cero pensando en el rendimiento. Puedes escribir documentos y convertirlos en tareas en segundos usando el teclado.\n*   **Lo mejor:** Elimina la necesidad de tener una app separada para notas/documentación y otra para tareas.\n*   **Ideal para:** Startups pequeñas que quieren simplicidad absoluta (Docs + Tasks en un solo lugar rápido).\n\n### 5. **GitHub Projects (v2)**\nSi tu equipo ya usa GitHub para el código, el nuevo *GitHub Projects* fue rediseñado por completo inspirándose fuertemente en Linear.\n*   **Por qué es rápido y simple:** Funciona con atajos de teclado (Command Palette), se carga al instante y vive en el mismo lugar donde está tu código.\n*   **Lo mejor:** Es **gratuito** si ya usas GitHub y no requiere configurar integraciones externas.\n*   **Ideal para:** Desarrolladores independientes o equipos 100% enfocados en código que no quieren pagar por otra herramienta.\n\n---\n\n### Resumen: ¿Cuál elegir?\n\n*   Si quieres **lo más parecido a Linear pero Gratis/Open Source**: Ve por **Plane**.\n*   Si quieres **rapidez estilo hoja de cálculo e IA**: Ve por **Height**.\n*   Si quieres **gestión de tareas + documentos rápidos**: Ve por **Superthread**.\n*   Si ya usas **GitHub** y no quieres pagar extra: Usa **GitHub Projects**."
+}

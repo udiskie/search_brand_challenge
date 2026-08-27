@@ -1,0 +1,22 @@
+{
+  "runId": "92a18cd8-cfa3-4959-8eb6-205e061ec8ff",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Linear ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Linear"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T15:31:23.251Z",
+  "finishReason": "STOP",
+  "rawText": "Linear se ha convertido en el estándar de oro en cuanto a velocidad, diseño minimalista y atajos de teclado. Buscar una alternativa requiere encontrar herramientas que mantengan esa **fluidez (sin tiempos de carga molestos)** y un **diseño limpio**.\n\nAquí tienes las mejores alternativas rápidas y simples de usar, divididas según tu caso de uso:\n\n---\n\n### 1. Las más parecidas a Linear (Rápidas, modernas y centradas en el teclado)\n\n*   **Height (height.app)**\n    *   **Por qué destaca:** Es extremadamente rápida y tiene una interfaz impecable. A diferencia de Linear (que está muy enfocada en desarrolladores), Height es más flexible y perfecta para equipos donde también hay diseñadores, marketing o producto.\n    *   **Lo mejor:** Atajos de teclado para todo, vistas en tiempo real (ves los cursores de tus compañeros) y flujos automáticos muy sencillos.\n    *   **Ideal para:** Equipos multidisciplinares que buscan la velocidad de Linear pero con más flexibilidad.\n\n*   **Plane (plane.so)**\n    *   **Por qué destaca:** Es literalmente la alternativa **Open Source** a Linear. Su interfaz es prácticamente idéntica en estética y velocidad.\n    *   **Lo mejor:** Puedes usar su versión en la nube o instalarla en tu propio servidor (self-hosted) gratis. Es muy ligera y directa.\n    *   **Ideal para:** Quienes aman el diseño de Linear pero prefieren código abierto o independencia de datos.\n\n*   **Kitemaker (kitemaker.co)**\n    *   **Por qué destaca:** Se diseñó específicamente para eliminar la \"burocracia\" de herramientas como Jira. Es ultra-minimalista y súper rápida.\n    *   **Lo mejor:** En lugar de centrarse solo en mover tarjetas, integra las discusiones y la documentación dentro del mismo flujo de trabajo para no perder tiempo.\n    *   **Ideal para:** Equipos pequeños de producto que quieren cero distracciones.\n\n---\n\n### 2. Alternativas simplificadas para gestión ágil\n\n*   **Shortcut (shortcut.com)** *(Antes Clubhouse)*\n    *   **Por qué destaca:** Nació como el punto medio entre la simplicidad de Trello y la potencia de Jira. Es una aplicación web muy rápida y bien optimizada.\n    *   **Lo mejor:** Muy fácil de configurar, excelente integración con GitHub/GitLab y escalas muy bien a medida que el equipo crece.\n    *   **Ideal para:** Equipos de software que sienten que Linear es demasiado rígido pero Jira es demasiado lento.\n\n*   **Superthread (superthread.com)**\n    *   **Por qué destaca:** Combina la velocidad de gestión de tareas de Linear con la creación de documentos al estilo Notion, pero sin la lentitud de este último.\n    *   **Lo mejor:** Es rapidísima, rápida de aprender y permite tener notas y tableros Kanban al lado uno del otro.\n    *   **Ideal para:** Quienes quieren simplicidad visual, tareas y notas en un solo lugar ultra-rápido.\n\n---\n\n### 3. Las ultra-simples (Si buscas costo de aprendizaje cero)\n\n*   **Trello**\n    *   **Por qué destaca:** El clásico tablero Kanban. No hay atajos de teclado avanzados ni flujos de software complejos, pero la creas y en 30 segundos estás trabajando.\n    *   **Ideal para:** Proyectos donde no necesitas métricas avanzadas ni integración profunda con código, solo saber qué está *Pendiente*, *En proceso* y *Hecho*.\n\n---\n\n### Resumen: ¿Cuál elegir?\n\n1.  Si quieres **lo más cercano a Linear (pero gratis/Open Source)** $\\rightarrow$ **Plane**\n2.  Si tienes **diseñadores o gente de marketing** en el equipo $\\rightarrow$ **Height**\n3.  Si quieres **la máxima simplicidad sin configuraciones** $\\rightarrow$ **Kitemaker**"
+}
