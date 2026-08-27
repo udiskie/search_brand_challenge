@@ -183,17 +183,40 @@ export async function runAeoAudit(
       );
     }
 
-    let brandGroundedPrompts: BrandGroundedPrompt[] = [];
-    if (source === "hooks" || source === "both") {
-      brandGroundedPrompts.push(...hookQuestionsToPrompts(candidateQuestions.hookQuestions));
-    }
-    if (source === "inferential" || source === "both") {
-      brandGroundedPrompts.push(
-        ...inferentialQuestionsToPrompts(candidateQuestions.inferentialQuestions)
+    const hookPrompts =
+      source === "hooks" || source === "both"
+        ? hookQuestionsToPrompts(candidateQuestions.hookQuestions)
+        : [];
+    const inferentialPrompts =
+      source === "inferential" || source === "both"
+        ? inferentialQuestionsToPrompts(candidateQuestions.inferentialQuestions)
+        : [];
+
+    let brandGroundedPrompts: BrandGroundedPrompt[];
+    if (limit === undefined) {
+      brandGroundedPrompts = [...hookPrompts, ...inferentialPrompts];
+    } else if (source === "both") {
+      // Split the limit fairly (roughly half each) between both sources
+      // rather than concatenating-then-slicing -- found running this
+      // live: with 90 hook questions and a small limit, a naive slice
+      // never reached a single inferential question, defeating the point
+      // of "both". If either source has fewer than its share available,
+      // top up from whichever source has spare capacity, so a small
+      // source (e.g. only 1 inferential claim) doesn't shrink the total
+      // below `limit`.
+      const hookShare = Math.ceil(limit / 2);
+      const inferentialShare = limit - hookShare;
+      const hookSlice = hookPrompts.slice(0, hookShare);
+      const inferentialSlice = inferentialPrompts.slice(0, inferentialShare);
+      const shortfall = limit - hookSlice.length - inferentialSlice.length;
+      const extraHooks = hookPrompts.slice(hookSlice.length, hookSlice.length + shortfall);
+      const extraInferential = inferentialPrompts.slice(
+        inferentialSlice.length,
+        inferentialSlice.length + (shortfall - extraHooks.length)
       );
-    }
-    if (limit !== undefined) {
-      brandGroundedPrompts = brandGroundedPrompts.slice(0, limit);
+      brandGroundedPrompts = [...hookSlice, ...extraHooks, ...inferentialSlice, ...extraInferential];
+    } else {
+      brandGroundedPrompts = [...hookPrompts, ...inferentialPrompts].slice(0, limit);
     }
 
     const brandGroundedRuns = await runGeminiForBrandGroundedPrompts(

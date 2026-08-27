@@ -1,4 +1,4 @@
-import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { mkdtempSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
@@ -304,5 +304,57 @@ describe("runAeoAudit", () => {
 
     // 2 hook questions available, limit=1 -> only 1 prompt x 1 run.
     expect(summary.brandGroundedRunCount).toBe(1);
+  });
+
+  it("splits the limit fairly between hooks and inferential when source is 'both'", async () => {
+    await seedScraperOutput("linear");
+    // 10 hook questions available (far more than the limit), 1 inferential.
+    await writeJson(
+      path.join(productDir("linear"), "questions", "candidate_user_questions.json"),
+      {
+        hookQuestions: Array.from({ length: 10 }, (_, i) => ({
+          id: `h${i}`,
+          text: `Hook question ${i}`,
+          templateId: "direct-differentiator",
+          hook: `hook-${i}`,
+          hookSource: "tagcloud",
+          evidenceUrls: [],
+        })),
+        inferentialQuestions: [
+          {
+            id: "i0",
+            text: "Inferential question 0",
+            templateId: "pain-vent",
+            stage: "pain_only",
+            problem: "x",
+            audience: [],
+            evidenceUrls: [],
+          },
+        ],
+      }
+    );
+
+    const summary = await runAeoAudit(
+      {
+        product: "linear",
+        auditConfig: baseAuditConfig,
+        geminiConfig: baseGeminiConfig,
+        includeBrandGroundedQuestions: { source: "both", runsPerPrompt: 1, limit: 4 },
+      },
+      geminiFetch("Linear is great.")
+    );
+
+    expect(summary.brandGroundedRunCount).toBe(4);
+
+    // Without the fair split, a naive concat-then-slice would take 4 hook
+    // questions and 0 inferential ones -- assert both sources actually
+    // appear among the raw runs sent to Gemini.
+    const runDir = path.join(tmpDir, "datalake", "linear", "aeo", "brand_grounded_runs");
+    const runFiles = readdirSync(runDir);
+    const sources = runFiles.map(
+      (f) => JSON.parse(readFileSync(path.join(runDir, f), "utf-8")).source
+    );
+    expect(sources).toContain("hook");
+    expect(sources).toContain("inferential");
   });
 });
