@@ -81,9 +81,12 @@ site's own phrasing (a weaker "floor" signal — a pass may just mean the
 model recognized indexed text), and **inferential** questions that
 paraphrase the problem the product claims to solve, for whom, without
 quoting the site at all (a stronger signal — requires genuine inference).
+The inferential derivative spans three points on the awareness ladder:
+pain-only (no solution ask), problem-framed (open "what's the best way"),
+and comparing-with-criteria (named-option comparison, using `--competitors`).
 
 ```bash
-npm run questions -- --product <name> --brand <Brand>
+npm run questions -- --product <name> --brand <Brand> [--competitors <A,B,...>]
 ```
 
 Writes `datalake/{product}/questions/candidate_user_questions.{json,md}`

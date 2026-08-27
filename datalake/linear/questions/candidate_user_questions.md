@@ -1,6 +1,6 @@
 # Candidate user questions grounded in Linear's own site content
 
-24 hooks and 6 problem/audience claims scanned from the data lake, 106 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
+24 hooks and 6 problem/audience claims scanned from the data lake, 142 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
 
 ## Part 1: Direct hook-grounded questions
 
@@ -347,9 +347,19 @@ Audience detected: (none detected)
 Evidence:
 - [https://linear.app/pricing](https://linear.app/pricing): "enable unlimited issues, enhanced security controls, and additional features"
 
-Candidate questions:
-- As an engineering lead, I'm trying to enable unlimited issues, enhanced security controls, and additional features. What should I use?
-- What's a good way to enable unlimited issues, enhanced security controls, and additional features?
+**Pain-only (no solution ask):**
+- As an engineering lead, my team keeps struggling to enable unlimited issues, enhanced security controls, and additional features.
+- We can never seem to enable unlimited issues, enhanced security controls, and additional features -- it's honestly exhausting.
+- Every week it's the same story: we just can't enable unlimited issues, enhanced security controls, and additional features.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to enable unlimited issues, enhanced security controls, and additional features?
+- How do most teams manage to enable unlimited issues, enhanced security controls, and additional features?
+- We know we need to enable unlimited issues, enhanced security controls, and additional features, but we're not sure how. Any advice?
+
+**Comparing with criteria (solution-aware):**
+- What criteria matter most when picking a tool to help enable unlimited issues, enhanced security controls, and additional features?
+- Between Jira and Asana, which is better suited to help enable unlimited issues, enhanced security controls, and additional features?
 
 ### Problem: "improve the speed, value, and joy of your work"
 
@@ -358,9 +368,19 @@ Audience detected: (none detected)
 Evidence:
 - [https://linear.app/docs](https://linear.app/docs): "improve the speed, value, and joy of your work"
 
-Candidate questions:
-- As a product manager at a large company, I'm trying to improve the speed, value, and joy of your work. What should I use?
-- What's a good way to improve the speed, value, and joy of your work?
+**Pain-only (no solution ask):**
+- As an engineering lead, my team keeps struggling to improve the speed, value, and joy of your work.
+- We can never seem to improve the speed, value, and joy of your work -- it's honestly exhausting.
+- Every week it's the same story: we just can't improve the speed, value, and joy of your work.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to improve the speed, value, and joy of your work?
+- How do most teams manage to improve the speed, value, and joy of your work?
+- We know we need to improve the speed, value, and joy of your work, but we're not sure how. Any advice?
+
+**Comparing with criteria (solution-aware):**
+- What criteria matter most when picking a tool to help improve the speed, value, and joy of your work?
+- Between Jira and Monday, which is better suited to help improve the speed, value, and joy of your work?
 
 ### Problem: "plan, track, and deliver work without a lot of overhead"
 
@@ -369,9 +389,19 @@ Audience detected: (none detected)
 Evidence:
 - [https://linear.app/docs/start-guide](https://linear.app/docs/start-guide): "helps teams plan, track, and deliver work without a lot of overhead"
 
-Candidate questions:
-- As an engineering lead, I'm trying to plan, track, and deliver work without a lot of overhead. What should I use?
-- What's a good way to plan, track, and deliver work without a lot of overhead?
+**Pain-only (no solution ask):**
+- As an engineering lead, my team keeps struggling to plan, track, and deliver work without a lot of overhead.
+- We can never seem to plan, track, and deliver work without a lot of overhead -- it's honestly exhausting.
+- Every week it's the same story: we just can't plan, track, and deliver work without a lot of overhead.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to plan, track, and deliver work without a lot of overhead?
+- How do most teams manage to plan, track, and deliver work without a lot of overhead?
+- We know we need to plan, track, and deliver work without a lot of overhead, but we're not sure how. Any advice?
+
+**Comparing with criteria (solution-aware):**
+- What criteria matter most when picking a tool to help plan, track, and deliver work without a lot of overhead?
+- Between Jira and Notion, which is better suited to help plan, track, and deliver work without a lot of overhead?
 
 ### Problem: "ship with high velocity and focus"
 
@@ -380,11 +410,21 @@ Audience detected: product teams, product team
 Evidence:
 - [https://linear.app/](https://linear.app/): "help teams ship with high velocity and focus"
 
-Candidate questions:
-- As a product manager at a large company, I'm trying to ship with high velocity and focus. What should I use?
-- What's a good way to ship with high velocity and focus?
-- What tool would you recommend for product teams that need to ship with high velocity and focus?
-- Is there a tool built specifically for product teams to ship with high velocity and focus?
+**Pain-only (no solution ask):**
+- As an engineering lead, my team keeps struggling to ship with high velocity and focus.
+- We can never seem to ship with high velocity and focus -- it's honestly exhausting.
+- Every week it's the same story: we just can't ship with high velocity and focus.
+- For product teams, it's a constant challenge to ship with high velocity and focus.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to ship with high velocity and focus?
+- How do most teams manage to ship with high velocity and focus?
+- We know we need to ship with high velocity and focus, but we're not sure how. Any advice?
+- What's the best way for product teams to ship with high velocity and focus?
+
+**Comparing with criteria (solution-aware):**
+- What should I prioritize when choosing a tool for product teams that need to ship with high velocity and focus?
+- Between Asana and Monday, which is better for product teams that need to ship with high velocity and focus?
 
 ### Problem: "restore momentum to help teams ship with high velocity and focus"
 
@@ -393,11 +433,21 @@ Audience detected: product teams, product team
 Evidence:
 - [https://linear.app/](https://linear.app/): "restores momentum to help teams ship with high velocity and focus"
 
-Candidate questions:
-- As a product manager at a large company, I'm trying to restore momentum to help teams ship with high velocity and focus. What should I use?
-- What's a good way to restore momentum to help teams ship with high velocity and focus?
-- What tool would you recommend for product teams that need to restore momentum to help teams ship with high velocity and focus?
-- Is there a tool built specifically for product teams to restore momentum to help teams ship with high velocity and focus?
+**Pain-only (no solution ask):**
+- As a product manager at a large company, my team keeps struggling to restore momentum to help teams ship with high velocity and focus.
+- We can never seem to restore momentum to help teams ship with high velocity and focus -- it's honestly exhausting.
+- Every week it's the same story: we just can't restore momentum to help teams ship with high velocity and focus.
+- For product teams, it's a constant challenge to restore momentum to help teams ship with high velocity and focus.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to restore momentum to help teams ship with high velocity and focus?
+- How do most teams manage to restore momentum to help teams ship with high velocity and focus?
+- We know we need to restore momentum to help teams ship with high velocity and focus, but we're not sure how. Any advice?
+- What's the best way for product teams to restore momentum to help teams ship with high velocity and focus?
+
+**Comparing with criteria (solution-aware):**
+- What should I prioritize when choosing a tool for product teams that need to restore momentum to help teams ship with high velocity and focus?
+- Between Asana and Notion, which is better for product teams that need to restore momentum to help teams ship with high velocity and focus?
 
 ### Problem: "draft PRs and fix bugs, and more"
 
@@ -406,6 +456,16 @@ Audience detected: (none detected)
 Evidence:
 - [https://linear.app/docs/changes-to-linears-pricing-plans](https://linear.app/docs/changes-to-linears-pricing-plans): "help draft PRs and fix bugs, and more"
 
-Candidate questions:
-- As a product manager at a large company, I'm trying to draft PRs and fix bugs, and more. What should I use?
-- What's a good way to draft PRs and fix bugs, and more?
+**Pain-only (no solution ask):**
+- As an engineering lead, my team keeps struggling to draft PRs and fix bugs, and more.
+- We can never seem to draft PRs and fix bugs, and more -- it's honestly exhausting.
+- Every week it's the same story: we just can't draft PRs and fix bugs, and more.
+
+**Problem-framed (solution-unaware):**
+- What's the best way to draft PRs and fix bugs, and more?
+- How do most teams manage to draft PRs and fix bugs, and more?
+- We know we need to draft PRs and fix bugs, and more, but we're not sure how. Any advice?
+
+**Comparing with criteria (solution-aware):**
+- What criteria matter most when picking a tool to help draft PRs and fix bugs, and more?
+- Between Monday and Notion, which is better suited to help draft PRs and fix bugs, and more?

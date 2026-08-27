@@ -1480,9 +1480,10 @@
   ],
   "inferentialQuestions": [
     {
-      "id": "persona-problem-0",
-      "text": "As an engineering lead, I'm trying to enable unlimited issues, enhanced security controls, and additional features. What should I use?",
-      "templateId": "persona-problem",
+      "id": "pain-vent-0",
+      "text": "As an engineering lead, my team keeps struggling to enable unlimited issues, enhanced security controls, and additional features.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "enable unlimited issues, enhanced security controls, and additional features",
       "audience": [],
       "evidenceUrls": [
@@ -1490,9 +1491,10 @@
       ]
     },
     {
-      "id": "generic-problem-only-1",
-      "text": "What's a good way to enable unlimited issues, enhanced security controls, and additional features?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-1",
+      "text": "We can never seem to enable unlimited issues, enhanced security controls, and additional features -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
       "problem": "enable unlimited issues, enhanced security controls, and additional features",
       "audience": [],
       "evidenceUrls": [
@@ -1500,9 +1502,76 @@
       ]
     },
     {
-      "id": "persona-problem-2",
-      "text": "As a product manager at a large company, I'm trying to improve the speed, value, and joy of your work. What should I use?",
-      "templateId": "persona-problem",
+      "id": "pain-recurring-2",
+      "text": "Every week it's the same story: we just can't enable unlimited issues, enhanced security controls, and additional features.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "problem-best-way-3",
+      "text": "What's the best way to enable unlimited issues, enhanced security controls, and additional features?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "problem-how-to-4",
+      "text": "How do most teams manage to enable unlimited issues, enhanced security controls, and additional features?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "problem-advice-5",
+      "text": "We know we need to enable unlimited issues, enhanced security controls, and additional features, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-6",
+      "text": "What criteria matter most when picking a tool to help enable unlimited issues, enhanced security controls, and additional features?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "comparison-named-7",
+      "text": "Between Jira and Asana, which is better suited to help enable unlimited issues, enhanced security controls, and additional features?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "pain-vent-8",
+      "text": "As an engineering lead, my team keeps struggling to improve the speed, value, and joy of your work.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "improve the speed, value, and joy of your work",
       "audience": [],
       "evidenceUrls": [
@@ -1510,9 +1579,10 @@
       ]
     },
     {
-      "id": "generic-problem-only-3",
-      "text": "What's a good way to improve the speed, value, and joy of your work?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-9",
+      "text": "We can never seem to improve the speed, value, and joy of your work -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
       "problem": "improve the speed, value, and joy of your work",
       "audience": [],
       "evidenceUrls": [
@@ -1520,9 +1590,76 @@
       ]
     },
     {
-      "id": "persona-problem-4",
-      "text": "As an engineering lead, I'm trying to plan, track, and deliver work without a lot of overhead. What should I use?",
-      "templateId": "persona-problem",
+      "id": "pain-recurring-10",
+      "text": "Every week it's the same story: we just can't improve the speed, value, and joy of your work.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "problem-best-way-11",
+      "text": "What's the best way to improve the speed, value, and joy of your work?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "problem-how-to-12",
+      "text": "How do most teams manage to improve the speed, value, and joy of your work?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "problem-advice-13",
+      "text": "We know we need to improve the speed, value, and joy of your work, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-14",
+      "text": "What criteria matter most when picking a tool to help improve the speed, value, and joy of your work?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "comparison-named-15",
+      "text": "Between Jira and Monday, which is better suited to help improve the speed, value, and joy of your work?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "pain-vent-16",
+      "text": "As an engineering lead, my team keeps struggling to plan, track, and deliver work without a lot of overhead.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "plan, track, and deliver work without a lot of overhead",
       "audience": [],
       "evidenceUrls": [
@@ -1530,9 +1667,10 @@
       ]
     },
     {
-      "id": "generic-problem-only-5",
-      "text": "What's a good way to plan, track, and deliver work without a lot of overhead?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-17",
+      "text": "We can never seem to plan, track, and deliver work without a lot of overhead -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
       "problem": "plan, track, and deliver work without a lot of overhead",
       "audience": [],
       "evidenceUrls": [
@@ -1540,9 +1678,76 @@
       ]
     },
     {
-      "id": "persona-problem-6",
-      "text": "As a product manager at a large company, I'm trying to ship with high velocity and focus. What should I use?",
-      "templateId": "persona-problem",
+      "id": "pain-recurring-18",
+      "text": "Every week it's the same story: we just can't plan, track, and deliver work without a lot of overhead.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "problem-best-way-19",
+      "text": "What's the best way to plan, track, and deliver work without a lot of overhead?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "problem-how-to-20",
+      "text": "How do most teams manage to plan, track, and deliver work without a lot of overhead?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "problem-advice-21",
+      "text": "We know we need to plan, track, and deliver work without a lot of overhead, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-22",
+      "text": "What criteria matter most when picking a tool to help plan, track, and deliver work without a lot of overhead?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "comparison-named-23",
+      "text": "Between Jira and Notion, which is better suited to help plan, track, and deliver work without a lot of overhead?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "pain-vent-24",
+      "text": "As an engineering lead, my team keeps struggling to ship with high velocity and focus.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1553,9 +1758,10 @@
       ]
     },
     {
-      "id": "generic-problem-only-7",
-      "text": "What's a good way to ship with high velocity and focus?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-25",
+      "text": "We can never seem to ship with high velocity and focus -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
       "problem": "ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1566,9 +1772,10 @@
       ]
     },
     {
-      "id": "problem-for-audience-8",
-      "text": "What tool would you recommend for product teams that need to ship with high velocity and focus?",
-      "templateId": "problem-for-audience",
+      "id": "pain-recurring-26",
+      "text": "Every week it's the same story: we just can't ship with high velocity and focus.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
       "problem": "ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1579,9 +1786,10 @@
       ]
     },
     {
-      "id": "audience-fit-question-9",
-      "text": "Is there a tool built specifically for product teams to ship with high velocity and focus?",
-      "templateId": "audience-fit-question",
+      "id": "pain-vent-audience-27",
+      "text": "For product teams, it's a constant challenge to ship with high velocity and focus.",
+      "templateId": "pain-vent-audience",
+      "stage": "pain_only",
       "problem": "ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1592,9 +1800,94 @@
       ]
     },
     {
-      "id": "persona-problem-10",
-      "text": "As a product manager at a large company, I'm trying to restore momentum to help teams ship with high velocity and focus. What should I use?",
-      "templateId": "persona-problem",
+      "id": "problem-best-way-28",
+      "text": "What's the best way to ship with high velocity and focus?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-how-to-29",
+      "text": "How do most teams manage to ship with high velocity and focus?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-advice-30",
+      "text": "We know we need to ship with high velocity and focus, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-audience-way-31",
+      "text": "What's the best way for product teams to ship with high velocity and focus?",
+      "templateId": "problem-audience-way",
+      "stage": "problem_framed",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-criteria-audience-32",
+      "text": "What should I prioritize when choosing a tool for product teams that need to ship with high velocity and focus?",
+      "templateId": "comparison-criteria-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-named-audience-33",
+      "text": "Between Asana and Monday, which is better for product teams that need to ship with high velocity and focus?",
+      "templateId": "comparison-named-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "pain-vent-34",
+      "text": "As a product manager at a large company, my team keeps struggling to restore momentum to help teams ship with high velocity and focus.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "restore momentum to help teams ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1605,9 +1898,10 @@
       ]
     },
     {
-      "id": "generic-problem-only-11",
-      "text": "What's a good way to restore momentum to help teams ship with high velocity and focus?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-35",
+      "text": "We can never seem to restore momentum to help teams ship with high velocity and focus -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
       "problem": "restore momentum to help teams ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1618,9 +1912,10 @@
       ]
     },
     {
-      "id": "problem-for-audience-12",
-      "text": "What tool would you recommend for product teams that need to restore momentum to help teams ship with high velocity and focus?",
-      "templateId": "problem-for-audience",
+      "id": "pain-recurring-36",
+      "text": "Every week it's the same story: we just can't restore momentum to help teams ship with high velocity and focus.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
       "problem": "restore momentum to help teams ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1631,9 +1926,10 @@
       ]
     },
     {
-      "id": "audience-fit-question-13",
-      "text": "Is there a tool built specifically for product teams to restore momentum to help teams ship with high velocity and focus?",
-      "templateId": "audience-fit-question",
+      "id": "pain-vent-audience-37",
+      "text": "For product teams, it's a constant challenge to restore momentum to help teams ship with high velocity and focus.",
+      "templateId": "pain-vent-audience",
+      "stage": "pain_only",
       "problem": "restore momentum to help teams ship with high velocity and focus",
       "audience": [
         "product teams",
@@ -1644,9 +1940,94 @@
       ]
     },
     {
-      "id": "persona-problem-14",
-      "text": "As a product manager at a large company, I'm trying to draft PRs and fix bugs, and more. What should I use?",
-      "templateId": "persona-problem",
+      "id": "problem-best-way-38",
+      "text": "What's the best way to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-how-to-39",
+      "text": "How do most teams manage to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-advice-40",
+      "text": "We know we need to restore momentum to help teams ship with high velocity and focus, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-audience-way-41",
+      "text": "What's the best way for product teams to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "problem-audience-way",
+      "stage": "problem_framed",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-criteria-audience-42",
+      "text": "What should I prioritize when choosing a tool for product teams that need to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "comparison-criteria-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-named-audience-43",
+      "text": "Between Asana and Notion, which is better for product teams that need to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "comparison-named-audience",
+      "stage": "comparing_with_criteria",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "pain-vent-44",
+      "text": "As an engineering lead, my team keeps struggling to draft PRs and fix bugs, and more.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
       "problem": "draft PRs and fix bugs, and more",
       "audience": [],
       "evidenceUrls": [
@@ -1654,9 +2035,76 @@
       ]
     },
     {
-      "id": "generic-problem-only-15",
-      "text": "What's a good way to draft PRs and fix bugs, and more?",
-      "templateId": "generic-problem-only",
+      "id": "pain-frustration-45",
+      "text": "We can never seem to draft PRs and fix bugs, and more -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "pain-recurring-46",
+      "text": "Every week it's the same story: we just can't draft PRs and fix bugs, and more.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-best-way-47",
+      "text": "What's the best way to draft PRs and fix bugs, and more?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-how-to-48",
+      "text": "How do most teams manage to draft PRs and fix bugs, and more?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-advice-49",
+      "text": "We know we need to draft PRs and fix bugs, and more, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-50",
+      "text": "What criteria matter most when picking a tool to help draft PRs and fix bugs, and more?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "comparison-named-51",
+      "text": "Between Monday and Notion, which is better suited to help draft PRs and fix bugs, and more?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
       "problem": "draft PRs and fix bugs, and more",
       "audience": [],
       "evidenceUrls": [
