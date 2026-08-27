@@ -29,6 +29,9 @@ export default async function ClustersPage(
 
   if (!clustering) notFound();
 
+  const otherMethod: ClusteringMethod = clustering.method === "taxonomy" ? "llm" : "taxonomy";
+  const otherClustering = fellBackFrom ? undefined : await getThemeClusters(product, otherMethod);
+
   const totalQuestions = clustering.themes.reduce((sum, t) => sum + t.questions.length, 0);
   const totalMentioning = clustering.themes.reduce(
     (sum, t) => sum + t.neutralAnswers.runsMentioning + t.brandGroundedAnswers.runsMentioning,
@@ -85,6 +88,15 @@ export default async function ClustersPage(
               LLM-based
             </Link>
           </div>
+          {otherClustering ? (
+            <p className="mt-2 text-xs text-muted-foreground">
+              Compared to {METHOD_LABELS[otherMethod].toLowerCase()}:{" "}
+              {clustering.themes.length} theme{clustering.themes.length === 1 ? "" : "s"} vs.{" "}
+              {otherClustering.themes.length}, {clustering.unclustered.length} unclustered term
+              {clustering.unclustered.length === 1 ? "" : "s"} vs.{" "}
+              {otherClustering.unclustered.length}.
+            </p>
+          ) : null}
         </div>
 
         <Panel title="Theme size (combined term score)">
