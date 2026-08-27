@@ -71,6 +71,22 @@ Run the full test suite (scraper + AEO) with:
 npm test
 ```
 
+## User question generator (early development)
+
+Scans a product's scraper output for its own distinctive positioning
+language and generates candidate end-user-style questions grounded in it —
+the opposite goal of the AEO prompt generator above (neutral benchmarking
+vs. brand-grounded questions likely to elicit an organic mention).
+
+```bash
+npm run questions -- --product <name> --brand <Brand>
+```
+
+Writes `datalake/{product}/questions/candidate_user_questions.{json,md}`.
+See `.claude/skills/user-question-generator/SKILL.md` for how hooks are
+scanned, how templates are chosen, and known limitations (this is an early
+increment, not yet wired into the AEO measurement pipeline).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
