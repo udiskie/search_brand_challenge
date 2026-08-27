@@ -5,7 +5,7 @@ import type { BrandGroundedRunResult } from "@/aeo/types";
 import { Badge } from "@/components/ui/badge";
 import { Panel } from "./Panel";
 import { RunOutcome } from "./RunOutcome";
-import { SortSelect, type SortOption } from "./SortSelect";
+import { TagCheckboxFilter, type TagFilterGroup } from "./TagCheckboxFilter";
 
 interface BrandGroundedGroup {
   promptId: string;
@@ -36,52 +36,65 @@ function groupBrandGroundedRuns(runs: BrandGroundedRunResult[]): BrandGroundedGr
   return [...groups.values()];
 }
 
-type SortKey = "default" | "source" | "stage" | "runs-desc" | "runs-asc" | "text";
+function uniqueSorted(values: string[]): string[] {
+  return [...new Set(values)].sort();
+}
 
-const SORT_OPTIONS: SortOption<SortKey>[] = [
-  { value: "default", label: "Generation order" },
-  { value: "source", label: "Source" },
-  { value: "stage", label: "Awareness stage" },
-  { value: "runs-desc", label: "Runs (most first)" },
-  { value: "runs-asc", label: "Runs (fewest first)" },
-  { value: "text", label: "Prompt text (A–Z)" },
-];
+function tagsForGroup(group: BrandGroundedGroup): string[] {
+  const tags = [`source:${group.source}`];
+  if (group.stage) tags.push(`stage:${group.stage}`);
+  return tags;
+}
 
 export function BrandGroundedPromptsPanel({ runs }: { runs: BrandGroundedRunResult[] }) {
-  const [sort, setSort] = useState<SortKey>("default");
+  const [selected, setSelected] = useState<Set<string>>(new Set());
 
   const groups = useMemo(() => groupBrandGroundedRuns(runs), [runs]);
 
-  const items = useMemo(() => {
-    const withIndex = groups.map((group, index) => ({ group, index }));
+  const filterGroups: TagFilterGroup[] = useMemo(
+    () => [
+      {
+        label: "Source",
+        options: uniqueSorted(groups.map((g) => g.source)).map((v) => ({
+          key: `source:${v}`,
+          label: v,
+        })),
+      },
+      {
+        label: "Awareness stage",
+        options: uniqueSorted(groups.filter((g) => g.stage).map((g) => g.stage as string)).map(
+          (v) => ({ key: `stage:${v}`, label: v })
+        ),
+      },
+    ],
+    [groups]
+  );
 
-    withIndex.sort((a, b) => {
-      switch (sort) {
-        case "source":
-          return a.group.source.localeCompare(b.group.source);
-        case "stage":
-          return (a.group.stage ?? "").localeCompare(b.group.stage ?? "");
-        case "runs-desc":
-          return b.group.runs.length - a.group.runs.length;
-        case "runs-asc":
-          return a.group.runs.length - b.group.runs.length;
-        case "text":
-          return a.group.text.localeCompare(b.group.text);
-        default:
-          return a.index - b.index;
-      }
+  function toggle(key: string) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
     });
+  }
 
-    return withIndex;
-  }, [groups, sort]);
+  const items = useMemo(() => {
+    if (selected.size === 0) return groups;
+    return groups.filter((group) => {
+      const tags = new Set(tagsForGroup(group));
+      return [...selected].every((tag) => tags.has(tag));
+    });
+  }, [groups, selected]);
 
   return (
-    <Panel
-      title={`Brand-grounded prompts (${runs.length} runs)`}
-      action={<SortSelect value={sort} onChange={setSort} options={SORT_OPTIONS} />}
-    >
+    <Panel title={`Brand-grounded prompts (${runs.length} runs)`}>
+      <TagCheckboxFilter groups={filterGroups} selected={selected} onToggle={toggle} />
+      <p className="mt-2 mb-4 text-xs text-muted-foreground">
+        Showing {items.length} of {groups.length}
+      </p>
       <div className="space-y-4">
-        {items.map(({ group }) => (
+        {items.map((group) => (
           <div key={group.promptId} className="border-b border-border/60 pb-4 last:border-0 last:pb-0">
             <p className="text-sm font-medium">{group.text}</p>
             <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
