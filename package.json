@@ -12,6 +12,7 @@
     "lint": "eslint",
     "scrape": "tsx src/scraper/cli.ts",
     "aeo": "tsx src/aeo/cli.ts",
+    "questions": "tsx src/questionGenerator/cli.ts",
     "test": "vitest run"
   },
   "dependencies": {
