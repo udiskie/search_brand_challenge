@@ -1,0 +1,177 @@
+[
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://monday.com/academy",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://monday.com/academy/view/certification/work-management-core-certification",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "seo",
+    "finding": "Missing H1 on https://monday.com/academy/view/lesson/admin-essentials",
+    "impact": "medium",
+    "effort": "low",
+    "suggestedAction": "Add a single, descriptive H1 heading to the page."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/crm/campaigns/pricing",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/crm/pricing",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/help",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://monday.com/help (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/lang/de/help",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://monday.com/lang/de/help (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://monday.com/academy (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/academy",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://monday.com/academy (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://monday.com/academy/view/certification/work-management-core-certification (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/academy/view/certification/work-management-core-certification",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://monday.com/academy/view/certification/work-management-core-certification (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Low factual density on https://monday.com/academy/view/lesson/admin-essentials (mostly promotional language)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+  },
+  {
+    "dimension": "geo",
+    "finding": "No visible author or publish date on https://monday.com/academy/view/lesson/admin-essentials",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Add a visible byline and publish/update date."
+  },
+  {
+    "dimension": "geo",
+    "finding": "Little extractable structure on https://monday.com/academy/view/lesson/admin-essentials (no lists/tables/definitions)",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Break key content into lists, tables, or definition blocks."
+  },
+  {
+    "dimension": "aeo",
+    "finding": "Top site keywords the model never uses when describing Monday: app, marketplace, agents, apps, min",
+    "impact": "medium",
+    "effort": "medium",
+    "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."
+  },
+  {
+    "dimension": "seo",
+    "finding": "2 H1 tags on https://monday.com/",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Keep exactly one H1 per page; demote the rest to H2/H3."
+  },
+  {
+    "dimension": "seo",
+    "finding": "361 images missing alt text across 10 crawled pages",
+    "impact": "low",
+    "effort": "low",
+    "suggestedAction": "Add descriptive alt text to every content image."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://monday.com/academy",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://monday.com/academy/view/certification/work-management-core-certification",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  },
+  {
+    "dimension": "seo",
+    "finding": "No schema.org markup on https://monday.com/academy/view/lesson/admin-essentials",
+    "impact": "low",
+    "effort": "medium",
+    "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+  }
+]

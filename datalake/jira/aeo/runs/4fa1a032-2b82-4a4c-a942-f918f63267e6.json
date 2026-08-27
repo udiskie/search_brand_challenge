@@ -1,0 +1,22 @@
+{
+  "runId": "4fa1a032-2b82-4a4c-a942-f918f63267e6",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Jira ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T18:53:55.727Z",
+  "finishReason": "STOP",
+  "rawText": "Jira es una herramienta muy potente, pero es conocida por ser lenta, compleja de configurar y abrumadora para muchos equipos. \n\nSi buscas alternativas **rápidas, con interfaces limpias y de inicio inmediato**, aquí tienes las mejores opciones divididas según tu tipo de equipo:\n\n---\n\n### 1. Para equipos de desarrollo de software (Los \"Jira Killers\")\n\n*   **Linear** *(La reina de la velocidad)*\n    *   **¿Por qué elegirla?:** Es actualmente la alternativa más popular a Jira para desarrolladores. Está enfocada en la velocidad extrema, se controla casi al 100% con atajos de teclado y su diseño es minimalista y elegante.\n    *   **Lo mejor:** Cero tiempos de carga, sincronización perfecta con GitHub/GitLab y flujos de trabajo de desarrollo (sprints, backlog) preconfigurados sin complicaciones.\n    *   **Ideal para:** Startups y equipos de software que odian la lentitud de Jira.\n\n*   **Shortcut** *(antes Clubhouse)*\n    *   **¿Por qué elegirla?:** Fue creada específicamente para ser el punto medio perfecto entre la simplicidad de Trello y la potencia de Jira.\n    *   **Lo mejor:** Es muy rápida, permite gestionar múltiples equipos fácilmente y escalar sin que la herramienta se vuelva caótica.\n    *   **Ideal para:** Equipos de tecnología en crecimiento.\n\n*   **GitHub Projects**\n    *   **¿Por qué elegirla?:** Si ya usas GitHub para tu código, sus \"Projects\" se han actualizado muchísimo. Ahora ofrecen tableros Kanban y vistas de tabla extremadamente rápidas y flexibles.\n    *   **Lo mejor:** Todo está en el mismo lugar (código, *pull requests* e incidencias). Es gratuito.\n    *   **Ideal para:** Equipos que quieren mantener todo dentro de su repositorio de código.\n\n---\n\n### 2. Para gestión de proyectos visual y ultra simple\n\n*   **Trello**\n    *   **¿Por qué elegirla?:** Es el estándar de la simplicidad. Se basa puramente en el sistema Kanban (tarjetas que se mueven en columnas).\n    *   **Lo mejor:** Curva de aprendizaje de 5 minutos. Cualquiera puede usarlo sin entrenamiento.\n    *   **Ideal para:** Proyectos pequeños, tareas sencillas o equipos no técnicos. *(Curiosidad: Trello también es de Atlassian, los creadores de Jira, pero es su versión opuesta en simplicidad).*\n\n*   **Asana**\n    *   **¿Por qué elegirla?:** Es una de las herramientas de gestión general más pulidas y fluidas del mercado.\n    *   **Lo mejor:** Interfaz muy intuitiva, permite cambiar entre vista de lista, tablero y cronograma (Gantt) con un clic. Es mucho más rápida de configurar que Jira.\n    *   **Ideal para:** Equipos mixtos (marketing, producto, diseño, operaciones).\n\n---\n\n### 3. Las más modernas y colaborativas\n\n*   **Height**\n    *   **¿Por qué elegirla?:** Es una herramienta moderna que parece una hoja de cálculo superpotenciada combinada con chat y listas.\n    *   **Lo mejor:** Permite colaboración en tiempo real (ves los cursores de tus compañeros), búsquedas instantáneas y funciones de Inteligencia Artificial para auto-asignar o resumir tareas.\n    *   **Ideal para:** Equipos que buscan una experiencia de usuario moderna y fluida.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n*   Si eres un **equipo de software** y quieres **velocidad pura**: Ve a por **Linear**.\n*   Si quieres algo **sencillo que todos entiendan hoy mismo**: Ve a por **Trello** o **Asana**.\n*   Si no quieres pagar extra y **ya usas GitHub**: Usa **GitHub Projects**."
+}

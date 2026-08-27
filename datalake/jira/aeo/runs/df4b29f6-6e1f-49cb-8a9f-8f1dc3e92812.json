@@ -1,0 +1,22 @@
+{
+  "runId": "df4b29f6-6e1f-49cb-8a9f-8f1dc3e92812",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Jira ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T18:53:46.927Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas salir de Jira porque lo sientes lento, sobrecargado de funciones (\"bloated\") o complejo de configurar, existen varias alternativas modernas que se enfocan justamente en la **velocidad** y la **simplicidad**.\n\nAquí tienes las mejores opciones divididas según el tipo de equipo y necesidad:\n\n---\n\n### 1. Las mejores para equipos de desarrollo (Alternativas directas a Jira)\n\n*   **Linear (La reina de la velocidad)**\n    *   **Por qué destaca:** Está diseñada específicamente para ser **ultrarrápida**. Funciona casi en su totalidad con atajos de teclado (como VS Code) y su interfaz es minimalistamente hermosa.\n    *   **Para quién es:** Equipos de software que quieren metodologías ágiles (Sprints/Cycles, backlog) sin la burocracia de Jira.\n    *   **Punto fuerte:** Se sincroniza al instante con GitHub/GitLab y no pierde tiempo cargando páginas.\n\n*   **Shortcut (antes Clubhouse)**\n    *   **Por qué destaca:** Ofrece la potencia de Jira (epics, roadmaps, seguimiento de bugs) pero con una interfaz mucho más limpia, intuitiva y rápida.\n    *   **Para quién es:** Equipos de tecnología en crecimiento que necesitan más estructura que un simple tablero Kanban, pero sin la complejidad de Jira.\n\n---\n\n### 2. Las más simples y visuales (Cero curva de aprendizaje)\n\n*   **Trello**\n    *   **Por qué destaca:** Es el estándar de oro de la simplicidad. Se basa en tableros Kanban puros (Tarjetas y Columnas). Entras, creas una tarjeta, la mueves y listo.\n    *   **Para quién es:** Equipos pequeños, proyectos sencillos o personas que no necesitan métricas ágiles avanzadas (burndown charts, etc.).\n    *   **Punto fuerte:** Cualquiera aprende a usarlo en 2 minutos.\n\n*   **Asana**\n    *   **Por qué destaca:** Muy intuitiva y fluida. Permite cambiar entre vista de lista, tablero Kanban, calendario y cronograma (Gantt) con un solo clic.\n    *   **Para quién es:** Equipos mixtos (desarrollo, marketing, diseño) que necesitan colaborar en un solo lugar de forma sencilla.\n\n---\n\n### 3. Visuales y ultra-configurables (Para no desarrolladores)\n\n*   **Monday.com**\n    *   **Por qué destaca:** Es extremadamente visual, basada en colores y filas. Es muy fácil automatizar tareas (ej: \"si el estado cambia a Hecho, notificar a X personas\").\n    *   **Para quién es:** Equipos que prefieren ver sus proyectos como hojas de cálculo modernas e interactivas.\n\n---\n\n### 4. La opción Open Source moderna\n\n*   **Plane**\n    *   **Por qué destaca:** Se autodenomina literalmente la alternativa *Open Source* a Jira. Es muy rápida, moderna y puedes alojarla en tus propios servidores si lo deseas (o usar su versión Cloud).\n    *   **Para quién es:** Equipos técnicos que quieren la velocidad de Linear pero con código abierto o control de sus datos.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n1.  Si eres un **equipo de desarrollo** y quieres **máxima velocidad**: Ve por **Linear**.\n2.  Si quieres algo **súper fácil** para cualquier tipo de tarea: Ve por **Trello**.\n3.  Si necesitas **gestionar proyectos diversos** con buena interfaz: Ve por **Asana**.\n4.  Si quieres la **potencia de Jira pero fácil de usar**: Ve por **Shortcut**."
+}
