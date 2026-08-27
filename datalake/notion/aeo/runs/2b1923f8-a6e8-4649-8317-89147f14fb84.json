@@ -1,0 +1,22 @@
+{
+  "runId": "2b1923f8-a6e8-4649-8317-89147f14fb84",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Notion ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Notion"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:02:25.800Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas salirte de Notion porque lo sientes lento, sobrecargado o con una curva de aprendizaje muy alta, existen excelentes alternativas que priorizan la **velocidad de carga**, la **simplicidad** y el **abrir la app y escribir sin distracciones**.\n\nAquí tienes las mejores alternativas rápidas y simples, divididas según tu perfil:\n\n---\n\n### 1. Las más parecidas a Notion (pero más rápidas y simples)\n\n#### **Craft**\nEs la competencia más directa de Notion, pero con un enfoque nativo. En lugar de ser una web camuflada, es una app ultra rápida y con un diseño visualmente impresionante.\n* **Por qué es más rápida/simple:** Carga al instante, la organización por bloques es más fluida y fluida, y no te abruma con bases de datos complejas.\n* **Ideal para:** Crear documentos bonitos, tomar notas, wikis personales y trabajo visual.\n* **Plataformas:** Mac, iOS, Windows, Web.\n\n#### **UpNote**\nEs una de las joyas ocultas del software de productividad. Copia lo mejor de Notion (bloques, cuadernos, etiquetas, soporte para Markdown) pero elimina todo el \"relleno\".\n* **Por qué es más rápida/simple:** Funciona 100% offline primero (abre al segundo), su interfaz es limpia y no requiere configuración.\n* **Ideal para:** Quienes quieren la estética de Notion para tomar notas rápido sin lidiar con bases de datos.\n* **Plataformas:** Windows, Mac, iOS, Android, Linux (Sincronización impecable).\n\n---\n\n### 2. Máxima velocidad y minimalismo (Notas rápidas)\n\n#### **Notas de Apple (Apple Notes)**\nSi usas el ecosistema de Apple, la app nativa ha evolucionado muchísimo. Hoy en día permite tablas, enlaces entre notas, carpetas inteligentes y escaneo de documentos.\n* **Por qué es más rápida/simple:** Cero tiempo de carga, viene preinstalada y no hay nada que configurar.\n* **Ideal para:** Usuarios de iPhone/Mac que quieren capturar ideas en un segundo.\n\n#### **Bear**\nUna app galardonada por su diseño. Utiliza lenguaje *Markdown* (formato con teclado) y es increíblemente ágil.\n* **Por qué es más rápida/simple:** Su enfoque es puramente la escritura. No hay bases de datos ni menús complejos; solo tus notas y una búsqueda instantánea.\n* **Ideal para:** Escritores, estudiantes o profesionales que aman el diseño limpio y el formato Markdown.\n* **Plataformas:** Solo Apple (Mac, iPad, iPhone).\n\n#### **Google Keep**\nEl concepto opuesto a Notion. En lugar de documentos complejos, son \"post-its\" o notas adhesivas virtuales.\n* **Por qué es más rápida/simple:** Abres la app, escribes una línea o lista de verificación y cierras. La búsqueda de Google hace que encuentres todo al instante.\n* **Ideal para:** Listas de la compra, recordatorios rápidos, ideas al vuelo y notas de voz.\n* **Plataformas:** Web, Android, iOS.\n\n---\n\n### 3. Para equipos de trabajo (Sin la complejidad de Notion)\n\n#### **Slite**\nSi usas Notion en tu empresa pero tu equipo se pierde entre tantos menús y bases de datos, Slite es la solución.\n* **Por qué es más rápida/simple:** Está diseñada específicamente para documentación y bases de conocimiento de equipo. Su estructura es fija y ordenada, por lo que nadie \"rompe\" las páginas.\n* **Ideal para:** Empresas o equipos pequeños que necesitan una wiki clara y funcional.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n* **Si quieres algo casi idéntico a Notion pero ultra fluido:** Prueba **Craft**.\n* **Si quieres tomar notas en cualquier sistema operativo sin complicaciones:** Prueba **UpNote** (es muy económica además).\n* **Si solo quieres escribir rápido sin configurar nada:** Usa **Apple Notes** (si usas Mac/iPhone) o **Google Keep** (si usas Android/Windows)."
+}

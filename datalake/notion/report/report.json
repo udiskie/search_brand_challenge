@@ -1,0 +1,1249 @@
+{
+  "product": "notion",
+  "brand": "Notion",
+  "competitors": [
+    "Linear",
+    "Jira",
+    "Asana",
+    "Monday"
+  ],
+  "generatedAt": "2026-08-27T19:04:17.938Z",
+  "scores": [
+    {
+      "dimension": "seo",
+      "score": 65,
+      "label": "needs_work"
+    },
+    {
+      "dimension": "geo",
+      "score": 71,
+      "label": "good"
+    },
+    {
+      "dimension": "aeo",
+      "score": 71,
+      "label": "good"
+    }
+  ],
+  "seo": {
+    "pageCount": 10,
+    "brokenUrlCount": 0,
+    "topKeywords": [
+      "notion",
+      "worker",
+      "per",
+      "workspace",
+      "agent",
+      "run",
+      "runs",
+      "information",
+      "credits",
+      "custom",
+      "memory",
+      "workers",
+      "agents",
+      "lore",
+      "paid"
+    ]
+  },
+  "geo": {
+    "pageCount": 10,
+    "avgFactualDensityScore": 0.7810127431254192,
+    "avgExtractableStructureScore": 0.97
+  },
+  "aeo": {
+    "totalRuns": 30,
+    "perBrand": [
+      {
+        "brand": "Notion",
+        "shareOfVoice": 0.8333333333333334,
+        "relativeShareOfVoice": 2.2222222222222223,
+        "averagePosition": 1.4,
+        "firstMentionRate": 0.5666666666666667,
+        "sentimentScore": 0.04,
+        "mentionCount": 25
+      },
+      {
+        "brand": "Linear",
+        "shareOfVoice": 0.4666666666666667,
+        "relativeShareOfVoice": 1,
+        "averagePosition": 2.0714285714285716,
+        "firstMentionRate": 0.1,
+        "sentimentScore": 0.2857142857142857,
+        "mentionCount": 14
+      },
+      {
+        "brand": "Jira",
+        "shareOfVoice": 0.5666666666666667,
+        "relativeShareOfVoice": 1.2830188679245282,
+        "averagePosition": 1.9411764705882353,
+        "firstMentionRate": 0.23333333333333334,
+        "sentimentScore": 0.35294117647058826,
+        "mentionCount": 17
+      },
+      {
+        "brand": "Asana",
+        "shareOfVoice": 0.23333333333333334,
+        "relativeShareOfVoice": 0.4444444444444444,
+        "averagePosition": 2.2857142857142856,
+        "firstMentionRate": 0,
+        "sentimentScore": 0.5714285714285714,
+        "mentionCount": 7
+      },
+      {
+        "brand": "Monday",
+        "shareOfVoice": 0.23333333333333334,
+        "relativeShareOfVoice": 0.4444444444444444,
+        "averagePosition": 1.8571428571428572,
+        "firstMentionRate": 0.1,
+        "sentimentScore": 0,
+        "mentionCount": 7
+      }
+    ],
+    "coOccurrence": [
+      {
+        "brand": "Notion",
+        "coOccursWith": [
+          {
+            "brand": "Linear",
+            "count": 12
+          },
+          {
+            "brand": "Jira",
+            "count": 12
+          },
+          {
+            "brand": "Asana",
+            "count": 4
+          },
+          {
+            "brand": "Monday",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "brand": "Linear",
+        "coOccursWith": [
+          {
+            "brand": "Notion",
+            "count": 12
+          },
+          {
+            "brand": "Jira",
+            "count": 8
+          },
+          {
+            "brand": "Monday",
+            "count": 5
+          },
+          {
+            "brand": "Asana",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "brand": "Jira",
+        "coOccursWith": [
+          {
+            "brand": "Notion",
+            "count": 12
+          },
+          {
+            "brand": "Linear",
+            "count": 8
+          },
+          {
+            "brand": "Asana",
+            "count": 4
+          },
+          {
+            "brand": "Monday",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "brand": "Asana",
+        "coOccursWith": [
+          {
+            "brand": "Notion",
+            "count": 4
+          },
+          {
+            "brand": "Jira",
+            "count": 4
+          },
+          {
+            "brand": "Linear",
+            "count": 2
+          },
+          {
+            "brand": "Monday",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "brand": "Monday",
+        "coOccursWith": [
+          {
+            "brand": "Linear",
+            "count": 5
+          },
+          {
+            "brand": "Jira",
+            "count": 4
+          },
+          {
+            "brand": "Notion",
+            "count": 4
+          },
+          {
+            "brand": "Asana",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "byDimension": [
+      {
+        "dimension": "intent",
+        "value": "discovery",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "discovery",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "discovery",
+        "brand": "Jira",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "discovery",
+        "brand": "Asana",
+        "shareOfVoice": 0.16666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "discovery",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "direct_comparison",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "direct_comparison",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "direct_comparison",
+        "brand": "Jira",
+        "shareOfVoice": 0.6666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "direct_comparison",
+        "brand": "Asana",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "direct_comparison",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "recommendation_constraint",
+        "brand": "Notion",
+        "shareOfVoice": 0.16666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "recommendation_constraint",
+        "brand": "Linear",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "recommendation_constraint",
+        "brand": "Jira",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "recommendation_constraint",
+        "brand": "Asana",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "recommendation_constraint",
+        "brand": "Monday",
+        "shareOfVoice": 0.6666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "troubleshooting_replacement",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "troubleshooting_replacement",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "troubleshooting_replacement",
+        "brand": "Jira",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "troubleshooting_replacement",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "troubleshooting_replacement",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "final_decision",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "final_decision",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "final_decision",
+        "brand": "Jira",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "final_decision",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "final_decision",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "intent",
+        "value": "adversarial_control",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "adversarial_control",
+        "brand": "Linear",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "adversarial_control",
+        "brand": "Jira",
+        "shareOfVoice": 0.16666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "adversarial_control",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "intent",
+        "value": "adversarial_control",
+        "brand": "Monday",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "startup founder",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "startup founder",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "startup founder",
+        "brand": "Jira",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "startup founder",
+        "brand": "Asana",
+        "shareOfVoice": 0.1111111111111111,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "startup founder",
+        "brand": "Monday",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "engineering lead",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "engineering lead",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "engineering lead",
+        "brand": "Jira",
+        "shareOfVoice": 0.5555555555555556,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "engineering lead",
+        "brand": "Asana",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "engineering lead",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 9
+      },
+      {
+        "dimension": "persona",
+        "value": "product manager",
+        "brand": "Notion",
+        "shareOfVoice": 0.16666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "product manager",
+        "brand": "Linear",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "product manager",
+        "brand": "Jira",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "product manager",
+        "brand": "Asana",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "product manager",
+        "brand": "Monday",
+        "shareOfVoice": 0.6666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "persona",
+        "value": "freelancer",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "freelancer",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "freelancer",
+        "brand": "Jira",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "freelancer",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "freelancer",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "marketing team",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "marketing team",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "marketing team",
+        "brand": "Jira",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "marketing team",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "persona",
+        "value": "marketing team",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "specificity",
+        "value": "generic",
+        "brand": "Notion",
+        "shareOfVoice": 0.7222222222222222,
+        "runCount": 18
+      },
+      {
+        "dimension": "specificity",
+        "value": "generic",
+        "brand": "Linear",
+        "shareOfVoice": 0.6111111111111112,
+        "runCount": 18
+      },
+      {
+        "dimension": "specificity",
+        "value": "generic",
+        "brand": "Jira",
+        "shareOfVoice": 0.5555555555555556,
+        "runCount": 18
+      },
+      {
+        "dimension": "specificity",
+        "value": "generic",
+        "brand": "Asana",
+        "shareOfVoice": 0.2222222222222222,
+        "runCount": 18
+      },
+      {
+        "dimension": "specificity",
+        "value": "generic",
+        "brand": "Monday",
+        "shareOfVoice": 0.3888888888888889,
+        "runCount": 18
+      },
+      {
+        "dimension": "specificity",
+        "value": "specific",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 9
+      },
+      {
+        "dimension": "specificity",
+        "value": "specific",
+        "brand": "Linear",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 9
+      },
+      {
+        "dimension": "specificity",
+        "value": "specific",
+        "brand": "Jira",
+        "shareOfVoice": 0.7777777777777778,
+        "runCount": 9
+      },
+      {
+        "dimension": "specificity",
+        "value": "specific",
+        "brand": "Asana",
+        "shareOfVoice": 0.3333333333333333,
+        "runCount": 9
+      },
+      {
+        "dimension": "specificity",
+        "value": "specific",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 9
+      },
+      {
+        "dimension": "specificity",
+        "value": "semi_specific",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "specificity",
+        "value": "semi_specific",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "specificity",
+        "value": "semi_specific",
+        "brand": "Jira",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "specificity",
+        "value": "semi_specific",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "specificity",
+        "value": "semi_specific",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "price",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "price",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "price",
+        "brand": "Jira",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "price",
+        "brand": "Asana",
+        "shareOfVoice": 0.16666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "price",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "integrations",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "integrations",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "integrations",
+        "brand": "Jira",
+        "shareOfVoice": 0.6666666666666666,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "integrations",
+        "brand": "Asana",
+        "shareOfVoice": 0.5,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "integrations",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 6
+      },
+      {
+        "dimension": "attribute",
+        "value": "none",
+        "brand": "Notion",
+        "shareOfVoice": 0.5833333333333334,
+        "runCount": 12
+      },
+      {
+        "dimension": "attribute",
+        "value": "none",
+        "brand": "Linear",
+        "shareOfVoice": 0.4166666666666667,
+        "runCount": 12
+      },
+      {
+        "dimension": "attribute",
+        "value": "none",
+        "brand": "Jira",
+        "shareOfVoice": 0.5833333333333334,
+        "runCount": 12
+      },
+      {
+        "dimension": "attribute",
+        "value": "none",
+        "brand": "Asana",
+        "shareOfVoice": 0.25,
+        "runCount": 12
+      },
+      {
+        "dimension": "attribute",
+        "value": "none",
+        "brand": "Monday",
+        "shareOfVoice": 0.5833333333333334,
+        "runCount": 12
+      },
+      {
+        "dimension": "attribute",
+        "value": "speed_ux",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "speed_ux",
+        "brand": "Linear",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "speed_ux",
+        "brand": "Jira",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "speed_ux",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "speed_ux",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "methodology",
+        "brand": "Notion",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "methodology",
+        "brand": "Linear",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "methodology",
+        "brand": "Jira",
+        "shareOfVoice": 1,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "methodology",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "attribute",
+        "value": "methodology",
+        "brand": "Monday",
+        "shareOfVoice": 0,
+        "runCount": 3
+      },
+      {
+        "dimension": "language",
+        "value": "en",
+        "brand": "Notion",
+        "shareOfVoice": 0.8,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "en",
+        "brand": "Linear",
+        "shareOfVoice": 0.6666666666666666,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "en",
+        "brand": "Jira",
+        "shareOfVoice": 0.6,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "en",
+        "brand": "Asana",
+        "shareOfVoice": 0.4666666666666667,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "en",
+        "brand": "Monday",
+        "shareOfVoice": 0.26666666666666666,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "es",
+        "brand": "Notion",
+        "shareOfVoice": 0.8666666666666667,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "es",
+        "brand": "Linear",
+        "shareOfVoice": 0.26666666666666666,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "es",
+        "brand": "Jira",
+        "shareOfVoice": 0.5333333333333333,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "es",
+        "brand": "Asana",
+        "shareOfVoice": 0,
+        "runCount": 15
+      },
+      {
+        "dimension": "language",
+        "value": "es",
+        "brand": "Monday",
+        "shareOfVoice": 0.2,
+        "runCount": 15
+      }
+    ]
+  },
+  "crossValidationGaps": [
+    {
+      "term": "notion",
+      "siteScore": 159,
+      "mentionedByModel": true
+    },
+    {
+      "term": "worker",
+      "siteScore": 89.25668704386803,
+      "mentionedByModel": false
+    },
+    {
+      "term": "per",
+      "siteScore": 80.4640364671392,
+      "mentionedByModel": false
+    },
+    {
+      "term": "workspace",
+      "siteScore": 70.09985150747681,
+      "mentionedByModel": true
+    },
+    {
+      "term": "agent",
+      "siteScore": 69.74983705420652,
+      "mentionedByModel": false
+    },
+    {
+      "term": "run",
+      "siteScore": 64.37122917371136,
+      "mentionedByModel": false
+    },
+    {
+      "term": "runs",
+      "siteScore": 62.20920612148378,
+      "mentionedByModel": false
+    },
+    {
+      "term": "information",
+      "siteScore": 60.34802735035439,
+      "mentionedByModel": false
+    },
+    {
+      "term": "credits",
+      "siteScore": 58.33642643867591,
+      "mentionedByModel": false
+    },
+    {
+      "term": "custom",
+      "siteScore": 58.01196416921552,
+      "mentionedByModel": false
+    },
+    {
+      "term": "memory",
+      "siteScore": 55.182791619126256,
+      "mentionedByModel": false
+    },
+    {
+      "term": "workers",
+      "siteScore": 52.88350863499599,
+      "mentionedByModel": false
+    },
+    {
+      "term": "agents",
+      "siteScore": 51.419695513622855,
+      "mentionedByModel": false
+    },
+    {
+      "term": "lore",
+      "siteScore": 51.39021375253008,
+      "mentionedByModel": false
+    },
+    {
+      "term": "paid",
+      "siteScore": 50.58422565086573,
+      "mentionedByModel": false
+    },
+    {
+      "term": "data",
+      "siteScore": 49.790209910679785,
+      "mentionedByModel": false
+    },
+    {
+      "term": "plan",
+      "siteScore": 46.26682096860503,
+      "mentionedByModel": false
+    },
+    {
+      "term": "work",
+      "siteScore": 46.003027551781656,
+      "mentionedByModel": false
+    },
+    {
+      "term": "each",
+      "siteScore": 45.98565968260522,
+      "mentionedByModel": false
+    },
+    {
+      "term": "access",
+      "siteScore": 45.98565968260521,
+      "mentionedByModel": false
+    },
+    {
+      "term": "use",
+      "siteScore": 44.827426858030165,
+      "mentionedByModel": true
+    },
+    {
+      "term": "members",
+      "siteScore": 43.68637669847495,
+      "mentionedByModel": false
+    },
+    {
+      "term": "billing",
+      "siteScore": 43.68637669847495,
+      "mentionedByModel": false
+    },
+    {
+      "term": "usage",
+      "siteScore": 43.68637669847495,
+      "mentionedByModel": false
+    },
+    {
+      "term": "free",
+      "siteScore": 40.23201823356959,
+      "mentionedByModel": false
+    },
+    {
+      "term": "content",
+      "siteScore": 37.55760456764967,
+      "mentionedByModel": false
+    },
+    {
+      "term": "template",
+      "siteScore": 36.78852774608417,
+      "mentionedByModel": false
+    },
+    {
+      "term": "pages",
+      "siteScore": 35.7691472072854,
+      "mentionedByModel": false
+    },
+    {
+      "term": "domain",
+      "siteScore": 35.16172519909953,
+      "mentionedByModel": false
+    },
+    {
+      "term": "sync",
+      "siteScore": 34.48924476195391,
+      "mentionedByModel": false
+    }
+  ],
+  "priorities": [
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/pricing",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/product/docs",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/help/understand-pricing-for-workers",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "Low factual density on https://www.notion.com/en-gb/help (mostly promotional language)",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Replace vague adjectives with concrete numbers/comparisons."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/help",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/blog",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/product",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/teams",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "geo",
+      "finding": "No visible author or publish date on https://www.notion.com/en-gb/about",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Add a visible byline and publish/update date."
+    },
+    {
+      "dimension": "aeo",
+      "finding": "Top site keywords the model never uses when describing Notion: worker, per, agent, run, runs",
+      "impact": "medium",
+      "effort": "medium",
+      "suggestedAction": "Reinforce these terms in citable, structured site content so the model picks them up."
+    },
+    {
+      "dimension": "seo",
+      "finding": "2 H1 tags on https://www.notion.com/en-gb/product/docs",
+      "impact": "low",
+      "effort": "low",
+      "suggestedAction": "Keep exactly one H1 per page; demote the rest to H2/H3."
+    },
+    {
+      "dimension": "seo",
+      "finding": "2 H1 tags on https://www.notion.com/en-gb/teams",
+      "impact": "low",
+      "effort": "low",
+      "suggestedAction": "Keep exactly one H1 per page; demote the rest to H2/H3."
+    },
+    {
+      "dimension": "seo",
+      "finding": "123 images missing alt text across 10 crawled pages",
+      "impact": "low",
+      "effort": "low",
+      "suggestedAction": "Add descriptive alt text to every content image."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/pricing",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/product/docs",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/blog",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/product",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/teams",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    },
+    {
+      "dimension": "seo",
+      "finding": "No schema.org markup on https://www.notion.com/en-gb/about",
+      "impact": "low",
+      "effort": "medium",
+      "suggestedAction": "Add JSON-LD structured data appropriate to the page type."
+    }
+  ]
+}

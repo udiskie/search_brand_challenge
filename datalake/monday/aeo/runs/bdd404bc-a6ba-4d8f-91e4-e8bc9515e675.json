@@ -1,0 +1,22 @@
+{
+  "runId": "bdd404bc-a6ba-4d8f-91e4-e8bc9515e675",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Monday ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Monday"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T18:59:41.345Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Monday.com porque sientes que se ha vuelto demasiado complejo, lento o caro, existen opciones excelentes enfocadas precisamente en la **velocidad, la simplicidad y una curva de aprendizaje casi nula**.\n\nAquí tienes las mejores alternativas ordenadas por su nivel de simplicidad:\n\n---\n\n### 1. Trello (La más visual y rápida de arrancar)\nEs el rey de la simplicidad. Se basa en el sistema Kanban (tableros, listas y tarjetas).\n* **Por qué es más simple:** No hay configuraciones complejas de bases de datos. Creas un tablero, añades tarjetas y las mueves.\n* **Lo mejor:** En 2 minutos tienes a todo tu equipo trabajando sin necesidad de tutoriales.\n* **Ideal para:** Equipos pequeños, freelancers o proyectos donde solo necesitas ver en qué estado está cada tarea (Pendiente, En proceso, Hecho).\n* **Precio:** Excelente plan gratuito (muy funcional).\n\n### 2. Plaky (El \"clon\" gratuito y simplificado de Monday)\nPlaky es literalmente una versión simplificada de Monday.com. Su interfaz es muy similar (tablas con colores y estados), pero sin todo el \"relleno\" ni las configuraciones complejas.\n* **Por qué es más simple:** Elimina la sobrecarga de funciones avanzadas de Monday y se centra en listas de tareas claras.\n* **Lo mejor:** Es **100% gratuita** (sin límite de usuarios ni proyectos).\n* **Ideal para:** Quienes aman el diseño visual de tablas coloridas de Monday, pero quieren algo más ligero y gratis.\n\n### 3. Todoist para Equipos (La más rápida para teclear y gestionar)\nSi lo que buscas es velocidad pura de ejecución y una interfaz ultra limpia estilo \"lista de tareas\", Todoist es imbatible.\n* **Por qué es más simple:** Puedes crear tareas usando lenguaje natural (ej. \"Revisar informe mañana a las 10am #Marketing\") y el sistema lo configura automáticamente.\n* **Lo mejor:** Su aplicación móvil y de escritorio es ridículamente rápida.\n* **Ideal para:** Gestión de tareas diarias, flujos de trabajo basados en listas y personas que odian perder tiempo haciendo clic en menús.\n\n### 4. Basecamp (Simple, sin distracciones y todo en uno)\nBasecamp tiene una filosofía radical: \"menos es más\". A diferencia de Monday, no te deja personalizar mil cosas, lo que evita que pierdas tiempo configurando la herramienta.\n* **Por qué es más simple:** Te da una estructura fija para cada proyecto: Lista de tareas, Tablón de anuncios, Chat y Archivos.\n* **Lo mejor:** Elimina la necesidad de usar Zoom/Slack + Monday + Google Drive. Todo está en un solo lugar de forma muy ordenada.\n* **Ideal para:** Equipos que quieren comunicación y tareas en un solo lugar sin volverse locos con los ajustes.\n\n### 5. MeisterTask (Estética impecable y fluida)\nEs una alternativa a Trello pero con un diseño más moderno y enfocado en la productividad sin estrés.\n* **Por qué es más simple:** Sus flujos de trabajo están automatizados de forma muy intuitiva (ej: al mover una tarjeta a \"Hecho\", se asigna automáticamente al supervisor).\n* **Lo mejor:** Interfaz muy limpia que no abruma visualmente.\n* **Ideal para:** Equipos creativos o de diseño que buscan algo visualmente atractivo y directo al grano.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n* **Si quieres exactamente el diseño de Monday pero más fácil y gratis:** Elige **Plaky**.\n* **Si quieres lo más fácil del mundo (estilo post-its):** Elige **Trello**.\n* **Si quieres escribir tareas a la velocidad de la luz:** Elige **Todoist**.\n* **Si quieres organizar proyectos + chat de equipo sin complicaciones:** Elige **Basecamp**."
+}
