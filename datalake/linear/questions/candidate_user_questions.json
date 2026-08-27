@@ -382,7 +382,7 @@
       "evidence": []
     }
   ],
-  "questions": [
+  "hookQuestions": [
     {
       "id": "long-form-quote-match-0",
       "text": "What tool matches this description: \"Purpose-built for planning and building products with AI agents.\"?",
@@ -1390,6 +1390,278 @@
       "hook": "current",
       "hookSource": "tagcloud",
       "evidenceUrls": []
+    }
+  ],
+  "claims": [
+    {
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/pricing",
+          "snippet": "enable unlimited issues, enhanced security controls, and additional features"
+        }
+      ]
+    },
+    {
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/docs",
+          "snippet": "improve the speed, value, and joy of your work"
+        }
+      ]
+    },
+    {
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/docs/start-guide",
+          "snippet": "helps teams plan, track, and deliver work without a lot of overhead"
+        }
+      ]
+    },
+    {
+      "problem": "ship with high velocity and focus",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": [
+          "product teams",
+          "product team"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "help teams ship with high velocity and focus"
+        }
+      ]
+    },
+    {
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": [
+          "product teams",
+          "product team"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "restores momentum to help teams ship with high velocity and focus"
+        }
+      ]
+    },
+    {
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "help draft PRs and fix bugs, and more"
+        }
+      ]
+    }
+  ],
+  "inferentialQuestions": [
+    {
+      "id": "persona-problem-0",
+      "text": "As an engineering lead, I'm trying to enable unlimited issues, enhanced security controls, and additional features. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "generic-problem-only-1",
+      "text": "What's a good way to enable unlimited issues, enhanced security controls, and additional features?",
+      "templateId": "generic-problem-only",
+      "problem": "enable unlimited issues, enhanced security controls, and additional features",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "id": "persona-problem-2",
+      "text": "As a product manager at a large company, I'm trying to improve the speed, value, and joy of your work. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "generic-problem-only-3",
+      "text": "What's a good way to improve the speed, value, and joy of your work?",
+      "templateId": "generic-problem-only",
+      "problem": "improve the speed, value, and joy of your work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs"
+      ]
+    },
+    {
+      "id": "persona-problem-4",
+      "text": "As an engineering lead, I'm trying to plan, track, and deliver work without a lot of overhead. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "generic-problem-only-5",
+      "text": "What's a good way to plan, track, and deliver work without a lot of overhead?",
+      "templateId": "generic-problem-only",
+      "problem": "plan, track, and deliver work without a lot of overhead",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/start-guide"
+      ]
+    },
+    {
+      "id": "persona-problem-6",
+      "text": "As a product manager at a large company, I'm trying to ship with high velocity and focus. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "generic-problem-only-7",
+      "text": "What's a good way to ship with high velocity and focus?",
+      "templateId": "generic-problem-only",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-for-audience-8",
+      "text": "What tool would you recommend for product teams that need to ship with high velocity and focus?",
+      "templateId": "problem-for-audience",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "audience-fit-question-9",
+      "text": "Is there a tool built specifically for product teams to ship with high velocity and focus?",
+      "templateId": "audience-fit-question",
+      "problem": "ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-problem-10",
+      "text": "As a product manager at a large company, I'm trying to restore momentum to help teams ship with high velocity and focus. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "generic-problem-only-11",
+      "text": "What's a good way to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "generic-problem-only",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-for-audience-12",
+      "text": "What tool would you recommend for product teams that need to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "problem-for-audience",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "audience-fit-question-13",
+      "text": "Is there a tool built specifically for product teams to restore momentum to help teams ship with high velocity and focus?",
+      "templateId": "audience-fit-question",
+      "problem": "restore momentum to help teams ship with high velocity and focus",
+      "audience": [
+        "product teams",
+        "product team"
+      ],
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-problem-14",
+      "text": "As a product manager at a large company, I'm trying to draft PRs and fix bugs, and more. What should I use?",
+      "templateId": "persona-problem",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "generic-problem-only-15",
+      "text": "What's a good way to draft PRs and fix bugs, and more?",
+      "templateId": "generic-problem-only",
+      "problem": "draft PRs and fix bugs, and more",
+      "audience": [],
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
     }
   ]
 }

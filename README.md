@@ -73,19 +73,24 @@ npm test
 
 ## User question generator (early development)
 
-Scans a product's scraper output for its own distinctive positioning
-language and generates candidate end-user-style questions grounded in it —
-the opposite goal of the AEO prompt generator above (neutral benchmarking
-vs. brand-grounded questions likely to elicit an organic mention).
+Scans a product's scraper output and generates two derivatives of
+candidate end-user-style questions — the opposite goal of the AEO prompt
+generator above (neutral benchmarking vs. brand-grounded questions likely
+to elicit an organic mention): **hook-grounded** questions that echo the
+site's own phrasing (a weaker "floor" signal — a pass may just mean the
+model recognized indexed text), and **inferential** questions that
+paraphrase the problem the product claims to solve, for whom, without
+quoting the site at all (a stronger signal — requires genuine inference).
 
 ```bash
 npm run questions -- --product <name> --brand <Brand>
 ```
 
-Writes `datalake/{product}/questions/candidate_user_questions.{json,md}`.
-See `.claude/skills/user-question-generator/SKILL.md` for how hooks are
-scanned, how templates are chosen, and known limitations (this is an early
-increment, not yet wired into the AEO measurement pipeline).
+Writes `datalake/{product}/questions/candidate_user_questions.{json,md}`
+(the `.md` is split into Part 1/Part 2 matching the two derivatives). See
+`.claude/skills/user-question-generator/SKILL.md` for how each is scanned
+and built, and known limitations (this is an early increment, not yet
+wired into the AEO measurement pipeline).
 
 ## Learn More
 

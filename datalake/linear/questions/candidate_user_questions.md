@@ -1,8 +1,12 @@
 # Candidate user questions grounded in Linear's own site content
 
-24 hooks scanned from the data lake, 90 candidate questions generated. Each question is built to plausibly elicit a mention of the brand because it's grounded in language the brand's own site actually uses -- review before using any of these as real AEO probes.
+24 hooks and 6 problem/audience claims scanned from the data lake, 106 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
 
-## Hook: "Purpose-built for planning and building products with AI agents."
+## Part 1: Direct hook-grounded questions
+
+Quotes or closely echoes phrasing the site itself uses. A model surfacing the brand here may just be recognizing indexed text, not reasoning about fit -- treat these as a floor ("does the model even associate the brand with its own stated positioning?"), not proof of real-world AEO strength.
+
+### Hook: "Purpose-built for planning and building products with AI agents."
 
 Source: `meta_description` (document frequency: 1)
 
@@ -13,7 +17,7 @@ Candidate questions:
 - What tool matches this description: "Purpose-built for planning and building products with AI agents."?
 - As a startup founder, I'm looking for a tool where: Purpose-built for planning and building products with AI agents. Any suggestions?
 
-## Hook: "We’re bringing magic back to software."
+### Hook: "We’re bringing magic back to software."
 
 Source: `meta_description` (document frequency: 1)
 
@@ -26,7 +30,7 @@ Candidate questions:
 - Which tool in this space is known for We’re bringing magic back to software.?
 - As a startup founder, I want a tool that focuses on We’re bringing magic back to software. instead of doing everything. Any recommendations?
 
-## Hook: "We are crafting the tool for teams who care about quality. Join us on our mission!"
+### Hook: "We are crafting the tool for teams who care about quality. Join us on our mission!"
 
 Source: `meta_description` (document frequency: 1)
 
@@ -37,7 +41,7 @@ Candidate questions:
 - What tool matches this description: "We are crafting the tool for teams who care about quality. Join us on our mission!"?
 - As a freelancer, I'm looking for a tool where: We are crafting the tool for teams who care about quality. Join us on our mission! Any suggestions?
 
-## Hook: "Build and deploy AI agents that work alongside you as teammates."
+### Hook: "Build and deploy AI agents that work alongside you as teammates."
 
 Source: `meta_description` (document frequency: 1)
 
@@ -48,7 +52,7 @@ Candidate questions:
 - What tool matches this description: "Build and deploy AI agents that work alongside you as teammates."?
 - As a startup founder, I'm looking for a tool where: Build and deploy AI agents that work alongside you as teammates. Any suggestions?
 
-## Hook: "product"
+### Hook: "product"
 
 Source: `tagcloud` (document frequency: 7)
 
@@ -63,7 +67,7 @@ Candidate questions:
 - Which tool in this space is known for product?
 - As a startup founder, I want a tool that focuses on product instead of doing everything. Any recommendations?
 
-## Hook: "work"
+### Hook: "work"
 
 Source: `tagcloud` (document frequency: 7)
 
@@ -78,7 +82,7 @@ Candidate questions:
 - Which tool in this space is known for work?
 - As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?
 
-## Hook: "added"
+### Hook: "added"
 
 Source: `tagcloud` (document frequency: 2)
 
@@ -93,7 +97,7 @@ Candidate questions:
 - Which tool in this space is known for added?
 - As a startup founder, I want a tool that focuses on added instead of doing everything. Any recommendations?
 
-## Hook: "agent"
+### Hook: "agent"
 
 Source: `tagcloud` (document frequency: 6)
 
@@ -108,7 +112,7 @@ Candidate questions:
 - Which tool in this space is known for agent?
 - As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?
 
-## Hook: "issues"
+### Hook: "issues"
 
 Source: `tagcloud` (document frequency: 7)
 
@@ -123,7 +127,7 @@ Candidate questions:
 - Which tool in this space is known for issues?
 - As a startup founder, I want a tool that focuses on issues instead of doing everything. Any recommendations?
 
-## Hook: "teams"
+### Hook: "teams"
 
 Source: `tagcloud` (document frequency: 9)
 
@@ -138,7 +142,7 @@ Candidate questions:
 - Which tool in this space is known for teams?
 - As a startup founder, I want a tool that focuses on teams instead of doing everything. Any recommendations?
 
-## Hook: "them"
+### Hook: "them"
 
 Source: `tagcloud` (document frequency: 4)
 
@@ -153,7 +157,7 @@ Candidate questions:
 - Which tool in this space is known for them?
 - As a startup founder, I want a tool that focuses on them instead of doing everything. Any recommendations?
 
-## Hook: "team"
+### Hook: "team"
 
 Source: `tagcloud` (document frequency: 8)
 
@@ -168,7 +172,7 @@ Candidate questions:
 - Which tool in this space is known for team?
 - As a startup founder, I want a tool that focuses on team instead of doing everything. Any recommendations?
 
-## Hook: "customer"
+### Hook: "customer"
 
 Source: `tagcloud` (document frequency: 5)
 
@@ -183,7 +187,7 @@ Candidate questions:
 - Which tool in this space is known for customer?
 - As a startup founder, I want a tool that focuses on customer instead of doing everything. Any recommendations?
 
-## Hook: "code"
+### Hook: "code"
 
 Source: `tagcloud` (document frequency: 5)
 
@@ -198,7 +202,7 @@ Candidate questions:
 - Which tool in this space is known for code?
 - As a startup founder, I want a tool that focuses on code instead of doing everything. Any recommendations?
 
-## Hook: "agents"
+### Hook: "agents"
 
 Source: `tagcloud` (document frequency: 6)
 
@@ -213,7 +217,7 @@ Candidate questions:
 - Which tool in this space is known for agents?
 - As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?
 
-## Hook: "saarinen"
+### Hook: "saarinen"
 
 Source: `tagcloud` (document frequency: 3)
 
@@ -228,7 +232,7 @@ Candidate questions:
 - Which tool in this space is known for saarinen?
 - As a startup founder, I want a tool that focuses on saarinen instead of doing everything. Any recommendations?
 
-## Hook: "view"
+### Hook: "view"
 
 Source: `tagcloud` (document frequency: 2)
 
@@ -242,7 +246,7 @@ Candidate questions:
 - Which tool in this space is known for view?
 - As a startup founder, I want a tool that focuses on view instead of doing everything. Any recommendations?
 
-## Hook: "building"
+### Hook: "building"
 
 Source: `tagcloud` (document frequency: 5)
 
@@ -257,7 +261,7 @@ Candidate questions:
 - Which tool in this space is known for building?
 - As a startup founder, I want a tool that focuses on building instead of doing everything. Any recommendations?
 
-## Hook: "plan"
+### Hook: "plan"
 
 Source: `tagcloud` (document frequency: 5)
 
@@ -272,7 +276,7 @@ Candidate questions:
 - Which tool in this space is known for plan?
 - As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?
 
-## Hook: "triage"
+### Hook: "triage"
 
 Source: `tagcloud` (document frequency: 4)
 
@@ -287,7 +291,7 @@ Candidate questions:
 - Which tool in this space is known for triage?
 - As a startup founder, I want a tool that focuses on triage instead of doing everything. Any recommendations?
 
-## Hook: "design"
+### Hook: "design"
 
 Source: `tagcloud` (document frequency: 4)
 
@@ -302,7 +306,7 @@ Candidate questions:
 - Which tool in this space is known for design?
 - As a startup founder, I want a tool that focuses on design instead of doing everything. Any recommendations?
 
-## Hook: "access"
+### Hook: "access"
 
 Source: `tagcloud` (document frequency: 3)
 
@@ -312,7 +316,7 @@ Candidate questions:
 - Which tool in this space is known for access?
 - As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?
 
-## Hook: "people"
+### Hook: "people"
 
 Source: `tagcloud` (document frequency: 3)
 
@@ -322,7 +326,7 @@ Candidate questions:
 - Which tool in this space is known for people?
 - As a startup founder, I want a tool that focuses on people instead of doing everything. Any recommendations?
 
-## Hook: "current"
+### Hook: "current"
 
 Source: `tagcloud` (document frequency: 2)
 
@@ -331,3 +335,77 @@ Candidate questions:
 - I need something that helps with current -- what should my team use?
 - Which tool in this space is known for current?
 - As a startup founder, I want a tool that focuses on current instead of doing everything. Any recommendations?
+
+## Part 2: Inferential questions (paraphrased, no site quoting)
+
+Phrases the extracted problem (and detected audience) as a generic user need -- never quotes the site. A model surfacing the brand here requires genuinely inferring fit from the problem/audience description, which is a stronger visibility signal than Part 1.
+
+### Problem: "enable unlimited issues, enhanced security controls, and additional features"
+
+Audience detected: (none detected)
+
+Evidence:
+- [https://linear.app/pricing](https://linear.app/pricing): "enable unlimited issues, enhanced security controls, and additional features"
+
+Candidate questions:
+- As an engineering lead, I'm trying to enable unlimited issues, enhanced security controls, and additional features. What should I use?
+- What's a good way to enable unlimited issues, enhanced security controls, and additional features?
+
+### Problem: "improve the speed, value, and joy of your work"
+
+Audience detected: (none detected)
+
+Evidence:
+- [https://linear.app/docs](https://linear.app/docs): "improve the speed, value, and joy of your work"
+
+Candidate questions:
+- As a product manager at a large company, I'm trying to improve the speed, value, and joy of your work. What should I use?
+- What's a good way to improve the speed, value, and joy of your work?
+
+### Problem: "plan, track, and deliver work without a lot of overhead"
+
+Audience detected: (none detected)
+
+Evidence:
+- [https://linear.app/docs/start-guide](https://linear.app/docs/start-guide): "helps teams plan, track, and deliver work without a lot of overhead"
+
+Candidate questions:
+- As an engineering lead, I'm trying to plan, track, and deliver work without a lot of overhead. What should I use?
+- What's a good way to plan, track, and deliver work without a lot of overhead?
+
+### Problem: "ship with high velocity and focus"
+
+Audience detected: product teams, product team
+
+Evidence:
+- [https://linear.app/](https://linear.app/): "help teams ship with high velocity and focus"
+
+Candidate questions:
+- As a product manager at a large company, I'm trying to ship with high velocity and focus. What should I use?
+- What's a good way to ship with high velocity and focus?
+- What tool would you recommend for product teams that need to ship with high velocity and focus?
+- Is there a tool built specifically for product teams to ship with high velocity and focus?
+
+### Problem: "restore momentum to help teams ship with high velocity and focus"
+
+Audience detected: product teams, product team
+
+Evidence:
+- [https://linear.app/](https://linear.app/): "restores momentum to help teams ship with high velocity and focus"
+
+Candidate questions:
+- As a product manager at a large company, I'm trying to restore momentum to help teams ship with high velocity and focus. What should I use?
+- What's a good way to restore momentum to help teams ship with high velocity and focus?
+- What tool would you recommend for product teams that need to restore momentum to help teams ship with high velocity and focus?
+- Is there a tool built specifically for product teams to restore momentum to help teams ship with high velocity and focus?
+
+### Problem: "draft PRs and fix bugs, and more"
+
+Audience detected: (none detected)
+
+Evidence:
+- [https://linear.app/docs/changes-to-linears-pricing-plans](https://linear.app/docs/changes-to-linears-pricing-plans): "help draft PRs and fix bugs, and more"
+
+Candidate questions:
+- As a product manager at a large company, I'm trying to draft PRs and fix bugs, and more. What should I use?
+- What's a good way to draft PRs and fix bugs, and more?
