@@ -186,28 +186,32 @@ CI).
   takes the first N per source, not a human-curated subset picked from
   `candidate_user_questions.md` — see `user-question-generator`'s SKILL.md.
 
-- **Genuine semantic clustering of extracted tags.** Today's
-  `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) is a flat tf-idf
+- ~~**Genuine semantic clustering of extracted tags.**~~ **Taxonomy method
+  done** (`feature/term-clustering-taxonomy`, see
+  `.claude/skills/term-clustering/SKILL.md`), LLM method planned as a
+  follow-on (`feature/term-clustering-llm`) for direct comparison. Today's
+  `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) was a flat tf-idf
   ranking of individual word tokens with no grouping by meaning — confirmed
-  against real output, where e.g. `team`/`teams` and `agent`/`agents` rank
+  against real output, where e.g. `team`/`teams` and `agent`/`agents` ranked
   as unrelated entries, and scrape artifacts (`contextreply`, `syncstatus`)
-  interleave with real content words purely because tf-idf has no concept
-  of "is this even a real word." The goal: bucket tags into named semantic
-  themes (e.g. "AI/Agents", "Speed & Focus", "Pricing & Security"), then use
-  those clusters to correlate generated questions (Part 1/Part 2) and,
-  eventually, Gemini's answers to a theme — letting a user see "what we
-  found about theme X" instead of a flat list of 100+ items. Two paths, with
-  a real tradeoff: (a) embeddings + a clustering step, or an LLM call to
-  categorize — genuine semantic understanding, but the *first*
-  non-deterministic, paid-API-dependent step in a pipeline that has
-  otherwise been entirely deterministic/free by explicit design (regex,
-  tf-idf, curated keyword lists throughout); (b) a hand-curated taxonomy
-  (same mechanism as `ORG_TYPE_KEYWORDS`/`USER_TYPE_KEYWORDS` in
-  `problemAudienceScanner.ts`) — cheap, deterministic, consistent with the
-  rest of the codebase, but not truly "semantic," and needs re-authoring per
-  product/category. Recommendation if/when this gets built: start with (b),
-  since it fits the existing pattern; revisit (a) only if the taxonomy
-  proves too rigid across different product categories.
+  interleaved with real content words purely because tf-idf has no concept
+  of "is this even a real word." Built: `src/clustering/` buckets tagcloud
+  terms into named themes via a hand-curated, category-level taxonomy
+  (`src/clustering/taxonomy.ts`, same mechanism as
+  `ORG_TYPE_KEYWORDS`/`USER_TYPE_KEYWORDS` in `problemAudienceScanner.ts`),
+  then correlates each theme against candidate questions (Part 1/Part 2) and
+  Gemini's raw answers (neutral + brand-grounded runs) — `npm run clusters
+  -- --product linear --method taxonomy`, dashboard at
+  `/products/{product}/clusters`. Visualized as a Treemap (theme size) +
+  Sankey (theme → question coverage → answer-mention outcome) rather than a
+  generic force-directed graph — evaluated and rejected the latter as too
+  cluttered to answer the actual question, which is a flow/conversion one;
+  see the skill's own write-up for the reasoning. The LLM method
+  (`--method llm`) is the deliberate second half of this comparison — the
+  first non-deterministic, paid-API step in a pipeline otherwise entirely
+  deterministic by design — and writes to a sibling output file so both
+  methods can be compared side by side via the dashboard's `?method=`
+  toggle instead of one overwriting the other.
 
 - ~~**UI work to display results to the user.**~~ **Done** (`feature/dashboard`),
   ahead of clustering above rather than after it: clustering is purely a
