@@ -15,7 +15,7 @@ describe("buildPhraseCloud", () => {
 
   it("collects sentences containing the term across pages", () => {
     const [entry] = buildPhraseCloud(pages, [
-      { term: "linear", score: 1, documentFrequency: 2 },
+      { term: "linear", score: 1, documentFrequency: 2, occurrences: 2 },
     ]);
     expect(entry.term).toBe("linear");
     expect(entry.occurrences).toHaveLength(2);
@@ -25,7 +25,7 @@ describe("buildPhraseCloud", () => {
 
   it("does not match substrings of other words", () => {
     const [entry] = buildPhraseCloud(pages, [
-      { term: "team", score: 1, documentFrequency: 1 },
+      { term: "team", score: 1, documentFrequency: 1, occurrences: 1 },
     ]);
     // "team" must not match "Teams" (word-boundary match only)
     expect(entry.occurrences).toHaveLength(1);
@@ -39,7 +39,7 @@ describe("buildPhraseCloud", () => {
     }));
     const [entry] = buildPhraseCloud(
       manyPages,
-      [{ term: "linear", score: 1, documentFrequency: 10 }],
+      [{ term: "linear", score: 1, documentFrequency: 10, occurrences: 10 }],
       3
     );
     expect(entry.occurrences).toHaveLength(3);

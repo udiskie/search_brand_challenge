@@ -2,466 +2,306 @@
   "site": [
     {
       "term": "linear",
-      "score": 108.4357078006282,
-      "documentFrequency": 9
+      "score": 108.43570780062817,
+      "documentFrequency": 9,
+      "occurrences": 99
     },
     {
       "term": "contextreply",
       "score": 81.14244276715276,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 30
     },
     {
       "term": "product",
       "score": 63.285779093689655,
-      "documentFrequency": 7
-    },
-    {
-      "term": "eng",
-      "score": 59.504458029245356,
-      "documentFrequency": 1
+      "documentFrequency": 7,
+      "occurrences": 48
     },
     {
       "term": "americalearn",
       "score": 59.504458029245356,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 22
+    },
+    {
+      "term": "eng",
+      "score": 59.504458029245356,
+      "documentFrequency": 1,
+      "occurrences": 22
     },
     {
       "term": "work",
-      "score": 50.10124178250431,
-      "documentFrequency": 7
+      "score": 50.1012417825043,
+      "documentFrequency": 7,
+      "occurrences": 38
     },
     {
       "term": "added",
       "score": 45.98565968260522,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 20
     },
     {
       "term": "agent",
       "score": 42.10756858854866,
-      "documentFrequency": 6
+      "documentFrequency": 6,
+      "occurrences": 29
     },
     {
       "term": "issues",
-      "score": 40.872065664674565,
-      "documentFrequency": 7
+      "score": 40.87206566467458,
+      "documentFrequency": 7,
+      "occurrences": 31
     },
     {
       "term": "teams",
       "score": 40.526476652760024,
-      "documentFrequency": 9
+      "documentFrequency": 9,
+      "occurrences": 37
     },
     {
       "term": "them",
       "score": 33.98068984692113,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 19
     },
     {
       "term": "team",
       "score": 33.61877947294023,
-      "documentFrequency": 8
+      "documentFrequency": 8,
+      "occurrences": 28
     },
     {
       "term": "syncstatus",
       "score": 32.4569771068611,
-      "documentFrequency": 1
-    },
-    {
-      "term": "customer",
-      "score": 32.12271607140631,
-      "documentFrequency": 5
+      "documentFrequency": 1,
+      "occurrences": 12
     },
     {
       "term": "code",
       "score": 32.12271607140631,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 20
+    },
+    {
+      "term": "customer",
+      "score": 32.12271607140631,
+      "documentFrequency": 5,
+      "occurrences": 20
     },
     {
       "term": "agents",
       "score": 31.94367272234726,
-      "documentFrequency": 6
+      "documentFrequency": 6,
+      "occurrences": 22
     },
     {
       "term": "now",
       "score": 30.1740136751772,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 15
     },
     {
       "term": "api",
       "score": 29.89067879369339,
-      "documentFrequency": 2
-    },
-    {
-      "term": "import",
-      "score": 29.752229014622678,
-      "documentFrequency": 1
+      "documentFrequency": 2,
+      "occurrences": 13
     },
     {
       "term": "unlimited",
       "score": 29.752229014622678,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 11
+    },
+    {
+      "term": "import",
+      "score": 29.752229014622678,
+      "documentFrequency": 1,
+      "occurrences": 11
     },
     {
       "term": "saarinen",
       "score": 28.162412763498722,
-      "documentFrequency": 3
-    },
-    {
-      "term": "view",
-      "score": 27.59139580956313,
-      "documentFrequency": 2
+      "documentFrequency": 3,
+      "occurrences": 14
     },
     {
       "term": "aug",
       "score": 27.59139580956313,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 12
+    },
+    {
+      "term": "view",
+      "score": 27.59139580956313,
+      "documentFrequency": 2,
+      "occurrences": 12
     },
     {
       "term": "building",
-      "score": 27.304308660695362,
-      "documentFrequency": 5
+      "score": 27.304308660695366,
+      "documentFrequency": 5,
+      "occurrences": 17
     },
     {
       "term": "plan",
-      "score": 27.30430866069536,
-      "documentFrequency": 5
+      "score": 27.304308660695362,
+      "documentFrequency": 5,
+      "occurrences": 17
     },
     {
       "term": "dashboard",
       "score": 27.047480922384253,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 10
     },
     {
       "term": "skillsreview",
       "score": 27.047480922384253,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 10
     },
     {
       "term": "notification",
       "score": 27.047480922384253,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 10
     },
     {
       "term": "triage",
       "score": 26.826860405464053,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 15
     },
     {
       "term": "design",
-      "score": 26.826860405464053,
-      "documentFrequency": 4
-    },
-    {
-      "term": "access",
-      "score": 26.150811851820237,
-      "documentFrequency": 3
+      "score": 26.82686040546405,
+      "documentFrequency": 4,
+      "occurrences": 15
     },
     {
       "term": "people",
       "score": 26.150811851820237,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 13
+    },
+    {
+      "term": "access",
+      "score": 26.150811851820237,
+      "documentFrequency": 3,
+      "occurrences": 13
     },
     {
       "term": "current",
       "score": 25.292112825432866,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 11
     },
     {
       "term": "today",
       "score": 25.050620891252155,
-      "documentFrequency": 7
+      "documentFrequency": 7,
+      "occurrences": 19
     },
     {
       "term": "should",
       "score": 25.03840304509978,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 14
     },
     {
       "term": "react",
       "score": 24.342732830145827,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 9
     },
     {
       "term": "usevehiclestate",
       "score": 24.342732830145827,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 9
     },
     {
       "term": "skillswhat",
       "score": 24.342732830145827,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 9
     },
     {
       "term": "move",
       "score": 24.09203705355473,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 15
+    },
+    {
+      "term": "coding",
+      "score": 23.249945684735515,
+      "documentFrequency": 4,
+      "occurrences": 13
     },
     {
       "term": "change",
       "score": 23.249945684735515,
-      "documentFrequency": 4
-    },
-    {
-      "term": "coding",
-      "score": 23.249945684735508,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 13
     },
     {
       "term": "issue",
-      "score": 22.485901249984416,
-      "documentFrequency": 5
+      "score": 22.48590124998442,
+      "documentFrequency": 5,
+      "occurrences": 14
     },
     {
       "term": "workspace",
       "score": 22.485901249984416,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 14
     },
     {
       "term": "startedget",
       "score": 21.637984737907402,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 8
     },
     {
       "term": "next",
       "score": 20.8797654464141,
-      "documentFrequency": 5
-    },
-    {
-      "term": "review",
-      "score": 20.693546857172347,
-      "documentFrequency": 2
-    },
-    {
-      "term": "add",
-      "score": 20.693546857172347,
-      "documentFrequency": 2
+      "documentFrequency": 5,
+      "occurrences": 13
     },
     {
       "term": "may",
       "score": 20.693546857172347,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 9
+    },
+    {
+      "term": "review",
+      "score": 20.693546857172347,
+      "documentFrequency": 2,
+      "occurrences": 9
     },
     {
       "term": "features",
       "score": 20.693546857172347,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 9
+    },
+    {
+      "term": "add",
+      "score": 20.693546857172347,
+      "documentFrequency": 2,
+      "occurrences": 9
     },
     {
       "term": "moving",
-      "score": 20.116009116784795,
-      "documentFrequency": 3
+      "score": 20.1160091167848,
+      "documentFrequency": 3,
+      "occurrences": 10
     }
   ],
   "byPage": {
-    "https://linear.app/": [
-      {
-        "term": "eng",
-        "score": 59.504458029245356
-      },
-      {
-        "term": "syncstatus",
-        "score": 32.4569771068611
-      },
-      {
-        "term": "import",
-        "score": 29.752229014622678
-      },
-      {
-        "term": "dashboard",
-        "score": 27.047480922384253
-      },
-      {
-        "term": "react",
-        "score": 24.342732830145827
-      },
-      {
-        "term": "usevehiclestate",
-        "score": 24.342732830145827
-      },
-      {
-        "term": "view",
-        "score": 22.99282984130261
-      },
-      {
-        "term": "reduce",
-        "score": 18.933236645668977
-      },
-      {
-        "term": "const",
-        "score": 18.933236645668977
-      },
-      {
-        "term": "product",
-        "score": 17.139898504540948
-      }
-    ],
-    "https://linear.app/pricing": [
-      {
-        "term": "unlimited",
-        "score": 29.752229014622678
-      },
-      {
-        "term": "startedget",
-        "score": 21.637984737907402
-      },
-      {
-        "term": "per",
-        "score": 10.818992368953701
-      },
-      {
-        "term": "user",
-        "score": 9.197131936521043
-      },
-      {
-        "term": "google",
-        "score": 8.114244276715276
-      },
-      {
-        "term": "features",
-        "score": 6.897848952390782
-      },
-      {
-        "term": "teams",
-        "score": 6.57186107882595
-      },
-      {
-        "term": "free",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "monthbilled",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "yearlyall",
-        "score": 5.4094961844768505
-      }
-    ],
-    "https://linear.app/docs/changes-to-linears-pricing-plans": [
-      {
-        "term": "plan",
-        "score": 20.8797654464141
-      },
-      {
-        "term": "current",
-        "score": 20.693546857172347
-      },
-      {
-        "term": "plans",
-        "score": 18.933236645668977
-      },
-      {
-        "term": "move",
-        "score": 16.061358035703154
-      },
-      {
-        "term": "moving",
-        "score": 14.08120638174936
-      },
-      {
-        "term": "features",
-        "score": 13.795697904781564
-      },
-      {
-        "term": "business",
-        "score": 12.06960547007088
-      },
-      {
-        "term": "linear",
-        "score": 10.95310179804325
-      },
-      {
-        "term": "onto",
-        "score": 10.818992368953701
-      },
-      {
-        "term": "default",
-        "score": 10.818992368953701
-      }
-    ],
-    "https://linear.app/docs": [
-      {
-        "term": "issues",
-        "score": 6.592268655592672
-      },
-      {
-        "term": "issue",
-        "score": 3.212271607140631
-      },
-      {
-        "term": "popularstart",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "guidelearn",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "buildingimport",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "issuesquickly",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "linearprojectsshape",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "ideas",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "nextgithub",
-        "score": 2.7047480922384253
-      },
-      {
-        "term": "automationslink",
-        "score": 2.7047480922384253
-      }
-    ],
-    "https://linear.app/docs/start-guide": [
-      {
-        "term": "linear",
-        "score": 14.239032337456225
-      },
-      {
-        "term": "demo",
-        "score": 10.818992368953701
-      },
-      {
-        "term": "workspace",
-        "score": 9.636814821421893
-      },
-      {
-        "term": "see",
-        "score": 9.197131936521043
-      },
-      {
-        "term": "workflows",
-        "score": 6.424543214281262
-      },
-      {
-        "term": "common",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "playlist",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "day",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "examples",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "visit",
-        "score": 5.4094961844768505
-      }
-    ],
     "https://linear.app/blog/sharing-growth-with-the-people-building-linear": [
       {
         "term": "linear",
@@ -546,46 +386,46 @@
         "score": 12.519201522549892
       }
     ],
-    "https://linear.app/about": [
+    "https://linear.app/pricing": [
       {
-        "term": "founder",
+        "term": "unlimited",
+        "score": 29.752229014622678
+      },
+      {
+        "term": "startedget",
+        "score": 21.637984737907402
+      },
+      {
+        "term": "per",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "user",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "google",
         "score": 8.114244276715276
       },
       {
-        "term": "products",
-        "score": 6.03480273503544
+        "term": "features",
+        "score": 6.897848952390782
       },
       {
-        "term": "fundamentally",
+        "term": "teams",
+        "score": 6.57186107882595
+      },
+      {
+        "term": "free",
         "score": 5.4094961844768505
       },
       {
-        "term": "partner",
+        "term": "monthbilled",
         "score": 5.4094961844768505
       },
       {
-        "term": "ceo",
+        "term": "yearlyall",
         "score": 5.4094961844768505
-      },
-      {
-        "term": "van",
-        "score": 5.4094961844768505
-      },
-      {
-        "term": "product",
-        "score": 5.273814924474138
-      },
-      {
-        "term": "built",
-        "score": 4.818407410710947
-      },
-      {
-        "term": "tools",
-        "score": 4.598565968260521
-      },
-      {
-        "term": "team",
-        "score": 3.6020120863864538
       }
     ],
     "https://linear.app/careers": [
@@ -630,6 +470,132 @@
         "score": 8.04640364671392
       }
     ],
+    "https://linear.app/about": [
+      {
+        "term": "founder",
+        "score": 8.114244276715276
+      },
+      {
+        "term": "products",
+        "score": 6.03480273503544
+      },
+      {
+        "term": "fundamentally",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "partner",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "ceo",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "van",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "product",
+        "score": 5.273814924474138
+      },
+      {
+        "term": "built",
+        "score": 4.818407410710947
+      },
+      {
+        "term": "tools",
+        "score": 4.598565968260521
+      },
+      {
+        "term": "team",
+        "score": 3.6020120863864538
+      }
+    ],
+    "https://linear.app/docs/changes-to-linears-pricing-plans": [
+      {
+        "term": "plan",
+        "score": 20.8797654464141
+      },
+      {
+        "term": "current",
+        "score": 20.693546857172347
+      },
+      {
+        "term": "plans",
+        "score": 18.933236645668977
+      },
+      {
+        "term": "move",
+        "score": 16.061358035703154
+      },
+      {
+        "term": "moving",
+        "score": 14.08120638174936
+      },
+      {
+        "term": "features",
+        "score": 13.795697904781564
+      },
+      {
+        "term": "business",
+        "score": 12.06960547007088
+      },
+      {
+        "term": "linear",
+        "score": 10.95310179804325
+      },
+      {
+        "term": "onto",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "default",
+        "score": 10.818992368953701
+      }
+    ],
+    "https://linear.app/": [
+      {
+        "term": "eng",
+        "score": 59.504458029245356
+      },
+      {
+        "term": "syncstatus",
+        "score": 32.4569771068611
+      },
+      {
+        "term": "import",
+        "score": 29.752229014622678
+      },
+      {
+        "term": "dashboard",
+        "score": 27.047480922384253
+      },
+      {
+        "term": "react",
+        "score": 24.342732830145827
+      },
+      {
+        "term": "usevehiclestate",
+        "score": 24.342732830145827
+      },
+      {
+        "term": "view",
+        "score": 22.99282984130261
+      },
+      {
+        "term": "reduce",
+        "score": 18.933236645668977
+      },
+      {
+        "term": "const",
+        "score": 18.933236645668977
+      },
+      {
+        "term": "product",
+        "score": 17.139898504540948
+      }
+    ],
     "https://linear.app/agents": [
       {
         "term": "contextreply",
@@ -670,6 +636,90 @@
       {
         "term": "should",
         "score": 17.8845736036427
+      }
+    ],
+    "https://linear.app/docs/start-guide": [
+      {
+        "term": "linear",
+        "score": 14.239032337456225
+      },
+      {
+        "term": "demo",
+        "score": 10.818992368953701
+      },
+      {
+        "term": "workspace",
+        "score": 9.636814821421893
+      },
+      {
+        "term": "see",
+        "score": 9.197131936521043
+      },
+      {
+        "term": "workflows",
+        "score": 6.424543214281262
+      },
+      {
+        "term": "common",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "playlist",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "day",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "examples",
+        "score": 5.4094961844768505
+      },
+      {
+        "term": "visit",
+        "score": 5.4094961844768505
+      }
+    ],
+    "https://linear.app/docs": [
+      {
+        "term": "issues",
+        "score": 6.592268655592672
+      },
+      {
+        "term": "issue",
+        "score": 3.212271607140631
+      },
+      {
+        "term": "popularstart",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "guidelearn",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "buildingimport",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "issuesquickly",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "linearprojectsshape",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "ideas",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "nextgithub",
+        "score": 2.7047480922384253
+      },
+      {
+        "term": "automationslink",
+        "score": 2.7047480922384253
       }
     ]
   }

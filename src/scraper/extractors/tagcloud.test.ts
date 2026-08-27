@@ -22,6 +22,13 @@ describe("buildTagcloud", () => {
     expect(linear?.documentFrequency).toBe(1);
   });
 
+  it("counts raw occurrences separately from the idf-weighted score", () => {
+    const { site } = buildTagcloud(pages);
+    const linear = site.find((t) => t.term === "linear");
+    // "Linear linear" appears twice in page a's text.
+    expect(linear?.occurrences).toBe(2);
+  });
+
   it("sorts the site tagcloud by score descending", () => {
     const { site } = buildTagcloud(pages);
     for (let i = 1; i < site.length; i++) {
