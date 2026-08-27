@@ -40,7 +40,21 @@ export function ThemeSankey({ themes }: { themes: Theme[] }) {
   const mentionedIdx = withTerms.length + 2;
   const notMentionedIdx = withTerms.length + 3;
 
-  const links: { source: number; target: number; value: number }[] = [];
+  // Recharts' Sankey renders one link per data entry and keys it off
+  // source/target -- multiple themes routing through the same bucket pair
+  // (e.g. two themes both "has questions" -> "mentioned") would otherwise
+  // push separate link entries with an identical source/target, producing
+  // duplicate React keys and stacked/overlapping arcs instead of one arc
+  // whose width reflects the combined flow. Aggregate by source-target
+  // pair and sum the weight so each pair appears as a single link.
+  const linksByPair = new Map<string, { source: number; target: number; value: number }>();
+  function addLink(source: number, target: number, value: number) {
+    const key = `${source}-${target}`;
+    const existing = linksByPair.get(key);
+    if (existing) existing.value += value;
+    else linksByPair.set(key, { source, target, value });
+  }
+
   withTerms.forEach((theme, i) => {
     const weight = Math.max(1, theme.terms.length);
     const hasQuestions = theme.questions.length > 0;
@@ -50,9 +64,11 @@ export function ThemeSankey({ themes }: { themes: Theme[] }) {
     const questionBucket = hasQuestions ? hasQuestionsIdx : noQuestionsIdx;
     const mentionBucket = mentioned ? mentionedIdx : notMentionedIdx;
 
-    links.push({ source: i, target: questionBucket, value: weight });
-    links.push({ source: questionBucket, target: mentionBucket, value: weight });
+    addLink(i, questionBucket, weight);
+    addLink(questionBucket, mentionBucket, weight);
   });
+
+  const links = [...linksByPair.values()];
 
   return (
     <ChartContainer config={chartConfig} className="h-80 w-full">
