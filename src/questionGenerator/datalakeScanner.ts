@@ -1,6 +1,7 @@
 import path from "node:path";
 import { extractedDir, geoDir, readJson } from "../scraper/datalake";
 import type { GeoSignals, PhraseCloudEntry, StructuredSignals, Tagcloud } from "../scraper/types";
+import { containsExcludedTerm } from "./textFilters";
 import type { ProductHook } from "./types";
 
 /**
@@ -22,20 +23,6 @@ export interface ScanOptions {
   /** Terms to exclude as hooks even if they pass other filters (typically the brand's own name -- using it as a "hook" to elicit a mention of itself is circular). */
   excludeTerms?: string[];
   maxTagcloudHooks?: number;
-}
-
-/**
- * True if `text` contains any excluded term as a substring. Sentence-level
- * hooks (meta descriptions, GEO definitions) need substring matching --
- * e.g. a meta description reading "Use Linear for free..." should be
- * excluded for brand "Linear" even though it isn't an exact match.
- */
-function containsExcludedTerm(text: string, exclude: Set<string>): boolean {
-  const lower = text.toLowerCase();
-  for (const term of exclude) {
-    if (term && lower.includes(term)) return true;
-  }
-  return false;
 }
 
 /**
