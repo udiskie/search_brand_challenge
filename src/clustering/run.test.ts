@@ -24,9 +24,9 @@ describe("runTermClustering", () => {
     await expect(runTermClustering("linear", "taxonomy")).rejects.toThrow(/Missing tagcloud.json/);
   });
 
-  it("rejects an unimplemented method", async () => {
+  it("rejects llm method without a geminiConfig", async () => {
     await writeJson(path.join(extractedDir("linear"), "tagcloud.json"), { site: [], byPage: {} });
-    await expect(runTermClustering("linear", "llm")).rejects.toThrow(/not implemented/);
+    await expect(runTermClustering("linear", "llm")).rejects.toThrow(/requires a Gemini API key/);
   });
 
   it("clusters, correlates against questions and answers, and writes the output file", async () => {
@@ -91,5 +91,52 @@ describe("runTermClustering", () => {
       )
     );
     expect(written.method).toBe("taxonomy");
+  });
+
+  it("runs the llm method end to end and writes a sibling output file", async () => {
+    await writeJson(path.join(extractedDir("linear"), "tagcloud.json"), {
+      site: [{ term: "agent", score: 10, documentFrequency: 3 }],
+      byPage: {},
+    });
+
+    const geminiFetch = (async () =>
+      new Response(
+        JSON.stringify({
+          candidates: [
+            {
+              content: {
+                parts: [
+                  {
+                    text: JSON.stringify({
+                      themes: [{ name: "AI & Automation", terms: ["agent"] }],
+                      unclustered: [],
+                    }),
+                  },
+                ],
+              },
+              finishReason: "STOP",
+            },
+          ],
+        }),
+        { status: 200 }
+      )) as typeof fetch;
+
+    const result = await runTermClustering(
+      "linear",
+      "llm",
+      { geminiConfig: { apiKey: "test-key", model: "gemini-3.6-flash", timeoutMs: 1000, maxRetries: 1 } },
+      geminiFetch
+    );
+
+    expect(result.method).toBe("llm");
+    expect(result.themes[0].name).toBe("AI & Automation");
+
+    const written = JSON.parse(
+      readFileSync(
+        path.join(tmpDir, "datalake", "linear", "clusters", "theme_clusters.llm.json"),
+        "utf-8"
+      )
+    );
+    expect(written.method).toBe("llm");
   });
 });
