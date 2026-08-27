@@ -60,7 +60,7 @@ export const LONG_FORM_TEMPLATES: QuestionTemplate[] = [
   },
 ];
 
-const DEFAULT_PERSONAS = [
+export const DEFAULT_PERSONAS = [
   "an engineering lead",
   "a startup founder",
   "a product manager at a large company",

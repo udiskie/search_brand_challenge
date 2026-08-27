@@ -2,7 +2,7 @@ import path from "node:path";
 import { extractedDir, geoDir, readJson } from "../scraper/datalake";
 import type { GeoSignals, PhraseCloudEntry, StructuredSignals } from "../scraper/types";
 import { containsExcludedTerm } from "./textFilters";
-import type { AudienceSignal, HookEvidence, ProblemClaim } from "./types";
+import type { AudienceSignal, ProblemClaim } from "./types";
 
 const VERB_BASE_FORM: Record<string, string> = {
   reduces: "reduce",
