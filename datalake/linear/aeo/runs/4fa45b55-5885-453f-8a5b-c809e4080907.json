@@ -1,0 +1,22 @@
+{
+  "runId": "4fa45b55-5885-453f-8a5b-c809e4080907",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Linear ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Linear"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T15:31:22.211Z",
+  "finishReason": "STOP",
+  "rawText": "Linear se ha vuelto el estándar de oro en gestión de proyectos para desarrolladores gracias a tres cosas: **velocidad extrema, atajos de teclado y un diseño minimalista**.\n\nSi buscas alternativas que mantengan esa misma filosofía de **rapidez, simplicidad y cero fricción** (alejándote de herramientas pesadas como Jira o ClickUp), aquí tienes las mejores opciones:\n\n---\n\n### 1. **Plane** (La alternativa más cercana y Open Source)\nEs prácticamente la respuesta *open-source* a Linear. Su interfaz está muy inspirada en ella, por lo que la curva de aprendizaje es nula si ya conoces Linear.\n* **Por qué es rápida y simple:** Interfaz impecable, limpia, enfocada en la velocidad de carga y en el trabajo con teclado.\n* **Punto fuerte:** Puedes alojarla en tu propio servidor (Self-hosted) gratis o usar su versión Cloud.\n* **Ideal para:** Equipos que quieren la experiencia de Linear pero prefieren software libre o privacidad total de datos.\n\n### 2. **GitHub Projects (v2)** (La opción integrada)\nSi tu equipo ya usa GitHub, la nueva versión de GitHub Projects (rediseñada totalmente hace poco) es sorprendentemente rápida y minimalista.\n* **Por qué es rápida y simple:** Funciona con atajos de teclado muy similares a los de Linear (Cmd+K), carga al instante y no tienes que cambiar de aplicación.\n* **Punto fuerte:** Integración nativa e instantánea con PRs, Issues y repositorios.\n* **Ideal para:** Equipos de desarrollo pequeños/medianos que quieren consolidar todo en GitHub sin pagar otra herramienta.\n\n### 3. **Height** (Flexible y centrada en la automatización)\nHeight es una herramienta modernísima que combina hojas de cálculo, listas y tableros Kanban con una velocidad pasmosa.\n* **Por qué es rápida y simple:** Su motor de búsqueda interno y su rendimiento son instantáneos. La interfaz es minimalista y muy elegante.\n* **Punto fuerte:** Incorpora inteligencia artificial para categorizar, resumir y asignar tareas automáticamente, reduciendo el trabajo manual.\n* **Ideal para:** Equipos que no solo tienen desarrolladores, sino también diseñadores o marketing, y buscan algo rápido pero más flexible.\n\n### 4. **Shortcut** (Antes Clubhouse)\nShortcut nació para ser el punto medio entre la velocidad de Linear y la estructura de Jira.\n* **Por qué es rápida y simple:** Su interfaz es muy directa, orientada a flujos de trabajo de software sin menús innecesarios ni configuraciones complejas.\n* **Punto fuerte:** Escala mejor que Linear si el equipo empieza a crecer mucho (maneja mejor la gestión de grandes \"Epics\" o roadmap de producto).\n* **Ideal para:** Equipos de producto en crecimiento que sienten que Linear se les queda corto en planificación a largo plazo, pero odian la lentitud de Jira.\n\n### 5. **Superlist** (Para máxima simplicidad y diseño)\nCreada por los fundadores de Wunderlist, no es un gestor de proyectos técnico como tal, sino una aplicación de tareas súper estilizada y ultra rápida.\n* **Por qué es rápida y simple:** Diseñada para abrir, escribir y cerrar. Cero fricción, animación fluida y estética cuidada al milímetro.\n* **Punto fuerte:** Mezcla notas con listas de tareas de forma muy natural.\n* **Ideal para:** Startups en fase inicial, creadores en solitario o equipos muy pequeños que solo necesitan un backlog ultra simple sin metodologías Agile complejas.\n\n---\n\n### Resumen: ¿Cuál elegir?\n\n* **Si quieres exactamente lo mismo que Linear pero gratis/Open Source:** Ve a por **Plane**.\n* **Si quieres reducir stack de herramientas y usas GitHub:** Usa **GitHub Projects**.\n* **Si tienes miembros no-técnicos en el equipo:** Prueba **Height**.\n* **Si buscas la máxima simplicidad sin complicaciones técnicas:** Prueba **Superlist**."
+}

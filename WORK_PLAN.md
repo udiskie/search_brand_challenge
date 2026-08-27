@@ -167,24 +167,24 @@ CI).
 
 ## Future work — not yet built
 
-- **Wire Part 1 and Part 2 questions into the AEO pipeline.** The
-  `user-question-generator` skill (`src/questionGenerator/`) produces two
-  derivatives of candidate questions — Part 1 (hook-grounded, quotes/echoes
-  the site's own phrasing) and Part 2 (inferential, paraphrased across the
-  pain_only/problem_framed/comparing_with_criteria awareness stages) — but
-  today they're standalone text artifacts (`candidate_user_questions.json`/
-  `.md`) for a human to review and hand-pick from. Neither is currently sent
-  to Gemini: the only questions that actually get run through
-  `src/aeo/geminiClient.ts` come from `brand-visibility-audit`'s own,
-  separate, neutral `promptGenerator.ts`. Wiring them in means feeding
-  reviewed/selected Part 1 or Part 2 questions into `runGeminiForPrompts()`
-  and through the same mention-extraction/metrics/report pipeline the AEO
-  skill already has, likely as a third prompt source alongside (not
-  replacing) the neutral benchmarking set, since Part 1/Part 2 are
-  deliberately brand-grounded rather than neutral — see
-  `.claude/skills/brand-visibility-audit/SKILL.md`'s neutrality framing and
-  the persona-inference tension in `DECISIONS.md` for why brand-grounded and
-  neutral prompt sources shouldn't be silently merged into one metric.
+- ~~**Wire Part 1 and Part 2 questions into the AEO pipeline.**~~ **Done**
+  (`feature/wire-questions-into-aeo`). `npm run aeo -- ... --include-questions
+  hooks|inferential|both [--questions-runs N] [--questions-limit N]` runs
+  Part 1/Part 2 candidate questions through Gemini as a third, explicitly
+  brand-grounded prompt source, writing `aeo/brand_grounded_metrics.json`
+  and a separate `## Brand-grounded question performance` report section —
+  reusing the same tested SoV/position/sentiment/co-occurrence math
+  (`src/aeo/aeoMetrics.ts`'s functions, widened and exported for reuse) but
+  broken down by prompt source/awareness-stage instead of the neutral
+  pipeline's dimensions, and never feeding into `scores`/`priorities`. Live
+  smoke test found two real bugs before this was considered done: a naive
+  concat-then-slice meant `--include-questions both` with a limit never
+  actually reached a single inferential question (90 real hook questions
+  exhausted any small limit first) — fixed to split the limit fairly and
+  top up from whichever source has spare capacity; and a "1 runs" grammar
+  slip in the new report section. Coarseness that remains: `--questions-limit`
+  takes the first N per source, not a human-curated subset picked from
+  `candidate_user_questions.md` — see `user-question-generator`'s SKILL.md.
 
 - **Genuine semantic clustering of extracted tags.** Today's
   `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) is a flat tf-idf

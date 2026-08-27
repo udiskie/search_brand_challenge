@@ -3,6 +3,7 @@ import {
   aeoDir,
   extractedDir,
   geoDir,
+  productDir,
   readJson,
   reportDir,
   writeJson,
@@ -16,13 +17,27 @@ import type {
   StructuredSignals,
   Tagcloud,
 } from "../scraper/types";
+import type { CandidateQuestion, InferentialQuestion } from "../questionGenerator/types";
 import { computeAeoMetrics } from "./aeoMetrics";
+import { hookQuestionsToPrompts, inferentialQuestionsToPrompts } from "./brandGroundedAdapter";
+import { computeBrandGroundedMetrics } from "./brandGroundedMetrics";
+import { parseBrandGroundedRun, runGeminiForBrandGroundedPrompts } from "./brandGroundedRunner";
 import { findGeoAeoGaps } from "./crossValidate";
 import { runGeminiForPrompts, type GeminiClientConfig } from "./geminiClient";
 import { parseRun } from "./mentionExtractor";
 import { generatePrompts } from "./promptGenerator";
 import { buildReport, renderReportMarkdown } from "./reportGenerator";
-import type { AeoAuditConfig, DimensionScore } from "./types";
+import type { AeoAuditConfig, BrandGroundedMetrics, BrandGroundedPrompt, DimensionScore } from "./types";
+
+export type BrandGroundedQuestionSource = "hooks" | "inferential" | "both";
+
+export interface IncludeBrandGroundedQuestionsOptions {
+  source: BrandGroundedQuestionSource;
+  /** Defaults to 2 -- kept modest since there can be 100+ candidate questions. */
+  runsPerPrompt?: number;
+  /** Caps how many candidate questions are actually sent to Gemini. */
+  limit?: number;
+}
 
 export interface AeoRunOptions {
   product: string;
@@ -31,6 +46,14 @@ export interface AeoRunOptions {
   /** If scraper output is missing for `product`, scrape this URL first. */
   siteUrl?: string;
   scrapeMode?: CrawlMode;
+  /**
+   * Also run reviewed Part 1/Part 2 candidate questions (from
+   * user-question-generator) through Gemini as a third, explicitly
+   * brand-grounded prompt source -- see WORK_PLAN.md's "wire Part 1 and
+   * Part 2 questions into the AEO pipeline" future-work entry. Requires
+   * `npm run questions` to have been run for this product first.
+   */
+  includeBrandGroundedQuestions?: IncludeBrandGroundedQuestionsOptions;
 }
 
 export interface AeoRunSummary {
@@ -38,6 +61,18 @@ export interface AeoRunSummary {
   totalPrompts: number;
   totalRuns: number;
   reportScores: DimensionScore[];
+  brandGroundedRunCount?: number;
+}
+
+interface CandidateQuestionsFile {
+  hookQuestions: CandidateQuestion[];
+  inferentialQuestions: InferentialQuestion[];
+}
+
+async function loadCandidateQuestions(product: string): Promise<CandidateQuestionsFile | undefined> {
+  return readJson<CandidateQuestionsFile>(
+    path.join(productDir(product), "questions", "candidate_user_questions.json")
+  );
 }
 
 interface ScraperOutput {
@@ -135,6 +170,76 @@ export async function runAeoAudit(
     auditConfig.brand
   );
 
+  let brandGroundedMetrics: BrandGroundedMetrics | undefined;
+  let brandGroundedRunCount: number | undefined;
+
+  if (options.includeBrandGroundedQuestions) {
+    const { source, runsPerPrompt = 2, limit } = options.includeBrandGroundedQuestions;
+    const candidateQuestions = await loadCandidateQuestions(product);
+    if (!candidateQuestions) {
+      throw new Error(
+        `Missing candidate questions for product "${product}" in datalake/${product}/questions/. ` +
+          `Run "npm run questions -- --product ${product} --brand ${auditConfig.brand}" first.`
+      );
+    }
+
+    const hookPrompts =
+      source === "hooks" || source === "both"
+        ? hookQuestionsToPrompts(candidateQuestions.hookQuestions)
+        : [];
+    const inferentialPrompts =
+      source === "inferential" || source === "both"
+        ? inferentialQuestionsToPrompts(candidateQuestions.inferentialQuestions)
+        : [];
+
+    let brandGroundedPrompts: BrandGroundedPrompt[];
+    if (limit === undefined) {
+      brandGroundedPrompts = [...hookPrompts, ...inferentialPrompts];
+    } else if (source === "both") {
+      // Split the limit fairly (roughly half each) between both sources
+      // rather than concatenating-then-slicing -- found running this
+      // live: with 90 hook questions and a small limit, a naive slice
+      // never reached a single inferential question, defeating the point
+      // of "both". If either source has fewer than its share available,
+      // top up from whichever source has spare capacity, so a small
+      // source (e.g. only 1 inferential claim) doesn't shrink the total
+      // below `limit`.
+      const hookShare = Math.ceil(limit / 2);
+      const inferentialShare = limit - hookShare;
+      const hookSlice = hookPrompts.slice(0, hookShare);
+      const inferentialSlice = inferentialPrompts.slice(0, inferentialShare);
+      const shortfall = limit - hookSlice.length - inferentialSlice.length;
+      const extraHooks = hookPrompts.slice(hookSlice.length, hookSlice.length + shortfall);
+      const extraInferential = inferentialPrompts.slice(
+        inferentialSlice.length,
+        inferentialSlice.length + (shortfall - extraHooks.length)
+      );
+      brandGroundedPrompts = [...hookSlice, ...extraHooks, ...inferentialSlice, ...extraInferential];
+    } else {
+      brandGroundedPrompts = [...hookPrompts, ...inferentialPrompts].slice(0, limit);
+    }
+
+    const brandGroundedRuns = await runGeminiForBrandGroundedPrompts(
+      product,
+      brandGroundedPrompts,
+      runsPerPrompt,
+      geminiConfig,
+      fetchImpl
+    );
+    brandGroundedRunCount = brandGroundedRuns.length;
+
+    const parsedBrandGroundedRuns = brandGroundedRuns
+      .filter((run) => run.rawText !== null)
+      .map((run) => parseBrandGroundedRun(run, allBrands));
+
+    brandGroundedMetrics = computeBrandGroundedMetrics(
+      parsedBrandGroundedRuns,
+      auditConfig.brand,
+      auditConfig.competitors
+    );
+    await writeJson(path.join(aeoDir(product), "brand_grounded_metrics.json"), brandGroundedMetrics);
+  }
+
   const report = buildReport({
     product,
     brand: auditConfig.brand,
@@ -145,6 +250,7 @@ export async function runAeoAudit(
     geoSignals: scraperOutput.geoSignals,
     aeoMetrics,
     crossValidationGaps,
+    brandGrounded: brandGroundedMetrics,
   });
 
   await writeJson(path.join(reportDir(product), "report.json"), report);
@@ -156,5 +262,6 @@ export async function runAeoAudit(
     totalPrompts: prompts.length,
     totalRuns: runs.length,
     reportScores: report.scores,
+    brandGroundedRunCount,
   };
 }

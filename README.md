@@ -62,6 +62,21 @@ representative), computes Share of Voice/position/sentiment metrics per
 brand, cross-validates against the site's own tagcloud, and writes
 `datalake/{product}/report/report.md` (plus `report.json`/`priorities.json`).
 
+Optionally, also probe Part 1/Part 2 questions from the user question
+generator (below) as a third, explicitly non-neutral prompt source:
+
+```bash
+npm run aeo -- \
+  --product <name> --brand <Brand> --competitors <A,B,C> --category "<category>" \
+  --include-questions hooks|inferential|both [--questions-runs 2] [--questions-limit N]
+```
+
+Requires `npm run questions` to have been run for that product first.
+Results land in a separate `## Brand-grounded question performance` report
+section and `aeo/brand_grounded_metrics.json` — never blended into the
+neutral AEO scores, since these questions are deliberately brand-grounded,
+not neutral (see the skill's SKILL.md for why that distinction matters).
+
 See `.claude/skills/brand-visibility-audit/SKILL.md` for the full procedure,
 every metric's formula, and known limitations.
 

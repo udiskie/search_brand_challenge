@@ -5,11 +5,14 @@ description: Scans a product's scraped data lake (SEO/GEO signals) to generate r
 
 # User Question Generator
 
-**Status: early development, first increment.** This skill currently produces
-a scanner + template pipeline and a reviewable candidate-question artifact
-per product. It does not yet feed candidate questions into the AEO
-measurement pipeline (`src/aeo/`) automatically -- that's a natural next
-step, not yet built.
+**Status:** produces a scanner + template pipeline and a reviewable
+candidate-question artifact per product. The output *can* now be fed into
+the AEO measurement pipeline (`src/aeo/`) — see
+`.claude/skills/brand-visibility-audit/SKILL.md`'s "Step 2b" — via `npm run
+aeo -- ... --include-questions hooks|inferential|both`. That step is still
+opt-in and manual (a human reviews `candidate_user_questions.md` and decides
+whether/which questions are worth spending Gemini quota on) — nothing here
+auto-triggers a Gemini run on its own.
 
 ## Purpose and how it differs from the AEO skill's prompt generator
 
@@ -158,10 +161,13 @@ so no question is ever generated with an empty `{audience}` slot.
   distinctiveness would need tf-idf across a corpus that includes
   competitors (comparing against `datalake/{competitor}/extracted/tagcloud.json`),
   which isn't built yet.
-- **Not yet wired into AEO measurement.** These candidate questions aren't
-  automatically run through `src/aeo/geminiClient.ts` -- a human should
-  review the `.md` output and hand-pick which ones are worth adding to a
-  real AEO probe set.
+- **Wired in, but coarsely.** `--include-questions` runs *all* hook and/or
+  inferential questions (up to `--questions-limit`) rather than a
+  human-curated subset -- there's no way yet to say "run only these 5
+  specific questions I picked from the `.md`." A human should still read
+  `candidate_user_questions.md` first and choose a sensible `--questions-limit`
+  (or `hooks`/`inferential` only) rather than blindly running "both" with no
+  cap, given a product can have 100+ candidate questions.
 - **Single-page-derived hooks** (meta description, GEO definition) have
   `documentFrequency: 1` by construction, even if the same idea appears
   reworded across several pages -- no cross-page semantic dedup yet.

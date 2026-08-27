@@ -1,0 +1,23 @@
+{
+  "runId": "019bd509-08e2-4805-914e-917c1f32910b",
+  "promptId": "direct_comparison-1",
+  "promptText": "Linear vs Asana, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Linear",
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T15:30:50.639Z",
+  "finishReason": "STOP",
+  "rawText": "La decisión entre **Linear** y **Asana** se reduce principalmente a **quién va a usar la herramienta** y **qué tipo de trabajo hacen**.\n\nAquí tienes el resumen rápido para decidir en 30 segundos:\n\n*   **Elige Linear si:** Eres un equipo de **desarrollo de software, producto o diseño**, buscas velocidad extrema, usas metodologías ágiles (Scrum/Kanban) y odias la burocracia visual de las herramientas tradicionales.\n*   **Elige Asana si:** Eres un equipo **multidisciplinar** (marketing, operaciones, ventas, RRHH + devs), necesitas gestionar proyectos muy variados, requiere diagramas de Gantt complejos y buscas visibilidad para directivos.\n\n---\n\n### Análisis detallado: Linear vs. Asana\n\n#### 1. Linear: \"Diseñado para ingenieros y equipos de producto\"\nLinear no intenta ser una herramienta para todo el mundo, y esa es su mayor fortaleza. Está construida pensando en cómo trabajan los desarrolladores modernos.\n\n*   **Lo mejor de Linear:**\n    *   **Velocidad absurda:** Todo carga al instante. Funciona con comandos de teclado (estilo `Cmd + K`), por lo que casi no necesitas usar el ratón.\n    *   **Flujo de trabajo opinado:** Viene preconfigurado para *Ciclos* (Sprints), *Triage* (gestión de bugs/peticiones) y *Backlog*. No pierdes tiempo configurándola.\n    *   **Integración profunda con código:** Se conecta de forma nativa e impecable con GitHub, GitLab, Figma y Slack/Teams.\n    *   **Estética impecable:** Interfaz oscura, limpia, minimalista y moderna.\n*   **Lo malo:**\n    *   **Poco flexible para no-tech:** Un equipo de Marketing o Recursos Humanos se sentirá perdido o limitado.\n    *   **Sin vistas tradicionales complejas:** No esperes paneles corporativos multinivel o diagramas de Gantt ultra detallados.\n\n#### 2. Asana: \"El estándar para la gestión de proyectos corporativos\"\nAsana es como una navaja suiza. Puede adaptarse a prácticamente cualquier departamento o tipo de proyecto.\n\n*   **Lo mejor de Asana:**\n    *   **Ultra flexible:** Permite ver el trabajo como Lista, Tablero (Kanban), Cronograma (Gantt) o Calendario con un solo clic.\n    *   **Colaboración transversal:** Es perfecta para conectar el trabajo de Marketing con el de Diseño, Ventas y Operaciones.\n    *   **Automatizaciones y Metas (OKRs):** Excelente para definir objetivos de empresa y crear reglas automáticas (\"si pasa X, asigna a Y\").\n    *   **Fácil adopción:** Cualquier persona, sin importar su perfil técnico, aprende a usarla en minutos.\n*   **Lo malo:**\n    *   **Lenta comparada con Linear:** Puede sentirse pesada o con demasiados clics para tareas simples.\n    *   **Puede volverse caótica:** Al ser tan flexible, si no se definen reglas claras, se llena de tareas duplicadas o proyectos desordenados.\n    *   **Precio:** Sus planes avanzados (necesarios para sacarle el máximo provecho) son más costosos.\n\n---\n\n### Tabla comparativa\n\n| Característica | Linear | Asana |\n| :--- | :--- | :--- |\n| **Audiencia principal** | Devs, Product Managers, Diseñadores | Todo tipo de equipos y empresas |\n| **Velocidad / Rendimiento** | ⚡️ Extrema (Keyboard-first) | 🐢 Normal / A veces pesada |\n| **Curva de aprendizaje** | Baja para devs, media para el resto | Muy baja para todos |\n| **Gestión de Sprints** | Nativa y perfecta | Requiere configuración manual |\n| **Vista de Cronograma (Gantt)**| Básica (Timeline) | Muy avanzada y detallada |\n| **Integración con GitHub** | 10/10 (Cierra issues solo con un commit) | 6/10 (Más superficial) |\n| **Precio** | Gratis (muy completo) / $8-$14 user/mes | Gratis (limitado) / $10.99-$24.99 user/mes |\n\n---\n\n### Veredicto Final: ¿Cuál elegir?\n\n1.  **Elige Linear si:** Tu empresa es una *startup* tecnológica o tu departamento es 100% de tecnología/producto. Tus ingenieros te lo agradecerán enormemente porque no sentirán que están perdiendo el tiempo \"llenando tickets\".\n2.  **Elige Asana si:** Necesitas una sola herramienta para **toda la empresa**, donde la gente de Marketing, Operaciones y Producto tengan que colaborar juntos en los mismos proyectos."
+}

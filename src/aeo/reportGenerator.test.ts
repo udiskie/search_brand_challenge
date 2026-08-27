@@ -141,4 +141,75 @@ describe("buildReport", () => {
     expect(markdown).toContain("## AEO");
     expect(markdown).toContain("## Priority matrix");
   });
+
+  it("omits the brand-grounded section entirely when not provided", () => {
+    expect(report.brandGrounded).toBeUndefined();
+    expect(renderReportMarkdown(report)).not.toContain("Brand-grounded question performance");
+  });
+});
+
+describe("buildReport with brandGrounded provided", () => {
+  const reportWithBrandGrounded = buildReport({
+    product: "linear",
+    brand: "Linear",
+    competitors: ["Jira"],
+    seoSignals,
+    sitemapCoverage,
+    tagcloud,
+    geoSignals,
+    aeoMetrics,
+    crossValidationGaps: [],
+    brandGrounded: {
+      totalRuns: 4,
+      perBrand: [
+        {
+          brand: "Linear",
+          shareOfVoice: 0.75,
+          relativeShareOfVoice: 3,
+          averagePosition: 1.2,
+          firstMentionRate: 0.5,
+          sentimentScore: 0.6,
+          mentionCount: 3,
+        },
+        {
+          brand: "Jira",
+          shareOfVoice: 0.25,
+          relativeShareOfVoice: 0.33,
+          averagePosition: 2,
+          firstMentionRate: 0,
+          sentimentScore: 0,
+          mentionCount: 1,
+        },
+      ],
+      coOccurrence: [],
+      byDimension: [
+        { dimension: "source", value: "hook", brand: "Linear", shareOfVoice: 0.8, runCount: 2 },
+        { dimension: "stage", value: "pain_only", brand: "Linear", shareOfVoice: 0.5, runCount: 2 },
+      ],
+    },
+  });
+
+  it("does not change scores or priorities just because brandGrounded is present", () => {
+    const withoutBrandGrounded = buildReport({
+      product: "linear",
+      brand: "Linear",
+      competitors: ["Jira"],
+      seoSignals,
+      sitemapCoverage,
+      tagcloud,
+      geoSignals,
+      aeoMetrics,
+      crossValidationGaps: [],
+    });
+    expect(reportWithBrandGrounded.scores).toEqual(withoutBrandGrounded.scores);
+    expect(reportWithBrandGrounded.priorities).toEqual(withoutBrandGrounded.priorities);
+  });
+
+  it("renders the brand-grounded section with its own table and breakdown, clearly separated", () => {
+    const markdown = renderReportMarkdown(reportWithBrandGrounded);
+    expect(markdown).toContain("Brand-grounded question performance");
+    expect(markdown).toContain("not neutral");
+    expect(markdown).toContain("source = hook: 80%");
+    expect(markdown).toContain("stage = pain_only: 50%");
+  });
 });
