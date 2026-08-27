@@ -1,12 +1,12 @@
 # Brand Visibility Audit: Notion
 
-Generated 2026-08-27T19:04:17.938Z · Competitors: Linear, Jira, Asana, Monday
+Generated 2026-08-27T20:11:07.309Z · Competitors: Linear, Jira, Asana, Monday
 
 ## Executive summary
 
 - 🟡 **SEO**: 65/100 (needs_work)
 - 🟢 **GEO**: 71/100 (good)
-- 🟢 **AEO**: 71/100 (good)
+- 🟢 **AEO**: 70/100 (good)
 
 ## SEO
 
@@ -25,13 +25,33 @@ Total runs: 30
 
 | Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
 |---|---|---|---|---|---|
-| Notion | 83% | 2.22x | 1.4 | 57% | 0.04 |
-| Linear | 47% | 1.00x | 2.1 | 10% | 0.29 |
-| Jira | 57% | 1.28x | 1.9 | 23% | 0.35 |
-| Asana | 23% | 0.44x | 2.3 | 0% | 0.57 |
-| Monday | 23% | 0.44x | 1.9 | 10% | 0.00 |
+| Notion | 83% | 2.08x | 1.4 | 67% | 0.00 |
+| Linear | 50% | 1.03x | 2.1 | 3% | 0.47 |
+| Jira | 43% | 0.87x | 1.6 | 23% | 0.38 |
+| Asana | 33% | 0.63x | 2.8 | 0% | 0.40 |
+| Monday | 33% | 0.63x | 2.5 | 7% | 0.10 |
 
 **GEO/AEO gap**: 27 of the site's top 30 keywords never show up in how the model describes Notion: worker, per, agent, run, runs, information, credits, custom, memory, workers.
+
+## Brand-grounded question performance (not neutral -- see caveat)
+
+Results from running user-question-generator's Part 1 (hook-grounded, quotes the site) / Part 2 (inferential, paraphrased across pain_only/problem_framed/ comparing_with_criteria) candidate questions through Gemini. These questions are deliberately grounded in Notion's own site content, not neutral -- do not compare these numbers to the neutral AEO table above as if they were measuring the same thing; this section exists to show how the brand performs on its *own best-case* questions, separately from fair category benchmarking.
+
+Total runs: 8
+
+| Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
+|---|---|---|---|---|---|
+| Notion | 75% | 12.00x | 1.0 | 75% | 0.17 |
+| Linear | 13% | 0.57x | 2.0 | 0% | 0.00 |
+| Jira | 13% | 0.57x | 3.0 | 0% | 1.00 |
+| Asana | 0% | 0.00x | — | 0% | 0.00 |
+| Monday | 0% | 0.00x | — | 0% | 0.00 |
+
+Notion's Share of Voice by breakdown:
+- source = hook: 50% (4 runs)
+- source = inferential: 100% (4 runs)
+- stage = pain_only: 100% (3 runs)
+- stage = problem_framed: 100% (1 run)
 
 ## Priority matrix (impact × effort)
 

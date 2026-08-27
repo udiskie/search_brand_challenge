@@ -1,0 +1,22 @@
+{
+  "runId": "ce7cd856-013d-4b50-a6af-0a007de0e1dd",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Asana ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Asana"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:58:18.096Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Asana porque la sientes muy cargada, lenta o compleja de configurar, existen varias opciones en el mercado diseñadas específicamente para ser **ultrarrápidas, intuitivas y sin curva de aprendizaje**.\n\nAquí tienes las mejores alternativas divididas según su estilo de trabajo:\n\n---\n\n### 1. Las más rápidas y minimalistás (Enfoque en Listas y Tareas)\n\n#### **Todoist**\nEs probablemente la herramienta de gestión de tareas más rápida del mercado. Se centra en listas de tareas, pero permite vista de panel (Kanban).\n*   **Por qué es más simple que Asana:** Su interfaz es limpia y sin distracciones. Crear una tarea toma un segundo gracias a su \"procesamiento de lenguaje natural\" (escribes *\"Reunión mañana a las 10am\"* y asigna la fecha automáticamente).\n*   **Ideal para:** Personas o equipos pequeños que quieren gestionar tareas diarias a la velocidad de la luz.\n*   **Precio:** Gratis (muy completo) / Plan Pro muy accesible.\n\n#### **TickTick**\nMuy similar a Todoist, pero incluye algunas herramientas adicionales integradas sin perder la simplicidad.\n*   **Por qué es más simple que Asana:** Combina listas de tareas, calendario simple, temporizador Pomodoro y seguimiento de hábitos en una sola app fluida.\n*   **Ideal para:** Quienes buscan velocidad y organización personal o de microequipos.\n*   **Precio:** Plan gratuito excelente.\n\n---\n\n### 2. Las más visuales (Enfoque en Tableros / Kanban)\n\n#### **Trello**\nEl clásico sistema de tarjetas y columnas. Es la definición de \"llegar y usar\".\n*   **Por qué es más simple que Asana:** No hay configuraciones complejas ni dependencias avanzadas por defecto. Ves tus proyectos en tableros visuales tipo *Post-it* y mueves las tareas arrastrándolas.\n*   **Ideal para:** Equipos que prefieren ver el flujo de trabajo de forma muy visual sin complicarse con listas o diagramas de Gantt.\n*   **Precio:** Plan gratuito genial e ilimitado para usuarios.\n\n#### **MeisterTask**\nUna alternativa a Trello pero con un diseño más moderno, elegante y fluido.\n*   **Por qué es más simple que Asana:** Está diseñada para ser extremadamente intuitiva. Creas un proyecto, agregas columnas y empiezas a trabajar en menos de dos minutos.\n*   **Ideal para:** Equipos que quieren la simplicidad de Trello pero con un diseño más profesional y controles de tiempo integrados.\n*   **Precio:** Versión gratuita disponible.\n\n---\n\n### 3. Para gestión de proyectos en equipo (Sin la complejidad de Asana)\n\n#### **Basecamp**\nBasecamp combate activamente la complejidad excesiva de herramientas como Asana o ClickUp.\n*   **Por qué es más simple que Asana:** En lugar de miles de botones y vistas, cada proyecto tiene solo 6 herramientas básicas: tablón de anuncios, lista de tareas, chat, documentos, calendario y preguntas automáticas. No hay gráficos de Gantt confusos.\n*   **Ideal para:** Equipos que quieren centralizar comunicación y tareas en un solo lugar tranquilo y organizado.\n*   **Precio:** Pago fijo mensual (sin cobrar por usuario) o versión reducida gratis.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n*   Si quieres **máxima velocidad al escribir tareas**: Elige **Todoist**.\n*   Si quieres **ver todo de forma visual (Kanban)**: Elige **Trello**.\n*   Si quieres **organizar a tu equipo y chatear en un solo lugar**: Elige **Basecamp**."
+}

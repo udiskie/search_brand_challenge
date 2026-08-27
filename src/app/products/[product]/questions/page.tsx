@@ -39,6 +39,12 @@ export default async function QuestionsPage(
             included via <code>--include-questions</code>. Review before treating any of these
             as validated AEO probes.
           </p>
+          <Link
+            href={`/products/${product}/clusters`}
+            className="mt-1 inline-block text-sm text-muted-foreground hover:underline"
+          >
+            See which theme each question maps to →
+          </Link>
         </div>
 
         <Panel title="Part 1 — Hook-grounded (a floor signal, not proof of strength)">

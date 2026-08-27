@@ -1,0 +1,24 @@
+{
+  "runId": "e4797bdb-6709-409b-9c80-1e59004a5ec4",
+  "promptId": "final_decision-4",
+  "promptText": "Between Asana, Linear, and Jira, which one do you recommend?",
+  "dimensions": {
+    "intent": "final_decision",
+    "persona": {
+      "role": "marketing team",
+      "teamSize": "small team"
+    },
+    "specificity": "specific",
+    "attribute": "methodology",
+    "language": "en",
+    "brandsNamed": [
+      "Asana",
+      "Linear",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:58:29.163Z",
+  "finishReason": "STOP",
+  "rawText": "There is no single \"best\" tool among these three, as each is built for a completely different target audience and workflow. \n\nHere is the quick breakdown of which one you should choose based on your team’s needs:\n\n---\n\n### **1. Linear — Best for Modern Software Teams & Startups**\nLinear is a streamlined, hyper-fast issue tracking tool designed specifically for modern software development teams.\n\n* **Choose Linear if:** \n  * You are a software engineering team or tech startup.\n  * You prioritize speed, minimalist design, and keyboard shortcuts.\n  * You want built-in software development best practices without spending weeks configuring the tool.\n  * You want tight integration with GitHub, GitLab, and Figma.\n* **Avoid Linear if:** \n  * You need to manage non-technical departments (Marketing, HR, Sales).\n  * You need extreme customization and complex enterprise workflow approvals.\n\n### **2. Jira — Best for Enterprises & Large-Scale Engineering**\nJira (by Atlassian) is the industry standard for traditional software teams, Agile/Scrum frameworks, and complex enterprise organizations.\n\n* **Choose Jira if:**\n  * You work in a large organization or enterprise with strict compliance and security requirements.\n  * You need deep, customizable reporting (burndown charts, velocity tracking, complex roadmaps).\n  * You require infinite customization (custom fields, complex permission structures, advanced automation).\n  * You already use the Atlassian ecosystem (Confluence, Bitbucket).\n* **Avoid Jira if:**\n  * You are a small team that wants to move fast without managing administrative overhead.\n  * Your team dislikes slow, clunky user interfaces.\n\n### **3. Asana — Best for Cross-Functional & Non-Technical Teams**\nAsana is a general project management tool designed to manage workflows across marketing, operations, product, and business teams.\n\n* **Choose Asana if:**\n  * You manage non-technical projects (marketing campaigns, product launches, operational tasks).\n  * You need a highly visual tool with multiple views (Gantt charts, Kanban boards, lists, calendars).\n  * You need to track high-level company goals and portfolios across different departments.\n  * Ease of use and quick onboarding for non-developers is a priority.\n* **Avoid Asana if:**\n  * You are purely an engineering team looking for deep code-repository integrations and issue tracking.\n\n---\n\n### **Summary Decision Guide**\n\n| Feature / Need | **Linear** | **Jira** | **Asana** |\n| :--- | :--- | :--- | :--- |\n| **Primary Audience** | Software Developers | Engineers & Enterprise | Cross-functional Teams |\n| **Speed & UI/UX** | ⚡️ Extremely Fast | 🐢 Slow / Clunky | 🎨 Smooth & Visual |\n| **Customizability** | Low (Opinionated) | Extremely High | Moderate |\n| **Ease of Adoption** | High (for devs) | Low (Steep learning curve) | High (Very intuitive) |\n| **Best For Non-Devs?**| No | No | Yes |\n\n### **The Final Recommendation:**\n\n1. **Go with Linear** if you are a modern software/product team that wants to build software quickly without the headache of Jira admin work.\n2. **Go with Jira** if you are a large company, need heavy Scrum/Agile metrics, or require rigid governance across hundreds of developers.\n3. **Go with Asana** if you need a flexible project management tool for marketing, operations, or cross-functional teams (or a mix of dev and business tasks)."
+}

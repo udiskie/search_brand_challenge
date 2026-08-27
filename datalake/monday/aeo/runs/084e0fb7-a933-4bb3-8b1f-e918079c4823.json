@@ -1,0 +1,24 @@
+{
+  "runId": "084e0fb7-a933-4bb3-8b1f-e918079c4823",
+  "promptId": "final_decision-4",
+  "promptText": "Between Monday, Linear, and Jira, which one do you recommend?",
+  "dimensions": {
+    "intent": "final_decision",
+    "persona": {
+      "role": "marketing team",
+      "teamSize": "small team"
+    },
+    "specificity": "specific",
+    "attribute": "methodology",
+    "language": "en",
+    "brandsNamed": [
+      "Monday",
+      "Linear",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:05:32.695Z",
+  "finishReason": "STOP",
+  "rawText": "The best choice depends entirely on **who is using the tool** and **what kind of work you do**. \n\nHere is the quick answer based on team type:\n\n*   **Choose Linear** if you are a **software startup, product team, or developer-centric company** looking for speed, modern UI, and zero bloat.\n*   **Choose Jira** if you are an **enterprise, large IT organization, or strict Agile/Scrum team** that needs deep customization, complex reporting, and compliance.\n*   **Choose Monday.com** if you are a **cross-functional, non-technical, or business team** (marketing, sales, HR, operations) that needs visual, flexible workflows.\n\n---\n\n### Deep Dive Comparison\n\n#### 1. Linear: Best for Modern Software Teams\nLinear is built specifically for software engineers and product managers. It is designed to be fast, keyboard-first, and opinionated (it forces good software building habits).\n\n*   **Pros:**\n    *   **Blazing Fast:** Almost no loading screens; built like a high-performance desktop app.\n    *   **Developer Friendly:** Exceptional Git/GitHub/GitLab integrations, markdown support, and keyboard shortcuts for everything.\n    *   **Beautiful UI:** Minimalist and clutter-free.\n    *   **Great Pricing:** Free tier is generous, paid tiers are affordable.\n*   **Cons:**\n    *   Not suitable for non-technical teams (e.g., Marketing, HR).\n    *   Less customization—you have to adapt to *their* workflow (Cycles, Triage, Backlog).\n*   **Bottom Line:** If your team writes code and hates Jira, **pick Linear**.\n\n#### 2. Jira: Best for Enterprise & Large-Scale IT\nJira (by Atlassian) is the legacy industry standard for software development. It is immensely powerful, highly scalable, but often criticized for being slow and complex.\n\n*   **Pros:**\n    *   **Unmatched Customization:** You can build custom workflows, permissions, issue types, and fields for *any* process.\n    *   **Enterprise Power:** Advanced roadmapping, governance, security, and compliance.\n    *   **Ecosystem:** Integrates with virtually every software tool in existence (especially Confluence and Bitbucket).\n*   **Cons:**\n    *   **Steep Learning Curve:** Requires a dedicated administrator for large teams.\n    *   **Cluttered/Slow UI:** Developers often feel it bogs them down with administrative overhead.\n*   **Bottom Line:** If you have 100+ developers, complex security/compliance needs, or strict Scrum reporting requirements, **pick Jira**.\n\n#### 3. Monday.com: Best for General Project Management & Business Teams\nMonday is a highly visual, no-code work operating system. It is meant to be used by anyone, from creative agencies to operations teams.\n\n*   **Pros:**\n    *   **Extremely Easy to Use:** Color-coded, intuitive, and highly visual (Kanban, Gantt, Timeline, Calendar views).\n    *   **Versatile:** Can be used for project management, CRM, HR onboarding, event planning, and marketing campaigns.\n    *   **Automations & Dashboards:** Easy to build custom automations without writing code.\n*   **Cons:**\n    *   **Weak for Technical Dev Teams:** Lacks deep code repository integrations and dev-centric features out of the box.\n    *   **Gets Expensive:** Pricing is based on tier structures and minimum seat increments.\n*   **Bottom Line:** If your team includes non-developers, or you need one tool to manage operations across the whole company, **pick Monday.com**.\n\n---\n\n### Summary Recommendation Matrix\n\n| Feature / Need | Linear | Jira | Monday.com |\n| :--- | :--- | :--- | :--- |\n| **Primary Audience** | Software Devs / Startups | Enterprise Devs / IT | Business / Operations / Marketing |\n| **Ease of Use** | High (for devs) | Low | High |\n| **Speed & UI** | 🚀 Unmatched | 🐢 Slow / Cluttered | ⚡ Smooth & Visual |\n| **Customizability** | Low (Opinionated) | Extremely High | High (No-code) |\n| **Non-Tech Suitability** | Poor | Poor | Excellent |\n\n---\n\n### Final Verdict\n\nIf you tell me **what your company does** and **who will be using it**, I can give you a definitive recommendation. However:\n* For **pure software building**, go with **Linear**. \n* For **all-in-one business management**, go with **Monday.com**. \n* For **large-scale enterprise IT/dev**, go with **Jira**."
+}

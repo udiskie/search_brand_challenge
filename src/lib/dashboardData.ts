@@ -15,6 +15,7 @@ import type {
 } from "@/questionGenerator/types";
 import {
   aeoDir,
+  clustersDir,
   datalakeRoot,
   extractedDir,
   productDir,
@@ -22,6 +23,7 @@ import {
   reportDir,
 } from "@/scraper/datalake";
 import type { Tagcloud } from "@/scraper/types";
+import type { ClusteringMethod, ThemeClustering } from "@/clustering/types";
 
 export interface CandidateQuestionsFile {
   hooks: ProductHook[];
@@ -99,6 +101,16 @@ export async function getNeutralRuns(product: string): Promise<GeminiRunResult[]
 export async function getBrandGroundedRuns(product: string): Promise<BrandGroundedRunResult[]> {
   return readAllJsonInDir<BrandGroundedRunResult>(
     path.join(aeoDir(product), "brand_grounded_runs")
+  );
+}
+
+/** Theme clustering output for the given method -- undefined if that method hasn't been run for this product. */
+export async function getThemeClusters(
+  product: string,
+  method: ClusteringMethod
+): Promise<ThemeClustering | undefined> {
+  return readJson<ThemeClustering>(
+    path.join(clustersDir(product), `theme_clusters.${method}.json`)
   );
 }
 

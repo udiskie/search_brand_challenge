@@ -1,0 +1,24 @@
+{
+  "runId": "2b68a209-4f30-41cd-9453-cb2f2fa164cc",
+  "promptId": "final_decision-4",
+  "promptText": "Between Notion, Linear, and Jira, which one do you recommend?",
+  "dimensions": {
+    "intent": "final_decision",
+    "persona": {
+      "role": "marketing team",
+      "teamSize": "small team"
+    },
+    "specificity": "specific",
+    "attribute": "methodology",
+    "language": "en",
+    "brandsNamed": [
+      "Notion",
+      "Linear",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:08:58.828Z",
+  "finishReason": "STOP",
+  "rawText": "Because these three tools serve very different purposes, the \"best\" choice depends entirely on **who you are** and **what you are trying to do**. \n\nHere is the quick verdict based on your team type:\n\n* **Choose Linear** if you are a **software startup, engineering team, or product-led company** that values speed, design, and developer happiness.\n* **Choose Jira** if you are a **mid-to-large enterprise** needing complex workflows, strict compliance, advanced reporting, and cross-department scale.\n* **Choose Notion** if you are a **non-technical team, early-stage company, or agency** that needs an all-in-one workspace (wiki, docs, and basic task management).\n\n---\n\n### Detailed Comparison\n\n#### 1. Linear: *The Best for Modern Software Teams*\nLinear is built specifically for issue tracking and software development. It has taken the tech startup world by storm because it fixes everything developers hate about Jira.\n\n* **Pros:** Blazing fast (keyboard shortcut driven), gorgeous UI, opinionated (saves time on setup), seamless GitHub/GitLab integration, automated roadmaps.\n* **Cons:** Weak as a company-wide wiki/doc store; not customizable enough for complex enterprise rules.\n* **Best for:** Fast-moving engineering/product teams (1 to 200+ developers).\n\n#### 2. Jira: *The Enterprise Heavyweight*\nJira is the industry standard for agile project management at scale. It is incredibly powerful, but that power comes with significant complexity.\n\n* **Pros:** Infinitely customizable, massive integration ecosystem, powerful enterprise reporting, deep security/compliance controls, handles thousands of users easily.\n* **Cons:** Slow, clunky UI, steep learning curve, requires dedicated administration, notoriously disliked by developers due to friction.\n* **Best for:** Large organizations, legacy enterprise tech teams, or teams requiring strict Scrum/Kanban frameworks and audit trails.\n\n#### 3. Notion: *The Flexible All-in-One Workspace*\nNotion is a blank canvas. It is primarily a document and knowledge-management tool with flexible databases that can be turned into project boards.\n\n* **Pros:** Extremely versatile (docs, wikis, tasks, databases all in one place), highly customizable visually, great cost-to-value ratio.\n* **Cons:** Poor fit for complex software development (no native Git integrations, bad for large backlogs), can easily become messy if unorganized.\n* **Best for:** Solopreneurs, early-stage startups, marketing/design teams, and companies prioritizing internal documentation over complex issue tracking.\n\n---\n\n### The Ultimate Recommendation Matrix\n\n| Scenario | Recommended Tool |\n| :--- | :--- |\n| **\"We build software and want to move fast.\"** | **Linear** |\n| **\"We are an enterprise with 500+ employees and strict security.\"** | **Jira** |\n| **\"We need a company wiki + light task tracking.\"** | **Notion** |\n| **\"We have non-technical teams (Marketing, HR, Ops).\"** | **Notion** |\n| **\"Our developers hate our current project management tool.\"** | **Linear** |\n\n### Pro-Tip: The Common Modern Stacks\nMost modern, high-performing tech companies don't use just *one* of these—they pair them:\n\n1. **The Modern Startup Stack:** **Linear** (for code/bugs/product roadmap) + **Notion** (for company wiki, meeting notes, & docs).\n2. **The Traditional Enterprise Stack:** **Jira** (for issue tracking) + **Confluence** (Atlassian's version of Notion for docs)."
+}

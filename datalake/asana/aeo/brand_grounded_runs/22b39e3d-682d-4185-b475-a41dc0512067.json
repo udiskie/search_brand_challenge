@@ -1,0 +1,11 @@
+{
+  "runId": "22b39e3d-682d-4185-b475-a41dc0512067",
+  "promptId": "long-form-quote-match-2",
+  "promptText": "What tool matches this description: \"Contact our sales team about any questions you have\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T19:59:59.381Z",
+  "finishReason": "STOP",
+  "rawText": "That phrase is a standard Call to Action (CTA) commonly used by several types of business tools and website features:\n\n1. **Lead Capture / Contact Forms:** \n   * **Examples:** HubSpot Forms, Typeform, WPForms, Formstack.\n   * **Function:** A web form that collects customer questions and sends them directly to a sales pipeline or email inbox.\n\n2. **Live Chat & Messaging Widgets:** \n   * **Examples:** Intercom, Drift, Zendesk Chat, LiveChat.\n   * **Function:** On-screen chat pop-ups that allow website visitors to message a sales team in real time.\n\n3. **CRM Web-to-Lead Tools:**\n   * **Examples:** Salesforce (Web-to-Lead), Zoho CRM, Pipefy.\n   * **Function:** Tools that automatically convert inquiry submissions into leads inside a Customer Relationship Management system.\n\n***\n\n*If you are looking for a specific software program, plugin, or prompt template, please provide a little more context!*"
+}

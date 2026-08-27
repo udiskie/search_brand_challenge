@@ -1,0 +1,12 @@
+{
+  "runId": "f87fb066-03a7-41cf-a4bf-006b0dbde7c0",
+  "promptId": "pain-recurring-2",
+  "promptText": "Every week it's the same story: we just can't with anything you need.",
+  "source": "inferential",
+  "templateId": "pain-recurring",
+  "stage": "pain_only",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:07:29.566Z",
+  "finishReason": "STOP",
+  "rawText": "That sounds incredibly exhausting and frustrating. Feeling like you're constantly running into a brick wall every single week—where basic support, resources, or understanding are met with resistance—is a terrible loop to be stuck in. \n\nAre you venting about a workplace, a relationship, or family dynamics? \n\n*(And just in case: if you meant that **I** have been failing to give you what you need every week, please let me know what's going wrong so I can fix it!)*\n\nEither way, I'm here if you want to vent about it, figure out how to reset the situation, or just talk it through. What happened this time?"
+}

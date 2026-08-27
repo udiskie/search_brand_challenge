@@ -1,12 +1,12 @@
 # Brand Visibility Audit: Asana
 
-Generated 2026-08-27T18:58:25.373Z · Competitors: Linear, Jira, Monday, Notion
+Generated 2026-08-27T20:00:27.338Z · Competitors: Linear, Jira, Monday, Notion
 
 ## Executive summary
 
 - 🟡 **SEO**: 51/100 (needs_work)
 - 🟡 **GEO**: 47/100 (needs_work)
-- 🟡 **AEO**: 59/100 (needs_work)
+- 🟡 **AEO**: 58/100 (needs_work)
 
 ## SEO
 
@@ -25,13 +25,33 @@ Total runs: 30
 
 | Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
 |---|---|---|---|---|---|
-| Asana | 60% | 1.29x | 1.8 | 30% | 0.17 |
-| Linear | 53% | 1.10x | 2.3 | 10% | 0.19 |
-| Jira | 57% | 1.19x | 1.8 | 23% | 0.41 |
-| Monday | 37% | 0.70x | 1.8 | 10% | 0.27 |
-| Notion | 40% | 0.77x | 1.9 | 20% | 0.50 |
+| Asana | 53% | 1.16x | 1.7 | 30% | 0.31 |
+| Linear | 57% | 1.26x | 2.2 | 10% | 0.41 |
+| Jira | 47% | 0.98x | 1.7 | 20% | 0.36 |
+| Monday | 37% | 0.73x | 1.8 | 10% | 0.27 |
+| Notion | 43% | 0.90x | 2.1 | 23% | 0.31 |
 
-**GEO/AEO gap**: 24 of the site's top 30 keywords never show up in how the model describes Asana: iconcheck, tasks, check, right, circle, learn, morelearn, data, organization, morearrow.
+**GEO/AEO gap**: 25 of the site's top 30 keywords never show up in how the model describes Asana: iconcheck, work, tasks, check, right, circle, learn, morelearn, manage, data.
+
+## Brand-grounded question performance (not neutral -- see caveat)
+
+Results from running user-question-generator's Part 1 (hook-grounded, quotes the site) / Part 2 (inferential, paraphrased across pain_only/problem_framed/ comparing_with_criteria) candidate questions through Gemini. These questions are deliberately grounded in Asana's own site content, not neutral -- do not compare these numbers to the neutral AEO table above as if they were measuring the same thing; this section exists to show how the brand performs on its *own best-case* questions, separately from fair category benchmarking.
+
+Total runs: 8
+
+| Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |
+|---|---|---|---|---|---|
+| Asana | 38% | 3.00x | 2.3 | 13% | 0.33 |
+| Linear | 0% | 0.00x | — | 0% | 0.00 |
+| Jira | 25% | 1.60x | 2.0 | 0% | 0.00 |
+| Monday | 0% | 0.00x | — | 0% | 0.00 |
+| Notion | 25% | 1.60x | 1.0 | 25% | 0.00 |
+
+Asana's Share of Voice by breakdown:
+- source = hook: 25% (4 runs)
+- source = inferential: 50% (4 runs)
+- stage = pain_only: 33% (3 runs)
+- stage = problem_framed: 100% (1 run)
 
 ## Priority matrix (impact × effort)
 
@@ -60,7 +80,7 @@ Total runs: 30
 | GEO | No visible author or publish date on https://asana.com/paidservices | medium | medium | Add a visible byline and publish/update date. |
 | GEO | Low factual density on https://asana.com/sales-email (mostly promotional language) | medium | medium | Replace vague adjectives with concrete numbers/comparisons. |
 | GEO | No visible author or publish date on https://asana.com/sales-email | medium | medium | Add a visible byline and publish/update date. |
-| AEO | Top site keywords the model never uses when describing Asana: iconcheck, tasks, check, right, circle | medium | medium | Reinforce these terms in citable, structured site content so the model picks them up. |
+| AEO | Top site keywords the model never uses when describing Asana: iconcheck, work, tasks, check, right | medium | medium | Reinforce these terms in citable, structured site content so the model picks them up. |
 | SEO | 2 H1 tags on https://asana.com | low | low | Keep exactly one H1 per page; demote the rest to H2/H3. |
 | SEO | Meta description too short on https://asana.com/leadership (19 chars) | low | low | Expand the meta description to ~120-160 characters. |
 | SEO | 167 images missing alt text across 9 crawled pages | low | low | Add descriptive alt text to every content image. |

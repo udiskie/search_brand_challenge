@@ -1,0 +1,2002 @@
+{
+  "hooks": [
+    {
+      "hook": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days."
+        }
+      ]
+    },
+    {
+      "hook": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits."
+        }
+      ]
+    },
+    {
+      "hook": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bitbucket/pricing",
+          "snippet": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs."
+        }
+      ]
+    },
+    {
+      "hook": "Learn how to roll out Compass effectively for a smooth adoption process.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+          "snippet": "Learn how to roll out Compass effectively for a smooth adoption process."
+        }
+      ]
+    },
+    {
+      "hook": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+          "snippet": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons."
+        }
+      ]
+    },
+    {
+      "hook": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/platform",
+          "snippet": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork."
+        }
+      ]
+    },
+    {
+      "hook": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/platform/ai-trust",
+          "snippet": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely."
+        }
+      ]
+    },
+    {
+      "hook": "Gain full visibility into how your teams work with Atlassian Analytics",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/platform/analytics",
+          "snippet": "Gain full visibility into how your teams work with Atlassian Analytics"
+        }
+      ]
+    },
+    {
+      "hook": "teams",
+      "source": "tagcloud",
+      "documentFrequency": 10,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "The more agents, the more processes can run concurrently – either steps in the same build, or different builds.* FREE FOR 30 DAYS For teams of any size Data Center USD X Unlimited jobs Download now No credit card needed Complete control of …"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Growing teams USD X Unlimited jobs, Unlimited local agents Download a free trial Buy Bamboo No credit card needed Pricing FAQ Our FAQ contains the most frequently asked questions relating to our licensing and pricing."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Roll Out Compass to Your Teams | Atlassian Close View this page in your language?"
+        }
+      ]
+    },
+    {
+      "hook": "atlassian",
+      "source": "tagcloud",
+      "documentFrequency": 10,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Bamboo - Pricing | Atlassian Close View this page in your language?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "All languages Choose your language 中文 Deutsch English Español Français Italiano 한국어 Nederlands 日本語 Português Pусский Polski Ascend to new heights with Atlassian Cloud."
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "You will just need to submit your request through our Atlassian Store."
+        }
+      ]
+    },
+    {
+      "hook": "data",
+      "source": "tagcloud",
+      "documentFrequency": 8,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Data Center support ends on March 28, 2029."
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "The more agents, the more processes can run concurrently – either steps in the same build, or different builds.* FREE FOR 30 DAYS For teams of any size Data Center USD X Unlimited jobs Download now No credit card needed Complete control of …"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Bamboo Data Center subscriptions can be purchased here."
+        }
+      ]
+    },
+    {
+      "hook": "compass",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Roll Out Compass to Your Teams | Atlassian Close View this page in your language?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "All languages Choose your language 中文 Deutsch English Español Français Italiano 한국어 Nederlands 日本語 Português Pусский Polski As we focus on delivering a next-generation solution for tracking developer productivity and experience, Compass sco…"
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Compass setup and integration 3.1 Populating the Component Catalog 3.2 Connecting Tools and Applications 3.3 Creating Scorecards 4."
+        }
+      ]
+    },
+    {
+      "hook": "work",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Bamboo schedules and coordinates the work involved in building and testing your application."
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "In Jira, teams and AI agents plan, execute, and deliver outcomes together.Get started with JiraContact usVideo not supported.Video not supported.Transform how your teams workDiscover collections—curated apps and AI agents on a secure, compl…"
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "Fast.Measure and improve productivity, quality, and speed with the AI-native SDLC for every software team.IncludesRovo DevDXPipelinesBitbucketExplore Software CollectionBetter product decisions in the age of AIBring together customer insigh…"
+        }
+      ]
+    },
+    {
+      "hook": "marketplace",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+          "snippet": "Celebrating 10 years of the Atlassian Marketplace - Inside Atlassian Skip to content 10 years of teamwork lessons from the Atlassian Marketplace May 24, 2022 Published In Apps, Company News celebrate with us We’re excited to celebrate 10 ye…"
+        },
+        {
+          "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+          "snippet": "To celebrate our birthday, we’re giving back to the next generation of developers by donating $5 for every app installed on the Marketplace on May 31st to Raspberry Pi."
+        },
+        {
+          "url": "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+          "snippet": "Customers can find apps for everything from navigation and custom fields to OKR tracking and test management on the Atlassian Marketplace."
+        }
+      ]
+    },
+    {
+      "hook": "team",
+      "source": "tagcloud",
+      "documentFrequency": 9,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Need to get in touch with someone from our product or sales team?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "If you have started with a 1 Remote Agent or 10 Remote Agents edition of Bamboo, you may wish to upgrade as your development team grows."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Watch now RESOURCES Create and manage an Atlassian team 4.2.2 Tracking Adoption and Data Hygiene Having a complete component catalog is critical to success with Compass, and this requires little effort from component owners."
+        }
+      ]
+    },
+    {
+      "hook": "support",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Data Center support ends on March 28, 2029."
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Learn more and get support -> Bamboo pricing tiers are based on agents rather than users."
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "The more agents, the more processes can run concurrently – either steps in the same build, or different builds.* FREE FOR 30 DAYS For teams of any size Data Center USD X Unlimited jobs Download now No credit card needed Complete control of …"
+        }
+      ]
+    },
+    {
+      "hook": "teamwork",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "In Jira, teams and AI agents plan, execute, and deliver outcomes together.Get started with JiraContact usVideo not supported.Video not supported.Transform how your teams workDiscover collections—curated apps and AI agents on a secure, compl…"
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "Fast.Measure and improve productivity, quality, and speed with the AI-native SDLC for every software team.IncludesRovo DevDXPipelinesBitbucketExplore Software CollectionBetter product decisions in the age of AIBring together customer insigh…"
+        },
+        {
+          "url": "https://www.atlassian.com/blog/about",
+          "snippet": "Drawing from our own experience, customer case studies, and expert perspectives, we publish practical ideas and clear explanations of how teamwork is changing."
+        }
+      ]
+    },
+    {
+      "hook": "analytics",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/platform",
+          "snippet": "Meet the Platform Apps Goals Home Teams Analytics Administration Goals Home Teams Analytics Administration Where ambition meets outcomes The Goals app unifies and aligns individual, team, and organizational objectives with work ensuring vis…"
+        },
+        {
+          "url": "https://www.atlassian.com/platform",
+          "snippet": "Learn more about Teams Insights into actions, for all teams The Analytics app is a powerful BI application, built on the Atlassian Data Lake, that empowers teams to accelerate data-driven decisions by exploring and visualizing all their tea…"
+        },
+        {
+          "url": "https://www.atlassian.com/platform",
+          "snippet": "Learn more about Analytics Your one-stop-shop for administration Effortlessly manage and secure your organization with insights, management, and compliance features all from the Administration app Automation that powers productivity Unleash…"
+        }
+      ]
+    },
+    {
+      "hook": "senior",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "The Component hygiene scorecard created in section 3.3 will be the data source for the weekly communication sent to the adoption groups and senior leaders (communications 4.1.2.3 and 4.1.2.4)."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Communications should be sent to senior stakeholders and Compass adopters that outline progress with meeting the project's original goals and objectives."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+          "snippet": "An adoption schedule should be proposed, and provided to the senior leaders to propose any changes to the schedule."
+        }
+      ]
+    },
+    {
+      "hook": "rollout",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Compass rollout 4.1 Rollout Strategy 4.2."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Tracking Adoption and Data Hygiene 4.2 Rollout 4.2.1 Adding Component Owners and Teams to Compass Component owners must receive the communication outlined in 4.1.2.5 prior to being added as owners in Compass."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "4.2.3 Feedback loops and Tracking benefits Similar to any type of project, it’s important to track and communicate the realization of benefits associated with your Compass rollout."
+        }
+      ]
+    },
+    {
+      "hook": "component",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Compass setup and integration 3.1 Populating the Component Catalog 3.2 Connecting Tools and Applications 3.3 Creating Scorecards 4."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Tracking Adoption and Data Hygiene 4.2 Rollout 4.2.1 Adding Component Owners and Teams to Compass Component owners must receive the communication outlined in 4.1.2.5 prior to being added as owners in Compass."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Once an adopter group has attended an information session and understands what they need to do and why, it’s time to start adding component owners to Compass."
+        }
+      ]
+    },
+    {
+      "hook": "apps",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "In Jira, teams and AI agents plan, execute, and deliver outcomes together.Get started with JiraContact usVideo not supported.Video not supported.Transform how your teams workDiscover collections—curated apps and AI agents on a secure, compl…"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bitbucket/pricing",
+          "snippet": "A workspace allows you to more easily invite others to work together on repositories, monitor and control access to repositories, and manage third-party apps.A build minute is one minute of machine time running a Pipelines build.1 GB of fil…"
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+          "snippet": "PRE-REQUISITE TASKS The component catalog has been populated (Section 3.1) Required tools/apps have been connected (Section 3.2) Configure and populate compass ahead of inviting users to the platform."
+        }
+      ]
+    },
+    {
+      "hook": "plan",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Do plan branches count as jobs?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "The use of Plan Branches doesn't have a multiplicative effect on the number of jobs configured, and therefore can’t affect the 10 jobs cap."
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "For example, a plan with two jobs that are building against three branches (the plan's original branch, plus two extra branches) will contribute two jobs toward the limit."
+        }
+      ]
+    },
+    {
+      "hook": "leaders",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Once component owners and their leaders understand what they need to do and have agreed on a timeframe (adoption window), it’s time to start tracking adoption and data hygiene."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "The Component hygiene scorecard created in section 3.3 will be the data source for the weekly communication sent to the adoption groups and senior leaders (communications 4.1.2.3 and 4.1.2.4)."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+          "snippet": "An adoption schedule should be proposed, and provided to the senior leaders to propose any changes to the schedule."
+        }
+      ]
+    },
+    {
+      "hook": "need",
+      "source": "tagcloud",
+      "documentFrequency": 6,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Need to get in touch with someone from our product or sales team?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "What do I need to get started with Bamboo?"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bamboo/pricing",
+          "snippet": "Therefore, to use Bamboo, you will need to already have: A code repository that contains the complete source code for the project, build scripts and test suites."
+        }
+      ]
+    },
+    {
+      "hook": "platform",
+      "source": "tagcloud",
+      "documentFrequency": 8,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Planning for your internal developer platform 1.1 Key stakeholders 1.2 Goals and Objectives 2."
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "In Jira, teams and AI agents plan, execute, and deliver outcomes together.Get started with JiraContact usVideo not supported.Video not supported.Transform how your teams workDiscover collections—curated apps and AI agents on a secure, compl…"
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "Fast.Measure and improve productivity, quality, and speed with the AI-native SDLC for every software team.IncludesRovo DevDXPipelinesBitbucketExplore Software CollectionBetter product decisions in the age of AIBring together customer insigh…"
+        }
+      ]
+    },
+    {
+      "hook": "time",
+      "source": "tagcloud",
+      "documentFrequency": 6,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Once an adopter group has attended an information session and understands what they need to do and why, it’s time to start adding component owners to Compass."
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+          "snippet": "Once component owners and their leaders understand what they need to do and have agreed on a timeframe (adoption window), it’s time to start tracking adoption and data hygiene."
+        },
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "Fast.Measure and improve productivity, quality, and speed with the AI-native SDLC for every software team.IncludesRovo DevDXPipelinesBitbucketExplore Software CollectionBetter product decisions in the age of AIBring together customer insigh…"
+        }
+      ]
+    },
+    {
+      "hook": "across",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "Fast.Measure and improve productivity, quality, and speed with the AI-native SDLC for every software team.IncludesRovo DevDXPipelinesBitbucketExplore Software CollectionBetter product decisions in the age of AIBring together customer insigh…"
+        },
+        {
+          "url": "https://www.atlassian.com/software/bitbucket/pricing",
+          "snippet": "To learn more about this offering, please contact us.Contact UsLearn moreGet more detailsDefinitions of user, workspace, build minute, and file storageA user is anyone who is a member of your Bitbucket workspace.A workspace is a collaborati…"
+        },
+        {
+          "url": "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy",
+          "snippet": "4.1.1 Create an adoption schedule Dividing your organization into logical groups and scheduling windows for adoption is a winning strategy for platform adoption across an organization."
+        }
+      ]
+    }
+  ],
+  "hookQuestions": [
+    {
+      "id": "long-form-quote-match-0",
+      "text": "What tool matches this description: \"Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "long-form-as-need-1",
+      "text": "As a startup founder, I'm looking for a tool where: Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Bamboo starts at $10 for up to 10 jobs and unlimited local agents. Try Bamboo free for 30 days.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-2",
+      "text": "What tool matches this description: \"Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "long-form-as-need-3",
+      "text": "As a freelancer, I'm looking for a tool where: Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Learn how to add component owners, track adoption, maintain data hygiene, and establish feedback loops to maximize Compass benefits.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-4",
+      "text": "What tool matches this description: \"Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bitbucket/pricing"
+      ]
+    },
+    {
+      "id": "long-form-as-need-5",
+      "text": "As a startup founder, I'm looking for a tool where: Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Bitbucket Cloud is free for teams of 5, and Bitbucket Server starts at $10 for ten users. Sign up and choose the right plan to fit your needs.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bitbucket/pricing"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-6",
+      "text": "What tool matches this description: \"Learn how to roll out Compass effectively for a smooth adoption process.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Learn how to roll out Compass effectively for a smooth adoption process.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "long-form-as-need-7",
+      "text": "As a freelancer, I'm looking for a tool where: Learn how to roll out Compass effectively for a smooth adoption process. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Learn how to roll out Compass effectively for a smooth adoption process.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-8",
+      "text": "What tool matches this description: \"To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "long-form-as-need-9",
+      "text": "As a startup founder, I'm looking for a tool where: To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "To celebrate 10 years of app-powered teamwork, we caught up with some of our first Marketplace Partners to hear their teamwork lessons.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-10",
+      "text": "What tool matches this description: \"Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "long-form-as-need-11",
+      "text": "As a freelancer, I'm looking for a tool where: Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Align your teams and their work on Atlassian’s cloud platform, your hub for teamwork.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-12",
+      "text": "What tool matches this description: \"Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform/ai-trust"
+      ]
+    },
+    {
+      "id": "long-form-as-need-13",
+      "text": "As a startup founder, I'm looking for a tool where: Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Take a trusted approach to AI with Atlassian Rovo — built for security, compliance, and control so your team can transform the way they work, securely.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform/ai-trust"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-14",
+      "text": "What tool matches this description: \"Gain full visibility into how your teams work with Atlassian Analytics\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Gain full visibility into how your teams work with Atlassian Analytics",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform/analytics"
+      ]
+    },
+    {
+      "id": "long-form-as-need-15",
+      "text": "As a freelancer, I'm looking for a tool where: Gain full visibility into how your teams work with Atlassian Analytics Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Gain full visibility into how your teams work with Atlassian Analytics",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform/analytics"
+      ]
+    },
+    {
+      "id": "direct-differentiator-16",
+      "text": "What tool would you recommend for a team that wants \"teams\"?",
+      "templateId": "direct-differentiator",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "problem-framed-17",
+      "text": "I need something that helps with teams -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "comparison-anchor-18",
+      "text": "Which tool in this space is known for teams?",
+      "templateId": "comparison-anchor",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "persona-specific-19",
+      "text": "As a freelancer, I want a tool that focuses on teams instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "direct-differentiator-20",
+      "text": "What tool would you recommend for a team that wants \"atlassian\"?",
+      "templateId": "direct-differentiator",
+      "hook": "atlassian",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-21",
+      "text": "I need something that helps with atlassian -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "atlassian",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-22",
+      "text": "Which tool in this space is known for atlassian?",
+      "templateId": "comparison-anchor",
+      "hook": "atlassian",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-23",
+      "text": "As a freelancer, I want a tool that focuses on atlassian instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "atlassian",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-24",
+      "text": "What tool would you recommend for a team that wants \"data\"?",
+      "templateId": "direct-differentiator",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-25",
+      "text": "I need something that helps with data -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-26",
+      "text": "Which tool in this space is known for data?",
+      "templateId": "comparison-anchor",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-27",
+      "text": "As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "data",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-28",
+      "text": "What tool would you recommend for a team that wants \"compass\"?",
+      "templateId": "direct-differentiator",
+      "hook": "compass",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "problem-framed-29",
+      "text": "I need something that helps with compass -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "compass",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "comparison-anchor-30",
+      "text": "Which tool in this space is known for compass?",
+      "templateId": "comparison-anchor",
+      "hook": "compass",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "persona-specific-31",
+      "text": "As a freelancer, I want a tool that focuses on compass instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "compass",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "direct-differentiator-32",
+      "text": "What tool would you recommend for a team that wants \"work\"?",
+      "templateId": "direct-differentiator",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-framed-33",
+      "text": "I need something that helps with work -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-34",
+      "text": "Which tool in this space is known for work?",
+      "templateId": "comparison-anchor",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "persona-specific-35",
+      "text": "As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-36",
+      "text": "What tool would you recommend for a team that wants \"marketplace\"?",
+      "templateId": "direct-differentiator",
+      "hook": "marketplace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "problem-framed-37",
+      "text": "I need something that helps with marketplace -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "marketplace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "comparison-anchor-38",
+      "text": "Which tool in this space is known for marketplace?",
+      "templateId": "comparison-anchor",
+      "hook": "marketplace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "persona-specific-39",
+      "text": "As a freelancer, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "marketplace",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace",
+        "https://www.atlassian.com/blog/add-ons/10-years-atlassian-marketplace"
+      ]
+    },
+    {
+      "id": "direct-differentiator-40",
+      "text": "What tool would you recommend for a team that wants \"team\"?",
+      "templateId": "direct-differentiator",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "problem-framed-41",
+      "text": "I need something that helps with team -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "comparison-anchor-42",
+      "text": "Which tool in this space is known for team?",
+      "templateId": "comparison-anchor",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "persona-specific-43",
+      "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "direct-differentiator-44",
+      "text": "What tool would you recommend for a team that wants \"support\"?",
+      "templateId": "direct-differentiator",
+      "hook": "support",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-45",
+      "text": "I need something that helps with support -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "support",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-46",
+      "text": "Which tool in this space is known for support?",
+      "templateId": "comparison-anchor",
+      "hook": "support",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-47",
+      "text": "As a freelancer, I want a tool that focuses on support instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "support",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-48",
+      "text": "What tool would you recommend for a team that wants \"teamwork\"?",
+      "templateId": "direct-differentiator",
+      "hook": "teamwork",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-framed-49",
+      "text": "I need something that helps with teamwork -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "teamwork",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "comparison-anchor-50",
+      "text": "Which tool in this space is known for teamwork?",
+      "templateId": "comparison-anchor",
+      "hook": "teamwork",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "persona-specific-51",
+      "text": "As a freelancer, I want a tool that focuses on teamwork instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "teamwork",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "direct-differentiator-52",
+      "text": "What tool would you recommend for a team that wants \"analytics\"?",
+      "templateId": "direct-differentiator",
+      "hook": "analytics",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "problem-framed-53",
+      "text": "I need something that helps with analytics -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "analytics",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "comparison-anchor-54",
+      "text": "Which tool in this space is known for analytics?",
+      "templateId": "comparison-anchor",
+      "hook": "analytics",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "persona-specific-55",
+      "text": "As a freelancer, I want a tool that focuses on analytics instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "analytics",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform",
+        "https://www.atlassian.com/platform"
+      ]
+    },
+    {
+      "id": "direct-differentiator-56",
+      "text": "What tool would you recommend for a team that wants \"senior\"?",
+      "templateId": "direct-differentiator",
+      "hook": "senior",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "problem-framed-57",
+      "text": "I need something that helps with senior -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "senior",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-58",
+      "text": "Which tool in this space is known for senior?",
+      "templateId": "comparison-anchor",
+      "hook": "senior",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "persona-specific-59",
+      "text": "As a freelancer, I want a tool that focuses on senior instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "senior",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-60",
+      "text": "What tool would you recommend for a team that wants \"rollout\"?",
+      "templateId": "direct-differentiator",
+      "hook": "rollout",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "problem-framed-61",
+      "text": "I need something that helps with rollout -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "rollout",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "comparison-anchor-62",
+      "text": "Which tool in this space is known for rollout?",
+      "templateId": "comparison-anchor",
+      "hook": "rollout",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "persona-specific-63",
+      "text": "As a freelancer, I want a tool that focuses on rollout instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "rollout",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "direct-differentiator-64",
+      "text": "What tool would you recommend for a team that wants \"component\"?",
+      "templateId": "direct-differentiator",
+      "hook": "component",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "problem-framed-65",
+      "text": "I need something that helps with component -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "component",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "comparison-anchor-66",
+      "text": "Which tool in this space is known for component?",
+      "templateId": "comparison-anchor",
+      "hook": "component",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "persona-specific-67",
+      "text": "As a freelancer, I want a tool that focuses on component instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "component",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout"
+      ]
+    },
+    {
+      "id": "direct-differentiator-68",
+      "text": "What tool would you recommend for a team that wants \"apps\"?",
+      "templateId": "direct-differentiator",
+      "hook": "apps",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "problem-framed-69",
+      "text": "I need something that helps with apps -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "apps",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-70",
+      "text": "Which tool in this space is known for apps?",
+      "templateId": "comparison-anchor",
+      "hook": "apps",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "persona-specific-71",
+      "text": "As a freelancer, I want a tool that focuses on apps instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "apps",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-72",
+      "text": "What tool would you recommend for a team that wants \"plan\"?",
+      "templateId": "direct-differentiator",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-73",
+      "text": "I need something that helps with plan -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-74",
+      "text": "Which tool in this space is known for plan?",
+      "templateId": "comparison-anchor",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-75",
+      "text": "As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-76",
+      "text": "What tool would you recommend for a team that wants \"leaders\"?",
+      "templateId": "direct-differentiator",
+      "hook": "leaders",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "problem-framed-77",
+      "text": "I need something that helps with leaders -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "leaders",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-78",
+      "text": "Which tool in this space is known for leaders?",
+      "templateId": "comparison-anchor",
+      "hook": "leaders",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "persona-specific-79",
+      "text": "As a freelancer, I want a tool that focuses on leaders instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "leaders",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "direct-differentiator-80",
+      "text": "What tool would you recommend for a team that wants \"need\"?",
+      "templateId": "direct-differentiator",
+      "hook": "need",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-81",
+      "text": "I need something that helps with need -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "need",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-82",
+      "text": "Which tool in this space is known for need?",
+      "templateId": "comparison-anchor",
+      "hook": "need",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-83",
+      "text": "As a freelancer, I want a tool that focuses on need instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "need",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing",
+        "https://www.atlassian.com/software/bamboo/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-84",
+      "text": "What tool would you recommend for a team that wants \"platform\"?",
+      "templateId": "direct-differentiator",
+      "hook": "platform",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-framed-85",
+      "text": "I need something that helps with platform -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "platform",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-86",
+      "text": "Which tool in this space is known for platform?",
+      "templateId": "comparison-anchor",
+      "hook": "platform",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "persona-specific-87",
+      "text": "As a freelancer, I want a tool that focuses on platform instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "platform",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-88",
+      "text": "What tool would you recommend for a team that wants \"time\"?",
+      "templateId": "direct-differentiator",
+      "hook": "time",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-framed-89",
+      "text": "I need something that helps with time -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "time",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-90",
+      "text": "Which tool in this space is known for time?",
+      "templateId": "comparison-anchor",
+      "hook": "time",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "persona-specific-91",
+      "text": "As a freelancer, I want a tool that focuses on time instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "time",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout",
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-92",
+      "text": "What tool would you recommend for a team that wants \"across\"?",
+      "templateId": "direct-differentiator",
+      "hook": "across",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "problem-framed-93",
+      "text": "I need something that helps with across -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "across",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "comparison-anchor-94",
+      "text": "Which tool in this space is known for across?",
+      "templateId": "comparison-anchor",
+      "hook": "across",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    },
+    {
+      "id": "persona-specific-95",
+      "text": "As a freelancer, I want a tool that focuses on across instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "across",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.atlassian.com/",
+        "https://www.atlassian.com/software/bitbucket/pricing",
+        "https://www.atlassian.com/software/compass/guide/compass-rollout/rollout-strategy"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "problem": "organize, discuss, and complete shared work",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "help teams organize, discuss, and complete shared work"
+        }
+      ]
+    },
+    {
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/",
+          "snippet": "improve productivity, quality, and speed with the AI-native SDLC for every software team"
+        }
+      ]
+    },
+    {
+      "problem": "make sense of our ever-changing world of work",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/blog/about",
+          "snippet": "help you make sense of our ever-changing world of work"
+        }
+      ]
+    },
+    {
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": {
+        "orgTypes": [],
+        "userTypes": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.atlassian.com/blog/about",
+          "snippet": "helps businesses translate complex topics into clear communication their audiences understand"
+        }
+      ]
+    }
+  ],
+  "inferentialQuestions": [
+    {
+      "id": "pain-vent-0",
+      "text": "As an engineering lead, my team keeps struggling to organize, discuss, and complete shared work.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-frustration-1",
+      "text": "We can never seem to organize, discuss, and complete shared work -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-recurring-2",
+      "text": "Every week it's the same story: we just can't organize, discuss, and complete shared work.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-best-way-3",
+      "text": "What's the best way to organize, discuss, and complete shared work?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-how-to-4",
+      "text": "How do most teams manage to organize, discuss, and complete shared work?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-advice-5",
+      "text": "We know we need to organize, discuss, and complete shared work, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-6",
+      "text": "What criteria matter most when picking a tool to help organize, discuss, and complete shared work?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-named-7",
+      "text": "Between Linear and Asana, which is better suited to help organize, discuss, and complete shared work?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "organize, discuss, and complete shared work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-vent-8",
+      "text": "As an engineering lead, my team keeps struggling to improve productivity, quality, and speed with the AI-native SDLC for every software team.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-frustration-9",
+      "text": "We can never seem to improve productivity, quality, and speed with the AI-native SDLC for every software team -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-recurring-10",
+      "text": "Every week it's the same story: we just can't improve productivity, quality, and speed with the AI-native SDLC for every software team.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-best-way-11",
+      "text": "What's the best way to improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-how-to-12",
+      "text": "How do most teams manage to improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "problem-advice-13",
+      "text": "We know we need to improve productivity, quality, and speed with the AI-native SDLC for every software team, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-14",
+      "text": "What criteria matter most when picking a tool to help improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "comparison-named-15",
+      "text": "Between Linear and Monday, which is better suited to help improve productivity, quality, and speed with the AI-native SDLC for every software team?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "improve productivity, quality, and speed with the AI-native SDLC for every software team",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/"
+      ]
+    },
+    {
+      "id": "pain-vent-16",
+      "text": "As an engineering lead, my team keeps struggling to make sense of our ever-changing world of work.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "pain-frustration-17",
+      "text": "We can never seem to make sense of our ever-changing world of work -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "pain-recurring-18",
+      "text": "Every week it's the same story: we just can't make sense of our ever-changing world of work.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-best-way-19",
+      "text": "What's the best way to make sense of our ever-changing world of work?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-how-to-20",
+      "text": "How do most teams manage to make sense of our ever-changing world of work?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-advice-21",
+      "text": "We know we need to make sense of our ever-changing world of work, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-22",
+      "text": "What criteria matter most when picking a tool to help make sense of our ever-changing world of work?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "comparison-named-23",
+      "text": "Between Linear and Notion, which is better suited to help make sense of our ever-changing world of work?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "make sense of our ever-changing world of work",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "pain-vent-24",
+      "text": "As an engineering lead, my team keeps struggling to businesses translate complex topics into clear communication their audiences understand.",
+      "templateId": "pain-vent",
+      "stage": "pain_only",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "pain-frustration-25",
+      "text": "We can never seem to businesses translate complex topics into clear communication their audiences understand -- it's honestly exhausting.",
+      "templateId": "pain-frustration",
+      "stage": "pain_only",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "pain-recurring-26",
+      "text": "Every week it's the same story: we just can't businesses translate complex topics into clear communication their audiences understand.",
+      "templateId": "pain-recurring",
+      "stage": "pain_only",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-best-way-27",
+      "text": "What's the best way to businesses translate complex topics into clear communication their audiences understand?",
+      "templateId": "problem-best-way",
+      "stage": "problem_framed",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-how-to-28",
+      "text": "How do most teams manage to businesses translate complex topics into clear communication their audiences understand?",
+      "templateId": "problem-how-to",
+      "stage": "problem_framed",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "problem-advice-29",
+      "text": "We know we need to businesses translate complex topics into clear communication their audiences understand, but we're not sure how. Any advice?",
+      "templateId": "problem-advice",
+      "stage": "problem_framed",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "comparison-criteria-generic-30",
+      "text": "What criteria matter most when picking a tool to help businesses translate complex topics into clear communication their audiences understand?",
+      "templateId": "comparison-criteria-generic",
+      "stage": "comparing_with_criteria",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    },
+    {
+      "id": "comparison-named-31",
+      "text": "Between Asana and Monday, which is better suited to help businesses translate complex topics into clear communication their audiences understand?",
+      "templateId": "comparison-named",
+      "stage": "comparing_with_criteria",
+      "problem": "businesses translate complex topics into clear communication their audiences understand",
+      "audience": [],
+      "evidenceUrls": [
+        "https://www.atlassian.com/blog/about"
+      ]
+    }
+  ]
+}

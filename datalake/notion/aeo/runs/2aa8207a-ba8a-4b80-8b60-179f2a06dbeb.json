@@ -1,0 +1,23 @@
+{
+  "runId": "2aa8207a-ba8a-4b80-8b60-179f2a06dbeb",
+  "promptId": "direct_comparison-1",
+  "promptText": "Notion vs Jira, ¿cuál elijo?",
+  "dimensions": {
+    "intent": "direct_comparison",
+    "persona": {
+      "role": "engineering lead",
+      "teamSize": "large team"
+    },
+    "specificity": "specific",
+    "attribute": "integrations",
+    "language": "es",
+    "brandsNamed": [
+      "Notion",
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:08:13.368Z",
+  "finishReason": "STOP",
+  "rawText": "La elección entre **Notion** y **Jira** depende principalmente de **a qué se dedica tu equipo** y **cómo prefieren trabajar**. Aunque ambas son herramientas de gestión, tienen filosofías y propósitos muy diferentes.\n\nAquí tienes el resumen rápido para decidirte ya:\n\n*   **Elige Notion si:** Buscas una herramienta \"todo en uno\", muy flexible, excelente para documentación, notas, wikis y gestión de proyectos generales o creativos (marketing, diseño, startups tempranas, uso personal).\n*   **Elige Jira si:** Eres parte de un equipo de **desarrollo de software** o TI que trabaja con metodologías ágiles (Scrum, Kanban), necesitas rastrear *bugs*, gestionar *sprints* y requieres métricas técnicas avanzadas.\n\n---\n\n### Comparativa detallada: Notion vs. Jira\n\n| Característica | Notion 📝 | Jira ⚙️ |\n| :--- | :--- | :--- |\n| **Enfoque principal** | Documentación, wikis y bases de datos flexibles. | Gestión de proyectos de software y seguimiento de incidencias. |\n| **Público objetivo** | Equipos multidisciplinarios, marketing, RRHH, creadores, startups. | Desarrolladores de software, QA, Product Managers, equipos de TI. |\n| **Facilidad de uso** | Muy intuitivo para empezar, pero requiere tiempo organizarlo desde cero. | Curva de aprendizaje empinada; interfaz más rígida y compleja. |\n| **Metodologías Ágiles** | Básicas (tableros Kanban sencillos, listas). | Avanzadas (Backlogs, Sprints, Burndown charts, diagramas de Gantt). |\n| **Documentación** | **Excelente.** Es su mayor fuerte (es como Google Docs + Trello + Excel). | Pobre por sí solo (necesitas integrarlo con **Confluence**). |\n| **Integraciones Técnicas** | Limitadas (Zapier, Make, GitHub básico). | **Profundas** (GitHub, GitLab, Bitbucket, Jenkins, Slack, etc.). |\n| **Personalización** | Total (construyes tus propios sistemas desde una página en blanco). | Basada en flujos de trabajo (*workflows*) y permisos estrictos. |\n\n---\n\n### Profundizando en cada una\n\n#### 1. Notion: La \"Navaja Suiza\"\nNotion funciona como un lienzo en blanco estructurado con \"bloques\". Puedes crear desde una lista de tareas sencilla hasta un CRM completo o la wiki interna de tu empresa.\n\n*   **Lo mejor:** Es súper visual, estético y unifica las notas con las tareas. Todo está en un solo lugar.\n*   **Lo peor:** Al no tener reglas estrictas de fábrica, si tu equipo no es ordenado, Notion se puede convertir en un \"caos documental\". No tiene métricas avanzadas de desarrollo (como velocidad de sprint).\n\n#### 2. Jira: El \"Bisturí del Desarrollador\"\nJira es el estándar de la industria para el desarrollo de software. Está diseñado para que cada \"ticket\" o tarea pase por un flujo de trabajo muy concreto (ej. *Por hacer -> En progreso -> En revisión -> Desplegado*).\n\n*   **Lo mejor:** Es indestructible para gestionar código, fallos (*bugs*), entregas de software y medir el rendimiento técnico del equipo mediante gráficas.\n*   **Lo peor:** Para usuarios no técnicos (marketing, ventas, diseño) puede resultar abrumador, feo y frustrante de usar.\n\n---\n\n### Preguntas para tomar la decisión final:\n\n1. **¿Tu equipo escribe código o lanza software constantemente?**\n   *   **Sí:** Ve por **Jira**.\n   *   **No:** Ve por **Notion**.\n\n2. **¿Qué es más importante para ti hoy?**\n   *   Crear una base de conocimientos, redactar documentos y tener un tablero de tareas visual: **Notion**.\n   *   Planificar *sprints* de dos semanas, asignación estricta de tareas a programadores y ver informes de *burndown*: **Jira**.\n\n3. **¿Cuál es el tamaño y perfil de tu equipo?**\n   *   Si hay perfiles variados (diseñadores, redactores, ejecutivos): **Notion** tiene mejor adopción.\n   *   Si son solo ingenieros de software, DevOps y Product Owners: **Jira** es el lenguaje que ya hablan.\n\n---\n\n### El enfoque híbrido (Lo que hacen muchas empresas)\nMuchas empresas de tecnología no eligen uno, sino **los dos**:\n*   Usan **Jira** para que los programadores gestionen los *sprints* y los errores del código.\n*   Usan **Notion** como el \"cerebro\" de la empresa: wikis, políticas de RRHH, ideas de marketing, notas de reuniones y roadmap del producto visual."
+}

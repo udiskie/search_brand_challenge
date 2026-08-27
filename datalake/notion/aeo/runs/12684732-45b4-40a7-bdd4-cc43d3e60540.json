@@ -1,0 +1,22 @@
+{
+  "runId": "12684732-45b4-40a7-bdd4-cc43d3e60540",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Notion ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Notion"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:08:45.414Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas alternativas a Notion porque lo encuentras **lento, complejo o con demasiadas funciones** que no necesitas, la clave está en buscar herramientas que usen aplicaciones nativas (que no carguen como una página web) o que eliminen la complejidad de las bases de datos.\n\nAquí tienes las mejores alternativas rápidas y simples, ordenadas según su enfoque:\n\n---\n\n### 1. UpNote (La más parecida a Notion, pero ultrarrápida)\nEs probablemente la sustituta directa ideal. Mantiene el diseño elegante de Notion y la organización por carpetas y etiquetas, pero sin la lentitud.\n* **Por qué es más rápida/simple:** No tiene bases de datos complejas ni fórmulas. Es escribir, organizar y listo.\n* **Lo mejor:** Es una app nativa (abre al instante), funciona perfecto offline y sincroniza muy rápido.\n* **Plataformas:** Windows, Mac, iOS, Android, Linux.\n* **Precio:** Gratuita (con límite de notas) / Pago único de ~$30 USD para siempre.\n\n### 2. Craft (La versión \"premium\" y fluida)\nCraft está diseñada específicamente para los sistemas operativos de Apple (aunque ya tiene versión para Windows y Web). Es estéticamente hermosa y funciona con \"bloques\" igual que Notion, pero responde a la velocidad de la luz.\n* **Por qué es más rápida/simple:** Su interfaz es mucho más intuitiva y está optimizada para escribir sin distracciones.\n* **Lo mejor:** La exportación a PDF o web queda impecable al instante.\n* **Plataformas:** Mac, iOS, iPadOS, Windows, Web.\n* **Precio:** Plan gratuito muy completo / Suscripción mensual.\n\n### 3. Obsidian (La reina de la velocidad y privacidad)\nSi tu prioridad absoluta es la velocidad, Obsidian es imbatible porque guarda tus notas como archivos de texto simple (`.txt` / `.md`) en tu propio ordenador.\n* **Por qué es más rápida/simple:** Abre al milisegundo. No depende de servidores externos.\n* **Aviso de simplicidad:** Puede volverse compleja si le instalas decenas de complementos, pero si la usas \"tal cual viene\" para tomar notas y vincular ideas, es tremendamente sencilla.\n* **Plataformas:** Todas (Windows, Mac, Linux, iOS, Android).\n* **Precio:** 100% Gratuita para uso personal.\n\n### 4. Slite (Ideal para notas de trabajo y documentación)\nSi usabas Notion para documentación de proyectos o equipo, Slite es una versión simplificada enfocada exclusivamente en escribir y colaborar.\n* **Por qué es más rápida/simple:** Elimina todo el \"ruido\" de Notion. Tiene una estructura limpia de canales y documentos.\n* **Lo mejor:** Excelente buscador e integración con Inteligencia Artificial muy bien implementada.\n* **Plataformas:** Web, Mac, Windows, iOS, Android.\n* **Precio:** Plan gratuito disponible.\n\n### 5. Notas de Apple / Google Keep (Las opciones integradas)\nA veces la mejor alternativa es no instalar nada nuevo:\n* **Notas de Apple:** Si estás en el ecosistema Apple, la app nativa hoy en día permite enlaces entre notas, tablas, escaneo de documentos y carpetas inteligentes. Es instantánea.\n* **Google Keep:** Si quieres notas rápidas tipo \"post-it\", listas de la compra o recordatorios sin ninguna complicación gráfica.\n\n---\n\n### ¿Cuál elegir?\n\n* Si quieres **lo más parecido a Notion pero rápido y barato**: Elige **UpNote**.\n* Si buscas **diseño visual perfecto y usas Mac/iPhone**: Elige **Craft**.\n* Si quieres **rapidez extrema, control de tus datos y offline**: Elige **Obsidian**.\n* Si solo quieres **escribir sin configurar nada**: Usa **Apple Notes** o **Simplenote**."
+}

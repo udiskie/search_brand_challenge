@@ -1,0 +1,22 @@
+{
+  "runId": "1b0721de-2802-4448-a4a7-787de4177652",
+  "promptId": "troubleshooting_replacement-3",
+  "promptText": "¿Qué alternativas a Jira ofrecen algo rápido y simple de usar?",
+  "dimensions": {
+    "intent": "troubleshooting_replacement",
+    "persona": {
+      "role": "freelancer",
+      "teamSize": "solo"
+    },
+    "specificity": "semi_specific",
+    "attribute": "speed_ux",
+    "language": "es",
+    "brandsNamed": [
+      "Jira"
+    ]
+  },
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T20:01:43.451Z",
+  "finishReason": "STOP",
+  "rawText": "Si buscas salir de Jira porque lo sientes lento, sobrecargado de funciones o complejo de configurar, estás en el lugar correcto. Afortunadamente, en los últimos años han surgido herramientas modernas diseñadas específicamente para ser **ultrarrápidas y minimalistas**.\n\nAquí tienes las mejores alternativas divididas según tus necesidades:\n\n---\n\n### 1. Para equipos de software / startups (La alternativa moderna directa)\n\n#### **Linear** (La más recomendada)\nEs actualmente la favorita de las startups y equipos de tecnología. Nació literalmente para ser lo opuesto a Jira.\n*   **Por qué es rápida y simple:** Está obsesionada con la velocidad de carga (cero esperas). La interfaz es ultra minimalista y se puede controlar casi al 100% usando solo el teclado (shortcuts estilo VS Code).\n*   **Ideal para:** Equipos de desarrollo que quieren metodologías ágiles (Sprints/Cycles) sin la burocracia de Jira.\n*   **Precio:** Gratis para equipos pequeños; planes de pago muy accesibles.\n\n#### **Shortcut** (Antes conocido como Clubhouse)\nDiseñado para ofrecer la potencia de Jira (epics, historias de usuario, sprints) pero con una experiencia de usuario limpia y sin fricciones.\n*   **Por qué es rápida y simple:** Carga al instante, no requiere semanas de configuración y la navegación entre tableros y proyectos es fluida.\n*   **Ideal para:** Equipos que necesitan *las mismas funciones* de Jira, pero sin la interfaz pesada.\n\n---\n\n### 2. Para máxima simplicidad (Kanban puro)\n\n#### **Trello**\nEl clásico tablero Kanban de tarjetas. Es la definición de simplicidad.\n*   **Por qué es rápida y simple:** Creas una columna, tiras una tarjeta y listo. No hay curvas de aprendizaje. Cero configuración inicial.\n*   **Ideal para:** Proyectos pequeños, equipos no técnicos o cuando solo necesitas ver \"Pendiente, En proceso, Hecho\".\n\n#### **KanbanFlow**\nUna versión ultra ligera de Trello con un enfoque en la productividad personal y de equipo.\n*   **Por qué es rápida y simple:** Interfaz sin adornos visuales innecesarios. Incluye un temporizador Pomodoro integrado y métricas simples.\n\n---\n\n### 3. Integrado con el código (Sin cambiar de pestaña)\n\n#### **GitHub Projects (v2)**\nSi tu equipo ya guarda su código en GitHub, la nueva versión de GitHub Projects es una alternativa brutal a Jira.\n*   **Por qué es rápida y simple:** Funciona con hojas de cálculo y tableros Kanban hiperrápidos. Los tickets son las mismas *Issues* de GitHub, por lo que todo está vinculado a las Pull Requests automáticamente.\n*   **Ideal para:** Devs que no quieren salir del entorno de GitHub.\n\n---\n\n### 4. Para equipos mixtos (Devs + Marketing/Diseño/Negocio)\n\n#### **Asana**\nAunque sirve para proyectos de todo tipo, es mucho más intuitiva que Jira.\n*   **Por qué es rápida y simple:** Permite cambiar con un solo clic entre vista de Lista, Tablero (Kanban) o Cronograma (Gantt). La interfaz es muy visual y amigable para personas no técnicas.\n*   **Ideal para:** Empresas donde los desarrolladores tienen que colaborar constantemente con otros departamentos.\n\n---\n\n### 5. La opción Open-Source (Código abierto)\n\n#### **Plane**\nSe autodenomina la alternativa *open-source* a Jira y Linear.\n*   **Por qué es rápida y simple:** Su diseño está fuertemente inspirado en Linear (muy moderno y rápido), pero puedes alojarlo en tus propios servidores si la privacidad de los datos es clave para ti.\n\n---\n\n### Resumen: ¿Cuál deberías elegir?\n\n*   Si quieres **la mejor experiencia para desarrolladores (ultrarrápida y moderna):** Ve por **Linear**.\n*   Si quieres **la menor curva de aprendizaje posible:** Ve por **Trello**.\n*   Si quieres **las funciones de Jira pero con buena velocidad/UI:** Ve por **Shortcut**.\n*   Si ya usas **GitHub para tu código:** Usa **GitHub Projects**."
+}
