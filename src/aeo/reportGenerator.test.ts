@@ -31,7 +31,7 @@ const sitemapCoverage: SitemapCoverage = {
 };
 
 const tagcloud: Tagcloud = {
-  site: [{ term: "keyboard", score: 10, documentFrequency: 1 }],
+  site: [{ term: "keyboard", score: 10, documentFrequency: 1, occurrences: 1 }],
   byPage: {},
 };
 

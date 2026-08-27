@@ -3,255 +3,389 @@
     {
       "term": "iconcheck",
       "score": 313.13254949209204,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 120
     },
     {
       "term": "work",
       "score": 96.6928399210234,
-      "documentFrequency": 5
+      "documentFrequency": 5,
+      "occurrences": 64
     },
     {
       "term": "tasks",
       "score": 67.84538572328661,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 26
     },
     {
       "term": "asana",
       "score": 65,
-      "documentFrequency": 9
+      "documentFrequency": 9,
+      "occurrences": 65
     },
     {
       "term": "check",
       "score": 57.40763407355021,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 22
     },
     {
       "term": "team",
-      "score": 54.2669977575493,
-      "documentFrequency": 6
+      "score": 54.26699775754929,
+      "documentFrequency": 6,
+      "occurrences": 40
     },
     {
       "term": "right",
       "score": 47.90726829685388,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 25
     },
     {
       "term": "teams",
       "score": 45.71497387511853,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 27
     },
     {
       "term": "circle",
       "score": 44.07945608651872,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 20
     },
     {
       "term": "learn",
       "score": 39.671510477866846,
-      "documentFrequency": 2
-    },
-    {
-      "term": "morelearn",
-      "score": 39.141568686511505,
-      "documentFrequency": 1
+      "documentFrequency": 2,
+      "occurrences": 18
     },
     {
       "term": "manage",
       "score": 39.141568686511505,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 15
+    },
+    {
+      "term": "morelearn",
+      "score": 39.141568686511505,
+      "documentFrequency": 1,
+      "occurrences": 15
     },
     {
       "term": "data",
       "score": 37.46753767354091,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 17
     },
     {
       "term": "organization",
       "score": 36.53213077407741,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 14
     },
     {
       "term": "morearrow",
       "score": 35.263564869214974,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 16
     },
     {
       "term": "projects",
       "score": 33.922692861643306,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 13
     },
     {
       "term": "project",
       "score": 33.05959206488904,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 15
     },
     {
       "term": "across",
       "score": 31.313254949209206,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 12
     },
     {
       "term": "management",
       "score": 28.74436097811233,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 15
     },
     {
       "term": "unlimited",
       "score": 28.703817036775106,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 11
     },
     {
       "term": "due",
       "score": 28.703817036775106,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 11
     },
     {
       "term": "subscription",
       "score": 28.703817036775106,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 11
     },
     {
       "term": "cancel",
       "score": 28.703817036775106,
-      "documentFrequency": 1
-    },
-    {
-      "term": "chevron",
-      "score": 28.651646456237167,
-      "documentFrequency": 2
+      "documentFrequency": 1,
+      "occurrences": 11
     },
     {
       "term": "plan",
       "score": 28.651646456237167,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 13
+    },
+    {
+      "term": "chevron",
+      "score": 28.651646456237167,
+      "documentFrequency": 2,
+      "occurrences": 13
     },
     {
       "term": "company",
       "score": 27.090354888959126,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 16
     },
     {
       "term": "every",
       "score": 26.828070246238173,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 14
     },
     {
       "term": "see",
       "score": 26.828070246238173,
-      "documentFrequency": 3
+      "documentFrequency": 3,
+      "occurrences": 14
     },
     {
       "term": "security",
       "score": 26.094379124341003,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 10
     },
     {
       "term": "custom",
       "score": 24.243700847585295,
-      "documentFrequency": 2
-    },
-    {
-      "term": "agents",
-      "score": 23.484941211906904,
-      "documentFrequency": 1
-    },
-    {
-      "term": "workflows",
-      "score": 23.484941211906904,
-      "documentFrequency": 1
+      "documentFrequency": 2,
+      "occurrences": 11
     },
     {
       "term": "per",
       "score": 23.484941211906904,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 9
+    },
+    {
+      "term": "agents",
+      "score": 23.484941211906904,
+      "documentFrequency": 1,
+      "occurrences": 9
+    },
+    {
+      "term": "workflows",
+      "score": 23.484941211906904,
+      "documentFrequency": 1,
+      "occurrences": 9
     },
     {
       "term": "free",
       "score": 23.239727474969982,
-      "documentFrequency": 7
-    },
-    {
-      "term": "user",
-      "score": 22.03972804325936,
-      "documentFrequency": 2
+      "documentFrequency": 7,
+      "occurrences": 19
     },
     {
       "term": "view",
       "score": 22.03972804325936,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 10
+    },
+    {
+      "term": "user",
+      "score": 22.03972804325936,
+      "documentFrequency": 2,
+      "occurrences": 10
     },
     {
       "term": "service",
       "score": 21.151558732723874,
-      "documentFrequency": 5
-    },
-    {
-      "term": "platform",
-      "score": 20.875503299472804,
-      "documentFrequency": 1
+      "documentFrequency": 5,
+      "occurrences": 14
     },
     {
       "term": "iconunlimited",
       "score": 20.875503299472804,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 8
+    },
+    {
+      "term": "platform",
+      "score": 20.875503299472804,
+      "documentFrequency": 1,
+      "occurrences": 8
     },
     {
       "term": "goals",
       "score": 20.317766166719345,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 12
     },
     {
       "term": "account",
       "score": 20.317766166719345,
-      "documentFrequency": 4
+      "documentFrequency": 4,
+      "occurrences": 12
     },
     {
       "term": "down",
       "score": 19.835755238933423,
-      "documentFrequency": 2
+      "documentFrequency": 2,
+      "occurrences": 9
     },
     {
       "term": "create",
       "score": 18.993449215142252,
-      "documentFrequency": 6
+      "documentFrequency": 6,
+      "occurrences": 14
     },
     {
       "term": "paid",
       "score": 18.624618986159398,
-      "documentFrequency": 4
-    },
-    {
-      "term": "client",
-      "score": 18.266065387038704,
-      "documentFrequency": 1
+      "documentFrequency": 4,
+      "occurrences": 11
     },
     {
       "term": "time",
       "score": 18.266065387038704,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 7
     },
     {
       "term": "process",
       "score": 18.266065387038704,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 7
     },
     {
       "term": "compliance",
       "score": 18.266065387038704,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 7
+    },
+    {
+      "term": "client",
+      "score": 18.266065387038704,
+      "documentFrequency": 1,
+      "occurrences": 7
     },
     {
       "term": "officerlearn",
       "score": 18.266065387038704,
-      "documentFrequency": 1
+      "documentFrequency": 1,
+      "occurrences": 7
     },
     {
       "term": "support",
-      "score": 18.129907485191893,
-      "documentFrequency": 5
+      "score": 18.12990748519189,
+      "documentFrequency": 5,
+      "occurrences": 12
     }
   ],
   "byPage": {
+    "https://asana.com/pricing-legacy": [
+      {
+        "term": "iconcheck",
+        "score": 313.13254949209204
+      },
+      {
+        "term": "tasks",
+        "score": 67.84538572328661
+      },
+      {
+        "term": "check",
+        "score": 57.40763407355021
+      },
+      {
+        "term": "work",
+        "score": 55.900548079341654
+      },
+      {
+        "term": "manage",
+        "score": 39.141568686511505
+      },
+      {
+        "term": "organization",
+        "score": 36.53213077407741
+      },
+      {
+        "term": "teams",
+        "score": 35.556090791758855
+      },
+      {
+        "term": "projects",
+        "score": 33.922692861643306
+      },
+      {
+        "term": "data",
+        "score": 33.05959206488904
+      },
+      {
+        "term": "across",
+        "score": 31.313254949209206
+      }
+    ],
+    "https://asana.com/sales-email": [
+      {
+        "term": "asana",
+        "score": 5
+      },
+      {
+        "term": "may",
+        "score": 4.407945608651872
+      },
+      {
+        "term": "asanaspeak",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "specialistdiscover",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "fill",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "details",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "specialist",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "shortly",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "center",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "submitting",
+        "score": 2.6094379124341005
+      }
+    ],
     "https://asana.com": [
       {
         "term": "morelearn",
@@ -294,46 +428,88 @@
         "score": 15.656627474604603
       }
     ],
-    "https://asana.com/pricing-legacy": [
+    "https://asana.com/paidservices": [
       {
-        "term": "iconcheck",
-        "score": 313.13254949209204
+        "term": "services",
+        "score": 6.611918412977808
       },
       {
-        "term": "tasks",
-        "score": 67.84538572328661
+        "term": "professional",
+        "score": 4.407945608651872
       },
       {
-        "term": "check",
-        "score": 57.40763407355021
+        "term": "team",
+        "score": 2.713349887877465
       },
       {
-        "term": "work",
-        "score": 55.900548079341654
+        "term": "asanawork",
+        "score": 2.6094379124341005
       },
       {
-        "term": "manage",
-        "score": 39.141568686511505
+        "term": "teamour",
+        "score": 2.6094379124341005
       },
       {
-        "term": "organization",
-        "score": 36.53213077407741
+        "term": "provides",
+        "score": 2.6094379124341005
       },
       {
-        "term": "teams",
-        "score": 35.556090791758855
+        "term": "onboarding",
+        "score": 2.6094379124341005
       },
       {
-        "term": "projects",
-        "score": 33.922692861643306
+        "term": "success",
+        "score": 2.6094379124341005
       },
       {
-        "term": "data",
+        "term": "namelast",
+        "score": 2.6094379124341005
+      },
+      {
+        "term": "nameemailcompanytitlesubmit",
+        "score": 2.6094379124341005
+      }
+    ],
+    "https://asana.com/leadership": [
+      {
+        "term": "circle",
+        "score": 39.671510477866846
+      },
+      {
+        "term": "right",
+        "score": 34.493233173734794
+      },
+      {
+        "term": "morearrow",
         "score": 33.05959206488904
       },
       {
-        "term": "across",
-        "score": 31.313254949209206
+        "term": "officerlearn",
+        "score": 18.266065387038704
+      },
+      {
+        "term": "asanalearn",
+        "score": 7.8283137373023015
+      },
+      {
+        "term": "leadership",
+        "score": 6.611918412977808
+      },
+      {
+        "term": "financial",
+        "score": 5.218875824868201
+      },
+      {
+        "term": "revenue",
+        "score": 5.218875824868201
+      },
+      {
+        "term": "member",
+        "score": 5.218875824868201
+      },
+      {
+        "term": "asana",
+        "score": 5
       }
     ],
     "https://asana.com/create-account-mobile": [
@@ -420,48 +596,6 @@
         "score": 1.916290731874155
       }
     ],
-    "https://asana.com/create-account": [
-      {
-        "term": "account",
-        "score": 5.079441541679836
-      },
-      {
-        "term": "asana",
-        "score": 4
-      },
-      {
-        "term": "sure",
-        "score": 3.386294361119891
-      },
-      {
-        "term": "address",
-        "score": 3.386294361119891
-      },
-      {
-        "term": "free",
-        "score": 2.4462871026284194
-      },
-      {
-        "term": "busyworktry",
-        "score": 2.203972804325936
-      },
-      {
-        "term": "googlemicrosoftorwork",
-        "score": 2.203972804325936
-      },
-      {
-        "term": "emailare",
-        "score": 2.203972804325936
-      },
-      {
-        "term": "continuesigning",
-        "score": 2.203972804325936
-      },
-      {
-        "term": "upcontinuealready",
-        "score": 2.203972804325936
-      }
-    ],
     "https://asana.com/culture-and-belonging": [
       {
         "term": "through",
@@ -504,130 +638,46 @@
         "score": 7.8283137373023015
       }
     ],
-    "https://asana.com/leadership": [
+    "https://asana.com/create-account": [
       {
-        "term": "circle",
-        "score": 39.671510477866846
-      },
-      {
-        "term": "right",
-        "score": 34.493233173734794
-      },
-      {
-        "term": "morearrow",
-        "score": 33.05959206488904
-      },
-      {
-        "term": "officerlearn",
-        "score": 18.266065387038704
-      },
-      {
-        "term": "asanalearn",
-        "score": 7.8283137373023015
-      },
-      {
-        "term": "leadership",
-        "score": 6.611918412977808
-      },
-      {
-        "term": "financial",
-        "score": 5.218875824868201
-      },
-      {
-        "term": "revenue",
-        "score": 5.218875824868201
-      },
-      {
-        "term": "member",
-        "score": 5.218875824868201
+        "term": "account",
+        "score": 5.079441541679836
       },
       {
         "term": "asana",
-        "score": 5
-      }
-    ],
-    "https://asana.com/paidservices": [
-      {
-        "term": "services",
-        "score": 6.611918412977808
+        "score": 4
       },
       {
-        "term": "professional",
-        "score": 4.407945608651872
+        "term": "sure",
+        "score": 3.386294361119891
       },
       {
-        "term": "team",
-        "score": 2.713349887877465
+        "term": "address",
+        "score": 3.386294361119891
       },
       {
-        "term": "asanawork",
-        "score": 2.6094379124341005
+        "term": "free",
+        "score": 2.4462871026284194
       },
       {
-        "term": "teamour",
-        "score": 2.6094379124341005
+        "term": "busyworktry",
+        "score": 2.203972804325936
       },
       {
-        "term": "provides",
-        "score": 2.6094379124341005
+        "term": "googlemicrosoftorwork",
+        "score": 2.203972804325936
       },
       {
-        "term": "onboarding",
-        "score": 2.6094379124341005
+        "term": "emailare",
+        "score": 2.203972804325936
       },
       {
-        "term": "success",
-        "score": 2.6094379124341005
+        "term": "continuesigning",
+        "score": 2.203972804325936
       },
       {
-        "term": "namelast",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "nameemailcompanytitlesubmit",
-        "score": 2.6094379124341005
-      }
-    ],
-    "https://asana.com/sales-email": [
-      {
-        "term": "asana",
-        "score": 5
-      },
-      {
-        "term": "may",
-        "score": 4.407945608651872
-      },
-      {
-        "term": "asanaspeak",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "specialistdiscover",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "fill",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "details",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "specialist",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "shortly",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "center",
-        "score": 2.6094379124341005
-      },
-      {
-        "term": "submitting",
-        "score": 2.6094379124341005
+        "term": "upcontinuealready",
+        "score": 2.203972804325936
       }
     ]
   }

@@ -15,9 +15,9 @@ function dims(): PromptDimensions {
 
 describe("findGeoAeoGaps", () => {
   const siteTagcloud = [
-    { term: "keyboard", score: 10, documentFrequency: 2 },
-    { term: "cycles", score: 8, documentFrequency: 1 },
-    { term: "integrations", score: 5, documentFrequency: 3 },
+    { term: "keyboard", score: 10, documentFrequency: 2, occurrences: 4 },
+    { term: "cycles", score: 8, documentFrequency: 1, occurrences: 1 },
+    { term: "integrations", score: 5, documentFrequency: 3, occurrences: 6 },
   ];
 
   const runs: ParsedRun[] = [

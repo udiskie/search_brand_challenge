@@ -33,9 +33,11 @@ export function buildTagcloud(
     Math.log((totalDocs + 1) / ((documentFrequency.get(term) ?? 0) + 1)) + 1;
 
   const aggregateScore = new Map<string, number>();
+  const rawOccurrences = new Map<string, number>();
   for (const { counts } of pageTermCounts) {
     for (const [term, tf] of counts.entries()) {
       aggregateScore.set(term, (aggregateScore.get(term) ?? 0) + tf * idf(term));
+      rawOccurrences.set(term, (rawOccurrences.get(term) ?? 0) + tf);
     }
   }
 
@@ -46,6 +48,7 @@ export function buildTagcloud(
       term,
       score,
       documentFrequency: documentFrequency.get(term) ?? 0,
+      occurrences: rawOccurrences.get(term) ?? 0,
     }));
 
   const byPage: Record<string, { term: string; score: number }[]> = {};
