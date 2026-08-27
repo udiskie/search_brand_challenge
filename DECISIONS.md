@@ -134,3 +134,110 @@ theme names drift in wording between runs (e.g. "AI & Automation" vs. "AI &
 Automation Tools") in a way that would make repeated re-clustering look
 falsely unstable; the dashboard's method-comparison note only compares
 theme/unclustered *counts*, not name-level alignment.
+
+## Índice de esfuerzo de inferencia de User Persona (Persona Inference Effort Index — PIEI)
+
+**Problema que resuelve:** hay dos formas en que un sitio comunica su user
+persona: de forma **explícita** (el sitio lo dice directamente: "diseñado
+para equipos de ingeniería ágil") o de forma **implícita** (el LLM tiene que
+inferirlo combinando señales indirectas — tono del copy, features listadas,
+integraciones ofrecidas, casos de uso en el blog — sin que nadie lo declare
+en una frase). Cuanto más tenga que inferir el LLM, más riesgo de que la
+inferencia sea inconsistente entre corridas o entre distintos modelos, y
+menos control tiene la marca sobre cómo la perciben.
+
+El índice propuesto (PIEI) se construye con 4 componentes medibles:
+
+1. **Explicit Mention Rate (EMR)** — ¿el sitio declara el persona/caso de uso
+   en texto directo (headings, hero copy, secciones "Para quién es")? Se mide
+   con análisis semántico/keyword sobre las páginas clave (home, pricing,
+   landing), buscando frases tipo "para [rol]", "ideal para", "diseñado
+   para", "built for". Score de cobertura por página.
+
+2. **Reasoning Chain Length (RCL)** — se le pide al LLM: *"¿Para qué tipo de
+   usuario/equipo está pensado este producto, basándote solo en este
+   contenido?"*, pidiéndole que muestre su razonamiento citando evidencia. Se
+   cuenta cuántas piezas de evidencia distintas tuvo que combinar para llegar
+   a la conclusión (1 pieza = inferencia mínima; 4-5 piezas combinadas =
+   inferencia alta).
+
+3. **Cross-Run Consistency (CRC)** — se corre la misma pregunta de persona N
+   veces (temperature alta, mismo mecanismo que las corridas de AEO). Si el
+   sitio es explícito, el LLM converge en la misma respuesta casi siempre; si
+   tiene que inferir mucho, las respuestas varían más entre corridas. Se mide
+   con similitud de embeddings entre respuestas, o de forma más simple, el %
+   de corridas donde coincide la persona dominante: `CRC = 1 - (varianza de
+   personas mencionadas entre corridas / N)`.
+
+4. **Self-Reported Confidence (SRC)** — se le pide al LLM que puntúe su
+   propia certeza de 0 a 1 sobre la inferencia realizada. Es la señal más
+   débil de las cuatro (los LLMs no están perfectamente calibrados en
+   autoconfianza), por lo que se usa como complemento, no como fuente
+   principal.
+
+**Fórmula del índice combinado:**
+
+```
+PIEI = 1 - [ (EMR × 0.35) + (CRC × 0.35) + (SRC × 0.15) + (1 - RCL_normalizado × 0.15) ]
+```
+
+Un **PIEI cercano a 0** indica que el sitio comunica su persona de forma
+explícita y consistente (bajo esfuerzo de inferencia, bajo riesgo). Un
+**PIEI cercano a 1** indica que el LLM tiene que inferir mucho, con baja
+consistencia entre corridas (alto esfuerzo, alto riesgo de mala
+interpretación por parte del motor de IA).
+
+Los pesos (0.35 / 0.35 / 0.15 / 0.15) son un punto de partida razonable
+—priorizan lo explícito y la consistencia entre corridas, que son los
+componentes más accionables— y quedan documentados como ajustables, no como
+una calibración validada empíricamente.
+
+**Integración con el pipeline existente:** el PIEI se calcula sobre el mismo
+contenido ya extraído para SEO/GEO (`extracted/structured_signals.json`),
+sin requerir un scan nuevo, y reutiliza el mismo mecanismo de llamadas
+repetidas a Gemini que ya se usa para AEO, aplicado a una pregunta distinta
+("¿para quién es esto?" en vez de "¿qué producto recomendás?"). El resultado
+se guarda en `/geo/persona_inference.json` como sub-métrica de GEO.
+
+**Qué se dejó fuera de alcance:** el diseño completo arriba, sin ninguna
+implementación (`geo/persona_inference.json`, la pregunta de razonamiento
+sobre Gemini, el cálculo de CRC entre corridas) — queda documentado como
+trabajo futuro, no como parte del pipeline construido en este ejercicio.
+
+## Nivel de realidad del E-E-A-T medido en este ejercicio
+
+**Cómo se maneja la data:** todas las señales de E-E-A-T se extraen
+exclusivamente del **sitio propio vía sitemap crawl** (`/raw/pages/` →
+`/extracted/structured_signals.json`). No hay ninguna fuente de datos
+externa incorporada al pipeline (backlinks, menciones de terceros, reviews
+en directorios como G2/Capterra, redes sociales, prensa).
+
+Esto tiene una consecuencia importante: dos de los cuatro componentes del
+framework E-E-A-T son, por definición, señales **externas** al sitio
+(reputación otorgada por terceros), mientras que el pipeline solo puede
+observar señales **internas** (lo que el sitio dice de sí mismo). El
+resultado es una medición parcial, con distinto nivel de fidelidad por
+componente:
+
+| Componente | Qué se mide con la data disponible | Nivel de realidad |
+|---|---|---|
+| **Experience** | Proxy débil: detección de testimonios, casos de uso, capturas en el sitio — sin forma de verificar si son experiencias reales o copy de marketing | Bajo-medio: se mide *si el sitio simula tener experiencia*, no si la tiene |
+| **Expertise** | Proxy medio: precisión técnica del copy, presencia de documentación, bio de autor cuando existe | Medio: verificable en el texto mismo, pero autodeclarado, sin credenciales externas que lo confirmen |
+| **Authoritativeness** | Prácticamente no medible — requeriría backlinks, menciones externas, presencia en directorios reconocidos | Muy bajo / no medible con este pipeline: es el componente más débil de la implementación |
+| **Trustworthiness** | El más verificable con la data disponible: HTTPS, fecha de publicación/actualización visible, página legal/"sobre nosotros", autoría atribuida — señales estructurales fáciles de chequear en el HTML | Medio-alto: es el único componente donde la medición se acerca a algo confiable |
+
+**Conclusión y alcance declarado:** el score de E-E-A-T implementado en este
+proyecto es una **aproximación basada exclusivamente en señales on-page del
+sitio propio**. No incorpora datos externos, por lo que el componente de
+Authoritativeness queda subrepresentado o directamente excluido del score
+agregado. Se trata de un **proxy estructural** —mide si el sitio *presenta
+las señales* típicamente asociadas a E-E-A-T— y no una medición completa del
+constructo tal como lo evalúa Google (que pondera fuertemente señales de
+reputación externa).
+
+**Qué se dejó fuera de alcance (explícitamente):** cubrir Authoritativeness
+de forma realista requeriría integrar una fuente de datos externa (API de
+backlinks tipo Ahrefs/Moz, o scraping de presencia en G2/Capterra), lo cual
+se decidió no incorporar en este ejercicio por agregar una dependencia
+externa y complejidad adicional fuera del plazo disponible. Queda
+documentado como una limitación conocida, no como un olvido.
