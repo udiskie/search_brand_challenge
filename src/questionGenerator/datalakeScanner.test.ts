@@ -130,4 +130,16 @@ describe("scanProductHooks", () => {
     const hooks = await scanProductHooks("example", { excludeTerms: ["example"] });
     expect(hooks.some((h) => h.hook === "example")).toBe(false);
   });
+
+  it("excludes a meta description/definition that merely mentions the brand inline", async () => {
+    // The meta description "Example is the fastest way to..." and the GEO
+    // definition "Example is a keyboard-first..." both contain "example"
+    // without being equal to it -- a naive exact-match exclude would let
+    // both through, defeating the point of testing for an *organic*
+    // mention.
+    await seed("example");
+    const hooks = await scanProductHooks("example", { excludeTerms: ["example"] });
+    expect(hooks.some((h) => h.source === "meta_description")).toBe(false);
+    expect(hooks.some((h) => h.source === "geo_definition")).toBe(false);
+  });
 });

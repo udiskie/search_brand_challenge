@@ -9,8 +9,15 @@ import type { CandidateQuestion, ProductHook, QuestionTemplate } from "./types";
  * templates deliberately lean on a brand's own distinctive language to
  * surface the specific real-world questions where its own content gives it
  * the best shot at being the model's answer.
+ *
+ * Hooks come in two shapes -- a short phrase (a tagcloud term like "cycles")
+ * or a full sentence (a meta description/GEO definition) -- and need
+ * different templates: splicing a whole sentence into a template built for
+ * a short phrase reads as broken English (discovered running this against
+ * real scraped data). SHORT_PHRASE_TEMPLATES assume a noun-phrase-sized
+ * `{hook}`; LONG_FORM_TEMPLATES quote a full-sentence `{hook}` directly.
  */
-export const QUESTION_TEMPLATES: QuestionTemplate[] = [
+export const SHORT_PHRASE_TEMPLATES: QuestionTemplate[] = [
   {
     id: "direct-differentiator",
     pattern: 'What tool would you recommend for a team that wants "{hook}"?',
@@ -38,6 +45,21 @@ export const QUESTION_TEMPLATES: QuestionTemplate[] = [
   },
 ];
 
+export const LONG_FORM_TEMPLATES: QuestionTemplate[] = [
+  {
+    id: "long-form-quote-match",
+    pattern: 'What tool matches this description: "{hook}"?',
+    rationale:
+      "Quotes a full positioning statement directly rather than splicing it into a shorter template, which reads as broken English for sentence-length hooks.",
+  },
+  {
+    id: "long-form-as-need",
+    pattern: "As {persona}, I'm looking for a tool where: {hook} Any suggestions?",
+    rationale:
+      "Treats the site's own sentence as the user's stated need verbatim -- works when the sentence is already need-shaped, with a persona constraint added.",
+  },
+];
+
 const DEFAULT_PERSONAS = [
   "an engineering lead",
   "a startup founder",
@@ -45,23 +67,33 @@ const DEFAULT_PERSONAS = [
   "a freelancer",
 ];
 
+/** Sentence-length hooks (meta descriptions, GEO definitions) need the long-form templates. */
+const LONG_FORM_WORD_THRESHOLD = 6;
+
+function isLongForm(hook: string): boolean {
+  return hook.trim().split(/\s+/).length > LONG_FORM_WORD_THRESHOLD;
+}
+
 function fillTemplate(pattern: string, hook: string, persona: string): string {
   return pattern.replace("{hook}", hook).replace("{persona}", persona);
 }
 
 /**
  * Combines scanned hooks with the question templates to produce candidate
- * user questions. Each question carries its originating hook and evidence
- * URLs so a reviewer can check the grounding before using it.
+ * user questions, picking short-phrase vs. long-form templates per hook.
+ * Each question carries its originating hook and evidence URLs so a
+ * reviewer can check the grounding before using it.
  */
 export function generateCandidateQuestions(
   hooks: ProductHook[],
-  templates: QuestionTemplate[] = QUESTION_TEMPLATES
+  shortPhraseTemplates: QuestionTemplate[] = SHORT_PHRASE_TEMPLATES,
+  longFormTemplates: QuestionTemplate[] = LONG_FORM_TEMPLATES
 ): CandidateQuestion[] {
   const questions: CandidateQuestion[] = [];
   let counter = 0;
 
   for (const hook of hooks) {
+    const templates = isLongForm(hook.hook) ? longFormTemplates : shortPhraseTemplates;
     for (const template of templates) {
       const persona = DEFAULT_PERSONAS[counter % DEFAULT_PERSONAS.length];
       questions.push({

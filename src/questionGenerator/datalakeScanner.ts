@@ -25,6 +25,20 @@ export interface ScanOptions {
 }
 
 /**
+ * True if `text` contains any excluded term as a substring. Sentence-level
+ * hooks (meta descriptions, GEO definitions) need substring matching --
+ * e.g. a meta description reading "Use Linear for free..." should be
+ * excluded for brand "Linear" even though it isn't an exact match.
+ */
+function containsExcludedTerm(text: string, exclude: Set<string>): boolean {
+  const lower = text.toLowerCase();
+  for (const term of exclude) {
+    if (term && lower.includes(term)) return true;
+  }
+  return false;
+}
+
+/**
  * Scans a product's already-scraped data lake (structured_signals.json,
  * geo_signals.json, tagcloud.json, phrase_cloud.json under
  * datalake/{product}/) for evidence-backed "hooks": phrases/keywords the
@@ -57,7 +71,7 @@ export async function scanProductHooks(
   // 1. Meta descriptions -- the site's own curated, one-sentence pitch per page.
   for (const page of signals) {
     if (!page.metaDescription || page.metaDescription.length < 20) continue;
-    if (exclude.has(page.metaDescription.toLowerCase())) continue;
+    if (containsExcludedTerm(page.metaDescription, exclude)) continue;
     hooks.push({
       hook: page.metaDescription,
       source: "meta_description",
@@ -69,7 +83,7 @@ export async function scanProductHooks(
   // 2. GEO self-contained definitions (see extractGeoSignals in the scraper).
   for (const g of geoSignals) {
     const definition = g.entityClarity.definitionSnippet;
-    if (!definition || exclude.has(definition.toLowerCase())) continue;
+    if (!definition || containsExcludedTerm(definition, exclude)) continue;
     // Skip an exact duplicate of a meta description already captured above.
     if (hooks.some((h) => h.hook === definition)) continue;
     hooks.push({
