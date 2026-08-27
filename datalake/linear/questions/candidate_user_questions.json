@@ -1,0 +1,1395 @@
+{
+  "hooks": [
+    {
+      "hook": "Purpose-built for planning and building products with AI agents.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Purpose-built for planning and building products with AI agents."
+        }
+      ]
+    },
+    {
+      "hook": "We’re bringing magic back to software.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://linear.app/about",
+          "snippet": "We’re bringing magic back to software."
+        }
+      ]
+    },
+    {
+      "hook": "We are crafting the tool for teams who care about quality. Join us on our mission!",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://linear.app/careers",
+          "snippet": "We are crafting the tool for teams who care about quality. Join us on our mission!"
+        }
+      ]
+    },
+    {
+      "hook": "Build and deploy AI agents that work alongside you as teammates.",
+      "source": "meta_description",
+      "documentFrequency": 1,
+      "evidence": [
+        {
+          "url": "https://linear.app/agents",
+          "snippet": "Build and deploy AI agents that work alongside you as teammates."
+        }
+      ]
+    },
+    {
+      "hook": "product",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Linear – The system for product development Skip to content →The product development system for teams and agentsThe product developmentsystem for teams and agentsThe product development system for teams and agentsPurpose-built for planning …"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Designed for the AI era.NewLoops →NewLoops →Faster app launchRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.ActivityLinear created the issue via Slack on be…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Powered by agentsDesigned…"
+        }
+      ]
+    },
+    {
+      "hook": "work",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs.Learn more→MARAPRMAYJUNJULAUGSEP29162361320274111825181522613202731017247142128UI RefreshCore screensPolishSplit faresInternalPublic BetaAutonomy statu…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Work on complex tasks together or delegate entire issues end-to-end.Learn more→what are the three most important customer requests around permissions?"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        }
+      ]
+    },
+    {
+      "hook": "added",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Designed for the AI era.NewLoops →NewLoops →Faster app launchRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.ActivityLinear created the issue via Slack on be…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        },
+        {
+          "url": "https://linear.app/agents",
+          "snippet": "Assign them to issues, add them to projects, or @mention them in comments.Delegate issues, but not accountabilityWhen an issue gets delegated to an agent, the human user remains the primary assignee, while the agent is added as a contributo…"
+        }
+      ]
+    },
+    {
+      "hook": "agent",
+      "source": "tagcloud",
+      "documentFrequency": 6,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Probably also worth tracking startup timing so we know how often this happens!@Linearcreate issues and assign to meFeaturesLinear Agent +Customer Requests +Triage +Linear Asks +Planningand monitoringPlan and navigate from idea to launch."
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Keep PRs moving without sacrificing quality.Learn more→In Review3ENG-2498Replace isFullySynced with a sync status#54910iOSOct 9ENG-2380Show a stale data banner while syncing#55167ReliabilityOct 9ENG-2039Pass sync status to the dashboard#552…"
+        }
+      ]
+    },
+    {
+      "hook": "issues",
+      "source": "tagcloud",
+      "documentFrequency": 7,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Fig 0.3Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.Intakeand integrationsAutomatically turn conversations and customer feedback into actionable issu…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Probably also worth tracking startup timing so we know how often this happens!@Linearcreate issues and assign to meFeaturesLinear Agent +Customer Requests +Triage +Linear Asks +Planningand monitoringPlan and navigate from idea to launch."
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Work on complex tasks together or delegate entire issues end-to-end.Learn more→what are the three most important customer requests around permissions?"
+        }
+      ]
+    },
+    {
+      "hook": "teams",
+      "source": "tagcloud",
+      "documentFrequency": 9,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Linear – The system for product development Skip to content →The product development system for teams and agentsThe product developmentsystem for teams and agentsThe product development system for teams and agentsPurpose-built for planning …"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Powered by agentsDesigned…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.Fig 0.1Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Fig 0.…"
+        }
+      ]
+    },
+    {
+      "hook": "them",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        },
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "If you’re using advanced features like SAML, Advanced Asks, or Third-Party App Approvals, we recommend moving to Enterprise to keep them.If you’re on Standard, your workspace will move to Basic by default."
+        },
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "If you’re using features like triage responsibility, private teams, guest accounts, or support integrations, we recommend moving to Business to keep them.When your plan updates, you’ll get access to our latest features like Customer Request…"
+        }
+      ]
+    },
+    {
+      "hook": "team",
+      "source": "tagcloud",
+      "documentFrequency": 8,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Fig 0.3Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.Intakeand integrationsAutomatically turn conversations and customer feedback into actionable issu…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs.Learn more→MARAPRMAYJUNJULAUGSEP29162361320274111825181522613202731017247142128UI RefreshCore screensPolishSplit faresInternalPublic BetaAutonomy statu…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "You can now assign a team to lead an initiative, making it clear who is responsible for driving the work and how it contributes to the broader direction.Aug 13, 2026Coding sessions on mobileYour coding session doesn’t have to stop when you …"
+        }
+      ]
+    },
+    {
+      "hook": "customer",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Fig 0.3Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.Intakeand integrationsAutomatically turn conversations and customer feedback into actionable issu…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Probably also worth tracking startup timing so we know how often this happens!@Linearcreate issues and assign to meFeaturesLinear Agent +Customer Requests +Triage +Linear Asks +Planningand monitoringPlan and navigate from idea to launch."
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Work on complex tasks together or delegate entire issues end-to-end.Learn more→what are the three most important customer requests around permissions?"
+        }
+      ]
+    },
+    {
+      "hook": "code",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Keep PRs moving without sacrificing quality.Learn more→In Review3ENG-2498Replace isFullySynced with a sync status#54910iOSOct 9ENG-2380Show a stale data banner while syncing#55167ReliabilityOct 9ENG-2039Pass sync status to the dashboard#552…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Use the Linear mobile app to review code changes, comment on specific lines, and iterate with Linear Agent.Jul 30, 2026Agent-assisted text editingDocuments and project descriptions are critical context for your teams and agents.Jul 22, 2026…"
+        }
+      ]
+    },
+    {
+      "hook": "agents",
+      "source": "tagcloud",
+      "documentFrequency": 6,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Powered by agentsDesigned…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Designed for speedReduces noise and restores momentum to help teams ship with high velocity and focus.Fig 0.1Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Fig 0.…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "From drafting PRDs to pushing PRs.Designed for workflows shared by humans and agents."
+        }
+      ]
+    },
+    {
+      "hook": "saarinen",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": [
+        {
+          "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+          "snippet": "Sharing Linear’s growth with the people building it Skip to content →NowFrom the teamSharing Linear’s growth with the people building itKarri Saarinen·August 26, 2026We completed a $99 million tender offer, giving current and former teammat…"
+        },
+        {
+          "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+          "snippet": "We hope you’ll keep taking that bet as we build what comes next.If you’d like to join us, we’re hiring.Karri Saarinen·August 26, 2026Copy link"
+        },
+        {
+          "url": "https://linear.app/blog",
+          "snippet": "Now – Updates from the Linear team Skip to content →NowAllChangelogProduct launchesFrom the teamFrom the communityPress Search…Sharing Linear’s growth with the people building itAs Linear passes $100 million in ARR, we’re giving our team an…"
+        }
+      ]
+    },
+    {
+      "hook": "view",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Keep PRs moving without sacrificing quality.Learn more→In Review3ENG-2498Replace isFullySynced with a sync status#54910iOSOct 9ENG-2380Show a stale data banner while syncing#55167ReliabilityOct 9ENG-2039Pass sync status to the dashboard#552…"
+        },
+        {
+          "url": "https://linear.app/blog",
+          "snippet": "Diffs brings code reviews directly inside Linear, so that the review lives alongside all of your product context.Tuomas Artman·May 28, 2026→Code Intelligence for Linear AgentLinear Agent can now read your codebase and answer questions from …"
+        }
+      ]
+    },
+    {
+      "hook": "building",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Linear – The system for product development Skip to content →The product development system for teams and agentsThe product developmentsystem for teams and agentsThe product development system for teams and agentsPurpose-built for planning …"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Designed for the AI era.NewLoops →NewLoops →Faster app launchRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup.ActivityLinear created the issue via Slack on be…"
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.Purpose-builtLinear is shaped by the practices and principles of world-class product teams.Powered by agentsDesigned…"
+        }
+      ]
+    },
+    {
+      "hook": "plan",
+      "source": "tagcloud",
+      "documentFrequency": 5,
+      "evidence": [
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "Linear has grown into a full product development platform.Your current plan was designed before all of this existed."
+        },
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "If you’re using features like triage responsibility, private teams, guest accounts, or support integrations, we recommend moving to Business to keep them.When your plan updates, you’ll get access to our latest features like Customer Request…"
+        },
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "You can change your plan anytime before then."
+        }
+      ]
+    },
+    {
+      "hook": "triage",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://linear.app/",
+          "snippet": "Probably also worth tracking startup timing so we know how often this happens!@Linearcreate issues and assign to meFeaturesLinear Agent +Customer Requests +Triage +Linear Asks +Planningand monitoringPlan and navigate from idea to launch."
+        },
+        {
+          "url": "https://linear.app/",
+          "snippet": "add them to the Access Controls projectWorked for 8 secThree issues ranked by customer impact:ENG-2298Add granular project permissionsENG-2647Let guests access multiple teamsENG-2352Create custom roles with scoped accessI’ve added them to A…"
+        },
+        {
+          "url": "https://linear.app/docs/changes-to-linears-pricing-plans",
+          "snippet": "We’ve automated triage, enabled customer feedback capture, introduced agents that help draft PRs and fix bugs, and more."
+        }
+      ]
+    },
+    {
+      "hook": "design",
+      "source": "tagcloud",
+      "documentFrequency": 4,
+      "evidence": [
+        {
+          "url": "https://linear.app/docs",
+          "snippet": "Skip to content →PopularStart GuideLearn how to use the app and follow best practices for software buildingImport IssuesQuickly move issues from your existing issue tracker into LinearProjectsShape your product ideas and plan what to build …"
+        },
+        {
+          "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+          "snippet": "Since the start of 2026, the number of issues with a pull request attached by someone in an engineering, product, or design function has grown sevenfold.This is moving faster than I expected."
+        },
+        {
+          "url": "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+          "snippet": "We continue to carefully expand our team, with more than 30 open roles across engineering, product, design, sales, support, and the rest of the company.This tender was one way to share the value created so far with our team."
+        }
+      ]
+    },
+    {
+      "hook": "access",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": []
+    },
+    {
+      "hook": "people",
+      "source": "tagcloud",
+      "documentFrequency": 3,
+      "evidence": []
+    },
+    {
+      "hook": "current",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "long-form-quote-match-0",
+      "text": "What tool matches this description: \"Purpose-built for planning and building products with AI agents.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Purpose-built for planning and building products with AI agents.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "long-form-as-need-1",
+      "text": "As a startup founder, I'm looking for a tool where: Purpose-built for planning and building products with AI agents. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Purpose-built for planning and building products with AI agents.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-2",
+      "text": "What tool would you recommend for a team that wants \"We’re bringing magic back to software.\"?",
+      "templateId": "direct-differentiator",
+      "hook": "We’re bringing magic back to software.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/about"
+      ]
+    },
+    {
+      "id": "problem-framed-3",
+      "text": "I need something that helps with We’re bringing magic back to software. -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "We’re bringing magic back to software.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/about"
+      ]
+    },
+    {
+      "id": "comparison-anchor-4",
+      "text": "Which tool in this space is known for We’re bringing magic back to software.?",
+      "templateId": "comparison-anchor",
+      "hook": "We’re bringing magic back to software.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/about"
+      ]
+    },
+    {
+      "id": "persona-specific-5",
+      "text": "As a startup founder, I want a tool that focuses on We’re bringing magic back to software. instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "We’re bringing magic back to software.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/about"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-6",
+      "text": "What tool matches this description: \"We are crafting the tool for teams who care about quality. Join us on our mission!\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "We are crafting the tool for teams who care about quality. Join us on our mission!",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/careers"
+      ]
+    },
+    {
+      "id": "long-form-as-need-7",
+      "text": "As a freelancer, I'm looking for a tool where: We are crafting the tool for teams who care about quality. Join us on our mission! Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "We are crafting the tool for teams who care about quality. Join us on our mission!",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/careers"
+      ]
+    },
+    {
+      "id": "long-form-quote-match-8",
+      "text": "What tool matches this description: \"Build and deploy AI agents that work alongside you as teammates.\"?",
+      "templateId": "long-form-quote-match",
+      "hook": "Build and deploy AI agents that work alongside you as teammates.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "long-form-as-need-9",
+      "text": "As a startup founder, I'm looking for a tool where: Build and deploy AI agents that work alongside you as teammates. Any suggestions?",
+      "templateId": "long-form-as-need",
+      "hook": "Build and deploy AI agents that work alongside you as teammates.",
+      "hookSource": "meta_description",
+      "evidenceUrls": [
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "direct-differentiator-10",
+      "text": "What tool would you recommend for a team that wants \"product\"?",
+      "templateId": "direct-differentiator",
+      "hook": "product",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-11",
+      "text": "I need something that helps with product -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "product",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-12",
+      "text": "Which tool in this space is known for product?",
+      "templateId": "comparison-anchor",
+      "hook": "product",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-13",
+      "text": "As a startup founder, I want a tool that focuses on product instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "product",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-14",
+      "text": "What tool would you recommend for a team that wants \"work\"?",
+      "templateId": "direct-differentiator",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-15",
+      "text": "I need something that helps with work -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-16",
+      "text": "Which tool in this space is known for work?",
+      "templateId": "comparison-anchor",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-17",
+      "text": "As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "work",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-18",
+      "text": "What tool would you recommend for a team that wants \"added\"?",
+      "templateId": "direct-differentiator",
+      "hook": "added",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "problem-framed-19",
+      "text": "I need something that helps with added -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "added",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "comparison-anchor-20",
+      "text": "Which tool in this space is known for added?",
+      "templateId": "comparison-anchor",
+      "hook": "added",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "persona-specific-21",
+      "text": "As a startup founder, I want a tool that focuses on added instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "added",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/agents"
+      ]
+    },
+    {
+      "id": "direct-differentiator-22",
+      "text": "What tool would you recommend for a team that wants \"agent\"?",
+      "templateId": "direct-differentiator",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-23",
+      "text": "I need something that helps with agent -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-24",
+      "text": "Which tool in this space is known for agent?",
+      "templateId": "comparison-anchor",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-25",
+      "text": "As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "agent",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-26",
+      "text": "What tool would you recommend for a team that wants \"issues\"?",
+      "templateId": "direct-differentiator",
+      "hook": "issues",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-27",
+      "text": "I need something that helps with issues -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "issues",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-28",
+      "text": "Which tool in this space is known for issues?",
+      "templateId": "comparison-anchor",
+      "hook": "issues",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-29",
+      "text": "As a startup founder, I want a tool that focuses on issues instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "issues",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-30",
+      "text": "What tool would you recommend for a team that wants \"teams\"?",
+      "templateId": "direct-differentiator",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-31",
+      "text": "I need something that helps with teams -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-32",
+      "text": "Which tool in this space is known for teams?",
+      "templateId": "comparison-anchor",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-33",
+      "text": "As a startup founder, I want a tool that focuses on teams instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "teams",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-34",
+      "text": "What tool would you recommend for a team that wants \"them\"?",
+      "templateId": "direct-differentiator",
+      "hook": "them",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-framed-35",
+      "text": "I need something that helps with them -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "them",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "comparison-anchor-36",
+      "text": "Which tool in this space is known for them?",
+      "templateId": "comparison-anchor",
+      "hook": "them",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "persona-specific-37",
+      "text": "As a startup founder, I want a tool that focuses on them instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "them",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "direct-differentiator-38",
+      "text": "What tool would you recommend for a team that wants \"team\"?",
+      "templateId": "direct-differentiator",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-39",
+      "text": "I need something that helps with team -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-40",
+      "text": "Which tool in this space is known for team?",
+      "templateId": "comparison-anchor",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-41",
+      "text": "As a startup founder, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "team",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-42",
+      "text": "What tool would you recommend for a team that wants \"customer\"?",
+      "templateId": "direct-differentiator",
+      "hook": "customer",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-43",
+      "text": "I need something that helps with customer -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "customer",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-44",
+      "text": "Which tool in this space is known for customer?",
+      "templateId": "comparison-anchor",
+      "hook": "customer",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-45",
+      "text": "As a startup founder, I want a tool that focuses on customer instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "customer",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-46",
+      "text": "What tool would you recommend for a team that wants \"code\"?",
+      "templateId": "direct-differentiator",
+      "hook": "code",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-47",
+      "text": "I need something that helps with code -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "code",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-48",
+      "text": "Which tool in this space is known for code?",
+      "templateId": "comparison-anchor",
+      "hook": "code",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-49",
+      "text": "As a startup founder, I want a tool that focuses on code instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "code",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-50",
+      "text": "What tool would you recommend for a team that wants \"agents\"?",
+      "templateId": "direct-differentiator",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-51",
+      "text": "I need something that helps with agents -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-52",
+      "text": "Which tool in this space is known for agents?",
+      "templateId": "comparison-anchor",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-53",
+      "text": "As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "agents",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-54",
+      "text": "What tool would you recommend for a team that wants \"saarinen\"?",
+      "templateId": "direct-differentiator",
+      "hook": "saarinen",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "problem-framed-55",
+      "text": "I need something that helps with saarinen -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "saarinen",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "comparison-anchor-56",
+      "text": "Which tool in this space is known for saarinen?",
+      "templateId": "comparison-anchor",
+      "hook": "saarinen",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "persona-specific-57",
+      "text": "As a startup founder, I want a tool that focuses on saarinen instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "saarinen",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "direct-differentiator-58",
+      "text": "What tool would you recommend for a team that wants \"view\"?",
+      "templateId": "direct-differentiator",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "problem-framed-59",
+      "text": "I need something that helps with view -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "comparison-anchor-60",
+      "text": "Which tool in this space is known for view?",
+      "templateId": "comparison-anchor",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "persona-specific-61",
+      "text": "As a startup founder, I want a tool that focuses on view instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "view",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/blog"
+      ]
+    },
+    {
+      "id": "direct-differentiator-62",
+      "text": "What tool would you recommend for a team that wants \"building\"?",
+      "templateId": "direct-differentiator",
+      "hook": "building",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "problem-framed-63",
+      "text": "I need something that helps with building -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "building",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "comparison-anchor-64",
+      "text": "Which tool in this space is known for building?",
+      "templateId": "comparison-anchor",
+      "hook": "building",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "persona-specific-65",
+      "text": "As a startup founder, I want a tool that focuses on building instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "building",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/"
+      ]
+    },
+    {
+      "id": "direct-differentiator-66",
+      "text": "What tool would you recommend for a team that wants \"plan\"?",
+      "templateId": "direct-differentiator",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-framed-67",
+      "text": "I need something that helps with plan -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "comparison-anchor-68",
+      "text": "Which tool in this space is known for plan?",
+      "templateId": "comparison-anchor",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "persona-specific-69",
+      "text": "As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "plan",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "direct-differentiator-70",
+      "text": "What tool would you recommend for a team that wants \"triage\"?",
+      "templateId": "direct-differentiator",
+      "hook": "triage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "problem-framed-71",
+      "text": "I need something that helps with triage -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "triage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "comparison-anchor-72",
+      "text": "Which tool in this space is known for triage?",
+      "templateId": "comparison-anchor",
+      "hook": "triage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "persona-specific-73",
+      "text": "As a startup founder, I want a tool that focuses on triage instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "triage",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/",
+        "https://linear.app/",
+        "https://linear.app/docs/changes-to-linears-pricing-plans"
+      ]
+    },
+    {
+      "id": "direct-differentiator-74",
+      "text": "What tool would you recommend for a team that wants \"design\"?",
+      "templateId": "direct-differentiator",
+      "hook": "design",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear"
+      ]
+    },
+    {
+      "id": "problem-framed-75",
+      "text": "I need something that helps with design -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "design",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear"
+      ]
+    },
+    {
+      "id": "comparison-anchor-76",
+      "text": "Which tool in this space is known for design?",
+      "templateId": "comparison-anchor",
+      "hook": "design",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear"
+      ]
+    },
+    {
+      "id": "persona-specific-77",
+      "text": "As a startup founder, I want a tool that focuses on design instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "design",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://linear.app/docs",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear",
+        "https://linear.app/blog/sharing-growth-with-the-people-building-linear"
+      ]
+    },
+    {
+      "id": "direct-differentiator-78",
+      "text": "What tool would you recommend for a team that wants \"access\"?",
+      "templateId": "direct-differentiator",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-79",
+      "text": "I need something that helps with access -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-80",
+      "text": "Which tool in this space is known for access?",
+      "templateId": "comparison-anchor",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-81",
+      "text": "As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "access",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-82",
+      "text": "What tool would you recommend for a team that wants \"people\"?",
+      "templateId": "direct-differentiator",
+      "hook": "people",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-83",
+      "text": "I need something that helps with people -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "people",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-84",
+      "text": "Which tool in this space is known for people?",
+      "templateId": "comparison-anchor",
+      "hook": "people",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-85",
+      "text": "As a startup founder, I want a tool that focuses on people instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "people",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "direct-differentiator-86",
+      "text": "What tool would you recommend for a team that wants \"current\"?",
+      "templateId": "direct-differentiator",
+      "hook": "current",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "problem-framed-87",
+      "text": "I need something that helps with current -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "current",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "comparison-anchor-88",
+      "text": "Which tool in this space is known for current?",
+      "templateId": "comparison-anchor",
+      "hook": "current",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    },
+    {
+      "id": "persona-specific-89",
+      "text": "As a startup founder, I want a tool that focuses on current instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "current",
+      "hookSource": "tagcloud",
+      "evidenceUrls": []
+    }
+  ]
+}
