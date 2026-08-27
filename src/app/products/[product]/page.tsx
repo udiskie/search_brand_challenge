@@ -43,16 +43,26 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
           <h1 className="mt-2 text-2xl font-semibold tracking-tight capitalize">
             {report?.brand ?? product}
           </h1>
-          {candidateQuestions ? (
-            <Link
-              href={`/products/${product}/questions`}
-              className="mt-1 inline-block text-sm text-muted-foreground hover:underline"
-            >
-              View {candidateQuestions.hookQuestions.length +
-                candidateQuestions.inferentialQuestions.length}{" "}
-              candidate questions →
-            </Link>
-          ) : null}
+          <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
+            {candidateQuestions ? (
+              <Link
+                href={`/products/${product}/questions`}
+                className="inline-block text-sm text-muted-foreground hover:underline"
+              >
+                View {candidateQuestions.hookQuestions.length +
+                  candidateQuestions.inferentialQuestions.length}{" "}
+                candidate questions →
+              </Link>
+            ) : null}
+            {tagcloud ? (
+              <Link
+                href={`/products/${product}/clusters`}
+                className="inline-block text-sm text-muted-foreground hover:underline"
+              >
+                View term clusters →
+              </Link>
+            ) : null}
+          </div>
         </div>
 
         {!report ? (
