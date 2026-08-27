@@ -10,7 +10,7 @@ const baseConfig = {
 };
 
 function term(term: string, score: number, documentFrequency = 1): TagcloudTerm {
-  return { term, score, documentFrequency };
+  return { term, score, documentFrequency, occurrences: documentFrequency };
 }
 
 function geminiFetch(text: string): typeof fetch {

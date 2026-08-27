@@ -3,7 +3,7 @@ import type { TagcloudTerm } from "../scraper/types";
 import { clusterTermsByTaxonomy } from "./clusterTerms";
 
 function term(term: string, score: number, documentFrequency = 1): TagcloudTerm {
-  return { term, score, documentFrequency };
+  return { term, score, documentFrequency, occurrences: documentFrequency };
 }
 
 describe("clusterTermsByTaxonomy", () => {
