@@ -68,6 +68,28 @@ prompt, extracts brand mentions, computes AEO metrics, cross-validates
 against the site's own tagcloud, and writes the final report — see
 `WORK_PLAN.md` for the full `datalake/{product}/...` folder layout.
 
+### Step 2b — Optional: also probe brand-grounded questions
+
+If the `user-question-generator` skill has already been run for this product
+(`datalake/{product}/questions/candidate_user_questions.json` exists), you can
+additionally run its Part 1 (hook-grounded) and/or Part 2 (inferential)
+candidate questions through Gemini as a **third, explicitly non-neutral**
+prompt source — this is opt-in, never automatic, and never touches the
+neutral SEO/GEO/AEO scores:
+
+```bash
+npm run aeo -- \
+  --product <product> --brand <Brand> --competitors <A,B,C> --category "<category>" \
+  --include-questions hooks|inferential|both [--questions-runs 2] [--questions-limit N]
+```
+
+`--questions-limit` matters in practice — a product can easily have 100+
+candidate questions between both derivatives; ask the user before running
+without a limit. Results land in a separate `## Brand-grounded question
+performance` report section and `aeo/brand_grounded_metrics.json` — see
+"Brand-grounded vs. neutral" below for why these numbers should never be
+compared directly to the main AEO table.
+
 ### Step 3 — Hand back the report
 
 Read `datalake/{product}/report/report.md` and summarize it for the user
@@ -117,6 +139,32 @@ impact-first (high → low), then effort-first (low → high) as a tiebreak —
 see the rule list in `reportGenerator.ts`'s `seoFindings`/`geoFindings`/
 `aeoFindings` functions for exactly which conditions produce which findings.
 
+**Brand-grounded metrics (`report.brandGrounded`, when Step 2b was run):**
+same SoV/relative-SoV/position/first-mention/sentiment/co-occurrence
+formulas as above (literally the same functions, `src/aeo/aeoMetrics.ts`'s
+`shareOfVoice`/`computeBrandMetrics`/`computeCoOccurrence`, reused directly —
+see `src/aeo/brandGroundedMetrics.ts`), but computed only over the Part 1/2
+runs, broken down by prompt `source` (hook vs. inferential) and, for
+inferential runs, `stage` (pain_only/problem_framed/comparing_with_criteria)
+instead of the neutral pipeline's intent/persona/specificity/attribute/
+language dimensions. Never feeds into `scores` or `priorities`.
+
+## Brand-grounded vs. neutral — never compare these directly
+
+The main AEO table asks *neutral* prompts (`src/aeo/promptGenerator.ts`
+deliberately avoids any brand's own vocabulary) to fairly benchmark Share of
+Voice across named competitors. `report.brandGrounded` (Step 2b) instead runs
+questions *deliberately grounded* in the audited brand's own site content —
+its SoV there answers a different question ("how does the brand do on its
+own best-case questions?"), not "how visible is it in fair category
+comparison?" A high brand-grounded SoV next to a low neutral SoV is not a
+contradiction to flag as an error; it's the expected shape when a brand's
+content strongly echoes its own positioning but doesn't win organically on
+neutral category questions. Always present these as two separate findings,
+never averaged or blended into one number — this is exactly the persona-
+inference neutrality tension documented in `DECISIONS.md`, generalized to
+prompt sourcing.
+
 ## Known limitations (be upfront about these when presenting a report)
 
 - **Mention extraction is heuristic, not a second LLM call.** Brand mentions,
@@ -137,8 +185,9 @@ see the rule list in `reportGenerator.ts`'s `seoFindings`/`geoFindings`/
 
 - Never hardcode, log, or ask the user to paste the Gemini API key in chat;
   it's read from `GEMINI_API_KEY` via `.env.local` only (see `src/aeo/cli.ts`).
-- Always save every raw Gemini response (`datalake/{product}/aeo/runs/*.json`)
-  before any parsing — this is the auditable dataset. Never regenerate a
-  report by re-querying Gemini for data that's already in `aeo/runs/`.
+- Always save every raw Gemini response (`datalake/{product}/aeo/runs/*.json`,
+  or `aeo/brand_grounded_runs/*.json` for Step 2b) before any parsing — this
+  is the auditable dataset. Never regenerate a report by re-querying Gemini
+  for data that's already saved.
 - Don't run Full mode without telling the user it can take several minutes
   and many API calls first.

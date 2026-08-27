@@ -1,6 +1,7 @@
 import type { GeoSignals, SitemapCoverage, StructuredSignals, Tagcloud } from "../scraper/types";
 import type {
   AeoMetrics,
+  BrandGroundedMetrics,
   CrossValidationGap,
   DimensionScore,
   EffortLevel,
@@ -20,6 +21,8 @@ export interface ReportInput {
   geoSignals: GeoSignals[];
   aeoMetrics: AeoMetrics;
   crossValidationGaps: CrossValidationGap[];
+  /** Optional: results from running Part 1/Part 2 questions through Gemini. Never affects scores/priorities -- see Report.brandGrounded's doc comment. */
+  brandGrounded?: BrandGroundedMetrics;
 }
 
 function average(values: number[]): number {
@@ -308,6 +311,7 @@ export function buildReport(input: ReportInput): Report {
     aeo: input.aeoMetrics,
     crossValidationGaps: input.crossValidationGaps,
     priorities,
+    brandGrounded: input.brandGrounded,
   };
 }
 
@@ -365,6 +369,50 @@ export function renderReportMarkdown(report: Report): string {
         .join(", ")}.`
     );
     lines.push("");
+  }
+
+  if (report.brandGrounded && report.brandGrounded.totalRuns > 0) {
+    lines.push("## Brand-grounded question performance (not neutral -- see caveat)");
+    lines.push("");
+    lines.push(
+      "Results from running user-question-generator's Part 1 (hook-grounded, quotes " +
+        "the site) / Part 2 (inferential, paraphrased across pain_only/problem_framed/ " +
+        "comparing_with_criteria) candidate questions through Gemini. These questions " +
+        `are deliberately grounded in ${report.brand}'s own site content, not neutral -- ` +
+        "do not compare these numbers to the neutral AEO table above as if they were " +
+        "measuring the same thing; this section exists to show how the brand performs " +
+        "on its *own best-case* questions, separately from fair category benchmarking."
+    );
+    lines.push("");
+    lines.push(`Total runs: ${report.brandGrounded.totalRuns}`);
+    lines.push("");
+    lines.push("| Brand | Share of Voice | Relative SoV | Avg Position | First-Mention Rate | Sentiment |");
+    lines.push("|---|---|---|---|---|---|");
+    for (const b of report.brandGrounded.perBrand) {
+      lines.push(
+        `| ${b.brand} | ${(b.shareOfVoice * 100).toFixed(0)}% | ${b.relativeShareOfVoice.toFixed(2)}x | ${
+          b.averagePosition?.toFixed(1) ?? "—"
+        } | ${(b.firstMentionRate * 100).toFixed(0)}% | ${b.sentimentScore.toFixed(2)} |`
+      );
+    }
+    lines.push("");
+
+    const brandRow = report.brandGrounded.perBrand.find((b) => b.brand === report.brand);
+    const sourceBreakdown = report.brandGrounded.byDimension.filter(
+      (e) => e.dimension === "source" && e.brand === report.brand
+    );
+    const stageBreakdown = report.brandGrounded.byDimension.filter(
+      (e) => e.dimension === "stage" && e.brand === report.brand
+    );
+    if (brandRow && (sourceBreakdown.length > 0 || stageBreakdown.length > 0)) {
+      lines.push(`${report.brand}'s Share of Voice by breakdown:`);
+      for (const e of [...sourceBreakdown, ...stageBreakdown]) {
+        lines.push(
+          `- ${e.dimension} = ${e.value}: ${(e.shareOfVoice * 100).toFixed(0)}% (${e.runCount} run${e.runCount === 1 ? "" : "s"})`
+        );
+      }
+      lines.push("");
+    }
   }
 
   lines.push("## Priority matrix (impact × effort)");

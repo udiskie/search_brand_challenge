@@ -1,3 +1,5 @@
+import type { AwarenessStage } from "../questionGenerator/types";
+
 export type PromptIntent =
   | "discovery"
   | "direct_comparison"
@@ -156,4 +158,68 @@ export interface Report {
   aeo: AeoMetrics;
   crossValidationGaps: CrossValidationGap[];
   priorities: PriorityItem[];
+  /**
+   * Optional: results from running brand-grounded questions (from
+   * user-question-generator's Part 1/Part 2) through Gemini. Deliberately
+   * separate from `aeo` (the neutral benchmarking metrics) rather than
+   * merged in -- see brand-visibility-audit's SKILL.md and DECISIONS.md's
+   * persona-inference-neutrality entry for why brand-grounded and neutral
+   * prompt sources shouldn't be blended into one metric. Never feeds into
+   * `scores`/`priorities`.
+   */
+  brandGrounded?: BrandGroundedMetrics;
+}
+
+/**
+ * A candidate question from user-question-generator (`src/questionGenerator/`)
+ * adapted into something `runGeminiForBrandGroundedPrompts` can send to
+ * Gemini. "hook" = Part 1 (quotes/echoes the site's own phrasing);
+ * "inferential" = Part 2 (paraphrased, across the awareness-ladder stages).
+ */
+export type BrandGroundedSource = "hook" | "inferential";
+
+export interface BrandGroundedPrompt {
+  id: string;
+  text: string;
+  source: BrandGroundedSource;
+  templateId: string;
+  /** Only set for source: "inferential". */
+  stage?: AwarenessStage;
+}
+
+export interface BrandGroundedRunResult {
+  runId: string;
+  promptId: string;
+  promptText: string;
+  source: BrandGroundedSource;
+  templateId: string;
+  stage?: AwarenessStage;
+  temperature: number;
+  timestamp: string;
+  finishReason: string | null;
+  rawText: string | null;
+  error?: string;
+}
+
+export interface BrandGroundedParsedRun {
+  runId: string;
+  promptId: string;
+  source: BrandGroundedSource;
+  stage?: AwarenessStage;
+  mentions: BrandMention[];
+}
+
+export interface BrandGroundedBreakdownEntry {
+  dimension: "source" | "stage";
+  value: string;
+  brand: string;
+  shareOfVoice: number;
+  runCount: number;
+}
+
+export interface BrandGroundedMetrics {
+  totalRuns: number;
+  perBrand: BrandMetrics[];
+  coOccurrence: CoOccurrenceEntry[];
+  byDimension: BrandGroundedBreakdownEntry[];
 }

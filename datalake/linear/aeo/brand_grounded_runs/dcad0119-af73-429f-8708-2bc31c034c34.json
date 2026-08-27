@@ -1,0 +1,11 @@
+{
+  "runId": "dcad0119-af73-429f-8708-2bc31c034c34",
+  "promptId": "long-form-quote-match-0",
+  "promptText": "What tool matches this description: \"Purpose-built for planning and building products with AI agents.\"?",
+  "source": "hook",
+  "templateId": "long-form-quote-match",
+  "temperature": 0.9,
+  "timestamp": "2026-08-27T15:33:14.034Z",
+  "finishReason": "STOP",
+  "rawText": "This description closely mirrors the core tagline of **Linear**, which famously describes itself as **\"a purpose-built tool for planning and building products.\"**\n\nIf you are looking at AI-native tools that specifically combine product planning, issue tracking, and AI agents, the description typically refers to:\n\n1. **Linear** – Known for its tagline *\"Purpose-built for planning and building products\"*, which has increasingly added AI workflows, issue-triage agents, and integrations with coding agents (like Devin and GitHub Copilot).\n2. **DevRev** – An AI-native product development platform designed from the ground up to unify customer support, issue tracking, and product planning using autonomous AI agents.\n3. **GitHub Copilot Workspace** – A task-centric environment built around AI agents that takes an issue/plan from specification to pull request."
+}

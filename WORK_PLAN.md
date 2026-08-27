@@ -167,24 +167,24 @@ CI).
 
 ## Future work — not yet built
 
-- **Wire Part 1 and Part 2 questions into the AEO pipeline.** The
-  `user-question-generator` skill (`src/questionGenerator/`) produces two
-  derivatives of candidate questions — Part 1 (hook-grounded, quotes/echoes
-  the site's own phrasing) and Part 2 (inferential, paraphrased across the
-  pain_only/problem_framed/comparing_with_criteria awareness stages) — but
-  today they're standalone text artifacts (`candidate_user_questions.json`/
-  `.md`) for a human to review and hand-pick from. Neither is currently sent
-  to Gemini: the only questions that actually get run through
-  `src/aeo/geminiClient.ts` come from `brand-visibility-audit`'s own,
-  separate, neutral `promptGenerator.ts`. Wiring them in means feeding
-  reviewed/selected Part 1 or Part 2 questions into `runGeminiForPrompts()`
-  and through the same mention-extraction/metrics/report pipeline the AEO
-  skill already has, likely as a third prompt source alongside (not
-  replacing) the neutral benchmarking set, since Part 1/Part 2 are
-  deliberately brand-grounded rather than neutral — see
-  `.claude/skills/brand-visibility-audit/SKILL.md`'s neutrality framing and
-  the persona-inference tension in `DECISIONS.md` for why brand-grounded and
-  neutral prompt sources shouldn't be silently merged into one metric.
+- ~~**Wire Part 1 and Part 2 questions into the AEO pipeline.**~~ **Done**
+  (`feature/wire-questions-into-aeo`). `npm run aeo -- ... --include-questions
+  hooks|inferential|both [--questions-runs N] [--questions-limit N]` runs
+  Part 1/Part 2 candidate questions through Gemini as a third, explicitly
+  brand-grounded prompt source, writing `aeo/brand_grounded_metrics.json`
+  and a separate `## Brand-grounded question performance` report section —
+  reusing the same tested SoV/position/sentiment/co-occurrence math
+  (`src/aeo/aeoMetrics.ts`'s functions, widened and exported for reuse) but
+  broken down by prompt source/awareness-stage instead of the neutral
+  pipeline's dimensions, and never feeding into `scores`/`priorities`. Live
+  smoke test found two real bugs before this was considered done: a naive
+  concat-then-slice meant `--include-questions both` with a limit never
+  actually reached a single inferential question (90 real hook questions
+  exhausted any small limit first) — fixed to split the limit fairly and
+  top up from whichever source has spare capacity; and a "1 runs" grammar
+  slip in the new report section. Coarseness that remains: `--questions-limit`
+  takes the first N per source, not a human-curated subset picked from
+  `candidate_user_questions.md` — see `user-question-generator`'s SKILL.md.
 
 - **Genuine semantic clustering of extracted tags.** Today's
   `tagcloud.json` (`src/scraper/extractors/tagcloud.ts`) is a flat tf-idf
@@ -209,15 +209,21 @@ CI).
   since it fits the existing pattern; revisit (a) only if the taxonomy
   proves too rigid across different product categories.
 
-- **UI work to display clustered results to the user.** No consumer for any
-  of this exists yet — the scaffolded Next.js app (`src/app/page.tsx`) is
-  still the untouched `create-next-app` default; nothing in this project
-  renders `datalake/` output (reports, priorities, candidate questions, or
-  the semantic clusters above) in an actual web page. This is a separate,
-  later work item: a dashboard reading `report/report.json`,
-  `report/priorities.json`, and `questions/candidate_user_questions.json`
-  per product, ideally grouped by the semantic clusters once those exist
-  rather than by the current flat lists/dimension breakdowns.
+- ~~**UI work to display results to the user.**~~ **Done** (`feature/dashboard`),
+  ahead of clustering above rather than after it: clustering is purely a
+  display-organization concern on data that already existed, not a
+  prerequisite, so this shipped the dashboard against the flat data first.
+  Replaces the untouched `create-next-app` scaffold with: a home page
+  listing every `datalake/` product (score badges for ones with a full AEO
+  report, a "scraped, no report yet" state for scrape-only competitors), a
+  per-product report page (executive summary, AEO Share-of-Voice table, the
+  brand-grounded section when present, SEO/GEO panels, priority matrix), and
+  a candidate-questions page (Part 1/Part 2, broken down by awareness
+  stage). `src/lib/dashboardData.ts` reads directly off `datalake/` JSON via
+  the scraper's existing path helpers/`readJson()` — no new storage layer,
+  no API routes. If/when semantic clustering above gets built, this is the
+  page that would consume it (grouping by theme instead of the current flat
+  lists).
 
 ## Open decisions to carry into `DECISIONS.md`
 

@@ -1,5 +1,6 @@
 import type {
   AeoMetrics,
+  BrandMention,
   BrandMetrics,
   CoOccurrenceEntry,
   DimensionBreakdownEntry,
@@ -13,8 +14,18 @@ const SENTIMENT_SCORE: Record<Sentiment, number> = {
   negative: -1,
 };
 
+/**
+ * Any run shape with `mentions` -- both `ParsedRun` (neutral prompts) and
+ * `BrandGroundedParsedRun` (Part 1/2 questions) satisfy this structurally,
+ * so the core metric math below is shared between the two prompt sources
+ * without either depending on the other's dimension shape.
+ */
+interface HasMentions {
+  mentions: BrandMention[];
+}
+
 /** Share of Voice: fraction of runs in which `brand` is mentioned at all. */
-function shareOfVoice(runs: ParsedRun[], brand: string): number {
+export function shareOfVoice(runs: HasMentions[], brand: string): number {
   if (runs.length === 0) return 0;
   const mentioned = runs.filter((run) =>
     run.mentions.some((mention) => mention.brand === brand)
@@ -22,8 +33,8 @@ function shareOfVoice(runs: ParsedRun[], brand: string): number {
   return mentioned / runs.length;
 }
 
-function computeBrandMetrics(
-  runs: ParsedRun[],
+export function computeBrandMetrics(
+  runs: HasMentions[],
   brand: string,
   allBrands: string[]
 ): BrandMetrics {
@@ -72,7 +83,7 @@ function computeBrandMetrics(
   };
 }
 
-function computeCoOccurrence(runs: ParsedRun[], allBrands: string[]): CoOccurrenceEntry[] {
+export function computeCoOccurrence(runs: HasMentions[], allBrands: string[]): CoOccurrenceEntry[] {
   return allBrands.map((brand) => {
     const counts = new Map<string, number>();
     for (const run of runs) {
