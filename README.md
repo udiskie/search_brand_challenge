@@ -71,6 +71,30 @@ Run the full test suite (scraper + AEO) with:
 npm test
 ```
 
+## User question generator (early development)
+
+Scans a product's scraper output and generates two derivatives of
+candidate end-user-style questions — the opposite goal of the AEO prompt
+generator above (neutral benchmarking vs. brand-grounded questions likely
+to elicit an organic mention): **hook-grounded** questions that echo the
+site's own phrasing (a weaker "floor" signal — a pass may just mean the
+model recognized indexed text), and **inferential** questions that
+paraphrase the problem the product claims to solve, for whom, without
+quoting the site at all (a stronger signal — requires genuine inference).
+The inferential derivative spans three points on the awareness ladder:
+pain-only (no solution ask), problem-framed (open "what's the best way"),
+and comparing-with-criteria (named-option comparison, using `--competitors`).
+
+```bash
+npm run questions -- --product <name> --brand <Brand> [--competitors <A,B,...>]
+```
+
+Writes `datalake/{product}/questions/candidate_user_questions.{json,md}`
+(the `.md` is split into Part 1/Part 2 matching the two derivatives). See
+`.claude/skills/user-question-generator/SKILL.md` for how each is scanned
+and built, and known limitations (this is an early increment, not yet
+wired into the AEO measurement pipeline).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

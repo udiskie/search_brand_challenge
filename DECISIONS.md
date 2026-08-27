@@ -72,3 +72,32 @@ Practically, this means the committed data lake is a snapshot as of when it
 was generated in this session — competitor sites' content, pricing, and
 positioning will drift over time, and the committed AEO/report data will
 grow stale, unless someone manually re-runs the CLI commands.
+
+## Skipped: inferring AEO personas from scraped content (neutrality tension)
+
+**Decision:** `brand-visibility-audit`'s prompt generator
+(`src/aeo/promptGenerator.ts`) keeps its hardcoded, generic `PERSONAS` list
+(startup founder, engineering lead, product manager, freelancer, marketing
+team) rather than inferring personas from scraped site content. This was
+requested and then explicitly deprioritized rather than built.
+
+**Why left out:** This skill's entire value proposition, documented in its
+own `SKILL.md`, is generating *neutral, balanced* prompts to fairly
+benchmark the audited brand's Share of Voice against named competitors —
+it "deliberately avoids leaning on any one brand's own vocabulary." If
+personas were inferred from the audited brand's own scraped content (the
+obvious, simplest way to do it, and the same approach
+`user-question-generator` already uses for its brand-grounded questions),
+the persona set would skew toward whichever audience that one brand's
+marketing targets, biasing the "neutral" comparison in the audited brand's
+favor before a single Gemini call is even made. The technically correct
+fix — aggregating detected audience signals across the audited brand *and*
+every named competitor's scraped content, so no single company's framing
+dominates the persona pool — is a real option, but wasn't specced or built
+here; it needs its own design pass (e.g. does it require all competitors to
+already be scraped before an AEO run? what if their datalake output is
+missing?) rather than being bolted on quickly.
+
+**What was left out:** Any persona inference in `src/aeo/`. Contrast with
+`user-question-generator`, where brand-grounded personas/audiences are
+exactly the point (see its own `SKILL.md`) and this tension doesn't apply.
