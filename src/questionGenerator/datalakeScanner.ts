@@ -71,8 +71,6 @@ export async function scanProductHooks(
   for (const g of geoSignals) {
     const definition = g.entityClarity.definitionSnippet;
     if (!definition || containsExcludedTerm(definition, exclude)) continue;
-    // Skip an exact duplicate of a meta description already captured above.
-    if (hooks.some((h) => h.hook === definition)) continue;
     hooks.push({
       hook: definition,
       source: "geo_definition",
@@ -102,5 +100,15 @@ export async function scanProductHooks(
 
   hooks.push(...tagcloudHooks);
 
-  return hooks;
+  // A phrase can legitimately repeat across sources (e.g. a site-wide
+  // default meta description reused on multiple pages, or the same
+  // sentence caught as both a meta description and a GEO definition) --
+  // `hook` text is used as the React key downstream, so collapse to one
+  // entry per exact phrase, keeping the first (highest-priority source).
+  const seen = new Set<string>();
+  return hooks.filter((h) => {
+    if (seen.has(h.hook)) return false;
+    seen.add(h.hook);
+    return true;
+  });
 }

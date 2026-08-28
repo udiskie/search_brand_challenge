@@ -1,8 +1,10 @@
 import { TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { InfoTooltip } from "@/components/dashboard/InfoTooltip";
 import { MethodologyLink } from "@/components/dashboard/MethodologyLink";
 import { Panel } from "@/components/dashboard/Panel";
+import { PriorityMatrixTable } from "@/components/dashboard/PriorityMatrixTable";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
 import { TagcloudBarChart } from "@/components/dashboard/TagcloudBarChart";
@@ -17,11 +19,49 @@ function fmtPct(value: number): string {
   return `${(value * 100).toFixed(0)}%`;
 }
 
-const IMPACT_STYLES: Record<string, string> = {
-  high: "text-red-700 dark:text-red-400",
-  medium: "text-amber-700 dark:text-amber-400",
-  low: "text-muted-foreground",
-};
+function AeoTableHeaderRow() {
+  return (
+    <tr className="border-b border-border text-left text-xs text-muted-foreground">
+      <th className="py-2 pr-4 font-medium">Brand</th>
+      <th className="py-2 pr-4 font-medium">
+        Share of Voice
+        <InfoTooltip>
+          Fraction of AI answers that mention this brand at all (0–100%), computed
+          independently per brand. Answers can mention several brands or none, so values
+          across brands don&apos;t need to add up to 100%.
+        </InfoTooltip>
+      </th>
+      <th className="py-2 pr-4 font-medium">
+        Relative SoV
+        <InfoTooltip>
+          This brand&apos;s Share of Voice divided by the competitors&apos; average. 1.0x
+          means on par with the average competitor; above 1.0x is ahead, below is behind.
+        </InfoTooltip>
+      </th>
+      <th className="py-2 pr-4 font-medium">
+        Avg Position
+        <InfoTooltip>
+          Average position within an answer&apos;s brand mentions (1 = mentioned first),
+          averaged across answers that mention this brand. Shown as — when the brand is
+          never mentioned.
+        </InfoTooltip>
+      </th>
+      <th className="py-2 pr-4 font-medium">
+        First-Mention
+        <InfoTooltip>
+          Fraction of answers (0–100%) where this brand is the very first one mentioned.
+        </InfoTooltip>
+      </th>
+      <th className="py-2 font-medium">
+        Sentiment
+        <InfoTooltip>
+          Average tone of this brand&apos;s mentions, from -1 (negative) to +1 (positive);
+          0 is neutral.
+        </InfoTooltip>
+      </th>
+    </tr>
+  );
+}
 
 export default async function ProductPage(props: PageProps<"/products/[product]">) {
   const { product } = await props.params;
@@ -95,14 +135,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[560px] text-sm">
                   <thead>
-                    <tr className="border-b border-border text-left text-xs text-muted-foreground">
-                      <th className="py-2 pr-4 font-medium">Brand</th>
-                      <th className="py-2 pr-4 font-medium">Share of Voice</th>
-                      <th className="py-2 pr-4 font-medium">Relative SoV</th>
-                      <th className="py-2 pr-4 font-medium">Avg Position</th>
-                      <th className="py-2 pr-4 font-medium">First-Mention</th>
-                      <th className="py-2 font-medium">Sentiment</th>
-                    </tr>
+                    <AeoTableHeaderRow />
                   </thead>
                   <tbody>
                     {report.aeo.perBrand.map((b) => (
@@ -151,14 +184,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                 <div className="mt-3 overflow-x-auto">
                   <table className="w-full min-w-[560px] text-sm">
                     <thead>
-                      <tr className="border-b border-border text-left text-xs text-muted-foreground">
-                        <th className="py-2 pr-4 font-medium">Brand</th>
-                        <th className="py-2 pr-4 font-medium">Share of Voice</th>
-                        <th className="py-2 pr-4 font-medium">Relative SoV</th>
-                        <th className="py-2 pr-4 font-medium">Avg Position</th>
-                        <th className="py-2 pr-4 font-medium">First-Mention</th>
-                        <th className="py-2 font-medium">Sentiment</th>
-                      </tr>
+                      <AeoTableHeaderRow />
                     </thead>
                     <tbody>
                       {report.brandGrounded.perBrand.map((b) => (
@@ -256,32 +282,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               title="Priority matrix (impact × effort)"
               action={<MethodologyLink anchor="priority-matrix" />}
             >
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[640px] text-sm">
-                  <thead>
-                    <tr className="border-b border-border text-left text-xs text-muted-foreground">
-                      <th className="py-2 pr-4 font-medium">Dim</th>
-                      <th className="py-2 pr-4 font-medium">Finding</th>
-                      <th className="py-2 pr-4 font-medium">Impact</th>
-                      <th className="py-2 pr-4 font-medium">Effort</th>
-                      <th className="py-2 font-medium">Suggested action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {report.priorities.map((p, i) => (
-                      <tr key={i} className="border-b border-border/60 align-top last:border-0">
-                        <td className="py-2 pr-4 text-xs font-medium text-muted-foreground uppercase">
-                          {p.dimension}
-                        </td>
-                        <td className="py-2 pr-4">{p.finding}</td>
-                        <td className={`py-2 pr-4 font-medium ${IMPACT_STYLES[p.impact]}`}>{p.impact}</td>
-                        <td className="py-2 pr-4 text-muted-foreground">{p.effort}</td>
-                        <td className="py-2 text-muted-foreground">{p.suggestedAction}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <PriorityMatrixTable priorities={report.priorities} />
             </Panel>
           </>
         )}
