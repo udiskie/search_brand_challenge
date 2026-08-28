@@ -7,6 +7,8 @@ reports how visible that brand is against named competitors across SEO,
 GEO, and AEO. See `WORK_PLAN.md` for the full brief and folder layout, and
 `DECISIONS.md` for what was decided/assumed/left out and why.
 
+**Live deployment:** https://search-brand-challenge.vercel.app/
+
 ## Scope
 
 This exercise is scoped around one core question — what would a real user
@@ -76,22 +78,24 @@ immediately without running any CLI first.
 
 ## Relevant links
 
-Once the dev server is running, these are the pages worth a look (swap
-`linear` for `jira`/`asana`/`monday`/`notion`, the other products with
-committed data):
+On the [live deployment](https://search-brand-challenge.vercel.app/) (swap
+`linear` for `jira`/`asana`/`monday`/`notion` in any `/products/...` link
+below for the other products with committed data; the same paths work
+against `http://localhost:3000` when running locally):
 
-- [`/decisions`](http://localhost:3000/decisions) — the full decisions log
-  (`DECISIONS.md`), rendered
-- [`/docs`](http://localhost:3000/docs) — documentation hub: data lake
-  structure, Claude Code skills in use, prompt generation, and the
-  [assessment methodology](http://localhost:3000/methodology)
-- [`/products/linear/questions`](http://localhost:3000/products/linear/questions) —
+- [`/decisions`](https://search-brand-challenge.vercel.app/decisions) — the
+  full decisions log (`DECISIONS.md`), rendered
+- [`/docs`](https://search-brand-challenge.vercel.app/docs) — documentation
+  hub: data lake structure, Claude Code skills in use, prompt generation,
+  and the
+  [assessment methodology](https://search-brand-challenge.vercel.app/methodology)
+- [`/products/linear/questions`](https://search-brand-challenge.vercel.app/products/linear/questions) —
   candidate user questions (hook-grounded and inferential, across the
   awareness ladder)
-- [`/products/linear/prompts`](http://localhost:3000/products/linear/prompts) —
+- [`/products/linear/prompts`](https://search-brand-challenge.vercel.app/products/linear/prompts) —
   every prompt actually sent to Gemini (neutral AEO + brand-grounded) and
   its raw runs
-- [`/products/linear/clusters`](http://localhost:3000/products/linear/clusters) —
+- [`/products/linear/clusters`](https://search-brand-challenge.vercel.app/products/linear/clusters) —
   tagcloud terms grouped into named semantic themes (taxonomy vs. LLM
   clustering methods, compared)
 
