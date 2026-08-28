@@ -8,9 +8,14 @@ export function SiteHeader() {
         <Link href="/" className="text-sm font-semibold tracking-tight">
           Brand Visibility Audit
         </Link>
-        <Button size="sm" nativeButton={false} render={<Link href="/docs" />}>
-          Docs
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button size="sm" variant="secondary" nativeButton={false} render={<Link href="/decisions" />}>
+            Decisions
+          </Button>
+          <Button size="sm" nativeButton={false} render={<Link href="/docs" />}>
+            Docs
+          </Button>
+        </div>
       </div>
     </header>
   );
