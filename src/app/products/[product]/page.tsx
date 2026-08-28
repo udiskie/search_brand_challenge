@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { InfoTooltip } from "@/components/dashboard/InfoTooltip";
 import { MethodologyLink } from "@/components/dashboard/MethodologyLink";
 import { Panel } from "@/components/dashboard/Panel";
+import { PriorityMatrixTable } from "@/components/dashboard/PriorityMatrixTable";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
 import { TagcloudBarChart } from "@/components/dashboard/TagcloudBarChart";
@@ -17,12 +18,6 @@ import {
 function fmtPct(value: number): string {
   return `${(value * 100).toFixed(0)}%`;
 }
-
-const IMPACT_STYLES: Record<string, string> = {
-  high: "text-red-700 dark:text-red-400",
-  medium: "text-amber-700 dark:text-amber-400",
-  low: "text-muted-foreground",
-};
 
 function AeoTableHeaderRow() {
   return (
@@ -287,43 +282,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               title="Priority matrix (impact × effort)"
               action={<MethodologyLink anchor="priority-matrix" />}
             >
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[640px] text-sm">
-                  <thead>
-                    <tr className="border-b border-border text-left text-xs text-muted-foreground">
-                      <th className="py-2 pr-4 font-medium">Dim</th>
-                      <th className="py-2 pr-4 font-medium">Finding</th>
-                      <th className="py-2 pr-4 font-medium">
-                        Impact
-                        <InfoTooltip>
-                          How much fixing this finding would move the score: high, medium,
-                          or low.
-                        </InfoTooltip>
-                      </th>
-                      <th className="py-2 pr-4 font-medium">
-                        Effort
-                        <InfoTooltip>
-                          Rough cost to address this finding: high, medium, or low.
-                        </InfoTooltip>
-                      </th>
-                      <th className="py-2 font-medium">Suggested action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {report.priorities.map((p, i) => (
-                      <tr key={i} className="border-b border-border/60 align-top last:border-0">
-                        <td className="py-2 pr-4 text-xs font-medium text-muted-foreground uppercase">
-                          {p.dimension}
-                        </td>
-                        <td className="py-2 pr-4">{p.finding}</td>
-                        <td className={`py-2 pr-4 font-medium ${IMPACT_STYLES[p.impact]}`}>{p.impact}</td>
-                        <td className="py-2 pr-4 text-muted-foreground">{p.effort}</td>
-                        <td className="py-2 text-muted-foreground">{p.suggestedAction}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <PriorityMatrixTable priorities={report.priorities} />
             </Panel>
           </>
         )}

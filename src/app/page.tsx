@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { AeoEmphasisBarChart, AeoShareOfVoiceChart } from "@/components/dashboard/AeoShareOfVoiceChart";
 import { DocsPromptDialog } from "@/components/dashboard/DocsPromptDialog";
+import { MethodologyLink } from "@/components/dashboard/MethodologyLink";
 import { Panel } from "@/components/dashboard/Panel";
+import { PriorityMatrixTable } from "@/components/dashboard/PriorityMatrixTable";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
 import { Button } from "@/components/ui/button";
@@ -14,6 +16,8 @@ export default async function Home() {
   const summaries = await listProductSummaries();
   const myReport = summaries.find((s) => s.product === MY_PRODUCT)?.report;
   const competitorSummaries = summaries.filter((s) => s.product !== MY_PRODUCT);
+
+  const topPriorities = myReport?.priorities.filter((p) => p.impact === "high" || p.impact === "medium") ?? [];
 
   const crossAuditData = myReport
     ? summaries
@@ -97,6 +101,16 @@ export default async function Home() {
               data={crossAuditData}
               legend={{ highlighted: `${myReport.brand}'s own audit`, rest: "Competitors' audits" }}
             />
+          </Panel>
+        ) : null}
+
+        {myReport && topPriorities.length > 0 ? (
+          <Panel
+            title="Priority matrix (impact × effort) — high & medium impact"
+            action={<MethodologyLink anchor="priority-matrix" />}
+            className="mt-4"
+          >
+            <PriorityMatrixTable priorities={topPriorities} />
           </Panel>
         ) : null}
 
