@@ -1,6 +1,6 @@
 "use client";
 
-import { Sankey, Tooltip } from "recharts";
+import { Sankey, Tooltip, type SankeyNodeProps } from "recharts";
 import { ChartContainer, type ChartConfig } from "@/components/ui/chart";
 import type { Theme } from "@/clustering/types";
 
@@ -10,6 +10,34 @@ const HAS_QUESTIONS = "Has candidate questions";
 const NO_QUESTIONS = "No candidate questions yet";
 const MENTIONED = "Mentioned in Gemini's answers";
 const NOT_MENTIONED = "Never mentioned in answers";
+
+/** How far a node sits from the theme (leftmost) column -- decides which
+ * side its label is drawn on, since the rightmost column would otherwise
+ * spill its label text past the chart's edge. */
+type SankeyNodeDatum = { name: string; column: 0 | 1 | 2 };
+
+/** Recharts' default Sankey node renderer draws only the bar, no label --
+ * this is the custom renderer that actually names each node. */
+function SankeyNodeLabel(props: SankeyNodeProps) {
+  const { x, y, width, height } = props;
+  const payload = props.payload as unknown as SankeyNodeDatum;
+  const isRightColumn = payload.column === 2;
+  return (
+    <g>
+      <rect x={x} y={y} width={width} height={height} fill="var(--color-chart-1)" stroke="var(--border)" />
+      <text
+        x={isRightColumn ? x - 6 : x + width + 6}
+        y={y + height / 2}
+        dy="0.32em"
+        textAnchor={isRightColumn ? "end" : "start"}
+        fontSize={11}
+        fill="var(--foreground)"
+      >
+        {payload.name}
+      </text>
+    </g>
+  );
+}
 
 /**
  * Theme -> question coverage -> answer-mention outcome, as a Sankey flow.
@@ -26,12 +54,12 @@ export function ThemeSankey({ themes }: { themes: Theme[] }) {
   const withTerms = themes.filter((t) => t.terms.length > 0);
   if (withTerms.length === 0) return null;
 
-  const themeNodes = withTerms.map((t) => ({ name: t.name }));
-  const bucketNodes = [
-    { name: HAS_QUESTIONS },
-    { name: NO_QUESTIONS },
-    { name: MENTIONED },
-    { name: NOT_MENTIONED },
+  const themeNodes: SankeyNodeDatum[] = withTerms.map((t) => ({ name: t.name, column: 0 }));
+  const bucketNodes: SankeyNodeDatum[] = [
+    { name: HAS_QUESTIONS, column: 1 },
+    { name: NO_QUESTIONS, column: 1 },
+    { name: MENTIONED, column: 2 },
+    { name: NOT_MENTIONED, column: 2 },
   ];
   const nodes = [...themeNodes, ...bucketNodes];
 
@@ -75,9 +103,10 @@ export function ThemeSankey({ themes }: { themes: Theme[] }) {
       <Sankey
         data={{ nodes, links }}
         nodePadding={16}
-        margin={{ top: 8, right: 140, bottom: 8, left: 8 }}
+        nodeWidth={10}
+        margin={{ top: 8, right: 170, bottom: 8, left: 8 }}
         link={{ stroke: "var(--color-chart-2)", strokeOpacity: 0.4 }}
-        node={{ fill: "var(--color-chart-1)", stroke: "var(--border)" }}
+        node={SankeyNodeLabel}
       >
         <Tooltip
           formatter={(value) => [`${value}`, "weight"]}
