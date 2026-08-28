@@ -3,6 +3,34 @@
 What was decided, what was assumed, and what was deliberately left out of
 scope for this exercise — and why.
 
+## Scope: profiling which user prompts get an LLM to mention Linear
+
+**Decision:** this exercise is scoped around one core question — what would
+a real user type into an LLM (Gemini, the only engine implemented) such
+that the model's answer plausibly mentions Linear by name? Every pipeline
+component — the site scraper feeding SEO/GEO signals, the neutral AEO
+prompt set (`src/aeo/promptGenerator.ts`), the brand-grounded question
+generator (`src/questionGenerator/`), and the resulting Share-of-
+Voice/position/sentiment metrics — exists to profile that single question
+from different angles, not to build a general-purpose prompt-engineering,
+SEO, or content-marketing tool in its own right.
+
+**Why:** the brief asks how visible Linear is when a category-relevant
+question is put to an AI engine, relative to named competitors. Treating
+"what prompt would make Gemini say Linear" as the organizing question keeps
+every other piece of the pipeline in service of one measurable outcome —
+Gemini's *response* is the object being studied, with the site's own
+SEO/GEO signals treated as inputs that plausibly explain why a prompt does
+or doesn't surface the brand, not as an end in themselves.
+
+**What was left out:** other engines (ChatGPT, Perplexity, Claude, AI
+Overviews, etc.) are explicitly out of scope — only Gemini's REST API is
+implemented (see `brand-visibility-audit`'s `SKILL.md`). Multi-turn
+conversations are also out of scope; every probe is a single-turn prompt,
+so this project says nothing about whether Linear holds up (or fades) as a
+conversation continues.
+
+
 ## Data lake scraper: quick-mode sampling, not exhaustive crawling
 
 **Decision:** The scraper defaults to "quick mode" — a small, prioritized
@@ -275,32 +303,6 @@ was deliberately not incorporated in this exercise because it would add an
 external dependency and additional complexity beyond the available
 timeline. This is documented as a known limitation, not an oversight.
 
-## Scope: profiling which user prompts get an LLM to mention Linear
-
-**Decision:** this exercise is scoped around one core question — what would
-a real user type into an LLM (Gemini, the only engine implemented) such
-that the model's answer plausibly mentions Linear by name? Every pipeline
-component — the site scraper feeding SEO/GEO signals, the neutral AEO
-prompt set (`src/aeo/promptGenerator.ts`), the brand-grounded question
-generator (`src/questionGenerator/`), and the resulting Share-of-
-Voice/position/sentiment metrics — exists to profile that single question
-from different angles, not to build a general-purpose prompt-engineering,
-SEO, or content-marketing tool in its own right.
-
-**Why:** the brief asks how visible Linear is when a category-relevant
-question is put to an AI engine, relative to named competitors. Treating
-"what prompt would make Gemini say Linear" as the organizing question keeps
-every other piece of the pipeline in service of one measurable outcome —
-Gemini's *response* is the object being studied, with the site's own
-SEO/GEO signals treated as inputs that plausibly explain why a prompt does
-or doesn't surface the brand, not as an end in themselves.
-
-**What was left out:** other engines (ChatGPT, Perplexity, Claude, AI
-Overviews, etc.) are explicitly out of scope — only Gemini's REST API is
-implemented (see `brand-visibility-audit`'s `SKILL.md`). Multi-turn
-conversations are also out of scope; every probe is a single-turn prompt,
-so this project says nothing about whether Linear holds up (or fades) as a
-conversation continues.
 
 ## Neutral prompting, brand-grounded prompting, and the awareness ladder — three deliberately different goals
 
