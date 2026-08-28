@@ -1,3 +1,4 @@
+import { TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MethodologyLink } from "@/components/dashboard/MethodologyLink";
@@ -203,6 +204,16 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               </Panel>
 
               <Panel title="GEO" action={<MethodologyLink anchor="geo" />}>
+                <div className="mb-3 flex items-start gap-2 rounded-md border border-red-200 bg-red-50 px-2.5 py-2 text-xs text-red-800 dark:border-red-900/50 dark:bg-red-950/30 dark:text-red-300">
+                  <TriangleAlert className="mt-0.5 size-3.5 shrink-0" />
+                  <span>
+                    E-E-A-T is partially proxied, not directly measured — see{" "}
+                    <Link href="/methodology#geo" className="underline hover:no-underline">
+                      which parts
+                    </Link>
+                    .
+                  </span>
+                </div>
                 <dl className="space-y-1 text-sm">
                   <div className="flex justify-between">
                     <dt className="text-muted-foreground">Avg factual density</dt>

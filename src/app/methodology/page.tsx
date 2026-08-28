@@ -1,6 +1,43 @@
+import { CircleCheck, TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { Panel } from "@/components/dashboard/Panel";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
+
+const EEAT_BREAKDOWN: {
+  letter: string;
+  name: string;
+  status: "proxied" | "reliable";
+  detail: string;
+}[] = [
+  {
+    letter: "E",
+    name: "Experience",
+    status: "proxied",
+    detail:
+      "Detects testimonials, case studies, or screenshots on the page -- can't verify whether they reflect real experience or are just marketing copy.",
+  },
+  {
+    letter: "E",
+    name: "Expertise",
+    status: "proxied",
+    detail:
+      "Checks technical precision of the copy, presence of documentation, and an author bio when one exists -- self-declared, with no external credential to confirm it.",
+  },
+  {
+    letter: "A",
+    name: "Authoritativeness",
+    status: "proxied",
+    detail:
+      "The weakest of the four: real authoritativeness needs backlinks, third-party mentions, or listings on recognized directories. None of that is collected here, so this is effectively unmeasured.",
+  },
+  {
+    letter: "T",
+    name: "Trustworthiness",
+    status: "reliable",
+    detail:
+      "Directly checked against the page's own HTML: a visible author byline, and publish/update dates. The only component where the on-page signal actually approaches what it claims to measure.",
+  },
+];
 
 export default function MethodologyPage() {
   return (
@@ -126,14 +163,59 @@ export default function MethodologyPage() {
         </Panel>
 
         <Panel id="geo" title="GEO score">
-          <p className="text-sm text-muted-foreground">
-            Average of four sub-scores, per page: a self-contained brand definition present
-            (100/0), factual-density score × 100 (concrete numbers/comparisons vs. vague
-            promotional adjectives), an E-E-A-T proxy score (visible author, publish date,
-            update date each worth up to ~33 — presence-only checks on the page&apos;s own
-            HTML, not a real authoritativeness assessment), and an extractable-structure score
-            × 100 (lists/tables/definition blocks present).
-          </p>
+          <div className="space-y-4 text-sm">
+            <p className="text-muted-foreground">
+              Average of four sub-scores, per page: a self-contained brand definition present
+              (100/0), factual-density score × 100 (concrete numbers/comparisons vs. vague
+              promotional adjectives), an E-E-A-T sub-score (visible author, publish date,
+              update date each worth up to ~33), and an extractable-structure score × 100
+              (lists/tables/definition blocks present).
+            </p>
+
+            <div className="flex items-start gap-2.5 rounded-md border border-red-200 bg-red-50 p-3 text-red-800 dark:border-red-900/50 dark:bg-red-950/30 dark:text-red-300">
+              <TriangleAlert className="mt-0.5 size-4 shrink-0" />
+              <div>
+                <p className="font-medium">E-E-A-T here is only partially measured</p>
+                <p className="mt-1 text-red-700 dark:text-red-400">
+                  Every signal comes from the audited site&apos;s own crawled pages — there is
+                  no external data source (backlinks, third-party mentions, review-site
+                  listings). Two of the four E-E-A-T components are, by definition, about
+                  outside reputation, so they can&apos;t be reliably assessed from on-page
+                  content alone. This is a structural proxy, not the full E-E-A-T
+                  construct Google evaluates.
+                </p>
+              </div>
+            </div>
+
+            <ul className="space-y-2">
+              {EEAT_BREAKDOWN.map((item) => (
+                <li key={item.name} className="flex items-start gap-2.5">
+                  {item.status === "proxied" ? (
+                    <TriangleAlert className="mt-0.5 size-3.5 shrink-0 text-red-600 dark:text-red-400" />
+                  ) : (
+                    <CircleCheck className="mt-0.5 size-3.5 shrink-0 text-emerald-600 dark:text-emerald-400" />
+                  )}
+                  <span className="text-muted-foreground">
+                    <span className="font-semibold text-foreground">{item.letter}</span>
+                    <span className="font-medium text-foreground">
+                      {item.name.slice(1)}
+                    </span>{" "}
+                    —{" "}
+                    <span
+                      className={
+                        item.status === "proxied"
+                          ? "font-medium text-red-700 dark:text-red-400"
+                          : "font-medium text-emerald-700 dark:text-emerald-400"
+                      }
+                    >
+                      {item.status === "proxied" ? "proxied" : "directly measured"}
+                    </span>
+                    : {item.detail}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </Panel>
 
         <Panel id="word-occurrences" title="Word occurrences">
