@@ -274,3 +274,103 @@ backlinks API like Ahrefs/Moz, or scraping presence on G2/Capterra), which
 was deliberately not incorporated in this exercise because it would add an
 external dependency and additional complexity beyond the available
 timeline. This is documented as a known limitation, not an oversight.
+
+## Scope: profiling which user prompts get an LLM to mention Linear
+
+**Decision:** this exercise is scoped around one core question — what would
+a real user type into an LLM (Gemini, the only engine implemented) such
+that the model's answer plausibly mentions Linear by name? Every pipeline
+component — the site scraper feeding SEO/GEO signals, the neutral AEO
+prompt set (`src/aeo/promptGenerator.ts`), the brand-grounded question
+generator (`src/questionGenerator/`), and the resulting Share-of-
+Voice/position/sentiment metrics — exists to profile that single question
+from different angles, not to build a general-purpose prompt-engineering,
+SEO, or content-marketing tool in its own right.
+
+**Why:** the brief asks how visible Linear is when a category-relevant
+question is put to an AI engine, relative to named competitors. Treating
+"what prompt would make Gemini say Linear" as the organizing question keeps
+every other piece of the pipeline in service of one measurable outcome —
+Gemini's *response* is the object being studied, with the site's own
+SEO/GEO signals treated as inputs that plausibly explain why a prompt does
+or doesn't surface the brand, not as an end in themselves.
+
+**What was left out:** other engines (ChatGPT, Perplexity, Claude, AI
+Overviews, etc.) are explicitly out of scope — only Gemini's REST API is
+implemented (see `brand-visibility-audit`'s `SKILL.md`). Multi-turn
+conversations are also out of scope; every probe is a single-turn prompt,
+so this project says nothing about whether Linear holds up (or fades) as a
+conversation continues.
+
+## Neutral prompting, brand-grounded prompting, and the awareness ladder — three deliberately different goals
+
+**Decision:** this project runs two prompt-generation strategies against
+Gemini that are deliberately different in what they measure and are never
+blended into one number:
+
+- **Neutral dynamic prompting** (`src/aeo/promptGenerator.ts`, the main AEO
+  pipeline) generates prompts by combinatorially varying intent, persona,
+  specificity, attribute, and language — deliberately avoiding any brand's
+  own vocabulary. **Goal:** measure Share of Voice under conditions that
+  don't structurally favor Linear (or any competitor) — answer "if a
+  reasonably representative category-relevant user shows up with no
+  brand-specific framing, who does Gemini reach for first?" This is the
+  fair-benchmark number the SEO/GEO/AEO scores and priority matrix are built
+  from.
+- **Brand-grounded prompting** (`user-question-generator` skill,
+  `src/questionGenerator/`) does the opposite on purpose: it scans Linear's
+  own scraped site content and phrases candidate questions grounded in it,
+  in two derivatives — hook-grounded (echoes the site's own phrasing, a
+  **floor** signal: does the model even associate the brand with its own
+  stated positioning?) and inferential (paraphrases the underlying
+  problem/audience without quoting the site, a **stronger** signal: does the
+  model infer fit from a genuinely reworded description?). **Goal:** measure
+  a best-case ceiling — "on the specific angles Linear's own content is
+  built to win, does the model actually credit it?" — which answers a
+  content/GEO-strategy question, not a fair-comparison one.
+- **The awareness-stage ladder** (`pain_only` → `problem_framed` →
+  `comparing_with_criteria`, inside brand-grounded Part 2,
+  `src/questionGenerator/inferentialTemplates.ts`) is a user-centered
+  modeling attempt layered on top of brand-grounded prompting. Every
+  template that existed before this dimension implicitly assumed the user
+  already knows they want "a tool" and is just picking one. The ladder
+  instead models three different places a real user could be in their
+  buying journey *before they type anything*: a pure symptom/frustration
+  statement with no solution ask at all (`pain_only`, the most naturalistic
+  and most demanding — does the model proactively suggest the category, let
+  alone the brand, when nobody asked for a recommendation?), an open
+  "what's the best way to solve this" that doesn't presuppose the answer is
+  a product (`problem_framed`), and a solution-aware, named comparison
+  against a criterion derived from the pain point itself
+  (`comparing_with_criteria`). **Goal:** avoid measuring only the easiest
+  case (a user who already frames the problem as "which tool"), since that
+  systematically overstates how early and how organically a brand actually
+  earns a mention in a real conversation.
+
+**Why:** neutral and brand-grounded prompting deliberately answer two
+different questions so their results can be read as two data points instead
+of one blended, misleading one (see `brand-visibility-audit`'s "Brand-
+grounded vs. neutral — never compare these directly" and the persona-
+inference neutrality tension above). A low neutral SoV next to a high
+brand-grounded SoV isn't a contradiction — it's evidence that the brand's
+own positioning is legible to the model *when surfaced*, but isn't winning
+the fair, category-wide comparison, which points at a distribution/
+visibility problem rather than a positioning problem, and vice versa. The
+awareness ladder exists for the same reason applied one level deeper: a
+user who has already decided to compare named tools is a later, rarer, and
+lower-leverage moment than a user who just described a symptom — testing
+only the former (which is what a flat template list did before this
+dimension was added) would flatter any brand's measured visibility relative
+to how it actually shows up across the range of ways real users approach an
+AI assistant.
+
+**What was left out:** all three awareness stages currently re-wrap the
+*same* scanned problem clause in a different frame rather than genuinely
+re-deriving what a user at that specific stage would say — a real
+`pain_only` complaint and a real `comparing_with_criteria` question would
+likely emphasize different aspects of the same underlying issue. Audience
+detection for the ladder's audience-requiring variants is a small curated
+keyword list, not learned from the site. See `user-question-generator`'s
+own "Known limitations" for the full list (frequency-vs-distinctiveness,
+single-page hook dedup, regex-only problem extraction, non-relevance-matched
+competitor pairing).
