@@ -57,7 +57,11 @@ cp .env.example .env.local
 and every CLI below, so the key never needs to be typed inline or committed.
 It's only required for the AEO probe (`npm run aeo`) and the term-clustering
 LLM method (`npm run clusters -- --method llm`) — the dashboard itself reads
-already-committed `datalake/` data and runs fine without a key.
+already-committed `datalake/` data and runs fine without a key. This also
+means `GEMINI_API_KEY` doesn't need to be configured on the Vercel
+deployment: the deployed app has no API routes and never calls Gemini at
+request time, it only serves the committed `datalake/` JSON — Gemini is
+only ever called from these CLIs, run locally.
 
 Then start the dev server:
 
