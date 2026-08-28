@@ -14,11 +14,7 @@ export default function DocsIndexPage() {
           </Link>
           <h1 className="mt-2 text-2xl font-semibold tracking-tight">Documentation</h1>
           <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
-            How this project actually works, beyond the per-report{" "}
-            <Link href="/methodology" className="text-link hover:underline">
-              scoring methodology
-            </Link>
-            .
+            How this project actually works, beyond the per-report scoring
           </p>
         </div>
 
@@ -27,7 +23,7 @@ export default function DocsIndexPage() {
             {DOCS.map((doc) => (
               <li key={doc.slug} className="py-3 first:pt-0 last:pb-0">
                 <Link
-                  href={`/docs/${doc.slug}`}
+                  href={doc.href ?? `/docs/${doc.slug}`}
                   className="text-sm font-medium text-link hover:underline"
                 >
                   {doc.title}

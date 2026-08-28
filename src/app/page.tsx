@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DocsPromptDialog } from "@/components/dashboard/DocsPromptDialog";
 import { Panel } from "@/components/dashboard/Panel";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
@@ -9,6 +10,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-1 flex-col">
+      <DocsPromptDialog />
       <SiteHeader />
       <main className="mx-auto w-full max-w-5xl flex-1 px-6 py-10">
         <h1 className="text-2xl font-semibold tracking-tight">Products</h1>
