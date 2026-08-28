@@ -16,4 +16,10 @@ export const DOCS: DocEntry[] = [
     description:
       "Where the data comes from, how the scraper turns a site into the data lake, and what each folder holds.",
   },
+  {
+    slug: "skills",
+    title: "Claude Code skills in use",
+    description:
+      "The three skills that build the data lake into reports, questions, and term clusters -- what each does and how they connect.",
+  },
 ];
