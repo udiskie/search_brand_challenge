@@ -1,29 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brand Visibility Audit (SEO / GEO / AEO)
+
+A [Next.js](https://nextjs.org) project (bootstrapped with
+[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app))
+that scrapes a brand's site, probes Gemini with generated prompts, and
+reports how visible that brand is against named competitors across SEO,
+GEO, and AEO. See `WORK_PLAN.md` for the full brief and folder layout, and
+`DECISIONS.md` for what was decided/assumed/left out and why.
+
+## Scope
+
+This exercise is scoped around one core question — what would a real user
+type into an LLM (Gemini, the only engine implemented) such that the
+model's answer plausibly mentions Linear by name? Every pipeline
+component — the site scraper feeding SEO/GEO signals, the neutral AEO
+prompt set (`src/aeo/promptGenerator.ts`), the brand-grounded question
+generator (`src/questionGenerator/`), and the resulting Share-of-
+Voice/position/sentiment metrics — exists to profile that single question
+from different angles, not to build a general-purpose prompt-engineering,
+SEO, or content-marketing tool in its own right.
+
+The brief asks how visible Linear is when a category-relevant question is
+put to an AI engine, relative to named competitors. Treating "what prompt
+would make Gemini say Linear" as the organizing question keeps every other
+piece of the pipeline in service of one measurable outcome — Gemini's
+*response* is the object being studied, with the site's own SEO/GEO signals
+treated as inputs that plausibly explain why a prompt does or doesn't
+surface the brand, not as an end in themselves.
+
+Other engines (ChatGPT, Perplexity, Claude, AI Overviews, etc.) are
+explicitly out of scope — only Gemini's REST API is implemented (see
+`brand-visibility-audit`'s `SKILL.md`). Multi-turn conversations are also
+out of scope; every probe is a single-turn prompt, so this project says
+nothing about whether Linear holds up (or fades) as a conversation
+continues. See `DECISIONS.md`'s "Scope" entry for the full reasoning.
 
 ## Getting Started
 
-First, run the development server:
+Requires Node >=20.19 (`nvm use` if you have an older default — vite/vitest's
+native bindings don't resolve on older 20.x).
+
+```bash
+git clone git@github.com:udiskie/search_brand_challenge.git
+cd search_brand_challenge
+npm install
+```
+
+Copy `.env.example` to `.env.local` and set your own Gemini API key (get one
+at https://aistudio.google.com/apikey):
+
+```bash
+cp .env.example .env.local
+# then edit .env.local and set GEMINI_API_KEY=...
+```
+
+`.env.local` is gitignored and loaded automatically by both the Next.js app
+and every CLI below, so the key never needs to be typed inline or committed.
+It's only required for the AEO probe (`npm run aeo`) and the term-clustering
+LLM method (`npm run clusters -- --method llm`) — the dashboard itself reads
+already-committed `datalake/` data and runs fine without a key.
+
+Then start the dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see
+the dashboard — it already has quick-mode data committed for Linear and its
+AEO competitors (Jira, Asana, Monday, Notion), so there's a report to look at
+immediately without running any CLI first.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Relevant links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Once the dev server is running, these are the pages worth a look (swap
+`linear` for `jira`/`asana`/`monday`/`notion`, the other products with
+committed data):
+
+- [`/decisions`](http://localhost:3000/decisions) — the full decisions log
+  (`DECISIONS.md`), rendered
+- [`/docs`](http://localhost:3000/docs) — documentation hub: data lake
+  structure, Claude Code skills in use, prompt generation, and the
+  [assessment methodology](http://localhost:3000/methodology)
+- [`/products/linear/questions`](http://localhost:3000/products/linear/questions) —
+  candidate user questions (hook-grounded and inferential, across the
+  awareness ladder)
+- [`/products/linear/prompts`](http://localhost:3000/products/linear/prompts) —
+  every prompt actually sent to Gemini (neutral AEO + brand-grounded) and
+  its raw runs
+- [`/products/linear/clusters`](http://localhost:3000/products/linear/clusters) —
+  tagcloud terms grouped into named semantic themes (taxonomy vs. LLM
+  clustering methods, compared)
 
 ## Data lake scraper
-
-Requires Node >=20.19 (`nvm use` if you have an older default — vite/vitest's
-native bindings don't resolve on older 20.x). Run:
 
 ```bash
 npm run scrape -- --product <name> --url <https://site> [--mode quick|full] [--quick-cap 15] [--concurrency 3] [--delay 300]
@@ -40,10 +108,7 @@ above to refresh it.
 
 ## AEO/GEO/SEO brand visibility audit
 
-Copy `.env.example` to `.env.local` and set your own key (get one at
-https://aistudio.google.com/apikey) — `.env.local` is gitignored and loaded
-automatically by the CLI below, so the key never needs to be typed inline or
-committed.
+Requires `GEMINI_API_KEY` set in `.env.local` — see Getting Started above.
 
 Once a product has scraper output in `datalake/{product}/` (see above),
 generate the consolidated report with:
