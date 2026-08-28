@@ -1,3 +1,4 @@
+import { Lightbulb } from "lucide-react";
 import Link from "next/link";
 import { Panel } from "@/components/dashboard/Panel";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
@@ -137,6 +138,68 @@ export default function PromptGenerationDocPage() {
               </Link>
               .
             </p>
+          </div>
+        </Panel>
+
+        <Panel id="personas" title="Personas & audience: neutral vs. brand-grounded">
+          <div className="space-y-3 text-sm text-muted-foreground">
+            <p>
+              It&apos;s easy to assume <code className="rounded bg-muted px-1 py-0.5 text-xs">{"{persona}"}</code>{" "}
+              is somehow tailored per product. It never is -- <span className="font-medium text-foreground">no
+              persona, in either prompt source, is inferred from scraped content.</span> Both are
+              fixed, hardcoded lists, cycled round-robin for reproducibility:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-5">
+              <li>
+                <span className="font-medium text-foreground">Neutral</span> uses its own 5-entry{" "}
+                <code className="rounded bg-muted px-1 py-0.5 text-xs">PERSONAS</code> list (solo
+                founder, eng lead, PM, freelancer, marketing team). This was a deliberate choice,
+                not an oversight: inferring personas from the audited brand&apos;s own site --
+                the obvious way to do it, and the same technique the brand-grounded generator
+                already uses -- would skew the persona set toward whichever audience that one
+                brand&apos;s marketing targets, biasing the &quot;neutral&quot; benchmark before a single
+                Gemini call is made.
+              </li>
+              <li>
+                <span className="font-medium text-foreground">Brand-grounded</span> (both Part 1
+                and Part 2) fills <code className="rounded bg-muted px-1 py-0.5 text-xs">{"{persona}"}</code>{" "}
+                from a separate, smaller fixed list, <code className="rounded bg-muted px-1 py-0.5 text-xs">DEFAULT_PERSONAS</code>{" "}
+                (4 entries), also round-robin. Still not inferred -- just a different fixed list
+                reused for tone variety.
+              </li>
+            </ul>
+            <p>
+              The one place scraped content genuinely does drive a placeholder is{" "}
+              <code className="rounded bg-muted px-1 py-0.5 text-xs">{"{audience}"}</code> --
+              distinct from <code className="rounded bg-muted px-1 py-0.5 text-xs">{"{persona}"}</code>,
+              and only in Part 2. <code className="rounded bg-muted px-1 py-0.5 text-xs">problemAudienceScanner.ts</code>{" "}
+              checks whether a fixed list of org-type (&quot;startup&quot;, &quot;enterprise&quot;, &quot;agency&quot;...)
+              or user-type (&quot;engineering team&quot;, &quot;founder&quot;, &quot;developer&quot;...) phrases literally
+              appear as substrings in the same text as a detected problem claim -- keyword
+              matching, not an LLM or ML inference step. When a claim has a detected audience, the
+              audience-aware template variant is used (e.g. <em>&quot;For {"{audience}"}, it&apos;s a
+              constant challenge to {"{problem}"}.&quot;</em>); otherwise the generic{" "}
+              <code className="rounded bg-muted px-1 py-0.5 text-xs">{"{persona}"}</code>-based
+              variant is used instead, so no template ever plugs in an empty placeholder.
+            </p>
+
+            <div className="flex items-start gap-2.5 rounded-md border border-amber-200 bg-amber-50 p-3 text-amber-900 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-300">
+              <Lightbulb className="mt-0.5 size-4 shrink-0" />
+              <div>
+                <p className="font-medium">Improvement opportunity: PIEI</p>
+                <p className="mt-1 text-amber-800 dark:text-amber-400">
+                  Everything above is about how <em>this project</em> picks a persona for its own
+                  prompts. A related but different question -- proposed and never built, see{" "}
+                  <span className="font-mono text-xs">DECISIONS.md</span> -- is how much{" "}
+                  <span className="font-medium">Gemini itself</span> has to infer a site&apos;s
+                  target persona from its content: a &quot;Persona Inference Effort Index&quot;
+                  combining explicit-mention rate, reasoning-chain length, and cross-run
+                  consistency into one GEO sub-metric. That would measure the model&apos;s
+                  inference effort, not this project&apos;s prompt generation -- worth building as
+                  a future GEO signal, not part of the current score.
+                </p>
+              </div>
+            </div>
           </div>
         </Panel>
       </main>
