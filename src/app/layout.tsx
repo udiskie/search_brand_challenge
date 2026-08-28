@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter } from "next/font/google";
 import { Footer } from "@/components/dashboard/Footer";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 
 // Named --font-sans (not --font-geist-sans) to match what globals.css's
@@ -29,8 +30,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        {children}
-        <Footer />
+        <TooltipProvider>
+          {children}
+          <Footer />
+        </TooltipProvider>
       </body>
     </html>
   );
