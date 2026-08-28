@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { MethodologyLink } from "@/components/dashboard/MethodologyLink";
 import { Panel } from "@/components/dashboard/Panel";
 import { ScoreBadge } from "@/components/dashboard/ScoreBadge";
 import { SiteHeader } from "@/components/dashboard/SiteHeader";
@@ -77,7 +78,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
           </Panel>
         ) : (
           <>
-            <Panel title="Executive summary">
+            <Panel title="Executive summary" action={<MethodologyLink anchor="scores" />}>
               <div className="flex flex-wrap gap-2">
                 {report.scores.map((s) => (
                   <ScoreBadge key={s.dimension} dimension={s.dimension} score={s.score} label={s.label} />
@@ -89,7 +90,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               </p>
             </Panel>
 
-            <Panel title="AEO — Share of Voice">
+            <Panel title="AEO — Share of Voice" action={<MethodologyLink anchor="aeo" />}>
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[560px] text-sm">
                   <thead>
@@ -125,7 +126,10 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
             </Panel>
 
             {report.brandGrounded && report.brandGrounded.totalRuns > 0 ? (
-              <Panel title="Brand-grounded question performance (not neutral)">
+              <Panel
+                title="Brand-grounded question performance (not neutral)"
+                action={<MethodologyLink anchor="brand-grounded" />}
+              >
                 <p className="text-xs text-muted-foreground">
                   Results from running brand-grounded candidate questions through Gemini —
                   do not compare directly to the neutral AEO table above; see{" "}
@@ -173,7 +177,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
             ) : null}
 
             <div className="grid gap-6 sm:grid-cols-2">
-              <Panel title="SEO">
+              <Panel title="SEO" action={<MethodologyLink anchor="seo" />}>
                 <dl className="space-y-1 text-sm">
                   <div className="flex justify-between">
                     <dt className="text-muted-foreground">Pages analyzed</dt>
@@ -198,7 +202,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                 ) : null}
               </Panel>
 
-              <Panel title="GEO">
+              <Panel title="GEO" action={<MethodologyLink anchor="geo" />}>
                 <dl className="space-y-1 text-sm">
                   <div className="flex justify-between">
                     <dt className="text-muted-foreground">Avg factual density</dt>
@@ -220,7 +224,10 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
             </div>
 
             {tagcloud && tagcloud.site.length > 0 ? (
-              <Panel title="Word occurrences (scraped content)">
+              <Panel
+                title="Word occurrences (scraped content)"
+                action={<MethodologyLink anchor="word-occurrences" />}
+              >
                 <p className="mb-3 text-xs text-muted-foreground">
                   Raw count of how many times each of the top {Math.min(20, tagcloud.site.length)}{" "}
                   terms appears across the crawled pages — not the tf-idf ranking used elsewhere,
@@ -234,7 +241,10 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
               </Panel>
             ) : null}
 
-            <Panel title="Priority matrix (impact × effort)">
+            <Panel
+              title="Priority matrix (impact × effort)"
+              action={<MethodologyLink anchor="priority-matrix" />}
+            >
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[640px] text-sm">
                   <thead>
