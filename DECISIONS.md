@@ -135,6 +135,41 @@ Automation Tools") in a way that would make repeated re-clustering look
 falsely unstable; the dashboard's method-comparison note only compares
 theme/unclustered *counts*, not name-level alignment.
 
+## SEO/GEO/AEO composite scores: heuristic weights, not empirically derived
+
+**Decision:** Each dimension is reduced to a single 0-100 score via a
+weighted blend of sub-signals. AEO score = `60% × (brand Share of Voice ×
+100) + 40% × (sentiment normalized to 0-100)` (`computeAeoScore` in
+`src/aeo/reportGenerator.ts`). SEO and GEO scores are unweighted (25/25/25/25)
+averages of four sub-scores each, and GEO's E-E-A-T sub-score itself splits
+33/33/34 across author/publish-date/updated-date presence. These weights ship
+as-is and drive the three `ScoreBadge`s shown on the home page and each
+product page's executive summary.
+
+**Why:** The brief doesn't mandate a specific scoring formula — it asks "¿con
+qué criterios lo medirías?" and leaves the criteria to the candidate. A
+single blended number per dimension is a legible answer to that question, and
+it was implemented as ordinary rules-based engineering judgment (documented
+in `.claude/skills/brand-visibility-audit/SKILL.md`'s "Metric formulas"
+section) rather than derived from any external AEO/SEO/GEO scoring standard,
+published study, or calibration against a real outcome (e.g. does a 10-point
+AEO increase correlate with more actual AI-referral traffic?). No such ground
+truth exists for this project to fit the weights against, so none of these
+splits — 60/40, 25/25/25/25, or 33/33/34 — should be read as validated;
+they're a starting point, not a finding.
+
+**What was left out:** No sensitivity analysis across alternative weightings,
+no A/B of 60/40 against e.g. 50/50, and no attempt to calibrate any of these
+splits against outcome data. This is a matter of methodological discussion,
+not a settled fact — reporting Share of Voice and sentiment unblended
+instead of compressing them into one number is an equally defensible choice.
+The raw components (SoV%, sentiment score, avg factual density, avg
+extractable structure, etc.) are always shown unblended alongside the
+composite in the same report tables specifically so no one has to take the
+composite on faith. Reweighting or dropping these composites in favor of raw
+criteria was considered and deliberately deferred rather than changed under
+deadline pressure this close to submission.
+
 ## Índice de esfuerzo de inferencia de User Persona (Persona Inference Effort Index — PIEI)
 
 **Problema que resuelve:** hay dos formas en que un sitio comunica su user

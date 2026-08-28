@@ -75,7 +75,13 @@ export default function MethodologyPage() {
               </span>
               . Each prompt is sent to Gemini multiple times (3 runs in quick mode, 6 in full)
               at temperature 0.9. Every competitor has an equal a-priori shot at being
-              surfaced, which is what makes this a fair benchmark.
+              surfaced, which is what makes this a fair benchmark. The persona in each prompt is
+              a fixed, round-robin list too, never inferred from the audited brand&apos;s content --
+              see{" "}
+              <Link href="/docs/prompt-generation#personas" className="text-link hover:underline">
+                why that matters
+              </Link>
+              .
             </p>
             <dl className="space-y-1.5">
               <div>
@@ -140,7 +146,13 @@ export default function MethodologyPage() {
                 <span className="font-medium text-foreground">Inferential</span> — the site&apos;s
                 stated problem/audience claims, paraphrased into a generic need without
                 quoting the site, split by awareness stage. The stronger of the two signals,
-                since it requires genuinely inferring fit.
+                since it requires genuinely inferring fit. This is also the only place an{" "}
+                <em>audience</em> (not persona) is actually detected from scraped content,
+                via keyword matching -- see{" "}
+                <Link href="/docs/prompt-generation#personas" className="text-link hover:underline">
+                  how personas vs. audience work
+                </Link>
+                .
               </li>
             </ul>
             <p className="text-foreground">

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function SiteHeader() {
   return (
@@ -7,7 +8,9 @@ export function SiteHeader() {
         <Link href="/" className="text-sm font-semibold tracking-tight">
           Brand Visibility Audit
         </Link>
-        <span className="text-xs text-muted-foreground">SEO · GEO · AEO</span>
+        <Button size="sm" nativeButton={false} render={<Link href="/docs" />}>
+          Docs
+        </Button>
       </div>
     </header>
   );
