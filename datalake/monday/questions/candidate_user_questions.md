@@ -1,6 +1,6 @@
 # Candidate user questions grounded in Monday's own site content
 
-26 hooks and 6 problem/audience claims scanned from the data lake, 140 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
+25 hooks and 6 problem/audience claims scanned from the data lake, 138 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
 
 ## Part 1: Direct hook-grounded questions
 
@@ -27,21 +27,6 @@ Evidence:
 Candidate questions:
 - What tool matches this description: "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."?
 - As a freelancer, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?
-- What tool matches this description: "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."?
-- As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?
-
-### Hook: "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."
-
-Source: `meta_description` (document frequency: 1)
-
-Evidence:
-- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."
-
-Candidate questions:
-- What tool matches this description: "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."?
-- As a freelancer, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?
-- What tool matches this description: "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."?
-- As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?
 
 ### Hook: "Got questions? We're here to help with anything you need."
 
@@ -52,7 +37,7 @@ Evidence:
 
 Candidate questions:
 - What tool matches this description: "Got questions? We're here to help with anything you need."?
-- As a freelancer, I'm looking for a tool where: Got questions? We're here to help with anything you need. Any suggestions?
+- As a startup founder, I'm looking for a tool where: Got questions? We're here to help with anything you need. Any suggestions?
 
 ### Hook: "Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst."
 
@@ -63,7 +48,7 @@ Evidence:
 
 Candidate questions:
 - What tool matches this description: "Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst."?
-- As a startup founder, I'm looking for a tool where: Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst. Any suggestions?
+- As a freelancer, I'm looking for a tool where: Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst. Any suggestions?
 
 ### Hook: "Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025."
 
@@ -74,7 +59,7 @@ Evidence:
 
 Candidate questions:
 - What tool matches this description: "Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025."?
-- As a freelancer, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?
+- As a startup founder, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?
 
 ### Hook: "marketplace"
 
@@ -89,7 +74,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "marketplace"?
 - I need something that helps with marketplace -- what should my team use?
 - Which tool in this space is known for marketplace?
-- As a freelancer, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?
 
 ### Hook: "management"
 
@@ -104,7 +89,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "management"?
 - I need something that helps with management -- what should my team use?
 - Which tool in this space is known for management?
-- As a freelancer, I want a tool that focuses on management instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on management instead of doing everything. Any recommendations?
 
 ### Hook: "agents"
 
@@ -119,7 +104,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "agents"?
 - I need something that helps with agents -- what should my team use?
 - Which tool in this space is known for agents?
-- As a freelancer, I want a tool that focuses on agents instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?
 
 ### Hook: "apps"
 
@@ -134,7 +119,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "apps"?
 - I need something that helps with apps -- what should my team use?
 - Which tool in this space is known for apps?
-- As a freelancer, I want a tool that focuses on apps instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on apps instead of doing everything. Any recommendations?
 
 ### Hook: "work"
 
@@ -149,7 +134,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "work"?
 - I need something that helps with work -- what should my team use?
 - Which tool in this space is known for work?
-- As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?
 
 ### Hook: "platform"
 
@@ -164,7 +149,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "platform"?
 - I need something that helps with platform -- what should my team use?
 - Which tool in this space is known for platform?
-- As a freelancer, I want a tool that focuses on platform instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on platform instead of doing everything. Any recommendations?
 
 ### Hook: "number"
 
@@ -179,7 +164,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "number"?
 - I need something that helps with number -- what should my team use?
 - Which tool in this space is known for number?
-- As a freelancer, I want a tool that focuses on number instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on number instead of doing everything. Any recommendations?
 
 ### Hook: "sales"
 
@@ -194,7 +179,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "sales"?
 - I need something that helps with sales -- what should my team use?
 - Which tool in this space is known for sales?
-- As a freelancer, I want a tool that focuses on sales instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on sales instead of doing everything. Any recommendations?
 
 ### Hook: "team"
 
@@ -209,7 +194,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "team"?
 - I need something that helps with team -- what should my team use?
 - Which tool in this space is known for team?
-- As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on team instead of doing everything. Any recommendations?
 
 ### Hook: "service"
 
@@ -224,7 +209,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "service"?
 - I need something that helps with service -- what should my team use?
 - Which tool in this space is known for service?
-- As a freelancer, I want a tool that focuses on service instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on service instead of doing everything. Any recommendations?
 
 ### Hook: "data"
 
@@ -239,7 +224,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "data"?
 - I need something that helps with data -- what should my team use?
 - Which tool in this space is known for data?
-- As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on data instead of doing everything. Any recommendations?
 
 ### Hook: "read"
 
@@ -254,7 +239,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "read"?
 - I need something that helps with read -- what should my team use?
 - Which tool in this space is known for read?
-- As a freelancer, I want a tool that focuses on read instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on read instead of doing everything. Any recommendations?
 
 ### Hook: "customer"
 
@@ -269,7 +254,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "customer"?
 - I need something that helps with customer -- what should my team use?
 - Which tool in this space is known for customer?
-- As a freelancer, I want a tool that focuses on customer instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on customer instead of doing everything. Any recommendations?
 
 ### Hook: "project"
 
@@ -284,7 +269,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "project"?
 - I need something that helps with project -- what should my team use?
 - Which tool in this space is known for project?
-- As a freelancer, I want a tool that focuses on project instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on project instead of doing everything. Any recommendations?
 
 ### Hook: "marketing"
 
@@ -299,7 +284,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "marketing"?
 - I need something that helps with marketing -- what should my team use?
 - Which tool in this space is known for marketing?
-- As a freelancer, I want a tool that focuses on marketing instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on marketing instead of doing everything. Any recommendations?
 
 ### Hook: "started"
 
@@ -314,22 +299,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "started"?
 - I need something that helps with started -- what should my team use?
 - Which tool in this space is known for started?
-- As a freelancer, I want a tool that focuses on started instead of doing everything. Any recommendations?
-
-### Hook: "target"
-
-Source: `tagcloud` (document frequency: 2)
-
-Evidence:
-- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "monday.com CRM pricing: find the plan that works for you ProductsTailored to your teams' needsmonday work managementmonday CRMmonday devmonday serviceMore by mo"
-- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then log"
-- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then log"
-
-Candidate questions:
-- What tool would you recommend for a team that wants "target"?
-- I need something that helps with target -- what should my team use?
-- Which tool in this space is known for target?
-- As a freelancer, I want a tool that focuses on target instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on started instead of doing everything. Any recommendations?
 
 ### Hook: "development"
 
@@ -344,7 +314,22 @@ Candidate questions:
 - What tool would you recommend for a team that wants "development"?
 - I need something that helps with development -- what should my team use?
 - Which tool in this space is known for development?
-- As a freelancer, I want a tool that focuses on development instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on development instead of doing everything. Any recommendations?
+
+### Hook: "target"
+
+Source: `tagcloud` (document frequency: 2)
+
+Evidence:
+- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "monday.com CRM pricing: find the plan that works for you ProductsTailored to your teams' needsmonday work managementmonday CRMmonday devmonday serviceMore by mo"
+- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then log"
+- [https://monday.com/crm/pricing](https://monday.com/crm/pricing): "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then log"
+
+Candidate questions:
+- What tool would you recommend for a team that wants "target"?
+- I need something that helps with target -- what should my team use?
+- Which tool in this space is known for target?
+- As a startup founder, I want a tool that focuses on target instead of doing everything. Any recommendations?
 
 ### Hook: "like"
 
@@ -359,7 +344,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "like"?
 - I need something that helps with like -- what should my team use?
 - Which tool in this space is known for like?
-- As a freelancer, I want a tool that focuses on like instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on like instead of doing everything. Any recommendations?
 
 ### Hook: "custom"
 
@@ -374,7 +359,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "custom"?
 - I need something that helps with custom -- what should my team use?
 - Which tool in this space is known for custom?
-- As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?
+- As a startup founder, I want a tool that focuses on custom instead of doing everything. Any recommendations?
 
 ## Part 2: Inferential questions (paraphrased, no site quoting)
 

@@ -34,17 +34,6 @@
       ]
     },
     {
-      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
-      "source": "meta_description",
-      "documentFrequency": 1,
-      "evidence": [
-        {
-          "url": "https://www.notion.com/en-gb/product",
-          "snippet": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
-        }
-      ]
-    },
-    {
       "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
       "source": "meta_description",
       "documentFrequency": 1,
@@ -341,25 +330,6 @@
       ]
     },
     {
-      "hook": "billing",
-      "source": "tagcloud",
-      "documentFrequency": 2,
-      "evidence": [
-        {
-          "url": "https://www.notion.com/en-gb/pricing",
-          "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
-        },
-        {
-          "url": "https://www.notion.com/en-gb/pricing",
-          "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
-        },
-        {
-          "url": "https://www.notion.com/en-gb/pricing",
-          "snippet": "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added.For every member you delete from your workspace, you will open up 1 available pa…"
-        }
-      ]
-    },
-    {
       "hook": "usage",
       "source": "tagcloud",
       "documentFrequency": 2,
@@ -375,6 +345,25 @@
         {
           "url": "https://www.notion.com/en-gb/help/understand-pricing-for-workers",
           "snippet": "If you have multiple syncs, multiple Workers or Workers that run in response to many events, total usage may be higher.Sync frequencyExample:Runs per dayCost per monthDaily (Low)A nightly sync pulls closed Jira tickets into a Notion enginee…"
+        }
+      ]
+    },
+    {
+      "hook": "billing",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and groups but can’t access other security & billing settings.Granular admin rolesAc…"
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invoices by going to Settings & members → Billing, then scrolling to Invoices."
+        },
+        {
+          "url": "https://www.notion.com/en-gb/pricing",
+          "snippet": "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added.For every member you delete from your workspace, you will open up 1 available pa…"
         }
       ]
     },
@@ -499,26 +488,6 @@
     },
     {
       "id": "long-form-quote-match-6",
-      "text": "What tool matches this description: \"Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.\"?",
-      "templateId": "long-form-quote-match",
-      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
-      "hookSource": "meta_description",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/product"
-      ]
-    },
-    {
-      "id": "long-form-as-need-7",
-      "text": "As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?",
-      "templateId": "long-form-as-need",
-      "hook": "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster.",
-      "hookSource": "meta_description",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/product"
-      ]
-    },
-    {
-      "id": "long-form-quote-match-8",
       "text": "What tool matches this description: \"A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.\"?",
       "templateId": "long-form-quote-match",
       "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
@@ -528,8 +497,8 @@
       ]
     },
     {
-      "id": "long-form-as-need-9",
-      "text": "As a startup founder, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?",
+      "id": "long-form-as-need-7",
+      "text": "As a freelancer, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?",
       "templateId": "long-form-as-need",
       "hook": "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace.",
       "hookSource": "meta_description",
@@ -538,7 +507,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-10",
+      "id": "direct-differentiator-8",
       "text": "What tool would you recommend for a team that wants \"workspace\"?",
       "templateId": "direct-differentiator",
       "hook": "workspace",
@@ -550,7 +519,7 @@
       ]
     },
     {
-      "id": "problem-framed-11",
+      "id": "problem-framed-9",
       "text": "I need something that helps with workspace -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "workspace",
@@ -562,7 +531,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-12",
+      "id": "comparison-anchor-10",
       "text": "Which tool in this space is known for workspace?",
       "templateId": "comparison-anchor",
       "hook": "workspace",
@@ -574,8 +543,8 @@
       ]
     },
     {
-      "id": "persona-specific-13",
-      "text": "As a startup founder, I want a tool that focuses on workspace instead of doing everything. Any recommendations?",
+      "id": "persona-specific-11",
+      "text": "As a freelancer, I want a tool that focuses on workspace instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "workspace",
       "hookSource": "tagcloud",
@@ -586,7 +555,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-14",
+      "id": "direct-differentiator-12",
       "text": "What tool would you recommend for a team that wants \"agent\"?",
       "templateId": "direct-differentiator",
       "hook": "agent",
@@ -598,7 +567,7 @@
       ]
     },
     {
-      "id": "problem-framed-15",
+      "id": "problem-framed-13",
       "text": "I need something that helps with agent -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "agent",
@@ -610,7 +579,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-16",
+      "id": "comparison-anchor-14",
       "text": "Which tool in this space is known for agent?",
       "templateId": "comparison-anchor",
       "hook": "agent",
@@ -622,8 +591,8 @@
       ]
     },
     {
-      "id": "persona-specific-17",
-      "text": "As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?",
+      "id": "persona-specific-15",
+      "text": "As a freelancer, I want a tool that focuses on agent instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "agent",
       "hookSource": "tagcloud",
@@ -634,7 +603,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-18",
+      "id": "direct-differentiator-16",
       "text": "What tool would you recommend for a team that wants \"information\"?",
       "templateId": "direct-differentiator",
       "hook": "information",
@@ -646,7 +615,7 @@
       ]
     },
     {
-      "id": "problem-framed-19",
+      "id": "problem-framed-17",
       "text": "I need something that helps with information -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "information",
@@ -658,7 +627,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-20",
+      "id": "comparison-anchor-18",
       "text": "Which tool in this space is known for information?",
       "templateId": "comparison-anchor",
       "hook": "information",
@@ -670,8 +639,8 @@
       ]
     },
     {
-      "id": "persona-specific-21",
-      "text": "As a startup founder, I want a tool that focuses on information instead of doing everything. Any recommendations?",
+      "id": "persona-specific-19",
+      "text": "As a freelancer, I want a tool that focuses on information instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "information",
       "hookSource": "tagcloud",
@@ -682,7 +651,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-22",
+      "id": "direct-differentiator-20",
       "text": "What tool would you recommend for a team that wants \"credits\"?",
       "templateId": "direct-differentiator",
       "hook": "credits",
@@ -694,7 +663,7 @@
       ]
     },
     {
-      "id": "problem-framed-23",
+      "id": "problem-framed-21",
       "text": "I need something that helps with credits -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "credits",
@@ -706,7 +675,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-24",
+      "id": "comparison-anchor-22",
       "text": "Which tool in this space is known for credits?",
       "templateId": "comparison-anchor",
       "hook": "credits",
@@ -718,8 +687,8 @@
       ]
     },
     {
-      "id": "persona-specific-25",
-      "text": "As a startup founder, I want a tool that focuses on credits instead of doing everything. Any recommendations?",
+      "id": "persona-specific-23",
+      "text": "As a freelancer, I want a tool that focuses on credits instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "credits",
       "hookSource": "tagcloud",
@@ -730,7 +699,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-26",
+      "id": "direct-differentiator-24",
       "text": "What tool would you recommend for a team that wants \"custom\"?",
       "templateId": "direct-differentiator",
       "hook": "custom",
@@ -742,7 +711,7 @@
       ]
     },
     {
-      "id": "problem-framed-27",
+      "id": "problem-framed-25",
       "text": "I need something that helps with custom -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "custom",
@@ -754,7 +723,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-28",
+      "id": "comparison-anchor-26",
       "text": "Which tool in this space is known for custom?",
       "templateId": "comparison-anchor",
       "hook": "custom",
@@ -766,8 +735,8 @@
       ]
     },
     {
-      "id": "persona-specific-29",
-      "text": "As a startup founder, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
+      "id": "persona-specific-27",
+      "text": "As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "custom",
       "hookSource": "tagcloud",
@@ -778,7 +747,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-30",
+      "id": "direct-differentiator-28",
       "text": "What tool would you recommend for a team that wants \"memory\"?",
       "templateId": "direct-differentiator",
       "hook": "memory",
@@ -790,7 +759,7 @@
       ]
     },
     {
-      "id": "problem-framed-31",
+      "id": "problem-framed-29",
       "text": "I need something that helps with memory -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "memory",
@@ -802,7 +771,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-32",
+      "id": "comparison-anchor-30",
       "text": "Which tool in this space is known for memory?",
       "templateId": "comparison-anchor",
       "hook": "memory",
@@ -814,8 +783,8 @@
       ]
     },
     {
-      "id": "persona-specific-33",
-      "text": "As a startup founder, I want a tool that focuses on memory instead of doing everything. Any recommendations?",
+      "id": "persona-specific-31",
+      "text": "As a freelancer, I want a tool that focuses on memory instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "memory",
       "hookSource": "tagcloud",
@@ -826,7 +795,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-34",
+      "id": "direct-differentiator-32",
       "text": "What tool would you recommend for a team that wants \"workers\"?",
       "templateId": "direct-differentiator",
       "hook": "workers",
@@ -838,7 +807,7 @@
       ]
     },
     {
-      "id": "problem-framed-35",
+      "id": "problem-framed-33",
       "text": "I need something that helps with workers -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "workers",
@@ -850,7 +819,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-36",
+      "id": "comparison-anchor-34",
       "text": "Which tool in this space is known for workers?",
       "templateId": "comparison-anchor",
       "hook": "workers",
@@ -862,8 +831,8 @@
       ]
     },
     {
-      "id": "persona-specific-37",
-      "text": "As a startup founder, I want a tool that focuses on workers instead of doing everything. Any recommendations?",
+      "id": "persona-specific-35",
+      "text": "As a freelancer, I want a tool that focuses on workers instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "workers",
       "hookSource": "tagcloud",
@@ -874,7 +843,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-38",
+      "id": "direct-differentiator-36",
       "text": "What tool would you recommend for a team that wants \"agents\"?",
       "templateId": "direct-differentiator",
       "hook": "agents",
@@ -886,7 +855,7 @@
       ]
     },
     {
-      "id": "problem-framed-39",
+      "id": "problem-framed-37",
       "text": "I need something that helps with agents -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "agents",
@@ -898,7 +867,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-40",
+      "id": "comparison-anchor-38",
       "text": "Which tool in this space is known for agents?",
       "templateId": "comparison-anchor",
       "hook": "agents",
@@ -910,8 +879,8 @@
       ]
     },
     {
-      "id": "persona-specific-41",
-      "text": "As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+      "id": "persona-specific-39",
+      "text": "As a freelancer, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "agents",
       "hookSource": "tagcloud",
@@ -922,7 +891,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-42",
+      "id": "direct-differentiator-40",
       "text": "What tool would you recommend for a team that wants \"paid\"?",
       "templateId": "direct-differentiator",
       "hook": "paid",
@@ -934,7 +903,7 @@
       ]
     },
     {
-      "id": "problem-framed-43",
+      "id": "problem-framed-41",
       "text": "I need something that helps with paid -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "paid",
@@ -946,7 +915,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-44",
+      "id": "comparison-anchor-42",
       "text": "Which tool in this space is known for paid?",
       "templateId": "comparison-anchor",
       "hook": "paid",
@@ -958,8 +927,8 @@
       ]
     },
     {
-      "id": "persona-specific-45",
-      "text": "As a startup founder, I want a tool that focuses on paid instead of doing everything. Any recommendations?",
+      "id": "persona-specific-43",
+      "text": "As a freelancer, I want a tool that focuses on paid instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "paid",
       "hookSource": "tagcloud",
@@ -970,7 +939,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-46",
+      "id": "direct-differentiator-44",
       "text": "What tool would you recommend for a team that wants \"data\"?",
       "templateId": "direct-differentiator",
       "hook": "data",
@@ -982,7 +951,7 @@
       ]
     },
     {
-      "id": "problem-framed-47",
+      "id": "problem-framed-45",
       "text": "I need something that helps with data -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "data",
@@ -994,7 +963,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-48",
+      "id": "comparison-anchor-46",
       "text": "Which tool in this space is known for data?",
       "templateId": "comparison-anchor",
       "hook": "data",
@@ -1006,8 +975,8 @@
       ]
     },
     {
-      "id": "persona-specific-49",
-      "text": "As a startup founder, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+      "id": "persona-specific-47",
+      "text": "As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "data",
       "hookSource": "tagcloud",
@@ -1018,7 +987,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-50",
+      "id": "direct-differentiator-48",
       "text": "What tool would you recommend for a team that wants \"plan\"?",
       "templateId": "direct-differentiator",
       "hook": "plan",
@@ -1030,7 +999,7 @@
       ]
     },
     {
-      "id": "problem-framed-51",
+      "id": "problem-framed-49",
       "text": "I need something that helps with plan -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "plan",
@@ -1042,7 +1011,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-52",
+      "id": "comparison-anchor-50",
       "text": "Which tool in this space is known for plan?",
       "templateId": "comparison-anchor",
       "hook": "plan",
@@ -1054,8 +1023,8 @@
       ]
     },
     {
-      "id": "persona-specific-53",
-      "text": "As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
+      "id": "persona-specific-51",
+      "text": "As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "plan",
       "hookSource": "tagcloud",
@@ -1066,7 +1035,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-54",
+      "id": "direct-differentiator-52",
       "text": "What tool would you recommend for a team that wants \"work\"?",
       "templateId": "direct-differentiator",
       "hook": "work",
@@ -1078,7 +1047,7 @@
       ]
     },
     {
-      "id": "problem-framed-55",
+      "id": "problem-framed-53",
       "text": "I need something that helps with work -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "work",
@@ -1090,7 +1059,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-56",
+      "id": "comparison-anchor-54",
       "text": "Which tool in this space is known for work?",
       "templateId": "comparison-anchor",
       "hook": "work",
@@ -1102,8 +1071,8 @@
       ]
     },
     {
-      "id": "persona-specific-57",
-      "text": "As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "id": "persona-specific-55",
+      "text": "As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "work",
       "hookSource": "tagcloud",
@@ -1114,7 +1083,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-58",
+      "id": "direct-differentiator-56",
       "text": "What tool would you recommend for a team that wants \"each\"?",
       "templateId": "direct-differentiator",
       "hook": "each",
@@ -1126,7 +1095,7 @@
       ]
     },
     {
-      "id": "problem-framed-59",
+      "id": "problem-framed-57",
       "text": "I need something that helps with each -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "each",
@@ -1138,7 +1107,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-60",
+      "id": "comparison-anchor-58",
       "text": "Which tool in this space is known for each?",
       "templateId": "comparison-anchor",
       "hook": "each",
@@ -1150,8 +1119,8 @@
       ]
     },
     {
-      "id": "persona-specific-61",
-      "text": "As a startup founder, I want a tool that focuses on each instead of doing everything. Any recommendations?",
+      "id": "persona-specific-59",
+      "text": "As a freelancer, I want a tool that focuses on each instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "each",
       "hookSource": "tagcloud",
@@ -1162,7 +1131,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-62",
+      "id": "direct-differentiator-60",
       "text": "What tool would you recommend for a team that wants \"access\"?",
       "templateId": "direct-differentiator",
       "hook": "access",
@@ -1174,7 +1143,7 @@
       ]
     },
     {
-      "id": "problem-framed-63",
+      "id": "problem-framed-61",
       "text": "I need something that helps with access -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "access",
@@ -1186,7 +1155,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-64",
+      "id": "comparison-anchor-62",
       "text": "Which tool in this space is known for access?",
       "templateId": "comparison-anchor",
       "hook": "access",
@@ -1198,8 +1167,8 @@
       ]
     },
     {
-      "id": "persona-specific-65",
-      "text": "As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?",
+      "id": "persona-specific-63",
+      "text": "As a freelancer, I want a tool that focuses on access instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "access",
       "hookSource": "tagcloud",
@@ -1210,7 +1179,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-66",
+      "id": "direct-differentiator-64",
       "text": "What tool would you recommend for a team that wants \"members\"?",
       "templateId": "direct-differentiator",
       "hook": "members",
@@ -1222,7 +1191,7 @@
       ]
     },
     {
-      "id": "problem-framed-67",
+      "id": "problem-framed-65",
       "text": "I need something that helps with members -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "members",
@@ -1234,7 +1203,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-68",
+      "id": "comparison-anchor-66",
       "text": "Which tool in this space is known for members?",
       "templateId": "comparison-anchor",
       "hook": "members",
@@ -1246,8 +1215,8 @@
       ]
     },
     {
-      "id": "persona-specific-69",
-      "text": "As a startup founder, I want a tool that focuses on members instead of doing everything. Any recommendations?",
+      "id": "persona-specific-67",
+      "text": "As a freelancer, I want a tool that focuses on members instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "members",
       "hookSource": "tagcloud",
@@ -1258,55 +1227,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-70",
-      "text": "What tool would you recommend for a team that wants \"billing\"?",
-      "templateId": "direct-differentiator",
-      "hook": "billing",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing"
-      ]
-    },
-    {
-      "id": "problem-framed-71",
-      "text": "I need something that helps with billing -- what should my team use?",
-      "templateId": "problem-framed",
-      "hook": "billing",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing"
-      ]
-    },
-    {
-      "id": "comparison-anchor-72",
-      "text": "Which tool in this space is known for billing?",
-      "templateId": "comparison-anchor",
-      "hook": "billing",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing"
-      ]
-    },
-    {
-      "id": "persona-specific-73",
-      "text": "As a startup founder, I want a tool that focuses on billing instead of doing everything. Any recommendations?",
-      "templateId": "persona-specific",
-      "hook": "billing",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing",
-        "https://www.notion.com/en-gb/pricing"
-      ]
-    },
-    {
-      "id": "direct-differentiator-74",
+      "id": "direct-differentiator-68",
       "text": "What tool would you recommend for a team that wants \"usage\"?",
       "templateId": "direct-differentiator",
       "hook": "usage",
@@ -1318,7 +1239,7 @@
       ]
     },
     {
-      "id": "problem-framed-75",
+      "id": "problem-framed-69",
       "text": "I need something that helps with usage -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "usage",
@@ -1330,7 +1251,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-76",
+      "id": "comparison-anchor-70",
       "text": "Which tool in this space is known for usage?",
       "templateId": "comparison-anchor",
       "hook": "usage",
@@ -1342,8 +1263,8 @@
       ]
     },
     {
-      "id": "persona-specific-77",
-      "text": "As a startup founder, I want a tool that focuses on usage instead of doing everything. Any recommendations?",
+      "id": "persona-specific-71",
+      "text": "As a freelancer, I want a tool that focuses on usage instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "usage",
       "hookSource": "tagcloud",
@@ -1354,7 +1275,55 @@
       ]
     },
     {
-      "id": "direct-differentiator-78",
+      "id": "direct-differentiator-72",
+      "text": "What tool would you recommend for a team that wants \"billing\"?",
+      "templateId": "direct-differentiator",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-73",
+      "text": "I need something that helps with billing -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-74",
+      "text": "Which tool in this space is known for billing?",
+      "templateId": "comparison-anchor",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-75",
+      "text": "As a freelancer, I want a tool that focuses on billing instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "billing",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing",
+        "https://www.notion.com/en-gb/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-76",
       "text": "What tool would you recommend for a team that wants \"free\"?",
       "templateId": "direct-differentiator",
       "hook": "free",
@@ -1366,7 +1335,7 @@
       ]
     },
     {
-      "id": "problem-framed-79",
+      "id": "problem-framed-77",
       "text": "I need something that helps with free -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "free",
@@ -1378,7 +1347,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-80",
+      "id": "comparison-anchor-78",
       "text": "Which tool in this space is known for free?",
       "templateId": "comparison-anchor",
       "hook": "free",
@@ -1390,8 +1359,8 @@
       ]
     },
     {
-      "id": "persona-specific-81",
-      "text": "As a startup founder, I want a tool that focuses on free instead of doing everything. Any recommendations?",
+      "id": "persona-specific-79",
+      "text": "As a freelancer, I want a tool that focuses on free instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "free",
       "hookSource": "tagcloud",
@@ -1402,7 +1371,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-82",
+      "id": "direct-differentiator-80",
       "text": "What tool would you recommend for a team that wants \"content\"?",
       "templateId": "direct-differentiator",
       "hook": "content",
@@ -1414,7 +1383,7 @@
       ]
     },
     {
-      "id": "problem-framed-83",
+      "id": "problem-framed-81",
       "text": "I need something that helps with content -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "content",
@@ -1426,7 +1395,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-84",
+      "id": "comparison-anchor-82",
       "text": "Which tool in this space is known for content?",
       "templateId": "comparison-anchor",
       "hook": "content",
@@ -1438,8 +1407,8 @@
       ]
     },
     {
-      "id": "persona-specific-85",
-      "text": "As a startup founder, I want a tool that focuses on content instead of doing everything. Any recommendations?",
+      "id": "persona-specific-83",
+      "text": "As a freelancer, I want a tool that focuses on content instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "content",
       "hookSource": "tagcloud",
@@ -1450,7 +1419,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-86",
+      "id": "direct-differentiator-84",
       "text": "What tool would you recommend for a team that wants \"template\"?",
       "templateId": "direct-differentiator",
       "hook": "template",
@@ -1462,7 +1431,7 @@
       ]
     },
     {
-      "id": "problem-framed-87",
+      "id": "problem-framed-85",
       "text": "I need something that helps with template -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "template",
@@ -1474,7 +1443,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-88",
+      "id": "comparison-anchor-86",
       "text": "Which tool in this space is known for template?",
       "templateId": "comparison-anchor",
       "hook": "template",
@@ -1486,8 +1455,8 @@
       ]
     },
     {
-      "id": "persona-specific-89",
-      "text": "As a startup founder, I want a tool that focuses on template instead of doing everything. Any recommendations?",
+      "id": "persona-specific-87",
+      "text": "As a freelancer, I want a tool that focuses on template instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "template",
       "hookSource": "tagcloud",

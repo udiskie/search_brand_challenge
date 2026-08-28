@@ -23,17 +23,6 @@
       ]
     },
     {
-      "hook": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.",
-      "source": "meta_description",
-      "documentFrequency": 1,
-      "evidence": [
-        {
-          "url": "https://monday.com/crm/pricing",
-          "snippet": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month."
-        }
-      ]
-    },
-    {
       "hook": "Got questions? We're here to help with anything you need.",
       "source": "meta_description",
       "documentFrequency": 1,
@@ -371,25 +360,6 @@
       ]
     },
     {
-      "hook": "target",
-      "source": "tagcloud",
-      "documentFrequency": 2,
-      "evidence": [
-        {
-          "url": "https://monday.com/crm/pricing",
-          "snippet": "monday.com CRM pricing: find the plan that works for you ProductsTailored to your teams' needsmonday work managementmonday CRMmonday devmonday serviceMore by monday.comWorkFormsWorkCanvasTeamsBy teamMarketingProject managementSalesProduct d…"
-        },
-        {
-          "url": "https://monday.com/crm/pricing",
-          "snippet": "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then logs call summaries to your CRMOutreach caller agentProactively finds and enriches …"
-        },
-        {
-          "url": "https://monday.com/crm/pricing",
-          "snippet": "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then logs call summaries to your CRMOutreach caller agentProactively finds and enriches …"
-        }
-      ]
-    },
-    {
       "hook": "development",
       "source": "tagcloud",
       "documentFrequency": 2,
@@ -405,6 +375,25 @@
         {
           "url": "https://monday.com/blog",
           "snippet": "Stephanie Trovato | 22 min read CRM and sales CRM and sales Best AI SDR tools 2026: 15 platforms that close deals Sales development reps spend most of their day on non-selling activities like research, data entry, and CRM updates."
+        }
+      ]
+    },
+    {
+      "hook": "target",
+      "source": "tagcloud",
+      "documentFrequency": 2,
+      "evidence": [
+        {
+          "url": "https://monday.com/crm/pricing",
+          "snippet": "monday.com CRM pricing: find the plan that works for you ProductsTailored to your teams' needsmonday work managementmonday CRMmonday devmonday serviceMore by monday.comWorkFormsWorkCanvasTeamsBy teamMarketingProject managementSalesProduct d…"
+        },
+        {
+          "url": "https://monday.com/crm/pricing",
+          "snippet": "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then logs call summaries to your CRMOutreach caller agentProactively finds and enriches …"
+        },
+        {
+          "url": "https://monday.com/crm/pricing",
+          "snippet": "$41$28seat /monthTry for freePro AIAI credits are included in this planCalls, qualifies, and engages leads around the clock using your custom playbook, then logs call summaries to your CRMOutreach caller agentProactively finds and enriches …"
         }
       ]
     },
@@ -490,26 +479,6 @@
     },
     {
       "id": "long-form-quote-match-4",
-      "text": "What tool matches this description: \"Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.\"?",
-      "templateId": "long-form-quote-match",
-      "hook": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.",
-      "hookSource": "meta_description",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "long-form-as-need-5",
-      "text": "As a startup founder, I'm looking for a tool where: Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month. Any suggestions?",
-      "templateId": "long-form-as-need",
-      "hook": "Visit our CRM pricing page to discover which plan is best for your team's needs. ﻿Manage unlimited pipelines, starting from $10 per user a month.",
-      "hookSource": "meta_description",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "long-form-quote-match-6",
       "text": "What tool matches this description: \"Got questions? We're here to help with anything you need.\"?",
       "templateId": "long-form-quote-match",
       "hook": "Got questions? We're here to help with anything you need.",
@@ -519,8 +488,8 @@
       ]
     },
     {
-      "id": "long-form-as-need-7",
-      "text": "As a freelancer, I'm looking for a tool where: Got questions? We're here to help with anything you need. Any suggestions?",
+      "id": "long-form-as-need-5",
+      "text": "As a startup founder, I'm looking for a tool where: Got questions? We're here to help with anything you need. Any suggestions?",
       "templateId": "long-form-as-need",
       "hook": "Got questions? We're here to help with anything you need.",
       "hookSource": "meta_description",
@@ -529,7 +498,7 @@
       ]
     },
     {
-      "id": "long-form-quote-match-8",
+      "id": "long-form-quote-match-6",
       "text": "What tool matches this description: \"Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst.\"?",
       "templateId": "long-form-quote-match",
       "hook": "Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst.",
@@ -539,8 +508,8 @@
       ]
     },
     {
-      "id": "long-form-as-need-9",
-      "text": "As a startup founder, I'm looking for a tool where: Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst. Any suggestions?",
+      "id": "long-form-as-need-7",
+      "text": "As a freelancer, I'm looking for a tool where: Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst. Any suggestions?",
       "templateId": "long-form-as-need",
       "hook": "Hast du eine Frage? Wir helfen dir gerne weiter, wenn du etwas brauchst.",
       "hookSource": "meta_description",
@@ -549,7 +518,7 @@
       ]
     },
     {
-      "id": "long-form-quote-match-10",
+      "id": "long-form-quote-match-8",
       "text": "What tool matches this description: \"Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.\"?",
       "templateId": "long-form-quote-match",
       "hook": "Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.",
@@ -559,8 +528,8 @@
       ]
     },
     {
-      "id": "long-form-as-need-11",
-      "text": "As a freelancer, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?",
+      "id": "long-form-as-need-9",
+      "text": "As a startup founder, I'm looking for a tool where: Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025. Any suggestions?",
       "templateId": "long-form-as-need",
       "hook": "Here are the leading SaaS app marketplaces and app stores for developers, so that you can find your next development opportunity and expand your business in 2025.",
       "hookSource": "meta_description",
@@ -569,7 +538,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-12",
+      "id": "direct-differentiator-10",
       "text": "What tool would you recommend for a team that wants \"marketplace\"?",
       "templateId": "direct-differentiator",
       "hook": "marketplace",
@@ -581,7 +550,7 @@
       ]
     },
     {
-      "id": "problem-framed-13",
+      "id": "problem-framed-11",
       "text": "I need something that helps with marketplace -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "marketplace",
@@ -593,7 +562,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-14",
+      "id": "comparison-anchor-12",
       "text": "Which tool in this space is known for marketplace?",
       "templateId": "comparison-anchor",
       "hook": "marketplace",
@@ -605,8 +574,8 @@
       ]
     },
     {
-      "id": "persona-specific-15",
-      "text": "As a freelancer, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?",
+      "id": "persona-specific-13",
+      "text": "As a startup founder, I want a tool that focuses on marketplace instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "marketplace",
       "hookSource": "tagcloud",
@@ -617,7 +586,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-16",
+      "id": "direct-differentiator-14",
       "text": "What tool would you recommend for a team that wants \"management\"?",
       "templateId": "direct-differentiator",
       "hook": "management",
@@ -629,7 +598,7 @@
       ]
     },
     {
-      "id": "problem-framed-17",
+      "id": "problem-framed-15",
       "text": "I need something that helps with management -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "management",
@@ -641,7 +610,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-18",
+      "id": "comparison-anchor-16",
       "text": "Which tool in this space is known for management?",
       "templateId": "comparison-anchor",
       "hook": "management",
@@ -653,8 +622,8 @@
       ]
     },
     {
-      "id": "persona-specific-19",
-      "text": "As a freelancer, I want a tool that focuses on management instead of doing everything. Any recommendations?",
+      "id": "persona-specific-17",
+      "text": "As a startup founder, I want a tool that focuses on management instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "management",
       "hookSource": "tagcloud",
@@ -665,7 +634,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-20",
+      "id": "direct-differentiator-18",
       "text": "What tool would you recommend for a team that wants \"agents\"?",
       "templateId": "direct-differentiator",
       "hook": "agents",
@@ -677,7 +646,7 @@
       ]
     },
     {
-      "id": "problem-framed-21",
+      "id": "problem-framed-19",
       "text": "I need something that helps with agents -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "agents",
@@ -689,7 +658,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-22",
+      "id": "comparison-anchor-20",
       "text": "Which tool in this space is known for agents?",
       "templateId": "comparison-anchor",
       "hook": "agents",
@@ -701,8 +670,8 @@
       ]
     },
     {
-      "id": "persona-specific-23",
-      "text": "As a freelancer, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
+      "id": "persona-specific-21",
+      "text": "As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "agents",
       "hookSource": "tagcloud",
@@ -713,7 +682,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-24",
+      "id": "direct-differentiator-22",
       "text": "What tool would you recommend for a team that wants \"apps\"?",
       "templateId": "direct-differentiator",
       "hook": "apps",
@@ -725,7 +694,7 @@
       ]
     },
     {
-      "id": "problem-framed-25",
+      "id": "problem-framed-23",
       "text": "I need something that helps with apps -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "apps",
@@ -737,7 +706,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-26",
+      "id": "comparison-anchor-24",
       "text": "Which tool in this space is known for apps?",
       "templateId": "comparison-anchor",
       "hook": "apps",
@@ -749,8 +718,8 @@
       ]
     },
     {
-      "id": "persona-specific-27",
-      "text": "As a freelancer, I want a tool that focuses on apps instead of doing everything. Any recommendations?",
+      "id": "persona-specific-25",
+      "text": "As a startup founder, I want a tool that focuses on apps instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "apps",
       "hookSource": "tagcloud",
@@ -761,7 +730,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-28",
+      "id": "direct-differentiator-26",
       "text": "What tool would you recommend for a team that wants \"work\"?",
       "templateId": "direct-differentiator",
       "hook": "work",
@@ -773,7 +742,7 @@
       ]
     },
     {
-      "id": "problem-framed-29",
+      "id": "problem-framed-27",
       "text": "I need something that helps with work -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "work",
@@ -785,7 +754,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-30",
+      "id": "comparison-anchor-28",
       "text": "Which tool in this space is known for work?",
       "templateId": "comparison-anchor",
       "hook": "work",
@@ -797,8 +766,8 @@
       ]
     },
     {
-      "id": "persona-specific-31",
-      "text": "As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?",
+      "id": "persona-specific-29",
+      "text": "As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "work",
       "hookSource": "tagcloud",
@@ -809,7 +778,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-32",
+      "id": "direct-differentiator-30",
       "text": "What tool would you recommend for a team that wants \"platform\"?",
       "templateId": "direct-differentiator",
       "hook": "platform",
@@ -821,7 +790,7 @@
       ]
     },
     {
-      "id": "problem-framed-33",
+      "id": "problem-framed-31",
       "text": "I need something that helps with platform -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "platform",
@@ -833,7 +802,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-34",
+      "id": "comparison-anchor-32",
       "text": "Which tool in this space is known for platform?",
       "templateId": "comparison-anchor",
       "hook": "platform",
@@ -845,8 +814,8 @@
       ]
     },
     {
-      "id": "persona-specific-35",
-      "text": "As a freelancer, I want a tool that focuses on platform instead of doing everything. Any recommendations?",
+      "id": "persona-specific-33",
+      "text": "As a startup founder, I want a tool that focuses on platform instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "platform",
       "hookSource": "tagcloud",
@@ -857,7 +826,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-36",
+      "id": "direct-differentiator-34",
       "text": "What tool would you recommend for a team that wants \"number\"?",
       "templateId": "direct-differentiator",
       "hook": "number",
@@ -869,7 +838,7 @@
       ]
     },
     {
-      "id": "problem-framed-37",
+      "id": "problem-framed-35",
       "text": "I need something that helps with number -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "number",
@@ -881,7 +850,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-38",
+      "id": "comparison-anchor-36",
       "text": "Which tool in this space is known for number?",
       "templateId": "comparison-anchor",
       "hook": "number",
@@ -893,8 +862,8 @@
       ]
     },
     {
-      "id": "persona-specific-39",
-      "text": "As a freelancer, I want a tool that focuses on number instead of doing everything. Any recommendations?",
+      "id": "persona-specific-37",
+      "text": "As a startup founder, I want a tool that focuses on number instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "number",
       "hookSource": "tagcloud",
@@ -905,7 +874,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-40",
+      "id": "direct-differentiator-38",
       "text": "What tool would you recommend for a team that wants \"sales\"?",
       "templateId": "direct-differentiator",
       "hook": "sales",
@@ -917,7 +886,7 @@
       ]
     },
     {
-      "id": "problem-framed-41",
+      "id": "problem-framed-39",
       "text": "I need something that helps with sales -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "sales",
@@ -929,7 +898,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-42",
+      "id": "comparison-anchor-40",
       "text": "Which tool in this space is known for sales?",
       "templateId": "comparison-anchor",
       "hook": "sales",
@@ -941,8 +910,8 @@
       ]
     },
     {
-      "id": "persona-specific-43",
-      "text": "As a freelancer, I want a tool that focuses on sales instead of doing everything. Any recommendations?",
+      "id": "persona-specific-41",
+      "text": "As a startup founder, I want a tool that focuses on sales instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "sales",
       "hookSource": "tagcloud",
@@ -953,7 +922,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-44",
+      "id": "direct-differentiator-42",
       "text": "What tool would you recommend for a team that wants \"team\"?",
       "templateId": "direct-differentiator",
       "hook": "team",
@@ -965,7 +934,7 @@
       ]
     },
     {
-      "id": "problem-framed-45",
+      "id": "problem-framed-43",
       "text": "I need something that helps with team -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "team",
@@ -977,7 +946,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-46",
+      "id": "comparison-anchor-44",
       "text": "Which tool in this space is known for team?",
       "templateId": "comparison-anchor",
       "hook": "team",
@@ -989,8 +958,8 @@
       ]
     },
     {
-      "id": "persona-specific-47",
-      "text": "As a freelancer, I want a tool that focuses on team instead of doing everything. Any recommendations?",
+      "id": "persona-specific-45",
+      "text": "As a startup founder, I want a tool that focuses on team instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "team",
       "hookSource": "tagcloud",
@@ -1001,7 +970,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-48",
+      "id": "direct-differentiator-46",
       "text": "What tool would you recommend for a team that wants \"service\"?",
       "templateId": "direct-differentiator",
       "hook": "service",
@@ -1013,7 +982,7 @@
       ]
     },
     {
-      "id": "problem-framed-49",
+      "id": "problem-framed-47",
       "text": "I need something that helps with service -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "service",
@@ -1025,7 +994,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-50",
+      "id": "comparison-anchor-48",
       "text": "Which tool in this space is known for service?",
       "templateId": "comparison-anchor",
       "hook": "service",
@@ -1037,8 +1006,8 @@
       ]
     },
     {
-      "id": "persona-specific-51",
-      "text": "As a freelancer, I want a tool that focuses on service instead of doing everything. Any recommendations?",
+      "id": "persona-specific-49",
+      "text": "As a startup founder, I want a tool that focuses on service instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "service",
       "hookSource": "tagcloud",
@@ -1049,7 +1018,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-52",
+      "id": "direct-differentiator-50",
       "text": "What tool would you recommend for a team that wants \"data\"?",
       "templateId": "direct-differentiator",
       "hook": "data",
@@ -1061,7 +1030,7 @@
       ]
     },
     {
-      "id": "problem-framed-53",
+      "id": "problem-framed-51",
       "text": "I need something that helps with data -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "data",
@@ -1073,7 +1042,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-54",
+      "id": "comparison-anchor-52",
       "text": "Which tool in this space is known for data?",
       "templateId": "comparison-anchor",
       "hook": "data",
@@ -1085,8 +1054,8 @@
       ]
     },
     {
-      "id": "persona-specific-55",
-      "text": "As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?",
+      "id": "persona-specific-53",
+      "text": "As a startup founder, I want a tool that focuses on data instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "data",
       "hookSource": "tagcloud",
@@ -1097,7 +1066,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-56",
+      "id": "direct-differentiator-54",
       "text": "What tool would you recommend for a team that wants \"read\"?",
       "templateId": "direct-differentiator",
       "hook": "read",
@@ -1109,7 +1078,7 @@
       ]
     },
     {
-      "id": "problem-framed-57",
+      "id": "problem-framed-55",
       "text": "I need something that helps with read -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "read",
@@ -1121,7 +1090,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-58",
+      "id": "comparison-anchor-56",
       "text": "Which tool in this space is known for read?",
       "templateId": "comparison-anchor",
       "hook": "read",
@@ -1133,8 +1102,8 @@
       ]
     },
     {
-      "id": "persona-specific-59",
-      "text": "As a freelancer, I want a tool that focuses on read instead of doing everything. Any recommendations?",
+      "id": "persona-specific-57",
+      "text": "As a startup founder, I want a tool that focuses on read instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "read",
       "hookSource": "tagcloud",
@@ -1145,7 +1114,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-60",
+      "id": "direct-differentiator-58",
       "text": "What tool would you recommend for a team that wants \"customer\"?",
       "templateId": "direct-differentiator",
       "hook": "customer",
@@ -1157,7 +1126,7 @@
       ]
     },
     {
-      "id": "problem-framed-61",
+      "id": "problem-framed-59",
       "text": "I need something that helps with customer -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "customer",
@@ -1169,7 +1138,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-62",
+      "id": "comparison-anchor-60",
       "text": "Which tool in this space is known for customer?",
       "templateId": "comparison-anchor",
       "hook": "customer",
@@ -1181,8 +1150,8 @@
       ]
     },
     {
-      "id": "persona-specific-63",
-      "text": "As a freelancer, I want a tool that focuses on customer instead of doing everything. Any recommendations?",
+      "id": "persona-specific-61",
+      "text": "As a startup founder, I want a tool that focuses on customer instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "customer",
       "hookSource": "tagcloud",
@@ -1193,7 +1162,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-64",
+      "id": "direct-differentiator-62",
       "text": "What tool would you recommend for a team that wants \"project\"?",
       "templateId": "direct-differentiator",
       "hook": "project",
@@ -1205,7 +1174,7 @@
       ]
     },
     {
-      "id": "problem-framed-65",
+      "id": "problem-framed-63",
       "text": "I need something that helps with project -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "project",
@@ -1217,7 +1186,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-66",
+      "id": "comparison-anchor-64",
       "text": "Which tool in this space is known for project?",
       "templateId": "comparison-anchor",
       "hook": "project",
@@ -1229,8 +1198,8 @@
       ]
     },
     {
-      "id": "persona-specific-67",
-      "text": "As a freelancer, I want a tool that focuses on project instead of doing everything. Any recommendations?",
+      "id": "persona-specific-65",
+      "text": "As a startup founder, I want a tool that focuses on project instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "project",
       "hookSource": "tagcloud",
@@ -1241,7 +1210,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-68",
+      "id": "direct-differentiator-66",
       "text": "What tool would you recommend for a team that wants \"marketing\"?",
       "templateId": "direct-differentiator",
       "hook": "marketing",
@@ -1253,7 +1222,7 @@
       ]
     },
     {
-      "id": "problem-framed-69",
+      "id": "problem-framed-67",
       "text": "I need something that helps with marketing -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "marketing",
@@ -1265,7 +1234,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-70",
+      "id": "comparison-anchor-68",
       "text": "Which tool in this space is known for marketing?",
       "templateId": "comparison-anchor",
       "hook": "marketing",
@@ -1277,8 +1246,8 @@
       ]
     },
     {
-      "id": "persona-specific-71",
-      "text": "As a freelancer, I want a tool that focuses on marketing instead of doing everything. Any recommendations?",
+      "id": "persona-specific-69",
+      "text": "As a startup founder, I want a tool that focuses on marketing instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "marketing",
       "hookSource": "tagcloud",
@@ -1289,7 +1258,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-72",
+      "id": "direct-differentiator-70",
       "text": "What tool would you recommend for a team that wants \"started\"?",
       "templateId": "direct-differentiator",
       "hook": "started",
@@ -1301,7 +1270,7 @@
       ]
     },
     {
-      "id": "problem-framed-73",
+      "id": "problem-framed-71",
       "text": "I need something that helps with started -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "started",
@@ -1313,7 +1282,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-74",
+      "id": "comparison-anchor-72",
       "text": "Which tool in this space is known for started?",
       "templateId": "comparison-anchor",
       "hook": "started",
@@ -1325,8 +1294,8 @@
       ]
     },
     {
-      "id": "persona-specific-75",
-      "text": "As a freelancer, I want a tool that focuses on started instead of doing everything. Any recommendations?",
+      "id": "persona-specific-73",
+      "text": "As a startup founder, I want a tool that focuses on started instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "started",
       "hookSource": "tagcloud",
@@ -1337,55 +1306,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-76",
-      "text": "What tool would you recommend for a team that wants \"target\"?",
-      "templateId": "direct-differentiator",
-      "hook": "target",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "problem-framed-77",
-      "text": "I need something that helps with target -- what should my team use?",
-      "templateId": "problem-framed",
-      "hook": "target",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "comparison-anchor-78",
-      "text": "Which tool in this space is known for target?",
-      "templateId": "comparison-anchor",
-      "hook": "target",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "persona-specific-79",
-      "text": "As a freelancer, I want a tool that focuses on target instead of doing everything. Any recommendations?",
-      "templateId": "persona-specific",
-      "hook": "target",
-      "hookSource": "tagcloud",
-      "evidenceUrls": [
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing",
-        "https://monday.com/crm/pricing"
-      ]
-    },
-    {
-      "id": "direct-differentiator-80",
+      "id": "direct-differentiator-74",
       "text": "What tool would you recommend for a team that wants \"development\"?",
       "templateId": "direct-differentiator",
       "hook": "development",
@@ -1397,7 +1318,7 @@
       ]
     },
     {
-      "id": "problem-framed-81",
+      "id": "problem-framed-75",
       "text": "I need something that helps with development -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "development",
@@ -1409,7 +1330,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-82",
+      "id": "comparison-anchor-76",
       "text": "Which tool in this space is known for development?",
       "templateId": "comparison-anchor",
       "hook": "development",
@@ -1421,8 +1342,8 @@
       ]
     },
     {
-      "id": "persona-specific-83",
-      "text": "As a freelancer, I want a tool that focuses on development instead of doing everything. Any recommendations?",
+      "id": "persona-specific-77",
+      "text": "As a startup founder, I want a tool that focuses on development instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "development",
       "hookSource": "tagcloud",
@@ -1433,7 +1354,55 @@
       ]
     },
     {
-      "id": "direct-differentiator-84",
+      "id": "direct-differentiator-78",
+      "text": "What tool would you recommend for a team that wants \"target\"?",
+      "templateId": "direct-differentiator",
+      "hook": "target",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing"
+      ]
+    },
+    {
+      "id": "problem-framed-79",
+      "text": "I need something that helps with target -- what should my team use?",
+      "templateId": "problem-framed",
+      "hook": "target",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing"
+      ]
+    },
+    {
+      "id": "comparison-anchor-80",
+      "text": "Which tool in this space is known for target?",
+      "templateId": "comparison-anchor",
+      "hook": "target",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing"
+      ]
+    },
+    {
+      "id": "persona-specific-81",
+      "text": "As a startup founder, I want a tool that focuses on target instead of doing everything. Any recommendations?",
+      "templateId": "persona-specific",
+      "hook": "target",
+      "hookSource": "tagcloud",
+      "evidenceUrls": [
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing",
+        "https://monday.com/crm/pricing"
+      ]
+    },
+    {
+      "id": "direct-differentiator-82",
       "text": "What tool would you recommend for a team that wants \"like\"?",
       "templateId": "direct-differentiator",
       "hook": "like",
@@ -1445,7 +1414,7 @@
       ]
     },
     {
-      "id": "problem-framed-85",
+      "id": "problem-framed-83",
       "text": "I need something that helps with like -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "like",
@@ -1457,7 +1426,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-86",
+      "id": "comparison-anchor-84",
       "text": "Which tool in this space is known for like?",
       "templateId": "comparison-anchor",
       "hook": "like",
@@ -1469,8 +1438,8 @@
       ]
     },
     {
-      "id": "persona-specific-87",
-      "text": "As a freelancer, I want a tool that focuses on like instead of doing everything. Any recommendations?",
+      "id": "persona-specific-85",
+      "text": "As a startup founder, I want a tool that focuses on like instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "like",
       "hookSource": "tagcloud",
@@ -1481,7 +1450,7 @@
       ]
     },
     {
-      "id": "direct-differentiator-88",
+      "id": "direct-differentiator-86",
       "text": "What tool would you recommend for a team that wants \"custom\"?",
       "templateId": "direct-differentiator",
       "hook": "custom",
@@ -1493,7 +1462,7 @@
       ]
     },
     {
-      "id": "problem-framed-89",
+      "id": "problem-framed-87",
       "text": "I need something that helps with custom -- what should my team use?",
       "templateId": "problem-framed",
       "hook": "custom",
@@ -1505,7 +1474,7 @@
       ]
     },
     {
-      "id": "comparison-anchor-90",
+      "id": "comparison-anchor-88",
       "text": "Which tool in this space is known for custom?",
       "templateId": "comparison-anchor",
       "hook": "custom",
@@ -1517,8 +1486,8 @@
       ]
     },
     {
-      "id": "persona-specific-91",
-      "text": "As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
+      "id": "persona-specific-89",
+      "text": "As a startup founder, I want a tool that focuses on custom instead of doing everything. Any recommendations?",
       "templateId": "persona-specific",
       "hook": "custom",
       "hookSource": "tagcloud",

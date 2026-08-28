@@ -1,6 +1,6 @@
 # Candidate user questions grounded in Notion's own site content
 
-25 hooks and 2 problem/audience claims scanned from the data lake, 108 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
+24 hooks and 2 problem/audience claims scanned from the data lake, 106 candidate questions generated across two derivatives -- review before using any of these as real AEO probes.
 
 ## Part 1: Direct hook-grounded questions
 
@@ -38,21 +38,6 @@ Evidence:
 Candidate questions:
 - What tool matches this description: "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."?
 - As a startup founder, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?
-- What tool matches this description: "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."?
-- As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?
-
-### Hook: "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
-
-Source: `meta_description` (document frequency: 1)
-
-Evidence:
-- [https://www.notion.com/en-gb/product](https://www.notion.com/en-gb/product): "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."
-
-Candidate questions:
-- What tool matches this description: "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."?
-- As a startup founder, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?
-- What tool matches this description: "Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster."?
-- As a freelancer, I'm looking for a tool where: Build Custom Agents, search across all your apps and automate busywork. The AI workspace where teams get more done, faster. Any suggestions?
 
 ### Hook: "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace."
 
@@ -63,7 +48,7 @@ Evidence:
 
 Candidate questions:
 - What tool matches this description: "A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace."?
-- As a startup founder, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?
+- As a freelancer, I'm looking for a tool where: A story of tools, the future of work and how we want to blend your workflow into an all-in-one workspace. Any suggestions?
 
 ### Hook: "workspace"
 
@@ -78,7 +63,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "workspace"?
 - I need something that helps with workspace -- what should my team use?
 - Which tool in this space is known for workspace?
-- As a startup founder, I want a tool that focuses on workspace instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on workspace instead of doing everything. Any recommendations?
 
 ### Hook: "agent"
 
@@ -93,7 +78,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "agent"?
 - I need something that helps with agent -- what should my team use?
 - Which tool in this space is known for agent?
-- As a startup founder, I want a tool that focuses on agent instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on agent instead of doing everything. Any recommendations?
 
 ### Hook: "information"
 
@@ -108,7 +93,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "information"?
 - I need something that helps with information -- what should my team use?
 - Which tool in this space is known for information?
-- As a startup founder, I want a tool that focuses on information instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on information instead of doing everything. Any recommendations?
 
 ### Hook: "credits"
 
@@ -123,7 +108,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "credits"?
 - I need something that helps with credits -- what should my team use?
 - Which tool in this space is known for credits?
-- As a startup founder, I want a tool that focuses on credits instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on credits instead of doing everything. Any recommendations?
 
 ### Hook: "custom"
 
@@ -138,7 +123,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "custom"?
 - I need something that helps with custom -- what should my team use?
 - Which tool in this space is known for custom?
-- As a startup founder, I want a tool that focuses on custom instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on custom instead of doing everything. Any recommendations?
 
 ### Hook: "memory"
 
@@ -153,7 +138,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "memory"?
 - I need something that helps with memory -- what should my team use?
 - Which tool in this space is known for memory?
-- As a startup founder, I want a tool that focuses on memory instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on memory instead of doing everything. Any recommendations?
 
 ### Hook: "workers"
 
@@ -168,7 +153,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "workers"?
 - I need something that helps with workers -- what should my team use?
 - Which tool in this space is known for workers?
-- As a startup founder, I want a tool that focuses on workers instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on workers instead of doing everything. Any recommendations?
 
 ### Hook: "agents"
 
@@ -183,7 +168,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "agents"?
 - I need something that helps with agents -- what should my team use?
 - Which tool in this space is known for agents?
-- As a startup founder, I want a tool that focuses on agents instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on agents instead of doing everything. Any recommendations?
 
 ### Hook: "paid"
 
@@ -198,7 +183,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "paid"?
 - I need something that helps with paid -- what should my team use?
 - Which tool in this space is known for paid?
-- As a startup founder, I want a tool that focuses on paid instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on paid instead of doing everything. Any recommendations?
 
 ### Hook: "data"
 
@@ -213,7 +198,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "data"?
 - I need something that helps with data -- what should my team use?
 - Which tool in this space is known for data?
-- As a startup founder, I want a tool that focuses on data instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on data instead of doing everything. Any recommendations?
 
 ### Hook: "plan"
 
@@ -228,7 +213,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "plan"?
 - I need something that helps with plan -- what should my team use?
 - Which tool in this space is known for plan?
-- As a startup founder, I want a tool that focuses on plan instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on plan instead of doing everything. Any recommendations?
 
 ### Hook: "work"
 
@@ -243,7 +228,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "work"?
 - I need something that helps with work -- what should my team use?
 - Which tool in this space is known for work?
-- As a startup founder, I want a tool that focuses on work instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on work instead of doing everything. Any recommendations?
 
 ### Hook: "each"
 
@@ -258,7 +243,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "each"?
 - I need something that helps with each -- what should my team use?
 - Which tool in this space is known for each?
-- As a startup founder, I want a tool that focuses on each instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on each instead of doing everything. Any recommendations?
 
 ### Hook: "access"
 
@@ -273,7 +258,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "access"?
 - I need something that helps with access -- what should my team use?
 - Which tool in this space is known for access?
-- As a startup founder, I want a tool that focuses on access instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on access instead of doing everything. Any recommendations?
 
 ### Hook: "members"
 
@@ -288,22 +273,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "members"?
 - I need something that helps with members -- what should my team use?
 - Which tool in this space is known for members?
-- As a startup founder, I want a tool that focuses on members instead of doing everything. Any recommendations?
-
-### Hook: "billing"
-
-Source: `tagcloud` (document frequency: 2)
-
-Evidence:
-- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and "
-- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invo"
-- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added."
-
-Candidate questions:
-- What tool would you recommend for a team that wants "billing"?
-- I need something that helps with billing -- what should my team use?
-- Which tool in this space is known for billing?
-- As a startup founder, I want a tool that focuses on billing instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on members instead of doing everything. Any recommendations?
 
 ### Hook: "usage"
 
@@ -318,7 +288,22 @@ Candidate questions:
 - What tool would you recommend for a team that wants "usage"?
 - I need something that helps with usage -- what should my team use?
 - Which tool in this space is known for usage?
-- As a startup founder, I want a tool that focuses on usage instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on usage instead of doing everything. Any recommendations?
+
+### Hook: "billing"
+
+Source: `tagcloud` (document frequency: 2)
+
+Evidence:
+- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Analytics data begins after the Enterprise plan start date.Workspace analyticsDesignate membership admins who can add and remove members from the workspace and "
+- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Learn more about Notion AI security and privacy practices here.Where can I find my invoices?Workspace admins can access, view and download your workspace’s invo"
+- [https://www.notion.com/en-gb/pricing](https://www.notion.com/en-gb/pricing): "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added."
+
+Candidate questions:
+- What tool would you recommend for a team that wants "billing"?
+- I need something that helps with billing -- what should my team use?
+- Which tool in this space is known for billing?
+- As a freelancer, I want a tool that focuses on billing instead of doing everything. Any recommendations?
 
 ### Hook: "free"
 
@@ -333,7 +318,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "free"?
 - I need something that helps with free -- what should my team use?
 - Which tool in this space is known for free?
-- As a startup founder, I want a tool that focuses on free instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on free instead of doing everything. Any recommendations?
 
 ### Hook: "content"
 
@@ -348,7 +333,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "content"?
 - I need something that helps with content -- what should my team use?
 - Which tool in this space is known for content?
-- As a startup founder, I want a tool that focuses on content instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on content instead of doing everything. Any recommendations?
 
 ### Hook: "template"
 
@@ -363,7 +348,7 @@ Candidate questions:
 - What tool would you recommend for a team that wants "template"?
 - I need something that helps with template -- what should my team use?
 - Which tool in this space is known for template?
-- As a startup founder, I want a tool that focuses on template instead of doing everything. Any recommendations?
+- As a freelancer, I want a tool that focuses on template instead of doing everything. Any recommendations?
 
 ## Part 2: Inferential questions (paraphrased, no site quoting)
 
