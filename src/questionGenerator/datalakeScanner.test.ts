@@ -131,6 +131,58 @@ describe("scanProductHooks", () => {
     expect(hooks.some((h) => h.hook === "example")).toBe(false);
   });
 
+  it("dedupes an identical hook phrase repeated across pages/sources", async () => {
+    // A site-wide default meta description reused on multiple pages (or
+    // the same sentence caught as both a meta description and a GEO
+    // definition) must collapse to one hook -- `hook` text is used as a
+    // React key downstream (questions/page.tsx), so a duplicate here is a
+    // real "two children with the same key" bug, not just noise.
+    const product = "dup-hooks";
+    const sharedText = "The AI workspace where teams get more done, faster.";
+    await writeJson(path.join(extractedDir(product), "structured_signals.json"), [
+      {
+        url: "https://example.com/",
+        title: "Home",
+        titleLength: 4,
+        metaDescription: sharedText,
+        metaDescriptionLength: sharedText.length,
+        headings: [],
+        h1Count: 1,
+        headingOrderIssues: [],
+        schemaTypes: [],
+        internalLinkCount: 1,
+        externalLinkCount: 0,
+        imagesTotal: 0,
+        imagesMissingAlt: 0,
+        wordCount: 100,
+        topKeywordDensity: [],
+      },
+      {
+        url: "https://example.com/pricing",
+        title: "Pricing",
+        titleLength: 7,
+        metaDescription: sharedText,
+        metaDescriptionLength: sharedText.length,
+        headings: [],
+        h1Count: 1,
+        headingOrderIssues: [],
+        schemaTypes: [],
+        internalLinkCount: 1,
+        externalLinkCount: 0,
+        imagesTotal: 0,
+        imagesMissingAlt: 0,
+        wordCount: 80,
+        topKeywordDensity: [],
+      },
+    ]);
+    await writeJson(path.join(geoDir(product), "geo_signals.json"), []);
+    await writeJson(path.join(extractedDir(product), "tagcloud.json"), { site: [], byPage: {} });
+    await writeJson(path.join(extractedDir(product), "phrase_cloud.json"), []);
+
+    const hooks = await scanProductHooks(product);
+    expect(hooks.filter((h) => h.hook === sharedText)).toHaveLength(1);
+  });
+
   it("excludes a meta description/definition that merely mentions the brand inline", async () => {
     // The meta description "Example is the fastest way to..." and the GEO
     // definition "Example is a keyboard-first..." both contain "example"
