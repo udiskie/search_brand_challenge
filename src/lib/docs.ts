@@ -22,4 +22,10 @@ export const DOCS: DocEntry[] = [
     description:
       "The three skills that build the data lake into reports, questions, and term clusters -- what each does and how they connect.",
   },
+  {
+    slug: "prompt-generation",
+    title: "Prompt generation",
+    description:
+      "How the neutral AEO prompts and the brand-grounded (hook/inferential) questions are actually built, template by template.",
+  },
 ];
