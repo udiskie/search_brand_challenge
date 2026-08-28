@@ -203,7 +203,7 @@ export default async function ProductPage(props: PageProps<"/products/[product]"
                 ) : null}
               </Panel>
 
-              <Panel title="GEO" action={<MethodologyLink anchor="geo" />}>
+              <Panel title="GEO">
                 <div className="mb-3 flex items-start gap-2 rounded-md border border-red-200 bg-red-50 px-2.5 py-2 text-xs text-red-800 dark:border-red-900/50 dark:bg-red-950/30 dark:text-red-300">
                   <TriangleAlert className="mt-0.5 size-3.5 shrink-0" />
                   <span>
